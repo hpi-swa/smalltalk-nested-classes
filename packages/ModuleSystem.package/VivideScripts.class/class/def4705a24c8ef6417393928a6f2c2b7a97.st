@@ -1,0 +1,5 @@
+definitions
+def4705a24c8ef6417393928a6f2c2b7a97
+	<definition>
+
+	^ ((Dictionary new) add: (#class->ViQueryStepDefinition); add: (#properties->((Dictionary new) add: (#copyOf->#'44bdd3d3-ea3e-5446-8a1a-5edacc6d70f1'); add: (#creationAuthor->'FabN'); add: (#creationTimeStamp->'18 June 2015 5:16:36 pm'); yourself)); add: (#id->#'4705a24c-8ef6-4173-9392-8a6f2c2b7a97'); add: (#block->[:in :out | out add: ((in first isKindOf: MethodSpecification) ifTrue: [in first source] ifFalse: [|selector| selector := in first parent classDict keyAtValue: in first. (in first parent methodDict at: selector) source ])]); add: (#sourceCode->'[:in :out | out add: ((in first isKindOf: MethodSpecification) ifTrue: [in first source] ifFalse: [|selector| selector := in first parent classDict keyAtValue: in first. (in first parent methodDict at: selector) source ])]'); yourself)

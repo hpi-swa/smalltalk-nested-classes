@@ -7,7 +7,7 @@ example1
 	moduleMeta addMethodString: 'classMethod ^ 1' protocol: 'foo'.
 	module addMethodString: 'instMethod ^ 2' protocol: 'foo'.
 
-	moduleMeta addMethodString: 'ClassNested < class > ^ Object subclass' protocol: 'foo'.	
+	moduleMeta addMethodString: 'ClassNested < class >',String crlf ,' ^ Object subclass' protocol: 'foo'.	
 	classNested := ClassSpecification new.
 	classNestedMeta := MetaclassSpecification new.
 	classNested theMetaClassSpecification: classNestedMeta.
@@ -15,7 +15,7 @@ example1
 	classNested addMethodString: 'instMethod ^ 4' protocol: 'foo'.
 	moduleMeta addClass: classNested name: #ClassNested.
 
-	module addMethodString: 'InstNested < class > ^ Object subclass' protocol: 'foo'.
+	module addMethodString: 'InstNested',String crlf, '< class >',String crlf, '^ Object subclass' protocol: 'foo'.
 	instNested := ClassSpecification new.
 	instNestedMeta := MetaclassSpecification new.
 	instNested theMetaClassSpecification: instNestedMeta.
