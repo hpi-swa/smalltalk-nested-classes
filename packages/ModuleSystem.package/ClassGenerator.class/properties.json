@@ -1,0 +1,14 @@
+{
+	"category" : "ModuleSystem",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"target" ],
+	"name" : "ClassGenerator",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

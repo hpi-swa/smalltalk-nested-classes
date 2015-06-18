@@ -1,0 +1,18 @@
+{
+	"category" : "ModuleSystem",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"source",
+		"transformedSource",
+		"selector",
+		"protocol",
+		"isNestedClass" ],
+	"name" : "MethodSpecification",
+	"pools" : [
+		 ],
+	"super" : "MemberSpecification",
+	"type" : "normal" }

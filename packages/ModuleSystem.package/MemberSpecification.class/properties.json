@@ -1,0 +1,14 @@
+{
+	"category" : "ModuleSystem",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"parent" ],
+	"name" : "MemberSpecification",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

@@ -1,0 +1,24 @@
+{
+	"class" : {
+		"example1" : "MattSpr 6/14/2015 22:53",
+		"nestedClassAccessorTemplate" : "MattSpr 6/14/2015 16:25",
+		"nestedClassGeneratorReturnTemplate" : "MattSpr 6/14/2015 16:31",
+		"nestedClassGeneratorReturnTemplate:" : "MattSpr 6/14/2015 16:26" },
+	"instance" : {
+		"addClass:name:" : "MattSpr 6/15/2015 00:41",
+		"addMethod:" : "MattSpr 6/15/2015 00:42",
+		"addMethodString:protocol:" : "MattSpr 6/14/2015 21:04",
+		"classAt:" : "MattSpr 6/14/2015 22:51",
+		"classDict" : "MattSpr 6/14/2015 21:05",
+		"className" : "MattSpr 6/13/2015 00:47",
+		"className:" : "MattSpr 6/13/2015 22:51",
+		"generateModule" : "MattSpr 6/15/2015 11:57",
+		"generateWithSubclass:" : "MattSpr 6/15/2015 01:00",
+		"initialize" : "MattSpr 6/14/2015 22:55",
+		"initializeClass:" : "MattSpr 6/17/2015 12:18",
+		"installNameMethod:" : "MattSpr 6/15/2015 15:00",
+		"installSpecification:" : "MattSpr 6/14/2015 21:41",
+		"instances" : "MattSpr 6/14/2015 21:17",
+		"isClassSpec" : "MattSpr 6/15/2015 00:40",
+		"markGenerated:" : "MattSpr 6/15/2015 15:10",
+		"methodDict" : "MattSpr 6/14/2015 21:05" } }

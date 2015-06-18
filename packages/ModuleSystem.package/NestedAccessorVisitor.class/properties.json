@@ -1,0 +1,17 @@
+{
+	"category" : "ModuleSystem",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"instDictNode",
+		"specNode",
+		"selfNode",
+		"tempNode" ],
+	"name" : "NestedAccessorVisitor",
+	"pools" : [
+		 ],
+	"super" : "RBProgramNodeVisitor",
+	"type" : "normal" }
