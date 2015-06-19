@@ -1,4 +1,5 @@
 language: erlang
+sudo: true
 
 # Choose which platforms you want your builds run against (done in parallel)
 env:
