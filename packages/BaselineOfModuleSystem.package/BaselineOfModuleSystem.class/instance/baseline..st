@@ -11,7 +11,7 @@ baseline: spec
 			package: 'JSON' with: 
 				[ spec repository: 'http://www.squeaksource.com/JSON' ].
             spec
-                package: 'ModuleSystem' with: [spec requires: #('AST-Core', 'JSON')];
+                package: 'ModuleSystem' with: [spec requires: #('AST-Core' 'JSON')];
                 package: 'ModuleSystem-Tests' with: [ spec requires: #('ModuleSystem') ];
                 package: 'ModuleSystem-Experiments' with: [ spec requires: #('ModuleSystem') ];
                 package: 'ModuleSystem-Scripts' with: [ spec requires: #('ModuleSystem') ].
