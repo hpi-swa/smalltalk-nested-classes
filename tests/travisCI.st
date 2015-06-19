@@ -16,6 +16,8 @@ Metacello new
   repository: 'filetree://', gitPath, '/smalltalk-nested-classes/packages';
   load: 'TravisCI'.
 
+(Smalltalk at: #MetacelloPlatform) current authorName: 'travisCI'.
+
 "Run the tests"
 TravisCIHarness
   value: #( 'BaselineOfModuleSystem' )
