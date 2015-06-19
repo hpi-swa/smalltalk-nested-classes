@@ -1,0 +1,14 @@
+{
+	"category" : "BaselineOfModuleSystem",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "BaselineOfModuleSystem",
+	"pools" : [
+		 ],
+	"super" : "BaselineOf",
+	"type" : "normal" }
