@@ -1,11 +1,15 @@
-as yet unclassified
+instance creation
 source: source protocol: protocol
 	| parseTree transformedSource selector isNestedClass |
 	parseTree := RBParser parseMethod: source.
 	selector := parseTree selector.
 	isNestedClass := parseTree isNestedClass.
 	isNestedClass
-		ifTrue: [ transformedSource := NestedAccessorVisitor process: parseTree ]
+		ifTrue: [ 
+			selector first isUppercase ifFalse: [
+				self notify: 'Message selector ', selector name asText, 
+					' should start with an uppercase letter.' withCRs]. 
+			transformedSource := NestedAccessorVisitor process: parseTree ]
 		ifFalse: [ transformedSource := source ].
 	^ self new
 		source: source;

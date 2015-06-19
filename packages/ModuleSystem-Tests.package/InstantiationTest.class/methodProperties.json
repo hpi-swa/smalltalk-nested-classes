@@ -5,4 +5,5 @@
 		"preparedSpec" : "MattSpr 6/19/2015 11:42",
 		"testClassCaching" : "MattSpr 6/19/2015 11:37",
 		"testInstNestedIdentity" : "MattSpr 6/19/2015 11:41",
-		"testInstantiatedSpec" : "MattSpr 6/19/2015 11:46" } }
+		"testInstantiatedSpec" : "MattSpr 6/19/2015 11:46",
+		"testOuter" : "MattSpr 6/19/2015 14:08" } }

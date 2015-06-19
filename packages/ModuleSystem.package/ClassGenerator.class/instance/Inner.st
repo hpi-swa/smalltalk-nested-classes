@@ -1,3 +1,3 @@
-as yet unclassified
+accessing
 Inner
 	self subclassResponsibility

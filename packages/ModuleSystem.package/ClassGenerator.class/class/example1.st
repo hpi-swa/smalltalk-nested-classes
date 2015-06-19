@@ -1,4 +1,4 @@
-as yet unclassified
+examples
 example1
 	| spec innerSpec |
 	spec := ClassSpecification new.

@@ -1,3 +1,3 @@
-as yet unclassified
+accessing
 target: aClass
 	target := aClass.
