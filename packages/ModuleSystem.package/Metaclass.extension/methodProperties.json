@@ -2,4 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
-		"isAnonymous" : "MattSpr 6/17/2015 12:24" } }
+		"isAnonymous" : "MattSpr 6/17/2015 12:24",
+		"isNestedGenerated" : "MattSpr 6/19/2015 18:48",
+		"outer" : "MattSpr 6/19/2015 19:14",
+		"specification" : "MattSpr 6/19/2015 18:51" } }

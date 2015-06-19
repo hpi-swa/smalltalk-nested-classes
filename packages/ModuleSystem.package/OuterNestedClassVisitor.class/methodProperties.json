@@ -1,0 +1,11 @@
+{
+	"class" : {
+		"process:for:" : "MattSpr 6/19/2015 17:31" },
+	"instance" : {
+		"acceptBlockNode:" : "MattSpr 6/19/2015 17:52",
+		"acceptMethodNode:" : "MattSpr 6/19/2015 17:51",
+		"acceptSequenceNode:" : "MattSpr 6/19/2015 17:48",
+		"acceptVariableNode:" : "MattSpr 6/19/2015 20:15",
+		"initialize" : "MattSpr 6/19/2015 17:46",
+		"lookupStart:" : "MattSpr 6/19/2015 16:21",
+		"outerSend:level:" : "MattSpr 6/19/2015 17:26" } }

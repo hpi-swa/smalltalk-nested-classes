@@ -1,4 +1,4 @@
-initializing
+instantiation
 installSpecification: class
 	| compiledMethod |
 	class compile: 'specification ^ #SPEC'.
@@ -7,4 +7,4 @@ installSpecification: class
 	compiledMethod := class >> #specification.
 	( 1 to: compiledMethod literals size ) do: [ :idx | 
 		(compiledMethod literalAt: idx) = #SPEC
-			ifTrue: [ compiledMethod literalAt: idx put: self ] ].
+			ifTrue: [ compiledMethod literalAt: idx put: self theNonMetaClassSpecification ] ].

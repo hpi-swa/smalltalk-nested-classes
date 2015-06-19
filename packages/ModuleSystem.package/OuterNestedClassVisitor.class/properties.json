@@ -6,11 +6,10 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"methodDict",
-		"classDict",
-		"className" ],
-	"name" : "BehaviorSpecification",
+		"lookupStart",
+		"temps" ],
+	"name" : "OuterNestedClassVisitor",
 	"pools" : [
 		 ],
-	"super" : "MemberSpecification",
+	"super" : "RBProgramNodeVisitor",
 	"type" : "normal" }

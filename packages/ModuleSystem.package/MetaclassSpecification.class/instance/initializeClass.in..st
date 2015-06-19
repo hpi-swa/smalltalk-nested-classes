@@ -1,8 +1,10 @@
-initializing
+instantiation
 initializeClass: class in: outer
-	| shouldInitialize |
-	shouldInitialize := super initializeClass: class.
-
-	shouldInitialize ifTrue: [ "force class-side classes initialization"
-		classDict keysDo: [ :key | class theNonMetaClass perform: key ].
-		self installOuterMethod: class with: outer ].
+	self assert: class isMeta.
+	
+	self installOuterMethod: class with: outer.
+	self installSpecification: class.
+	self installNameMethod: class.
+	self markGenerated: class.
+	super initializeClass: class.
+	classDict keysDo: [ :key | class theNonMetaClass perform: key ].

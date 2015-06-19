@@ -1,4 +1,4 @@
-as yet unclassified
+example
 example1
 	| module classNested instNested |
 	module := ClassSpecification new.

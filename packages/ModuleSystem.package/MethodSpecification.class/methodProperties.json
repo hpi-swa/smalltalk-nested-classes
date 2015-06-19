@@ -2,10 +2,12 @@
 	"class" : {
 		"source:protocol:" : "MattSpr 6/19/2015 13:18" },
 	"instance" : {
-		"addToClass:" : "MattSpr 6/14/2015 22:52",
+		"addToClass:" : "MattSpr 6/19/2015 18:28",
+		"initialize" : "MattSpr 6/19/2015 18:28",
 		"isMethodSpec" : "MattSpr 6/15/2015 00:39",
 		"isNestedClass" : "MattSpr 6/14/2015 21:13",
 		"isNestedClass:" : "MattSpr 6/14/2015 21:13",
+		"processAssociation:for:" : "MattSpr 6/19/2015 14:40",
 		"protocol" : "MattSpr 6/12/2015 23:57",
 		"protocol:" : "MattSpr 6/12/2015 20:50",
 		"selector" : "MattSpr 6/12/2015 23:57",

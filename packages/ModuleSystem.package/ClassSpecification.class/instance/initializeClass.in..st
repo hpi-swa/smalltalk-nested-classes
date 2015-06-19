@@ -1,9 +1,9 @@
-initializing
+instantiation
 initializeClass: class in: outer
-	| shouldInitialize |
-	shouldInitialize := super initializeClass: class.
+	self assert: class isMeta not.
+	
+	(self shouldInitialize: class) ifTrue: [
+		"initialize meta class"
+		metaclassSpec initializeClass: class class in: outer.
 
-	"initialize meta class"
-	metaclassSpec initializeClass: class class in: outer.
-
-	^ shouldInitialize
+		super initializeClass: class ].

@@ -3,8 +3,11 @@
 		 },
 	"instance" : {
 		"addClass:name:" : "MattSpr 6/14/2015 21:00",
-		"initializeClass:in:" : "MattSpr 6/19/2015 14:04",
+		"initializeClass:in:" : "MattSpr 6/19/2015 19:04",
+		"installNameMethod:" : "MattSpr 6/19/2015 19:06",
 		"installOuterMethod:with:" : "MattSpr 6/19/2015 14:05",
+		"installSpecification:" : "MattSpr 6/19/2015 18:57",
 		"isMeta" : "MattSpr 6/14/2015 21:08",
+		"markGenerated:" : "MattSpr 6/19/2015 19:06",
 		"theNonMetaClassSpecification" : "MattSpr 6/14/2015 20:54",
 		"theNonMetaClassSpecification:" : "MattSpr 6/14/2015 20:57" } }

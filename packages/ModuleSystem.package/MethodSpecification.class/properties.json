@@ -10,7 +10,8 @@
 		"transformedSource",
 		"selector",
 		"protocol",
-		"isNestedClass" ],
+		"isNestedClass",
+		"instances" ],
 	"name" : "MethodSpecification",
 	"pools" : [
 		 ],

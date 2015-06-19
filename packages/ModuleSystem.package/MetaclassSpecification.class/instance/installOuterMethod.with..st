@@ -1,4 +1,4 @@
-initializing
+instantiation
 installOuterMethod: class with: outer
 	| compiledMethod |
 	class compile: 'outer ^ #OUTER'.

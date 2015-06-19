@@ -1,0 +1,3 @@
+*ModuleSystem
+specification
+	^ self theNonMetaClass specification theMetaClassSpecification

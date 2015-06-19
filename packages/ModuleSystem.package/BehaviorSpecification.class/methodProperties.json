@@ -1,9 +1,6 @@
 {
 	"class" : {
-		"example1" : "MattSpr 6/19/2015 11:29",
-		"nestedClassAccessorTemplate" : "MattSpr 6/14/2015 16:25",
-		"nestedClassGeneratorReturnTemplate" : "MattSpr 6/14/2015 16:31",
-		"nestedClassGeneratorReturnTemplate:" : "MattSpr 6/14/2015 16:26" },
+		"example1" : "MattSpr 6/19/2015 11:29" },
 	"instance" : {
 		"addClass:name:" : "MattSpr 6/15/2015 00:41",
 		"addMethod:" : "MattSpr 6/15/2015 00:42",
@@ -14,11 +11,9 @@
 		"className:" : "MattSpr 6/13/2015 22:51",
 		"generateModule" : "MattSpr 6/15/2015 11:57",
 		"generateWithSubclass:" : "MattSpr 6/19/2015 14:03",
-		"initialize" : "MattSpr 6/14/2015 22:55",
-		"initializeClass:" : "MattSpr 6/19/2015 13:48",
-		"installNameMethod:" : "MattSpr 6/15/2015 15:00",
-		"installSpecification:" : "MattSpr 6/14/2015 21:41",
-		"instances" : "MattSpr 6/14/2015 21:17",
+		"initialize" : "MattSpr 6/19/2015 18:28",
+		"initializeClass:" : "MattSpr 6/19/2015 19:04",
 		"isClassSpec" : "MattSpr 6/15/2015 00:40",
-		"markGenerated:" : "MattSpr 6/15/2015 15:10",
-		"methodDict" : "MattSpr 6/14/2015 21:05" } }
+		"methodAt:" : "MattSpr 6/19/2015 20:26",
+		"methodDict" : "MattSpr 6/14/2015 21:05",
+		"shouldInitialize:" : "MattSpr 6/19/2015 17:38" } }
