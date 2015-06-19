@@ -2,8 +2,10 @@
 	"class" : {
 		 },
 	"instance" : {
+		"asJson" : "FabN 6/20/2015 00:58",
 		"isClassSpec" : "MattSpr 6/15/2015 00:39",
 		"isMethodSpec" : "MattSpr 6/15/2015 00:39",
 		"isSpecification" : "MattSpr 6/15/2015 00:38",
+		"jsonWriteOn:" : "FabN 6/20/2015 01:06",
 		"parent" : "MattSpr 6/14/2015 21:15",
 		"parent:" : "MattSpr 6/14/2015 21:16" } }

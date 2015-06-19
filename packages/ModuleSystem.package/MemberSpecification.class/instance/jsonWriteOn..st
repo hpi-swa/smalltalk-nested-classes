@@ -1,0 +1,3 @@
+serialize
+jsonWriteOn: aStream
+	self subclassResponsibility
