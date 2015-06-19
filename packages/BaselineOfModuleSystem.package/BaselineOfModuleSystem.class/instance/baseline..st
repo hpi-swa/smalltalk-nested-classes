@@ -3,14 +3,15 @@ baseline: spec
     <baseline>
     spec
         for: #'common'
-        do: [ 
+        do: [
+
+            spec package: 'AST-Core' with: 
+                    [ spec repository: 'http://www.squeaksource.com/rb' ].
             spec
                 package: 'ModuleSystem' with: [spec requires: #('AST-Core')];
-                package: 'ModuleSystem-Tests' with: [ spec requires: #('default') ];
+                package: 'ModuleSystem-Tests' with: [ spec requires: #('ModuleSystem') ];
                 package: 'ModuleSystem-Experiments' with: [ spec requires: #('ModuleSystem') ];
-                package: 'ModuleSystem-Scripts' with: [ spec requires: #('ModuleSystem') ];
-		    package: 'AST-Core' with: 
-					[ spec repository: 'http://www.squeaksource.com/rb' ].
+                package: 'ModuleSystem-Scripts' with: [ spec requires: #('ModuleSystem') ].
             spec
                 group: 'default' with: #('ModuleSystem' 'ModuleSystem-Scripts' 'ModuleSystem-Experiments');
                 group: 'Tests' with: #('ModuleSystem-Tests');
