@@ -1,1 +1,1 @@
-(name 'ModuleSystem-MattSpr.1' message 'Initial commit' id '4fb829d8-8a25-4f8b-9cf9-3328d9f596f6' date '18 June 2015' time '10:26:37.074 am' author 'MattSpr' ancestors () stepChildren ())
+(name 'ModuleSystem-MattSpr.2' message 'empty log message' id '9cd673b6-e6d4-4ff1-8da1-d9718471355e' date '19 June 2015' time '12:48:56.171 pm' author 'MattSpr' ancestors ((name 'ModuleSystem-MattSpr.1' message 'Initial commit' id '4fb829d8-8a25-4f8b-9cf9-3328d9f596f6' date '18 June 2015' time '10:26:37.074 am' author 'MattSpr' ancestors () stepChildren ())) stepChildren ())

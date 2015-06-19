@@ -6,4 +6,4 @@ initializeClass: class
 			self installNameMethod: class.
 			self markGenerated: class.
 			methodDict valuesDo: [ :spec | spec addToClass: class ] ]
-		ifFalse: [ "do not initialize! TODO: install prefixed extension methods" ].
+		ifFalse: [ self halt. "do not initialize! TODO: install prefixed extension methods" ].

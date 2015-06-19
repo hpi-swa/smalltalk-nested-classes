@@ -1,3 +1,3 @@
 *ModuleSystem
 isInitialized
-	^ self canUnderstand: #specification
+	^ self includesSelector: #specification

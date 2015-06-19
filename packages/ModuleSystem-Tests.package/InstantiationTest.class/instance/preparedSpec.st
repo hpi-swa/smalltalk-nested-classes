@@ -1,5 +1,5 @@
-as yet unclassified
-example1
+initializing
+preparedSpec	
 	| module classNested instNested |
 	module := ClassSpecification new.
 	module theMetaClassSpecification addMethodString: 'classMethod ^ 1' protocol: 'foo'.
