@@ -6,16 +6,16 @@ baseline: spec
         do: [
 
             spec 
-			package: 'AST-Core' with: 
-                  	[ spec repository: 'http://www.squeaksource.com/rb' ];
-			package: 'JSON' with: 
-                  	[ spec repository: 'http://www.squeaksource.com/JSON' ];
-			package: 'WebClient' with: 
-                  	[ spec repository: 'http://ss3.gemstone.com/ss/WebClient' ].
+                package: 'AST-Core' with: 
+                    [ spec repository: 'http://www.squeaksource.com/rb' ];
+			     package: 'JSON' with: 
+                    [ spec repository: 'http://www.squeaksource.com/JSON' ];
+                package: 'WebClient-Core' with: 
+                    [ spec repository: 'http://ss3.gemstone.com/ss/WebClient' ].
 		spec baseline: 'Vivide' with: [
 			spec repository: 'github://hpi-swa/vivide:master/repository' ].
             spec
-                package: 'ModuleSystem' with: [spec requires: #('AST-Core' 'JSON' 'WebClient')];
+                package: 'ModuleSystem' with: [spec requires: #('AST-Core' 'JSON' 'WebClient-Core')];
                 package: 'ModuleSystem-Tests' with: [ spec requires: #('ModuleSystem') ];
                 package: 'ModuleSystem-Experiments' with: [ spec requires: #('ModuleSystem') ];
                 package: 'ModuleSystem-Scripts' with: [ spec requires: #('ModuleSystem' 'Vivide') ].
