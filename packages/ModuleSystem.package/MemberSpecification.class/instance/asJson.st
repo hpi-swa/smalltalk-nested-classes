@@ -1,3 +1,3 @@
-serialize
+serializing
 asJson
 	^ Json render: self

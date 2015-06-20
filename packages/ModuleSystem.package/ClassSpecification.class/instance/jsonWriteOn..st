@@ -1,4 +1,4 @@
-serialize
+serializing
 jsonWriteOn: aStream
 	| output |
 	output := Dictionary new. 

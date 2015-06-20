@@ -1,2 +1,2 @@
 as yet unclassified
-method ^ X method
+method ^ super outer x
