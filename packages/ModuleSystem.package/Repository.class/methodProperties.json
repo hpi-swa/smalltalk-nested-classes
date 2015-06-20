@@ -1,7 +1,11 @@
 {
 	"class" : {
 		"add:" : "FabN 6/20/2015 13:33",
+		"getAllRemoteModules" : "FabN 6/20/2015 15:28",
+		"gitHubAPIModules" : "FabN 6/20/2015 15:00",
 		"loadLocalModule" : "FabN 6/20/2015 13:53",
+		"loadRemoteModule" : "FabN 6/20/2015 15:11",
+		"loadRemoteModule:" : "FabN 6/20/2015 15:21",
 		"modules" : "FabN 6/20/2015 12:27",
 		"reset" : "FabN 6/20/2015 13:53" },
 	"instance" : {
