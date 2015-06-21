@@ -1,0 +1,3 @@
+*ModuleSystem-Core
+isNestedGenerated
+	^ false

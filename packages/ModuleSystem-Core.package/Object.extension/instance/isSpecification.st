@@ -1,0 +1,3 @@
+*ModuleSystem-Core
+isSpecification
+	^ false
