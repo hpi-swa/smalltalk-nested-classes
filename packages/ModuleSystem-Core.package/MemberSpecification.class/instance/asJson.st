@@ -1,3 +1,3 @@
 serializing
 asJson
-	^ Json renderPretty: self
+	^ Json render: self
