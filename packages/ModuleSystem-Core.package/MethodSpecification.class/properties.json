@@ -1,0 +1,22 @@
+{
+	"category" : "ModuleSystem-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"source",
+		"transformedSource",
+		"selector",
+		"protocol",
+		"isNestedClass",
+		"isLayered",
+		"layeredMethods",
+		"instances",
+		"compiledMethods" ],
+	"name" : "MethodSpecification",
+	"pools" : [
+		 ],
+	"super" : "MemberSpecification",
+	"type" : "normal" }

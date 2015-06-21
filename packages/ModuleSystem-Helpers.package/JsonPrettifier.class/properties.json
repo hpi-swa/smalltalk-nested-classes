@@ -1,0 +1,17 @@
+{
+	"category" : "ModuleSystem-Helpers",
+	"classinstvars" : [
+		"newLineSeparators",
+		"openingSeparators",
+		"closingSeparators",
+		"spacingSeparators" ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "JsonPrettifier",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

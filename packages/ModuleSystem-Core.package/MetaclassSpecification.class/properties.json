@@ -1,0 +1,14 @@
+{
+	"category" : "ModuleSystem-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"nonMetaclassSpec" ],
+	"name" : "MetaclassSpecification",
+	"pools" : [
+		 ],
+	"super" : "BehaviorSpecification",
+	"type" : "normal" }

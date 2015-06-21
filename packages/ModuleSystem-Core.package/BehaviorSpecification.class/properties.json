@@ -1,0 +1,16 @@
+{
+	"category" : "ModuleSystem-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"methodDict",
+		"classDict",
+		"className" ],
+	"name" : "BehaviorSpecification",
+	"pools" : [
+		 ],
+	"super" : "MemberSpecification",
+	"type" : "normal" }

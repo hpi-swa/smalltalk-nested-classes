@@ -1,3 +1,0 @@
-*ModuleSystem
-activeLayers
-	^ activeLayers ifNil: [ #() ].

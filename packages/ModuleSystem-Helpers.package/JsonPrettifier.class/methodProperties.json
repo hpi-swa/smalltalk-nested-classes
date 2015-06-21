@@ -1,0 +1,13 @@
+{
+	"class" : {
+		"closingSeparators" : "FabN 6/21/2015 15:23",
+		"handleClosingSeparator:indent:" : "FabN 6/21/2015 15:23",
+		"handleNewLine:indent:" : "FabN 6/21/2015 15:23",
+		"handleOpeningSeparator:current:indent:" : "FabN 6/21/2015 15:25",
+		"newLineSeparators" : "FabN 6/21/2015 15:23",
+		"openingSeparators" : "FabN 6/21/2015 15:23",
+		"prettify:" : "FabN 6/21/2015 15:25",
+		"prettify:current:indent:" : "FabN 6/21/2015 15:25",
+		"spacingSeparators" : "FabN 6/21/2015 15:23" },
+	"instance" : {
+		 } }

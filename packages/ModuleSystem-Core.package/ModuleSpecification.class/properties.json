@@ -1,0 +1,14 @@
+{
+	"category" : "ModuleSystem-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"moduleName" ],
+	"name" : "ModuleSpecification",
+	"pools" : [
+		 ],
+	"super" : "ClassSpecification",
+	"type" : "normal" }

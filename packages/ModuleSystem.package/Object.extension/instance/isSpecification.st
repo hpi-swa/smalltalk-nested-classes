@@ -1,3 +1,0 @@
-*ModuleSystem
-isSpecification
-	^ false

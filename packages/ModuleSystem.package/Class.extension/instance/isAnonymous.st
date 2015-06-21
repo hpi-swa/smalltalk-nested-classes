@@ -1,3 +1,0 @@
-*ModuleSystem
-isAnonymous
-	^ false
