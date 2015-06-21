@@ -11,7 +11,10 @@
 		"selector",
 		"protocol",
 		"isNestedClass",
-		"instances" ],
+		"isLayered",
+		"layeredMethods",
+		"instances",
+		"compiledMethods" ],
 	"name" : "MethodSpecification",
 	"pools" : [
 		 ],

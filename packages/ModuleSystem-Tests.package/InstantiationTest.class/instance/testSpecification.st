@@ -1,5 +1,5 @@
 testing
-testSpecificatio 
+testSpecification
 	| class spec |
 	spec := self preparedSpec.
 	class := spec generateModule.

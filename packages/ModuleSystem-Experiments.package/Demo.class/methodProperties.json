@@ -2,13 +2,21 @@
 	"class" : {
 		 },
 	"instance" : {
-		"Version12" : "",
-		"Version1_2" : "",
 		"a" : "MattSpr 6/13/2015 22:15",
 		"a:" : "MattSpr 6/13/2015 22:12",
+		"asString" : "MattSpr 6/19/2015 14:15:48.871",
 		"b" : "MattSpr 6/13/2015 22:32",
 		"c" : "MattSpr 6/13/2015 22:47",
+		"callA" : "MattSpr 6/20/2015 12:22",
 		"closure" : "MattSpr 6/13/2015 21:54",
 		"d" : "MattSpr 6/14/2015 16:21",
 		"e" : "MattSpr 6/14/2015 21:39",
-		"method" : "MattSpr 6/18/2015 13:19" } }
+		"meth" : "MattSpr 6/20/2015 20:35",
+		"meth:" : "MattSpr 6/20/2015 20:35",
+		"meth:with:" : "MattSpr 6/20/2015 20:35",
+		"method" : "MattSpr 6/18/2015 13:19",
+		"proceed" : "MattSpr 6/20/2015 20:34",
+		"proceed:" : "MattSpr 6/20/2015 20:34",
+		"proceed:with:" : "MattSpr 6/20/2015 20:34",
+		"x1" : "MattSpr 6/20/2015 13:32",
+		"x2" : "MattSpr 6/20/2015 13:32" } }
