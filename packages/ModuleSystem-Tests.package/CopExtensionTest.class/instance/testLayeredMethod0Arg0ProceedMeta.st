@@ -1,7 +1,7 @@
 as yet unclassified
 testLayeredMethod0Arg0ProceedMeta
 	| layerAndSpec class |
-	layerAndSpec := self preparedSpecMeta.
+	layerAndSpec := self preparedSpecMeta0Arg0Proceed.
 	class := layerAndSpec second generateModule.
 
 	self assert: class classMethod equals: 10.

@@ -1,5 +1,5 @@
 as yet unclassified
-preparedSpecMeta
+preparedSpecMeta0Arg0Proceed
 	| spec layer methodSpec p1 |
 	spec := ClassSpecification new.
 	spec theMetaClassSpecification addMethodString: 'classMethod ^ 10' protocol: 'foo'.

@@ -1,10 +1,10 @@
 as yet unclassified
-testLayeredMethod0Arg0ProceedMetaFull
+testLayeredMethod0Arg1ProceedMetaFull
 	| layerAndSpec class layer |
-	layerAndSpec := self preparedMetaFull0Arg0Proceed.
+	layerAndSpec := self preparedMetaFull0Arg1Proceed.
 	class := layerAndSpec second.
 	layer := layerAndSpec first.
 
 	self assert: class classMethod equals: 10.
-	self assert: ([ class classMethod ] withLayer: layer) equals: 11.
+	self assert: ([ class classMethod ] withLayer: layer) equals: 12.
 	self assert: class classMethod equals: 10.
