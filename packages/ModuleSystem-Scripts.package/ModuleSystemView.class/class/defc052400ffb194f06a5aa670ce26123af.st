@@ -1,0 +1,5 @@
+definitions
+defc052400ffb194f06a5aa670ce26123af
+	<definition>
+
+	^ ((Dictionary new) add: (#class->ViQueryStepDefinition); add: (#properties->((Dictionary new) add: (#creationAuthor->'FabN'); add: (#creationTimeStamp->'23 June 2015 5:39:26 pm'); yourself)); add: (#id->#'c052400f-fb19-4f06-a5aa-670ce26123af'); add: (#block->[:in :out | out addAll: (in sorted: [:a :b | a selector <= b selector ])]); add: (#sourceCode->'[:in :out | out addAll: (in sorted: [:a :b | a selector <= b selector ])]'); yourself)
