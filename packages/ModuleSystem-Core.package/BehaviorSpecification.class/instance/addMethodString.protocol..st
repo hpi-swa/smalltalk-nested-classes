@@ -6,4 +6,5 @@ addMethodString: source protocol: protocol
 
 	method isNestedClass ifTrue: [ "add nested class specification"
 		class := ClassSpecification new.
+		class isLayer: method isLayer.
 		self addClass: class name: method selector ].

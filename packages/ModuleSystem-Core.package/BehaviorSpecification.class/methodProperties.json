@@ -2,9 +2,9 @@
 	"class" : {
 		 },
 	"instance" : {
-		"addClass:name:" : "MattSpr 6/15/2015 00:41",
-		"addMethod:" : "MattSpr 6/15/2015 00:42",
-		"addMethodString:protocol:" : "MattSpr 6/19/2015 11:22",
+		"addClass:name:" : "MattSpr 6/22/2015 21:02",
+		"addMethod:" : "MattSpr 6/22/2015 20:14",
+		"addMethodString:protocol:" : "MattSpr 6/23/2015 11:23",
 		"classAt:" : "MattSpr 6/14/2015 22:51",
 		"classDict" : "MattSpr 6/14/2015 21:05",
 		"className" : "MattSpr 6/13/2015 00:47",
@@ -13,6 +13,7 @@
 		"generateWithSubclass:" : "MattSpr 6/19/2015 14:03",
 		"initialize" : "MattSpr 6/19/2015 18:28",
 		"initializeClass:" : "MattSpr 6/19/2015 19:04",
+		"initializePartialClass:in:" : "MattSpr 6/23/2015 11:28",
 		"isClassSpec" : "MattSpr 6/15/2015 00:40",
 		"methodAt:" : "MattSpr 6/19/2015 20:26",
 		"methodDict" : "MattSpr 6/14/2015 21:05",

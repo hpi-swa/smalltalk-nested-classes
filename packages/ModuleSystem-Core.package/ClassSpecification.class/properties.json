@@ -6,7 +6,8 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"metaclassSpec" ],
+		"metaclassSpec",
+		"isLayer" ],
 	"name" : "ClassSpecification",
 	"pools" : [
 		 ],

@@ -1,5 +1,5 @@
 as yet unclassified
-testLayeredMethod1Arg0ProceedMeta
+testLayeredMethod0Arg0ProceedMeta
 	| layerAndSpec class |
 	layerAndSpec := self preparedSpecMeta.
 	class := layerAndSpec second generateModule.

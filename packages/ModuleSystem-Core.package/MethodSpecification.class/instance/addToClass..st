@@ -21,4 +21,6 @@ addToClass: class
 			(wrapper literalAt: idx) = #DICT
 				ifTrue: [ wrapper literalAt: idx put: layeredMethods ].
 			(wrapper literalAt: idx) = #BASE
-				ifTrue: [ wrapper literalAt: idx put: compiledMethod ] ] ].
+				ifTrue: [ wrapper literalAt: idx put: compiledMethod ].
+			(wrapper literalAt: idx) = #SPECS
+				ifTrue: [ wrapper literalAt: idx put: layeredMethodsSpec ] ] ].

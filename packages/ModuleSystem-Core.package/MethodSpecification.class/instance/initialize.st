@@ -10,5 +10,8 @@ initialize
 	" mapping layers to layered CompiledMethods of myself "
 	layeredMethods := WeakIdentityKeyDictionary new.
 
+	" mapping layers to partial method specs "
+	layeredMethodsSpec := WeakIdentityKeyDictionary new.
+
 	" mapping owner classes to CompiledMethods of myself "
 	compiledMethods := WeakIdentityKeyDictionary new.

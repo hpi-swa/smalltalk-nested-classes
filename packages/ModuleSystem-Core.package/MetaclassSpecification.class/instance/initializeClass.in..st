@@ -7,4 +7,6 @@ initializeClass: class in: outer
 	self installNameMethod: class.
 	self markGenerated: class.
 	super initializeClass: class.
+
+	" force class-side initialization "
 	classDict keysDo: [ :key | class theNonMetaClass perform: key ].

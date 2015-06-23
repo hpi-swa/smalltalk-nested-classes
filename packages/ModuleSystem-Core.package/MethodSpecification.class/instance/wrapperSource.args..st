@@ -17,7 +17,7 @@ wrapperSource: selector args: numArgs
 		arguments: args.
 
 	sequence := RBSequenceNode statements: {
-		RBMessageNode receiver: (RBMessageNode receiver: (RBVariableNode named: #Processor) selector: #activeProcess) selector: #storeLayerCompositionFrom:base: arguments: { RBVariableNode named: '#DICT'. RBVariableNode named: '#BASE' }.
+		RBMessageNode receiver: (RBMessageNode receiver: (RBVariableNode named: #Processor) selector: #activeProcess) selector: #storeLayerCompositionFrom:and:base: arguments: { RBVariableNode named: '#DICT'. RBVariableNode named: '#SPECS'. RBVariableNode named: '#BASE' }.
 		RBReturnNode value: proceedNode }.
 
 	^ (RBMethodNode selector: selector arguments: args body: sequence) newSource.

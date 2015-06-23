@@ -1,9 +1,10 @@
 instance creation
 source: source protocol: protocol
-	| parseTree transformedSource selector isNestedClass |
+	| parseTree transformedSource selector isNestedClass isLayer |
 	parseTree := RBParser parseMethod: source.
 	selector := parseTree selector.
 	isNestedClass := parseTree isNestedClass.
+	isLayer := parseTree isLayer.
 	isNestedClass
 		ifTrue: [ 
 			selector first isUppercase ifFalse: [
@@ -17,4 +18,5 @@ source: source protocol: protocol
 		protocol: protocol;
 		selector: selector;
 		isNestedClass: isNestedClass;
+		isLayer: isLayer;
 		yourself

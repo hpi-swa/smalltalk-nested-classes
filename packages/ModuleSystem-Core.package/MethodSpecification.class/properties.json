@@ -14,7 +14,9 @@
 		"isLayered",
 		"layeredMethods",
 		"instances",
-		"compiledMethods" ],
+		"compiledMethods",
+		"isLayer",
+		"layeredMethodsSpec" ],
 	"name" : "MethodSpecification",
 	"pools" : [
 		 ],
