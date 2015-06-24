@@ -1,0 +1,3 @@
+serializing
+exportModule
+	self findModule exportModule

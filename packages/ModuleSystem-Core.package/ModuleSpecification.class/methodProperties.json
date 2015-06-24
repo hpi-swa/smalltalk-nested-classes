@@ -6,7 +6,9 @@
 		"getRemote:" : "FabN 6/20/2015 15:27",
 		"new:fromJson:" : "FabN 6/20/2015 13:52" },
 	"instance" : {
-		"export" : "FabN 6/21/2015 21:32",
+		"exportModule" : "FabN 6/24/2015 20:46",
+		"findModule" : "FabN 6/24/2015 20:44",
+		"fullRemove" : "MattSpr 6/24/2015 22:51",
 		"jsonWriteOn:" : "FabN 6/20/2015 12:31",
 		"moduleName" : "FabN 6/20/2015 12:24",
 		"moduleName:" : "FabN 6/20/2015 12:24" } }

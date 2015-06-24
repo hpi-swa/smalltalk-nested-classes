@@ -3,7 +3,8 @@
 		 },
 	"instance" : {
 		"addClass:name:" : "MattSpr 6/14/2015 21:00",
-		"export" : "FabN 6/24/2015 13:00",
+		"findModule" : "FabN 6/24/2015 20:53",
+		"fullRemove" : "MattSpr 6/24/2015 22:53",
 		"initializeClass:in:" : "MattSpr 6/24/2015 20:12",
 		"initializeClass:in:isSuper:" : "MattSpr 6/24/2015 19:05",
 		"installNameMethod:" : "MattSpr 6/19/2015 19:06",

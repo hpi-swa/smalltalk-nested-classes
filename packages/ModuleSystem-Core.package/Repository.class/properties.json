@@ -1,12 +1,14 @@
 {
 	"category" : "ModuleSystem-Core",
 	"classinstvars" : [
+		"instance",
 		"allModules" ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
+		"moduleSpecs",
+		"modules" ],
 	"name" : "Repository",
 	"pools" : [
 		 ],

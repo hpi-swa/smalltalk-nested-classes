@@ -1,3 +1,3 @@
-accessing
+deprecated
 modules
-	^ allModules ifNil: [ self reset ].
+	^ self instance specs

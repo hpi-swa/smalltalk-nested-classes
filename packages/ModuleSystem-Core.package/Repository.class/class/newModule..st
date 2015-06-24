@@ -1,7 +1,3 @@
-managing
+deprecated
 newModule: aString
-	| module |
-	module := ModuleSpecification new.
-	module moduleName: aString.
-	self add: module.
-	^ module
+	^ self instance newSpec: aString  

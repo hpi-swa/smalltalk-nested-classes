@@ -1,5 +1,5 @@
 serializing
-export
+exportModule
 	| path file |
       path := FileList2 modalFolderSelector.
 	path ifNotNil: [[

@@ -1,6 +1,5 @@
-loading
+modifying
 loadRemoteModule
 	| module |
 	module := ModuleSpecification getLocal.
-	module ifNotNil: [ self add: module ]
-	
+	module ifNotNil: [ self addSpec: module ]

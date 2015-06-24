@@ -1,6 +1,3 @@
-loading
+deprecated
 loadLocalModule
-	| module |
-	module := ModuleSpecification getLocal.
-	module ifNotNil: [ self add: module ]
-	
+	^ self instance loadLocalModule

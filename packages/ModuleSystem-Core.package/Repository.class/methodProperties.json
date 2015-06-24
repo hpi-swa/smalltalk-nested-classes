@@ -1,13 +1,22 @@
 {
 	"class" : {
-		"add:" : "FabN 6/20/2015 13:33",
-		"getAllRemoteModules" : "FabN 6/20/2015 15:28",
-		"gitHubAPIModules" : "FabN 6/20/2015 15:00",
-		"loadLocalModule" : "FabN 6/20/2015 13:53",
-		"loadRemoteModule" : "FabN 6/20/2015 15:11",
-		"loadRemoteModule:" : "FabN 6/20/2015 15:21",
-		"modules" : "FabN 6/20/2015 12:27",
-		"newModule:" : "MattSpr 6/24/2015 10:22",
-		"reset" : "FabN 6/20/2015 13:53" },
+		"getAllRemoteModules" : "MattSpr 6/24/2015 22:57",
+		"instance" : "MattSpr 6/24/2015 22:46",
+		"loadLocalModule" : "MattSpr 6/24/2015 22:58",
+		"loadRemoteModule:" : "MattSpr 6/24/2015 22:58",
+		"modules" : "MattSpr 6/24/2015 22:47",
+		"newModule:" : "MattSpr 6/24/2015 22:49" },
 	"instance" : {
-		 } }
+		"addModule:as:" : "MattSpr 6/24/2015 22:37",
+		"addSpec:" : "MattSpr 6/24/2015 22:39",
+		"allRemoteModules" : "MattSpr 6/24/2015 22:40",
+		"githubURL" : "MattSpr 6/24/2015 22:40",
+		"initialize" : "MattSpr 6/24/2015 22:35",
+		"loadLocalModule" : "MattSpr 6/24/2015 22:41",
+		"loadRemoteModule" : "MattSpr 6/24/2015 22:41",
+		"loadRemoteModule:" : "MattSpr 6/24/2015 22:41",
+		"modules" : "MattSpr 6/24/2015 22:45",
+		"newSpec:" : "MattSpr 6/24/2015 22:42",
+		"removeSpec:" : "MattSpr 6/24/2015 22:51",
+		"reset" : "MattSpr 6/24/2015 23:06",
+		"specs" : "MattSpr 6/24/2015 22:45" } }

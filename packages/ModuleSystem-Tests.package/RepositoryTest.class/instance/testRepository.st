@@ -1,17 +1,18 @@
 testing
 testRepository
-	| module size |
-	self assert: (Repository modules isKindOf: Dictionary).
-	Repository modules removeKey: #testModule ifAbsent: [].
+	| module repository |
+	repository := Repository new.
+	self assert: (repository specs isKindOf: Dictionary).
 	module := ModuleSpecification new.
 	module moduleName: 'testModule'.
-	size := Repository modules size.
-	Repository add: module.
-	self assert: (Repository modules size) equals: size + 1.
-	self assert: (Repository modules at: #testModule) equals: module.
+	self assert: repository specs size equals: 0.
+	repository addSpec: module.
+	self assert: repository specs size equals: 1.
+	self assert: (repository specs at: #testModule) equals: module.
 	"Adding the same module will overwrite it"
-	Repository add: module.
-	self assert: (Repository modules size) equals: size + 1.
-	"Resetting the Repository is not being tested, because this would remove all modules from the image"
-	Repository modules removeKey: #testModule ifAbsent: [].
+	repository addSpec: module.
+	self assert: repository specs size equals: 1.
+	[ repository reset ] on: Warning do: [ :ex | ex resume ].
+	self assert: repository specs size equals: 0.
+
 	
