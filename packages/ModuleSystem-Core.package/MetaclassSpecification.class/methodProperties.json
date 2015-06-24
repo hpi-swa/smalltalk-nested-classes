@@ -4,7 +4,8 @@
 	"instance" : {
 		"addClass:name:" : "MattSpr 6/14/2015 21:00",
 		"export" : "FabN 6/24/2015 13:00",
-		"initializeClass:in:" : "MattSpr 6/22/2015 20:51",
+		"initializeClass:in:" : "MattSpr 6/24/2015 20:12",
+		"initializeClass:in:isSuper:" : "MattSpr 6/24/2015 19:05",
 		"installNameMethod:" : "MattSpr 6/19/2015 19:06",
 		"installOuterMethod:with:" : "MattSpr 6/19/2015 14:05",
 		"installSpecification:" : "MattSpr 6/19/2015 18:57",

@@ -9,7 +9,8 @@
 		"instDictNode",
 		"specNode",
 		"selfNode",
-		"tempNode" ],
+		"tempNode",
+		"thisContextNode" ],
 	"name" : "NestedAccessorVisitor",
 	"pools" : [
 		 ],

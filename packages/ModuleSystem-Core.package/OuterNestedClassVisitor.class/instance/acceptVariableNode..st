@@ -11,9 +11,12 @@ acceptVariableNode: aNode
 	outerLevel := 0.
 
 	[ cls notNil ] whileTrue: [
-		cls isNestedGenerated ifTrue: [
-			(cls specification classDict includesKey: identifier)
-				ifTrue: [ aNode replaceWith: (self outerSend: identifier level: outerLevel). ^ self ] 
-		"TODO: check for nested class on class side" ].
-		cls := cls outer.
-		outerLevel := outerLevel + 1 ].
+		cls isBehavior ifTrue: [
+			cls isNestedGenerated ifTrue: [
+				(cls specification classDict includesKey: identifier)
+					ifTrue: [ aNode replaceWith: (self outerSend: identifier level: outerLevel). ^ self ] 
+				"TODO: check for nested class on class side"
+				"TODO: what if cls is an object?" ] .
+			cls := cls outer.
+			outerLevel := outerLevel + 1 ]
+		ifFalse: [ ^ self ] ].

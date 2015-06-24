@@ -1,6 +1,6 @@
 as yet unclassified
 acceptReturnNode: aNode
-	| sequence |
+	| sequence |  
 	super acceptReturnNode: aNode.
 	sequence := RBSequenceNode statements: {
 		RBAssignmentNode variable: tempNode value: aNode value.

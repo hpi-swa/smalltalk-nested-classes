@@ -6,8 +6,6 @@ initializeClass: class in: outer
 		ifTrue: [ 
 			self initializePartialClass: class in: outer.
 			self theMetaClassSpecification initializePartialClass: class class in: outer "TODO: in this case 'outer' != layer" ]
-		ifFalse: [ (self shouldInitialize: class) ifTrue: [
-			"initialize meta class"
+		ifFalse: [ " initialize meta class "
 			metaclassSpec initializeClass: class class in: outer.
-
-			super initializeClass: class ] ].
+			super initializeClass: class ].
