@@ -1,0 +1,14 @@
+{
+	"category" : "ModuleSystem-Scripts",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "ModuleSystemViewHelper",
+	"pools" : [
+		 ],
+	"super" : "ViScriptArchive",
+	"type" : "normal" }

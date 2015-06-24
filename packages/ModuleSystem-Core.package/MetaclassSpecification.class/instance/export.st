@@ -1,0 +1,3 @@
+serializing
+export
+	self theNonMetaClassSpecification export

@@ -7,13 +7,7 @@ def8cffe86d9a5d4360949b5f6d722902f1
 		[:memberSpecification | {#text -> ((memberSpecification isKindOf: MethodSpecification)
 	ifTrue: [memberSpecification source]
 	ifFalse: [ Object sourceCodeTemplate ])
-	<- [ :newSource | ((memberSpecification isKindOf: BehaviorSpecification)
-	ifTrue: [ memberSpecification ]
-	ifFalse: [ memberSpecification parent]) addMethodString: newSource protocol: 'foo'.
-	"Dirty hack to force refresh"
-	ViPane allInstances do: [:pane | (pane id ==  #'07f1c17c-2ad6-4491-b22e-ae706995da3c') ifTrue: [ pane currentQuery: pane currentQuery]]
-
- ].
+	<- [ :newSource | ModuleSystemViewHelper execute: newSource on: memberSpecification. 		ModuleSystemViewHelper refreshClassTree].
 	#stylerClass -> Object }] value: obj ]
 			value: o), { #object -> o }]]
 				value: in) do: [:result | out add: result]]); add: (#sourceCode->'[:in :out | ([:all | all collect: [:o |
@@ -21,13 +15,7 @@ def8cffe86d9a5d4360949b5f6d722902f1
 		[:memberSpecification | {#text -> ((memberSpecification isKindOf: MethodSpecification)
 	ifTrue: [memberSpecification source]
 	ifFalse: [ Object sourceCodeTemplate ])
-	<- [ :newSource | ((memberSpecification isKindOf: BehaviorSpecification)
-	ifTrue: [ memberSpecification ]
-	ifFalse: [ memberSpecification parent]) addMethodString: newSource protocol: ''foo''.
-	"Dirty hack to force refresh"
-	ViPane allInstances do: [:pane | (pane id ==  #''07f1c17c-2ad6-4491-b22e-ae706995da3c'') ifTrue: [ pane currentQuery: pane currentQuery]]
-
- ].
+	<- [ :newSource | ModuleSystemViewHelper execute: newSource on: memberSpecification. 		ModuleSystemViewHelper refreshClassTree].
 	#stylerClass -> Object }] value: obj ]
 			value: o), { #object -> o }]]
 				value: in) do: [:result | out add: result]]'); yourself)
