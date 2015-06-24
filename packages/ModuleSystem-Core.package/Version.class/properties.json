@@ -6,10 +6,8 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"parent",
-		"isPartial",
-		"expectedTypes" ],
-	"name" : "MemberSpecification",
+		 ],
+	"name" : "Version",
 	"pools" : [
 		 ],
 	"super" : "Object",

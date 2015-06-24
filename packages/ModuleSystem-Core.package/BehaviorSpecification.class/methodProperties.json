@@ -12,10 +12,12 @@
 		"generateModule" : "MattSpr 6/15/2015 11:57",
 		"generateWithSubclass:" : "MattSpr 6/19/2015 14:03",
 		"initialize" : "MattSpr 6/19/2015 18:28",
-		"initializeClass:" : "MattSpr 6/19/2015 19:04",
+		"initializeClass:" : "MattSpr 6/24/2015 10:51",
 		"initializePartialClass:in:" : "MattSpr 6/23/2015 11:28",
 		"isClassSpec" : "MattSpr 6/15/2015 00:40",
 		"methodAt:" : "MattSpr 6/19/2015 20:26",
 		"methodDict" : "MattSpr 6/14/2015 21:05",
 		"nameInParent" : "FabN 6/23/2015 17:31",
-		"shouldInitialize:" : "MattSpr 6/19/2015 17:38" } }
+		"selector" : "MattSpr 6/24/2015 10:42",
+		"shouldInitialize:" : "MattSpr 6/19/2015 17:38",
+		"theMethodSpec" : "MattSpr 6/24/2015 10:42" } }

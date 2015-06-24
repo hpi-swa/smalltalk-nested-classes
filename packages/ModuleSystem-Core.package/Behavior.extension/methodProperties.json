@@ -2,6 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
+		"expectedTypeDescriptor" : "MattSpr 6/24/2015 10:33",
 		"generateCompiledMethod:" : "MattSpr 6/21/2015 13:46",
 		"isInitialized" : "MattSpr 6/19/2015 12:47",
 		"isNestedGenerated" : "MattSpr 6/19/2015 16:59" } }
