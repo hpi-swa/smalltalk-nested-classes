@@ -1,4 +1,4 @@
-as yet unclassified
+visitor-double dispatching
 acceptReturnNode: aNode
 	| sequence |  
 	super acceptReturnNode: aNode.

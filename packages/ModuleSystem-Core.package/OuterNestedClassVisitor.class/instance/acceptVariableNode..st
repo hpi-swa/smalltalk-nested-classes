@@ -1,22 +1,11 @@
-as yet unclassified
+visitor-double dispatching
 acceptVariableNode: aNode
-	| identifier cls outerLevel |
+	| identifier |
 	identifier := aNode token value asSymbol.
-	(identifier = #self) | (identifier = #thisContext) | (identifier = #super) ifTrue: [ ^ self ].
-	(temps includes: identifier) ifTrue: [ ^ self ].
-	(lookupStart allInstVarNames includes: identifier) ifTrue: [ ^ self ].
-	Smalltalk at: identifier ifPresent: [ :global | ^ self ].
 
-	cls := lookupStart.
-	outerLevel := 0.
-
-	[ cls notNil ] whileTrue: [
-		cls isBehavior ifTrue: [
-			cls isNestedGenerated ifTrue: [
-				(cls specification classDict includesKey: identifier)
-					ifTrue: [ aNode replaceWith: (self outerSend: identifier level: outerLevel). ^ self ] 
-				"TODO: check for nested class on class side"
-				"TODO: what if cls is an object?" ] .
-			cls := cls outer.
-			outerLevel := outerLevel + 1 ]
-		ifFalse: [ ^ self ] ].
+	(self lookupSpecial: identifier)
+		or: [ self lookupTemps: identifier ]
+		or: [ self lookupInstVars: identifier ]
+		or: [ self lookupNested: identifier in: aNode ]
+		or: [ self lookupRepository: identifier in: aNode ]
+		or: [ self lookupLegacy: identifier ].

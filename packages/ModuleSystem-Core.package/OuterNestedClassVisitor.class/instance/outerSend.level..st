@@ -1,11 +1,9 @@
-as yet unclassified
-outerSend: identifier level: outerLevel
-	| rcvr lvl |
+lookup
+outerSend: identifier level: sends
+	| rcvr |
 	rcvr := RBVariableNode named: 'self'. 
-	lvl := outerLevel.
 
-	[ lvl > 0 ] whileTrue: [
-		rcvr := RBMessageNode receiver: rcvr selector: #outer.
-		 lvl := lvl - 1 ].
+	[ sends notEmpty ] whileTrue: [
+		rcvr := RBMessageNode receiver: rcvr selector: sends removeFirst ].
 
 	^ RBMessageNode receiver: rcvr selector: identifier

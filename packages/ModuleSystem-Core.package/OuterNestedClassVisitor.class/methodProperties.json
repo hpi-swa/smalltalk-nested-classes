@@ -5,7 +5,13 @@
 		"acceptBlockNode:" : "MattSpr 6/19/2015 17:52",
 		"acceptMethodNode:" : "MattSpr 6/19/2015 17:51",
 		"acceptSequenceNode:" : "MattSpr 6/19/2015 17:48",
-		"acceptVariableNode:" : "MattSpr 6/24/2015 15:22",
+		"acceptVariableNode:" : "MattSpr 6/25/2015 00:06",
 		"initialize" : "MattSpr 6/19/2015 17:46",
+		"lookupInstVars:" : "MattSpr 6/24/2015 23:45",
+		"lookupLegacy:" : "MattSpr 6/24/2015 23:46",
+		"lookupNested:in:" : "MattSpr 6/24/2015 23:47",
+		"lookupRepository:in:" : "MattSpr 6/25/2015 00:25",
+		"lookupSpecial:" : "MattSpr 6/24/2015 23:45",
 		"lookupStart:" : "MattSpr 6/19/2015 16:21",
-		"outerSend:level:" : "MattSpr 6/19/2015 17:26" } }
+		"lookupTemps:" : "MattSpr 6/24/2015 23:45",
+		"outerSend:level:" : "MattSpr 6/24/2015 23:40" } }

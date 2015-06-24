@@ -1,4 +1,4 @@
-as yet unclassified
+visitor-double dispatching
 acceptMethodNode: aNode
 	| newTemps body |
 	super acceptMethodNode: aNode.
