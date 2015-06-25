@@ -1,4 +1,4 @@
-| gitPath gitCache |
+| gitPath gitCache modulePath |
 Transcript cr; show: 'travis---->travisCI.st'.
 
 gitCache := 'git_cache'.
@@ -17,6 +17,15 @@ Metacello new
   load: 'TravisCI'.
 
 (Smalltalk at: #MetacelloPlatform) current authorName: 'travisCI'.
+
+modulePath := gitPath, '/smalltalk-nested-classes/modules/ModuleSystem'.
+Transcript cr; show: 'bootstrapping ModuleSystem from ', modulePath.
+Repository instance loadLocalModule: modulePath.
+(Repository instance specAt: #ModuleSystem) install.
+
+modulePath := gitPath, '/smalltalk-nested-classes/modules/ActiveRecordExample'.
+Transcript cr; show: 'loading ActiveRecordExample from ', modulePath.
+Repository instance loadLocalModule: modulePath.
 
 "Run the tests"
 TravisCIHarness

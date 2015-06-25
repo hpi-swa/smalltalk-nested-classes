@@ -1,7 +1,7 @@
 initializing
 preparedSpecNestedInst
 	| module classNested |
-	module := ClassSpecification new.
+	module := ModuleSpecification new.
 
 	module addMethodString: 'ANested < class > ^ Object subclass' protocol: 'foo'.	
 	classNested := module  classDict at: #ANested.

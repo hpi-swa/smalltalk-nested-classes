@@ -1,7 +1,7 @@
 initializing
 preparedGenerator
 	| spec innerSpec |
-	spec := ClassSpecification new.
+	spec := ModuleSpecification new.
 
 	spec addMethodString: 'Inner < class > ^ target subclass' protocol: 'generator'.
 	innerSpec := spec classDict at: #Inner.

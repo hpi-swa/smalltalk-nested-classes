@@ -1,7 +1,7 @@
 as yet unclassified
 preparedMetaFull0Arg1Proceed
 	| spec module spec2 layerSpec partialSpec methodSpec layer |
-	spec := ClassSpecification new.
+	spec := ModuleSpecification new.
 	spec theMetaClassSpecification addMethodString: 'classMethod ^ 10' protocol: 'foo'.
 	methodSpec := spec theMetaClassSpecification methodAt: #classMethod.
 	methodSpec isLayered: true.
@@ -9,7 +9,7 @@ preparedMetaFull0Arg1Proceed
 	Smalltalk removeKey: #Module12311248668 ifAbsent: [ ].
 	Smalltalk at: #Module12311248668 put: module.
 	
-	spec2 := ClassSpecification new.
+	spec2 := ModuleSpecification new.
 	spec2 theMetaClassSpecification addMethodString: 'L <class> <layer> ^ Layer subclass' protocol: 'foo'. 
 	layerSpec := spec2 theMetaClassSpecification classAt: #L.
 	layerSpec theMetaClassSpecification addMethodString: 'PartialClass <class> ^ Module12311248668'  protocol: 'foo'.

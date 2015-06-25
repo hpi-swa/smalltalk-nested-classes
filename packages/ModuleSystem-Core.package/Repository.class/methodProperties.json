@@ -4,11 +4,16 @@
 	"instance" : {
 		"addModule:as:" : "MattSpr 6/24/2015 22:37",
 		"addSpec:" : "MattSpr 6/24/2015 22:39",
+		"hasModule:" : "MattSpr 6/25/2015 22:16",
+		"hasSpec:" : "MattSpr 6/25/2015 22:15",
 		"initialize" : "MattSpr 6/24/2015 22:35",
+		"isBootstrapped" : "MattSpr 6/25/2015 22:17",
 		"loadModule" : "FabN 6/25/2015 22:21",
+		"loadModule:" : "MattSpr 6/25/2015 22:48",
 		"moduleAt:" : "MattSpr 6/25/2015 00:06",
 		"modules" : "MattSpr 6/24/2015 22:45",
 		"newSpec:" : "MattSpr 6/24/2015 22:42",
 		"removeSpec:" : "MattSpr 6/24/2015 22:51",
 		"reset" : "MattSpr 6/24/2015 23:06",
+		"specAt:" : "MattSpr 6/25/2015 22:12",
 		"specs" : "MattSpr 6/24/2015 22:45" } }

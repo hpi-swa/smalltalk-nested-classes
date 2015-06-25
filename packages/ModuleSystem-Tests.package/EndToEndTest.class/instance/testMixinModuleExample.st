@@ -1,7 +1,7 @@
 testing
 testMixinModuleExample
-	"| module inst |
-	module := self preparedMixinModuleExample.
+	| module inst |
+	module := (Repository instance specAt: #ActiveRecordExample) generateModule.
 
 	self assert: module Accessors isBehavior.
 	self assert: module Accessors isNestedGenerated.
@@ -18,4 +18,4 @@ testMixinModuleExample
 	
 	inst firstName: 'john'.
 	self deny: inst validateFirst.
-	self deny: inst validate.  "
+	self deny: inst validate.
