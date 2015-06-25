@@ -1,4 +1,4 @@
-serializing
+*ModuleSystem-Helpers
 updateWith: aDict
 	aDict methodDict valuesDo: [:value | 
 		self addMethodString: (value source) protocol: (value protocol)].

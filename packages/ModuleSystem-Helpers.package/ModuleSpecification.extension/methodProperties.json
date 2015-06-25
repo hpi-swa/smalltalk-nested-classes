@@ -1,5 +1,6 @@
 {
 	"class" : {
-		"newWithName:" : "FabN 6/25/2015 20:01" },
+		"loadFrom:" : "MattSpr 6/25/2015 20:41",
+		"newWithName:" : "MattSpr 6/25/2015 20:41" },
 	"instance" : {
-		"loadFrom:" : "FabN 6/25/2015 20:13" } }
+		"exportModule" : "FabN 6/25/2015 19:53" } }

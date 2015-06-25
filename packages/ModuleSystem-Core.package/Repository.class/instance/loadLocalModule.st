@@ -4,4 +4,4 @@ loadLocalModule
 	folder := FileList2 modalFolderSelector.
 	folder isNil
 		ifTrue: [ ^ nil ]
-		ifFalse: [ self addSpec: (ModuleSerializer loadFrom: folder) ]
+		ifFalse: [ self addSpec: (ModuleSpecification loadFrom: folder) ]

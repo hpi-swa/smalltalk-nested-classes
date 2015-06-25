@@ -1,5 +1,5 @@
 instance creation
 for: aClass
-	^ self new
+	^ (self new
 		target: aClass;
-		Inner
+		Inner) subclass

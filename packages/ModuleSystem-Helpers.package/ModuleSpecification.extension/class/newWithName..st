@@ -1,3 +1,3 @@
 *ModuleSystem-Helpers
 newWithName: aName
-	^ ((ModuleSpecification new) moduleName: aName)
+	^ ModuleSpecification new moduleName: aName

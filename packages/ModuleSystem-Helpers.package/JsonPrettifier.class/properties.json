@@ -1,13 +1,13 @@
 {
-	"category" : "ModuleSystem-Core",
+	"category" : "ModuleSystem-Helpers",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "FabN 6/21/2015 21:11",
 	"instvars" : [
-		"target" ],
-	"name" : "ClassGenerator",
+		 ],
+	"name" : "JsonPrettifier",
 	"pools" : [
 		 ],
 	"super" : "Object",
