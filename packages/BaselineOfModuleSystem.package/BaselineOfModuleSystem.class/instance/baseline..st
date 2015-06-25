@@ -10,7 +10,7 @@ baseline: spec
                 spec repository: 'github://hpi-swa/vivide:master/repository' ].
             spec
                 package: 'ModuleSystem-Core' with: [spec requires: #('AST-Core')];
-                package: 'ModuleSystem-Tests' with: [ spec requires: #('ModuleSystem-Core') ];
+                package: 'ModuleSystem-Tests' with: [ spec requires: #('ModuleSystem-Core' 'ModuleSystem-Helpers') ];
                 package: 'ModuleSystem-Experiments' with: [ spec requires: #('ModuleSystem-Core') ];
                 package: 'ModuleSystem-Helpers' with: [spec requires: #('ModuleSystem-Core')];
                 package: 'ModuleSystem-Scripts' with: [ spec requires: #('ModuleSystem-Core' 'ModuleSystem-Helpers' 'Vivide') ].
