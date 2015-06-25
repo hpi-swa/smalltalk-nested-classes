@@ -1,3 +1,0 @@
-serializing
-jsonWriteOn: aStream
-	self subclassResponsibility

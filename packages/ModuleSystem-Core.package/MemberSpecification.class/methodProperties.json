@@ -3,7 +3,6 @@
 		 },
 	"instance" : {
 		"addExpectedType:" : "MattSpr 6/24/2015 10:27",
-		"asJson" : "FabN 6/20/2015 00:58",
 		"expectedTypes" : "MattSpr 6/24/2015 10:24",
 		"expectedTypes:" : "MattSpr 6/24/2015 10:38",
 		"exportModule" : "FabN 6/24/2015 20:46",
@@ -16,7 +15,6 @@
 		"isPartial" : "MattSpr 6/22/2015 20:10",
 		"isPartial:" : "MattSpr 6/22/2015 20:09",
 		"isSpecification" : "MattSpr 6/15/2015 00:38",
-		"jsonWriteOn:" : "FabN 6/20/2015 01:06",
 		"parent" : "MattSpr 6/14/2015 21:15",
 		"parent:" : "MattSpr 6/14/2015 21:16",
 		"removeExpectedType:" : "MattSpr 6/24/2015 10:27",

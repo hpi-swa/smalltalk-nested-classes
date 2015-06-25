@@ -1,5 +1,7 @@
 modifying
 loadLocalModule
-	| module |
-	module := ModuleSpecification getLocal.
-	module ifNotNil: [ self addSpec: module ]
+	| folder |
+	folder := FileList2 modalFolderSelector.
+	folder isNil
+		ifTrue: [ ^ nil ]
+		ifFalse: [ self addSpec: (ModuleSerializer loadFrom: folder) ]

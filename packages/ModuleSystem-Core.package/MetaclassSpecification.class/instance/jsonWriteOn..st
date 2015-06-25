@@ -1,8 +1,0 @@
-serializing
-jsonWriteOn: aStream
-	| output |
-	output := Dictionary new.
-	output at: #className put: self className.
-	output at: #classDict put: self classDict.
-	output at: #methodDict put: self methodDict.
-	^ output jsonWriteOn: aStream
