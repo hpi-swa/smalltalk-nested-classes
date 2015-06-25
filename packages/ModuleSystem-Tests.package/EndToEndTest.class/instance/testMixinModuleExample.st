@@ -1,6 +1,6 @@
 testing
 testMixinModuleExample
-	| module inst |
+	"| module inst |
 	module := self preparedMixinModuleExample.
 
 	self assert: module Accessors isBehavior.
@@ -18,4 +18,4 @@ testMixinModuleExample
 	
 	inst firstName: 'john'.
 	self deny: inst validateFirst.
-	self deny: inst validate.  
+	self deny: inst validate.  "

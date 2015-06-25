@@ -1,5 +1,5 @@
 modifying
-loadLocalModule
+loadModule
 	| folder |
 	folder := FileList2 modalFolderSelector.
 	folder isNil

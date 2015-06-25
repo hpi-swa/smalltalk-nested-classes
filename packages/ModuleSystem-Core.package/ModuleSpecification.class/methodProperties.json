@@ -1,10 +1,6 @@
 {
 	"class" : {
-		"baseUrl" : "FabN 6/20/2015 15:22",
-		"example1" : "FabN 6/20/2015 13:33",
-		"getLocal" : "FabN 6/20/2015 15:30",
-		"getRemote:" : "FabN 6/20/2015 15:27",
-		"new:fromJson:" : "FabN 6/20/2015 13:52" },
+		"example1" : "FabN 6/20/2015 13:33" },
 	"instance" : {
 		"findModule" : "FabN 6/24/2015 20:44",
 		"fullRemove" : "MattSpr 6/24/2015 22:51",

@@ -1,4 +1,3 @@
 singleton
 instance
-	instance ifNil: [ instance := self new ].
-	^ instance
+	^ instance ifNil: [ instance := self new ]
