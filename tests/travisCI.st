@@ -20,12 +20,12 @@ Metacello new
 
 modulePath := gitPath, '/smalltalk-nested-classes/modules/ModuleSystem'.
 Transcript cr; show: 'bootstrapping ModuleSystem from ', modulePath.
-Repository instance loadModule: modulePath.
+Repository instance addSpec: (ModuleSpecification loadFrom: (FileDirectory on: modulePath)).
 (Repository instance specAt: #ModuleSystem) install.
 
 modulePath := gitPath, '/smalltalk-nested-classes/modules/ActiveRecordExample'.
 Transcript cr; show: 'loading ActiveRecordExample from ', modulePath.
-Repository instance loadModule: modulePath.
+Repository instance addSpec: (ModuleSpecification loadFrom: (FileDirectory on: modulePath)).
 
 "Run the tests"
 TravisCIHarness
