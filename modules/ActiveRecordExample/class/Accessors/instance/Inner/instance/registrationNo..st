@@ -1,0 +1,1 @@
+registrationNo: aValue	registrationNo := aValue asInteger.

@@ -1,0 +1,1 @@
+asString	^ '[ a Student: ', firstName, ' ', lastName, ' ]'

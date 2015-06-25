@@ -1,0 +1,1 @@
+Validation	< class > 	^ ModuleSystem ClassGenerator subclass

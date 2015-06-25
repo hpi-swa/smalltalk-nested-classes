@@ -1,0 +1,1 @@
+validateLast	^ lastName isString and: [		lastName first isUppercase ]

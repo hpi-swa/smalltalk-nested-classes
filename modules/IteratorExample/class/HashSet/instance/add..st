@@ -1,0 +1,1 @@
+add: obj	(self chainFor: obj) add: obj.

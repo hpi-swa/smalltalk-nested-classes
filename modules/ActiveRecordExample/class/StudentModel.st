@@ -1,0 +1,1 @@
+StudentModel	< class >	^ (Object subclassWithInstVars: 'registrationNo firstName lastName birthday')		<< Printing		<< Accessors		<< Validation

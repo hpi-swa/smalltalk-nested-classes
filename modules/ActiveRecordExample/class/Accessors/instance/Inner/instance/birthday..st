@@ -1,0 +1,1 @@
+birthday: aDate	birthday := aDate.

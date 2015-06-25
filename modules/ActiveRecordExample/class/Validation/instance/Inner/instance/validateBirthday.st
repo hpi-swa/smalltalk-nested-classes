@@ -1,0 +1,1 @@
+validateBirthday	^ birthday isKindOf: Date

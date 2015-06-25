@@ -1,0 +1,1 @@
+asIterator	^ Iterator new

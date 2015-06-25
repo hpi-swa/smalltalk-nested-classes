@@ -1,0 +1,1 @@
+initialize	array := Array new: self class defaultSize.

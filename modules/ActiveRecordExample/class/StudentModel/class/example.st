@@ -1,0 +1,1 @@
+example	^ self new		firstName: 'John';		lastName: 'Doe';		registrationNo: 754499;		birthday: '28/07/1990' asDate;		yourself

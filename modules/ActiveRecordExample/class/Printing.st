@@ -1,0 +1,1 @@
+Printing	< class >	^ ModuleSystem ClassGenerator subclass

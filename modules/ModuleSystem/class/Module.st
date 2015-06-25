@@ -1,0 +1,1 @@
+Module	< class >	" represents a top-level class "	^ Object subclass

@@ -1,0 +1,1 @@
+ClassGenerator	< class >	^ Object subclassWithInstVars: 'target'

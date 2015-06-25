@@ -1,0 +1,1 @@
+delete: obj	(self chainFor: obj)		remove: obj.

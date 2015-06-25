@@ -1,0 +1,1 @@
+includes: obj	^ (self chainFor: obj) includes: obj

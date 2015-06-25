@@ -1,0 +1,1 @@
+chainAt: index	(array at: index)		ifNil: [ array at: index put: OrderedCollection new ].	^ array at: index

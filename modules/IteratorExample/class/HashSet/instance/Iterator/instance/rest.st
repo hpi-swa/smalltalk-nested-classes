@@ -1,0 +1,1 @@
+rest	| rest |	rest := OrderedCollection new.	[ self hasNext ] whileTrue: [ rest add: self next ].	^ rest

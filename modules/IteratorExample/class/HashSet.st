@@ -1,0 +1,1 @@
+HashSet	< class >	^ Object subclassWithInstVars: 'array'

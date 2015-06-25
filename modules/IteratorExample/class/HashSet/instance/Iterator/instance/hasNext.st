@@ -1,0 +1,1 @@
+hasNext	^ self nextChainAndIndex notNil

@@ -1,0 +1,1 @@
+for: aClass	^ (self new		target: aClass;		Inner) subclass

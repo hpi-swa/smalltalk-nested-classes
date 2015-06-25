@@ -1,0 +1,1 @@
+example	^ self new		add: 6;		add: 8;		add: 19;		add: 1;		add: 98;		add: 343;		add: 276;		add: 977;		add: 5;		add: 6;		add: 5;		add: 5;		add: 98;		yourself

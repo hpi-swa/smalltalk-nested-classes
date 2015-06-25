@@ -1,0 +1,1 @@
+validate	^ self validateRegistrationNo &		self validateFirst &		self validateLast &		self validateBirthday

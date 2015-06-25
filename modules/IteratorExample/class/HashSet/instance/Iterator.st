@@ -1,0 +1,1 @@
+Iterator	< class >	^ Object subclassWithInstVars: 'chain index'

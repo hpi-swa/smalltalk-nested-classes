@@ -1,0 +1,1 @@
+validateRegistrationNo	^ registrationNo isInteger and: [		registrationNo positive & (registrationNo <= 999999) ]

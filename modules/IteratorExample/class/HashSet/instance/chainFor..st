@@ -1,0 +1,1 @@
+chainFor: obj	| pos |	pos := obj hash \\ self class defaultSize + 1.	(array at: pos)		ifNil: [ array at: pos put: OrderedCollection new ].	^ array at: pos

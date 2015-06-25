@@ -1,0 +1,1 @@
+Accessors	< class >	^ ModuleSystem ClassGenerator subclass
