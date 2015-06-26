@@ -14,5 +14,6 @@ testRepository
 	self assert: repository specs size equals: 1.
 	[ repository reset ] on: Warning do: [ :ex | ex resume ].
 	self assert: repository specs size equals: 0.
+	repository removeFromLookup.
 
 	
