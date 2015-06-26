@@ -1,11 +1,19 @@
 {
 	"class" : {
-		 },
+		"resetTestVars" : "MattSpr 6/26/2015 14:48",
+		"testVarAt:" : "MattSpr 6/26/2015 14:44",
+		"testVarAt:put:" : "MattSpr 6/26/2015 14:45",
+		"testVariables" : "MattSpr 6/26/2015 14:44" },
 	"instance" : {
 		"preparedSpec" : "MattSpr 6/25/2015 22:07",
 		"preparedSpecNestedInst" : "MattSpr 6/25/2015 22:07",
 		"preparedSpecNestedMeta" : "MattSpr 6/25/2015 22:07",
+		"tearDown" : "MattSpr 6/26/2015 14:48",
 		"testClassCaching" : "MattSpr 6/19/2015 11:37",
+		"testClassInOuterScopeEarlyBound" : "MattSpr 6/26/2015 15:47",
+		"testClassInOuterScopeEarlyBoundWithOuterSend" : "MattSpr 6/26/2015 15:50",
+		"testClassInOuterScopeWithSelfOuterSend" : "MattSpr 6/26/2015 15:48",
+		"testClassSideInitialization" : "MattSpr 6/26/2015 14:57",
 		"testInheritedClassInstantiationIsNewClass" : "MattSpr 6/26/2015 11:39",
 		"testInitialized" : "MattSpr 6/24/2015 20:22",
 		"testInstNestedIdentity" : "MattSpr 6/19/2015 11:41",

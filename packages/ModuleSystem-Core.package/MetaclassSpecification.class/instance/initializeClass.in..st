@@ -11,5 +11,7 @@ initializeClass: class in: outer
 	self markGenerated: class.
 	super initializeClass: class.
 
+	class theNonMetaClass initialize.
+
 	" force class-side initialization "
 	classDict keysDo: [ :key | class theNonMetaClass perform: key ].

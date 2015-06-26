@@ -3,7 +3,7 @@
 	"classinstvars" : [
 		 ],
 	"classvars" : [
-		 ],
+		"TestVariables" ],
 	"commentStamp" : "",
 	"instvars" : [
 		 ],
