@@ -7,13 +7,13 @@ def8ecc380730094f20a5740afefd520d13
 	#text -> 'Delete'.
 	#icon -> UiFugueIcons minusIcon.
 	#clicked -> [[ memberSpecification fullRemove.
-  ModuleSystemViewHelper refreshClassTree]]}]
+  ViEventNotifier trigger: #ModuleSystemModuleView ]]}]
 		value: o), { #object -> o }]]
 			value: in) do: [:result | out add: result]]); add: (#sourceCode->'[:in :out | ([:all | all collect: [:o | (
 	[:memberSpecification | {
 	#text -> ''Delete''.
 	#icon -> UiFugueIcons minusIcon.
 	#clicked -> [[ memberSpecification fullRemove.
-  ModuleSystemViewHelper refreshClassTree]]}]
+  ViEventNotifier trigger: #ModuleSystemModuleView ]]}]
 		value: o), { #object -> o }]]
 			value: in) do: [:result | out add: result]]'); yourself)

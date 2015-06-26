@@ -10,7 +10,7 @@ def3aa02218436e4e1d982fc0c0c6045fdd
   newName := UIManager default request: 'Specify name name'.
   newName isEmpty ifFalse: [.
   	memberSpecification fullRename: newName.
-  	ModuleSystemViewHelper refreshClassTree ]]]}]
+  	ViEventNotifier trigger: #ModuleSystemModuleView ]]]}]
 		value: o), { #object -> o }]]
 			value: in) do: [:result | out add: result]]); add: (#sourceCode->'[:in :out | ([:all | all collect: [:o | (
 	[:memberSpecification | {
@@ -20,6 +20,6 @@ def3aa02218436e4e1d982fc0c0c6045fdd
   newName := UIManager default request: ''Specify name name''.
   newName isEmpty ifFalse: [.
   	memberSpecification fullRename: newName.
-  	ModuleSystemViewHelper refreshClassTree ]]]}]
+  	ViEventNotifier trigger: #ModuleSystemModuleView ]]]}]
 		value: o), { #object -> o }]]
 			value: in) do: [:result | out add: result]]'); yourself)

@@ -7,13 +7,13 @@ defbee09678c6664917a2b319e956ada3c1
 	#text -> 'Export Module'.
 	#icon -> UiSilkIcons diskIcon.
 	#clicked -> [[ memberSpecification exportModule.
-  ModuleSystemViewHelper refreshClassTree ]]}]
+  ViEventNotifier trigger: #ModuleSystemModuleView ]]}]
 		value: o), { #object -> o }]]
 			value: in) do: [:result | out add: result]]); add: (#sourceCode->'[:in :out | ([:all | all collect: [:o | (
 	[:memberSpecification | {
 	#text -> ''Export Module''.
 	#icon -> UiSilkIcons diskIcon.
 	#clicked -> [[ memberSpecification exportModule.
-  ModuleSystemViewHelper refreshClassTree ]]}]
+  ViEventNotifier trigger: #ModuleSystemModuleView ]]}]
 		value: o), { #object -> o }]]
 			value: in) do: [:result | out add: result]]'); yourself)
