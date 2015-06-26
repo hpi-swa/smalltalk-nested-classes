@@ -1,0 +1,1 @@
+v1	< class >	^ ModuleSystem Version subclass

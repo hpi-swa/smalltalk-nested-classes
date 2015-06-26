@@ -1,0 +1,1 @@
+radToDeg: aNumber	^ (aNumber * 180 / Constants pi) asFloat

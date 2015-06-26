@@ -1,0 +1,1 @@
+versionString	| outerVersion |	" TODO: outer lookup should not use self send "	(self outer inheritsFrom: outer Version)		ifTrue: [ outerVersion := self outer versionString, '.' ]		ifFalse: [ outerVersion := '' ].		^ outerVersion, self specification selector allButFirst

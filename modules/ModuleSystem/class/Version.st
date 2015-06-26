@@ -1,0 +1,1 @@
+Version	< class >	^ Object subclass		<< Versionable

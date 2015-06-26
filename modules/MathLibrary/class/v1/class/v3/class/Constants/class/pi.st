@@ -1,0 +1,1 @@
+pi	| result add |	result := 0.	add := true.	0 to: 2000 do: [ :i | | next | 		next := 2 * i + 1.		add			ifTrue: [ result := result +  (4 / next)]			ifFalse: [ result := result - (4 / next) ].		add := add not ].	^ result
