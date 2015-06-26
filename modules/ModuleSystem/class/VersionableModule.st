@@ -1,1 +1,0 @@
-VersionableModule	< class >	^ Module subclass		<< Versionable

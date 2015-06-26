@@ -14,4 +14,7 @@ initializeClass: class in: outer
 			" initialize meta class "
 			metaclassSpec initializeClass: class class in: outer isSuper: isSuperCall.
 
+			" outer must be present on instance side, otherwise there would be no way to get an early-bound outer "
+			self installOuterMethod: class with: outer.
+
 			super initializeClass: class ].

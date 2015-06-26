@@ -1,0 +1,1 @@
+VersioningVersion	< class >	^ Version subclass << Versioning

@@ -1,1 +1,1 @@
-defaultSuperclass	^ VersionableModule
+defaultSuperclass	^ VersioningModule

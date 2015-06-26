@@ -11,6 +11,7 @@
 		"tearDown" : "MattSpr 6/26/2015 14:48",
 		"testClassCaching" : "MattSpr 6/19/2015 11:37",
 		"testClassInOuterScopeEarlyBound" : "MattSpr 6/26/2015 15:47",
+		"testClassInOuterScopeEarlyBoundFromInstSide" : "MattSpr 6/26/2015 19:14",
 		"testClassInOuterScopeEarlyBoundWithOuterSend" : "MattSpr 6/26/2015 15:50",
 		"testClassInOuterScopeWithSelfOuterSend" : "MattSpr 6/26/2015 15:48",
 		"testClassSideInitialization" : "MattSpr 6/26/2015 14:57",

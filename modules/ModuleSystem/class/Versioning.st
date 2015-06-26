@@ -1,0 +1,1 @@
+Versioning	< class >	" a mixin for version containers (containing other versions as nested classes) "	^ ClassGenerator subclass

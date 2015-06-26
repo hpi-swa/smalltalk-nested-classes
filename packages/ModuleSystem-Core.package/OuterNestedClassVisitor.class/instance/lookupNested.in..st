@@ -1,19 +1,17 @@
 lookup
 lookupNested: identifier in: node
-	| cls outerSends |
-	cls := lookupStart.
+	| spec outerSends |
+	spec := lookupStart specification.	 " we are in method compilation, so cls is a class (not self but self class)! "
 	outerSends := OrderedCollection new.
 
-	[ cls notNil ] whileTrue: [
-		cls isBehavior ifTrue: [
-			cls isNestedGenerated 
-				ifTrue: [ (cls specification classDict includesKey: identifier)
-					ifTrue: [ node replaceWith: (self outerSend: identifier level: outerSends). ^ true ] ]
-				ifFalse: [ " reached a class outside of the module system " ^ false ] .
-			cls := cls outer.
-			outerSends add: #outer ]
-		ifFalse: [ " instance-side nesting "
-			cls := cls class.
-			outerSends add: #class ] ].
+	[ spec notNil ] whileTrue: [
+		(spec hasClass: identifier)
+			ifTrue: [ node replaceWith: (self outerSend: identifier level: outerSends). ^ true ].
+		(spec isMeta not and: [ spec theMetaClassSpecification hasClass: identifier ]) 
+			ifTrue: [ " found on class side "
+				outerSends add: #class.
+				node replaceWith: (self outerSend: identifier level: outerSends). ^ true ].
+		spec := spec parent.
+		outerSends add: #outer ].
 	
 	^ false

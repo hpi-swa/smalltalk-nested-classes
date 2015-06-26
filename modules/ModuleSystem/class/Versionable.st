@@ -1,1 +1,0 @@
-Versionable	< class >	" a mixin adding convenience methods for accessing versioning nested classes "	^ ClassGenerator subclass

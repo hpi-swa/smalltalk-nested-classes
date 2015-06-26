@@ -1,0 +1,1 @@
+VersioningModule	< class >	^ Module subclass		<< Versioning

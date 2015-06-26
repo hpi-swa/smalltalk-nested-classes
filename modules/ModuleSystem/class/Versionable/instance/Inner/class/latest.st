@@ -1,1 +1,0 @@
-latest	| versions |	versions := ((self class selectors select: [ :sel | sel beginsWith: #v ]) 		collect: [ :ver | (ver findTokens: #v) first asInteger ]) sorted.	^ self perform: (#v, versions last) asSymbol

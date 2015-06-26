@@ -1,3 +1,3 @@
 *ModuleSystem-Core
 outer
-	^ self theNonMetaClass outer class
+	^ self theNonMetaClass outer
