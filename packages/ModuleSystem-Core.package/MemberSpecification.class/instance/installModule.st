@@ -1,3 +1,3 @@
-*ModuleSystem-Helpers
+instantiation
 installModule
 	self findModule installModule
