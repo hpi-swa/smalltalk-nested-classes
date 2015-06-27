@@ -1,7 +1,7 @@
 testing
 testInstantiatedSpec
 	| class |
-	class := self preparedSpec generateModule.
+	class := self preparedSpec generateBasicModule.
 	
 	self assert: class classMethod equals: 1.
 	self assert: class ClassNested isBehavior.

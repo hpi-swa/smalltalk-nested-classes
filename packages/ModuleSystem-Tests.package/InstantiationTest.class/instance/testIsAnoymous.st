@@ -1,7 +1,7 @@
 testing
 testIsAnoymous
 	| class |
-	class := self preparedSpec generateModule.
+	class := self preparedSpec generateBasicModule.
 	
 	self assert: class isAnonymous.
 	self assert: class ClassNested isAnonymous.

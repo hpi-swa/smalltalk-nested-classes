@@ -1,7 +1,7 @@
 testing
 testOuter
 	| class instance |
-	class := self preparedSpec generateModule.
+	class := self preparedSpec generateBasicModule.
 	
 	self assert: class outer equals: nil.
 	self assert: class ClassNested outer equals: class.

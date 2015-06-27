@@ -2,7 +2,7 @@ testing
 testSpecification
 	| class spec |
 	spec := self preparedSpec.
-	class := spec generateModule.
+	class := spec generateBasicModule.
 	
 	self assert: class specification equals: spec.
 	self assert: class specification theMetaClassSpecification equals: class class specification.

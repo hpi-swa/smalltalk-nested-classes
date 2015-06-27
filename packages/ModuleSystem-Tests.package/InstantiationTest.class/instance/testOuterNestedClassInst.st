@@ -1,7 +1,7 @@
 testing
 testOuterNestedClassInst
 	| class |
-	class := self preparedSpecNestedInst generateModule.
+	class := self preparedSpecNestedInst generateBasicModule.
 	
 	self assert: class new ANested classMethod equals: 3.
 	self assert: class new ANested new instMethod equals: 4.

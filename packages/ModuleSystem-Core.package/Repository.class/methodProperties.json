@@ -1,7 +1,8 @@
 {
 	"class" : {
 		"instance" : "FabN 6/25/2015 22:18",
-		"modules" : "MattSpr 6/25/2015 23:48" },
+		"modules" : "MattSpr 6/25/2015 23:48",
+		"newModule:" : "MattSpr 6/26/2015 20:10" },
 	"instance" : {
 		"addModule:as:" : "MattSpr 6/24/2015 22:37",
 		"addSpec:" : "MattSpr 6/24/2015 22:39",
