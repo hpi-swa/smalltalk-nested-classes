@@ -2,8 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
-		"addClass:name:" : "MattSpr 6/14/2015 22:59",
-		"className:" : "MattSpr 6/14/2015 22:59",
+		"className" : "MattSpr 6/27/2015 14:40",
 		"findModule" : "FabN 6/24/2015 20:44",
 		"fullRemove" : "MattSpr 6/24/2015 22:56",
 		"initialize" : "MattSpr 6/19/2015 11:22",
@@ -11,5 +10,6 @@
 		"isLayer" : "MattSpr 6/22/2015 20:17",
 		"isLayer:" : "MattSpr 6/22/2015 20:16",
 		"isMeta" : "MattSpr 6/14/2015 20:55",
+		"isModule" : "MattSpr 6/27/2015 14:26",
 		"theMetaClassSpecification" : "MattSpr 6/14/2015 20:54",
 		"theMetaClassSpecification:" : "MattSpr 6/14/2015 20:56" } }

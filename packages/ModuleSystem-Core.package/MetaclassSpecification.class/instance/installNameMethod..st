@@ -1,3 +1,3 @@
 instantiation
 installNameMethod: class
-	class compile: 'name ^ ''', self className, ''''.
+	class compile: 'name ^ ''', self theNonMetaClassSpecification className, ''''.

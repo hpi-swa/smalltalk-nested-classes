@@ -2,7 +2,7 @@ testing
 testInitialized
 	| class spec |
 	class := Object subclass.
-	spec := ClassSpecification new.
+	spec := ModuleSpecification new.
 	
 	spec initializeClass: class in: nil.
 	self assert: class isInitialized.

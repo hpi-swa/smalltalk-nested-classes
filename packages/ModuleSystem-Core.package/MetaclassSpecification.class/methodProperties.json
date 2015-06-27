@@ -2,17 +2,17 @@
 	"class" : {
 		 },
 	"instance" : {
-		"addClass:name:" : "MattSpr 6/14/2015 21:00",
 		"findModule" : "FabN 6/24/2015 20:53",
 		"fullRemove" : "MattSpr 6/24/2015 22:53",
 		"initializeClass:in:" : "MattSpr 6/26/2015 14:56",
 		"initializeClass:in:isSuper:" : "MattSpr 6/26/2015 14:57",
-		"installNameMethod:" : "MattSpr 6/19/2015 19:06",
+		"installNameMethod:" : "MattSpr 6/27/2015 14:42",
 		"installSpecification:" : "MattSpr 6/19/2015 18:57",
 		"isLayer" : "MattSpr 6/23/2015 11:32",
 		"isMeta" : "MattSpr 6/14/2015 21:08",
 		"isPartial" : "MattSpr 6/23/2015 11:31",
 		"markGenerated:" : "MattSpr 6/19/2015 19:06",
 		"parent" : "MattSpr 6/26/2015 18:48",
+		"selector" : "MattSpr 6/27/2015 14:24",
 		"theNonMetaClassSpecification" : "MattSpr 6/14/2015 20:54",
 		"theNonMetaClassSpecification:" : "MattSpr 6/14/2015 20:57" } }
