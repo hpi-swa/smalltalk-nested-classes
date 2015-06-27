@@ -1,0 +1,1 @@
+TestCaseHolder	< class >	^ Object subclass << Uninstantiable

@@ -1,1 +1,1 @@
-v2	< class >	^ ModuleSystem Version subclass
+v2	< class >	^ ModuleSystem Version subclass		<< ModuleSystem Uninstantiable

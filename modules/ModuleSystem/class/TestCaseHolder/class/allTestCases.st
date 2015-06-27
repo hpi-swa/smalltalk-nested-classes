@@ -1,0 +1,1 @@
+allTestCases	^ self class specification nestedSelectors		collect: [ :sel | self perform: sel ] thenSelect: [ :cls | cls isTestClass ]

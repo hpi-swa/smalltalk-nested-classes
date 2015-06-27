@@ -1,0 +1,1 @@
+Tests	< class >	^ ModuleSystem TestCaseHolder subclass

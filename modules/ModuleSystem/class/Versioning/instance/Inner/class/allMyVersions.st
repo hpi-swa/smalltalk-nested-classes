@@ -1,0 +1,1 @@
+allMyVersions	^ self class selectors select: [ :sel | sel beginsWith: #v ] thenCollect: [ :sel | self perform: sel ]

@@ -6,4 +6,5 @@ iconFor: aSymbol
 		add: #ClassGenerator -> UiFugueIcons puzzleIcon;
 		add: #Version -> self numberIcon;
 		add: #Namespace -> self namespaceIcon;
+		add: #Tests -> UiFugueIcons trafficLightIcon;
 		yourself) at: aSymbol ifAbsent: [ UiFugueIcons crossCircleIcon ]
