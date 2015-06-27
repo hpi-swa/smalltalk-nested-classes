@@ -5,7 +5,7 @@ sudo: true
 env:
    - ST=Squeak-4.4
    - ST=Squeak-4.5
-   - ST=Squeak-Trunk
+   - ST=Squeak-Trunk SCREENSHOT=30
 
 # Allow builds to fail on certain platforms
 matrix:
