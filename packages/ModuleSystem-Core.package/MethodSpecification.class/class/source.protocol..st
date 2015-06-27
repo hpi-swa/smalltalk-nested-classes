@@ -8,8 +8,8 @@ source: source protocol: protocol
 	isNestedClass
 		ifTrue: [ 
 			selector first isUppercase ifFalse: [
-				self notify: 'Message selector ', selector name asText, 
-					' should start with an uppercase letter.' withCRs]. 
+				"self notify: 'Message selector ', selector name asText, 
+					' should start with an uppercase letter.' withCRs"]. 
 			transformedSource := NestedAccessorVisitor process: parseTree ]
 		ifFalse: [ transformedSource := source ].
 	^ self new

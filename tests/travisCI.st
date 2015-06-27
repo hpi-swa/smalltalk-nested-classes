@@ -1,4 +1,4 @@
-| gitPath gitCache modulePath |
+| gitPath gitCache modulePath moduleSystemSuites |
 Transcript cr; show: 'travis---->travisCI.st'.
 
 gitCache := 'git_cache'.
@@ -32,3 +32,26 @@ TravisCIHarness
   value: #( 'BaselineOfModuleSystem' )
   value: 'TravisCISuccess.txt' 
   value: 'TravisCIFailure.txt'.
+
+"Run ModuleSystem tests"
+moduleSystemSuites := (Repository instance allTestPackages gather: [ :mod | mod allTestCases ]) collect: [ :testCaseClass | testCaseClass suite ].
+moduleSystemSuites do: [ :suite | | contentsSuccess contentsFailure appendStream |
+    "copy old content"
+    contentsSuccess := (FileDirectory default readOnlyFileNamed: 'TravisCISuccess.txt') contents.
+    contentsFailure := (FileDirectory default readOnlyFileNamed: 'TravisCIFailure.txt') contents.
+
+    "run test"
+    MetacelloBuilderTravisCI runTestSuite: suite successFilename: 'TravisCISuccess.txt' failFilename: 'TravisCIFailure.txt'.
+    
+    "append previous results"
+    appendStream := FileDirectory default oldFileNamed: 'TravisCISuccess.txt'.
+    appendStream setToEnd.
+    appendStream nextPutAll: contentsSuccess.
+    appendStream flush.
+    appendStream close.
+    appendStream := FileDirectory default oldFileNamed: 'TravisCIFailure.txt'.
+    appendStream setToEnd.
+    appendStream nextPutAll: contentsFailure.
+    appendStream flush.
+    appendStream close ].
+

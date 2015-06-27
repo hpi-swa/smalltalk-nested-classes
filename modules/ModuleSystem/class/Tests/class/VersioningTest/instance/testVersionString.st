@@ -1,0 +1,1 @@
+testVersionString	self should: [ DummyModule versionString ] raise: MessageNotUnderstood.	self assert: DummyModule v1 versionString equals: '1'.	self assert: DummyModule v2 v3 versionString equals: '2.3'.

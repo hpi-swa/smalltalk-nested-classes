@@ -1,0 +1,1 @@
+testLatest	self assert: DummyModule myLatest equals: DummyModule v2.	self assert: DummyModule v1 myLatest equals: DummyModule v1 v2.	self assert: DummyModule latest equals: DummyModule v2 v3.	self assert: DummyModule v1 latest equals: DummyModule v1 v2.	self should: [ DummyModule latest latest ] raise: MessageNotUnderstood.
