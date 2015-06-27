@@ -1,0 +1,9 @@
+as yet unclassified
+numberIcon
+	^ self ownIcons at: #number ifAbsentPut: [
+		 (PNGReadWriter on: (Base64MimeConverter mimeDecodeToBytes: 'iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9i
+ZSBJbWFnZVJlYWR5ccllPAAAALZJREFUeNpi/P//PwMlgImBQkCxAQwgL4AwIyMjOtYG4jVQ
+GoUP0wPC+FxgCsS/gPgqDj5BL3gC8R48fDBghMUCExPYLD0gbifk7X///nkTCoM0IN6Ii09M
+GPgD8Q48fJxeOExExOUBvXAenxfygXgfHj52LyAl6Qgg3opkI5wP04QMWJDYzEBJOyAtC8S3
+gVgKGiswvggQfwTi31jDAOg0ZiDFB8ScOPz+C2YAsisYBzw3AgQYAPe7bHJIc8toAAAAAElF
+TkSuQmCC' readStream)) nextImage ]

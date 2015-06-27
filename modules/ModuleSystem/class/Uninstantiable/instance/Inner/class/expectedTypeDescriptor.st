@@ -1,0 +1,1 @@
+expectedTypeDescriptor	^ super expectedTypeDescriptor, #(Namespace)

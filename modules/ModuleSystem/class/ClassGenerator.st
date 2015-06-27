@@ -1,1 +1,1 @@
-ClassGenerator	< class >	^ Object subclassWithInstVars: 'target'
+ClassGenerator	< class >	" A class generator that injects 'self Inner' as a mixin. This class should be an 'Uninstantiable',	but 'Uninstantiable' is itself a class generator."	^ Object subclassWithInstVars: 'target'

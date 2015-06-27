@@ -1,1 +1,1 @@
-Version	< class >	^ Object subclass
+Version	< class >	" Represents a version/release. "	^ Object subclass

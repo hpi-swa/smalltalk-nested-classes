@@ -1,1 +1,1 @@
-defaultSuperclass	^ VersioningModule
+defaultSuperclass	" Returns the class which all modules become subclasses of upon instantiation. "	^ VersioningModule

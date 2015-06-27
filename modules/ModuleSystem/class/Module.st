@@ -1,1 +1,1 @@
-Module	< class >	" represents a top-level class "	^ Object subclass
+Module	< class >	" Represents a top-level class. "	^ Object subclass

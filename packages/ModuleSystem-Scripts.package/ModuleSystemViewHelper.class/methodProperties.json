@@ -1,9 +1,13 @@
 {
 	"class" : {
 		"execute:on:" : "FabN 6/24/2015 09:42",
-		"iconFor:" : "FabN 6/24/2015 12:53",
+		"iconFor:" : "MattSpr 6/27/2015 13:16",
 		"iconForSidePanel:" : "FabN 6/26/2015 10:27",
 		"multiIconFor:" : "FabN 6/24/2015 21:09",
+		"namespaceIcon" : "MattSpr 6/27/2015 13:12",
+		"numberIcon" : "MattSpr 6/27/2015 13:00",
+		"ownIcons" : "MattSpr 6/27/2015 12:52",
+		"refreshClassTree" : "FabN 6/24/2015 09:39",
 		"textForClassTree:" : "FabN 6/24/2015 09:39",
 		"textForSidePanel:" : "FabN 6/24/2015 09:38" },
 	"instance" : {

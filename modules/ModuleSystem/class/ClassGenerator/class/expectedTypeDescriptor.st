@@ -1,1 +1,1 @@
-expectedTypeDescriptor	^ super expectedTypeDescriptor, #(ClassGenerator)
+expectedTypeDescriptor	^ super expectedTypeDescriptor, #(ClassGenerator Namespace)

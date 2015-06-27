@@ -1,1 +1,1 @@
-VersioningVersion	< class >	^ Version subclass << Versioning
+VersioningVersion	< class >	" A version that contains versions. "	^ Version subclass << Versioning

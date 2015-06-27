@@ -1,1 +1,1 @@
-for: aClass	^ (self new		target: aClass;		Inner) subclass
+for: aClass	^ (self basicNew		target: aClass;		initialize;		Inner) subclass

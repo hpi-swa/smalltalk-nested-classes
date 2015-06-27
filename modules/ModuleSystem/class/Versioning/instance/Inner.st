@@ -1,1 +1,1 @@
-Inner	< class >	^ super Inner
+Inner	< class >	^ super Inner << Uninstantiable

@@ -1,0 +1,1 @@
+Uninstantiable	< class >	" A mixin that marks a class as uninstantiable, effectively making it a pure namespace. "	^ ClassGenerator subclass
