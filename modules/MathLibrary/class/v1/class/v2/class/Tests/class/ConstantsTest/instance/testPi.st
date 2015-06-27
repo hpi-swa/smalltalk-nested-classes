@@ -1,0 +1,1 @@
+testPi	self assert: Constants pi equals: 3.14.

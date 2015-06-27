@@ -1,0 +1,1 @@
+testDegToRad	self assert: (Helpers degToRad: 360) equals: 2 * Constants pi.
