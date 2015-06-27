@@ -34,7 +34,7 @@ TravisCIHarness
   value: 'TravisCIFailure.txt'.
 
 "Run ModuleSystem tests"
-moduleSystemSuites := (Repository instance allTestPackages gather: [ :mod | mod allTestCases ]) collect: [ :testCaseClass | testCaseClass suite ].
+moduleSystemSuites := (Repository instance allTestPackages gather: [ :mod | mod allTestCases ]) collect: [ :testCaseClass | | suite | suite := testCaseClass suite. suite name: '[MS] ', testCaseClass name. suite ].
 moduleSystemSuites do: [ :suite | | contentsSuccess contentsFailure appendStream |
     "copy old content"
     (FileDirectory default fileExists: 'TravisCISuccess.txt')
