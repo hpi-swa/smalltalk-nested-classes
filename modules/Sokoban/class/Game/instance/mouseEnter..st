@@ -1,0 +1,1 @@
+mouseEnter: aMorphicEvent        aMorphicEvent hand newKeyboardFocus: self.

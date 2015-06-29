@@ -1,0 +1,1 @@
+buildScore	^ TextMorph new		contents: self scoreString;		color: Color white;		backgroundColor: Color transparent;		lock;		yourself

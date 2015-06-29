@@ -1,0 +1,1 @@
+addRow: aSequenceableCollection	self rows add: aSequenceableCollection.	^ aSequenceableCollection

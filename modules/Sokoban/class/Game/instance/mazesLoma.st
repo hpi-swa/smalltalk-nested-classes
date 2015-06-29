@@ -1,0 +1,1 @@
+mazesLoma	self sworld setMazesNamed: #mazesLoma.	self start.

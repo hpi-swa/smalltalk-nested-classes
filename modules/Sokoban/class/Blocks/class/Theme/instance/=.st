@@ -1,0 +1,1 @@
+= anObject	self == anObject ifTrue: [^ true].	anObject isSokobanTheme ifFalse: [^ false].	^ self name = anObject name

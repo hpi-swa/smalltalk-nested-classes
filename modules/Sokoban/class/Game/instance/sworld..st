@@ -1,0 +1,1 @@
+sworld: aSokobanWorld	sworld := aSokobanWorld.

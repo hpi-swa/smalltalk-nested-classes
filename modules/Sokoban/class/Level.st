@@ -1,0 +1,1 @@
+Level	< class >	^ Object subclassWithInstVars: 'index fixed movable range player boxes moves pushes'

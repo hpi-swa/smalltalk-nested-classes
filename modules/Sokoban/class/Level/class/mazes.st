@@ -1,0 +1,1 @@
+mazes	"^ <IdentityDictionary key: Integer value: String>"	^ Mazes

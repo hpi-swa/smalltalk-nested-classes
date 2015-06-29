@@ -1,0 +1,1 @@
+blockImageRight	^ Theme current playerImageRight

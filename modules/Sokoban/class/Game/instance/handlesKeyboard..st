@@ -1,0 +1,1 @@
+handlesKeyboard: aMorphicEvent	^ true

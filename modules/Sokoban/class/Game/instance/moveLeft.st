@@ -1,0 +1,1 @@
+moveLeft	self moveLeftModifiers: { false. false. }.

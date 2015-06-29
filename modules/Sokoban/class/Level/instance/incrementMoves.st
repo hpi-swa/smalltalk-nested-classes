@@ -1,0 +1,1 @@
+incrementMoves	self moves: self moves + 1.

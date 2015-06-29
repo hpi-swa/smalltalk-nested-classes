@@ -1,0 +1,1 @@
+random	"doIt: [self random openInWorld]"	^ self new initializeRandom

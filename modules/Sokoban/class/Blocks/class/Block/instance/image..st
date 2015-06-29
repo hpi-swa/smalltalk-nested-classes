@@ -1,0 +1,1 @@
+image: aForm	super image: (aForm scaledToSize: self blockSize).

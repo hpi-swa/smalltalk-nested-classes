@@ -1,0 +1,1 @@
+blockSize	^ self sworld		ifNil: [self class blockSize]		ifNotNil: [sworld boxes someElement blockSize]

@@ -1,0 +1,1 @@
+sworld	"^ <SokobanWorld>"	^ sworld

@@ -1,0 +1,1 @@
+isSokobanBox	^ true

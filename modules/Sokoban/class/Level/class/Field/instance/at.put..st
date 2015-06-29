@@ -1,0 +1,1 @@
+at: aPoint put: aSokobanBlock	^ (self rows at: aPoint y) at: aPoint x put: aSokobanBlock

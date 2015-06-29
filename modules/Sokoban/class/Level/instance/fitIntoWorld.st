@@ -1,0 +1,1 @@
+fitIntoWorld	self fixed allBlocksDo: [:block |		block isSokobanBlock ifTrue: [block fitIntoWorld]].	self movable allBlocksDo: [:block |		block isSokobanBlock ifTrue: [block fitIntoWorld]].

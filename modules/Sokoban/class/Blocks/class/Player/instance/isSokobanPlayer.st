@@ -1,0 +1,1 @@
+isSokobanPlayer	^ true

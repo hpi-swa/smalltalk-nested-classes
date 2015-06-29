@@ -1,0 +1,1 @@
+handlesMouseOver: aMorphicEvent	^ true

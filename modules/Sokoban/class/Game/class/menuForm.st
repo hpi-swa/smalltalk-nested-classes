@@ -1,0 +1,1 @@
+menuForm	^ (ColorForm		extent: 11@10		depth: 1		fromArray: #( 4292870144 2149580800 2787115008 2149580800 3546284032 4292870144 2149580800 2996830208 2149580800 4292870144)		offset: 0@0)			colors: {Color transparent . Color white}

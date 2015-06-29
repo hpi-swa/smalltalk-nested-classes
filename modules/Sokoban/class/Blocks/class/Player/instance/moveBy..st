@@ -1,0 +1,1 @@
+moveBy: aPoint	(self canMoveBy: aPoint) ifTrue: [self moveSimplyBy: aPoint].

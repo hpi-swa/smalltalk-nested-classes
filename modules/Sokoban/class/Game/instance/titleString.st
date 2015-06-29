@@ -1,0 +1,1 @@
+titleString	^ ' Maze #', self sworld index printString, ' (', self sworld mazeSetName, ')'

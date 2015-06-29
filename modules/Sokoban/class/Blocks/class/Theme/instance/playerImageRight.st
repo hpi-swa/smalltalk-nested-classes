@@ -1,0 +1,1 @@
+playerImageRight	^ self images at: #playerRight ifAbsent: [self playerImage]

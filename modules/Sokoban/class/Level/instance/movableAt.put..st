@@ -1,0 +1,1 @@
+movableAt: aPoint put: aSokobanBlock	^ self movable at: aPoint put: aSokobanBlock

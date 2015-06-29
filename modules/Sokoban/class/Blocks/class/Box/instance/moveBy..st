@@ -1,0 +1,1 @@
+moveBy: aPoint	| current new |	current := self location.	new := current + aPoint.	(self sworld)		movableAt: current put: nil;		movableAt: new put: self.	self		location: new;		position: self position + (self blockSize * aPoint).

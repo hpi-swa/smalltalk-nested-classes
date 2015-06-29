@@ -1,0 +1,1 @@
+random	| position |	position := self position.	self		delete;		initializeRandom;		position: position;		openInWorld.

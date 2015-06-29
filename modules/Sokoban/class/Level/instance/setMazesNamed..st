@@ -1,0 +1,1 @@
+setMazesNamed: aSymbol	self class setMazesNamed: aSymbol.

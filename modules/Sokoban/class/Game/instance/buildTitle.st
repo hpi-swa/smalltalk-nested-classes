@@ -1,0 +1,1 @@
+buildTitle	^ TextMorph new		contents: self titleString;		color: Color white;		backgroundColor: Color transparent;		centered;		lock;		yourself

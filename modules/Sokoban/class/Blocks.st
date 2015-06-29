@@ -1,0 +1,1 @@
+Blocks	< class >	^ Object subclass << ModuleSystem Uninstantiable

@@ -1,0 +1,1 @@
+Game	< class >	^ Morph subclassWithInstVars: 'sworld score'

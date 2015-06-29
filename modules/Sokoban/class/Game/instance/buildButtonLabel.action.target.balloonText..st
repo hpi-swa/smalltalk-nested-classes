@@ -1,0 +1,1 @@
+buildButtonLabel: aString action: aSymbol target: anObject balloonText: anotherString	^ (self buildButtonLabel: aString action: aSymbol target: anObject)		setBalloonText: anotherString

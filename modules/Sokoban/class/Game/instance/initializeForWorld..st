@@ -1,0 +1,1 @@
+initializeForWorld: aSokobanWorld	super initialize.	self		sworld: aSokobanWorld;		center: World center;		clipSubmorphs: true;		addTitleBoxesAndControls.

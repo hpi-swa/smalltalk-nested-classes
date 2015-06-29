@@ -1,0 +1,1 @@
+moveUpModifiers: anArray	self flag: #rhi. "Direction not intuitive! See moveDown..."	self		moveBy: 0 @ -1 modifiers: anArray;		image: self class blockImage.

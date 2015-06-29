@@ -1,0 +1,1 @@
+fromFile: aString	"inspectIt: [self fromFile: './Screens/screen.1']"	^ self fromString: (FileStream fileNamed: (FileDirectory pathFromURI: aString)) contentsOfEntireFile

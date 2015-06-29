@@ -1,0 +1,1 @@
+addPaddingTo: aSokobanField	| max |	max := self range x.	aSokobanField rows do: [:row | row		add: (self class blockForFixed: self class free)		withOccurrences: max - row size].

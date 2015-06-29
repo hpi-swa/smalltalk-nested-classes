@@ -1,0 +1,1 @@
+defaultImage: aForm	DefaultImage := aForm

@@ -1,0 +1,1 @@
+fitSubMorphs	| extentX extentY |	extentX := self blockSize x * self sworld range x.	extentY := self blockSize y * self sworld range y		+ self class controlsHeight + self class titleHeight.	self extent: extentX @ extentY.

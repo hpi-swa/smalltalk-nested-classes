@@ -1,0 +1,1 @@
+moveBy: aPoint modifiers: anArray	anArray first ifTrue: [^ self moveFullBy: aPoint].	anArray second ifTrue: [^ self moveFullWithoutPushingBy: aPoint].	self moveBy: aPoint.

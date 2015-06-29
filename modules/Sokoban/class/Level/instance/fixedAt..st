@@ -1,0 +1,1 @@
+fixedAt: aPoint	^ self fixed at: aPoint

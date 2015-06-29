@@ -1,0 +1,1 @@
+forWorld: aSokobanWorld	"doIt: [(self forWorld: (SokobanWorld fromFile: '.\Screens\screen.1')) openInWorld]"	"doIt: [(self forWorld: (SokobanWorld fromIndex: 1)) openInWorld]"	^ self new initializeForWorld: aSokobanWorld

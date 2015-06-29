@@ -1,0 +1,1 @@
+tokensFrom: aString	^ aString findTokens: String crlf

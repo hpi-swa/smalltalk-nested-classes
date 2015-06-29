@@ -1,0 +1,1 @@
+buildButtonForm: aForm action: aSymbol target: anObject	^ IconicButton new		labelGraphic: aForm;		actionSelector: aSymbol;		target: anObject;		actWhen: #buttonDown;		color: Color black;		borderWidth: 0;		height: self class controlsHeight;		layoutInset: 3;		hResizing: #rigid;		vResizing: #rigid;		cornerStyle: #square;		changeTableLayout;		yourself

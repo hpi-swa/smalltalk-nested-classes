@@ -1,0 +1,1 @@
+boxesFrom: aSokobanField	| boxes |	boxes := Set new.	aSokobanField rows do: [:row |		boxes addAll: (row select: [:block | block isSokobanBox])].	^ boxes

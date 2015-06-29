@@ -1,0 +1,1 @@
+mazesSelectionMenu	| menu |	menu := MenuMorph new defaultTarget: self.	self sworld mazeSetNames "asSortedCollection" do: [:each |		menu add: each value action: each key].	menu popUpInWorld.

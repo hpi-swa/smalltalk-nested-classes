@@ -1,0 +1,1 @@
+rows	"^ <SequenceableCollection of: <SequenceableCollection of: SokobanBlock>>"	^ rows

@@ -1,0 +1,1 @@
+blockForFixed: aCharacter	^ (self blocksForFixed at: aCharacter) value

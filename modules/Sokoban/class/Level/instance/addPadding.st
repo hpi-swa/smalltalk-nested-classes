@@ -1,0 +1,1 @@
+addPadding	self		addPaddingTo: self fixed;		addPaddingTo: self movable.

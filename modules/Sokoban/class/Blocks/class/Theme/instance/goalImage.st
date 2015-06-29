@@ -1,0 +1,1 @@
+goalImage	^ self imageAt: #goal

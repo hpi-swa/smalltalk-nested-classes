@@ -1,0 +1,1 @@
+addImage: anAssociation	self images add: anAssociation.	^ anAssociation

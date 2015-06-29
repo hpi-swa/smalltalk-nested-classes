@@ -1,0 +1,1 @@
+open	^ Game new openInWorld

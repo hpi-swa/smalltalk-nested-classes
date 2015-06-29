@@ -1,0 +1,1 @@
+updateScore	self score contents: self scoreString.

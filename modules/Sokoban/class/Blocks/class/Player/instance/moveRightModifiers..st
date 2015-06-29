@@ -1,0 +1,1 @@
+moveRightModifiers: anArray	self		moveBy: 1 @ 0 modifiers: anArray;		image: self class blockImageRight.

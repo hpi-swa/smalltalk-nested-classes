@@ -1,0 +1,1 @@
+player: aSokobanPlayer	player := aSokobanPlayer.

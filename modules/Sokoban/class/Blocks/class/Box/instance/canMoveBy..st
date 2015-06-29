@@ -1,0 +1,1 @@
+canMoveBy: aPoint	| target |	target := self location + aPoint.	^ ((self sworld fixedAt: target) isSokobanBlock not		or: [(self sworld fixedAt: target) isSokobanGoal])			and: [(self sworld movableAt: target) isSokobanBlock not]

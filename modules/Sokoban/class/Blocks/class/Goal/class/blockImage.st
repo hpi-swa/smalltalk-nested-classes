@@ -1,0 +1,1 @@
+blockImage	^ Theme current goalImage

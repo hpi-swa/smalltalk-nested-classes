@@ -1,0 +1,1 @@
+rangeFrom: aString	| maze |	maze := self mazeFrom: aString.	^ (maze inject: 0 into: [:longest :each | each size max: longest]) @ maze size

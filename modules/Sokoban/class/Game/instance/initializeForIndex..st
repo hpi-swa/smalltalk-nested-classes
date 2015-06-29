@@ -1,0 +1,1 @@
+initializeForIndex: anInteger	self initializeForWorld: (Level fromIndex: anInteger).

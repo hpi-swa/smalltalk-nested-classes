@@ -1,0 +1,1 @@
+initialize	blockSize := self class blockSize.	self flag: #rhi. "Move super-call up in sequence?!"	super initialize.	self		extent: self blockSize;		image: self blockImage.

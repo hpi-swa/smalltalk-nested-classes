@@ -1,0 +1,1 @@
+announceIfFinished	self color: (self sworld isFinished		ifTrue: [Color veryVeryLightGray]		ifFalse: [Color lightGray]).

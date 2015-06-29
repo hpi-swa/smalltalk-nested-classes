@@ -1,0 +1,1 @@
+blockForMovable: aCharacter	^ (self blocksForMovable at: aCharacter) value

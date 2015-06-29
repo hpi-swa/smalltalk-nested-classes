@@ -1,0 +1,1 @@
+mazeFrom: aString	^ (self tokensFrom: aString) do: [:row |		row replaceAll: self playerAtGoal with: self player]

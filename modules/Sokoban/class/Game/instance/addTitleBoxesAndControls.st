@@ -1,0 +1,1 @@
+addTitleBoxesAndControls	self		addBoxes;		fitSubMorphs;		addTitle;		addControls.

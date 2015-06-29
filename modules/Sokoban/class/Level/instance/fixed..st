@@ -1,0 +1,1 @@
+fixed: aSokobanField	self flag: #rhi. "Refactor!"	aSokobanField allBlocksDo: [:each | each isSokobanBlock ifTrue: [each sworld: self]].	fixed := aSokobanField.

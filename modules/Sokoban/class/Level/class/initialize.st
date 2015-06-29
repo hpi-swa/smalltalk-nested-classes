@@ -1,0 +1,1 @@
+initialize	"doIt: [self initialize]"	super initialize.	self setMazesNamed: #mazesUAlberta.

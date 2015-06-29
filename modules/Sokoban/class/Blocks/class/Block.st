@@ -1,0 +1,1 @@
+Block	< class >	^ ImageMorph subclassWithInstVars: 'location sworld blockSize' classVars: 'DefaultImage'

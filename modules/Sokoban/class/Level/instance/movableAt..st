@@ -1,0 +1,1 @@
+movableAt: aPoint	^ self movable at: aPoint

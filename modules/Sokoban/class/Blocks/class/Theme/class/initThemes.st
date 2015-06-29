@@ -1,0 +1,1 @@
+initThemes	self		themes: (self themeSelectors collect: [:each | self perform: each]);		current: (self themesAt: 'Mouse').

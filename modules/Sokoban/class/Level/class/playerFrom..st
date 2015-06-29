@@ -1,0 +1,1 @@
+playerFrom: aSokobanField	aSokobanField rows do: [:row |		row do: [:block | block isSokobanPlayer ifTrue: [^ block]]].	self error: 'Player missing...'.

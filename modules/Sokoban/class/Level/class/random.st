@@ -1,0 +1,1 @@
+random	"inspectIt: [self random]"	^ self fromIndex: self mazes size atRandom

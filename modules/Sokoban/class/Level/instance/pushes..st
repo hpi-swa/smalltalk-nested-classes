@@ -1,0 +1,1 @@
+pushes: anInteger	pushes := anInteger.

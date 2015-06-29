@@ -1,0 +1,1 @@
+start	| position |	position := self position.	self		delete;		initializeForIndex: 1;		position: position;		openInWorld.

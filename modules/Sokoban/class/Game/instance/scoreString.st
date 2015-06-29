@@ -1,0 +1,1 @@
+scoreString	self flag: #rhi. "File-out seems to be broken. Use #annotationSeparator for now..."	^ ' ', self sworld moves printString, ' Move',		(self sworld moves = 1 ifTrue: [''] ifFalse: ['s']),		CodeHolder basicNew annotationSeparator, self sworld pushes printString, ' Push',		(self sworld pushes = 1 ifTrue: [''] ifFalse: ['es'])

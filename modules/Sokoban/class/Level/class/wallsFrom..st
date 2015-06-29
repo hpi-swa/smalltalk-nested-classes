@@ -1,0 +1,1 @@
+wallsFrom: aString	^ (self tokensFrom: aString) do: [:row |		row			replaceAll: self player with: self free;			replaceAll: self box with: self free;			replaceAll: self boxAtGoal with: self goal;			replaceAll: self playerAtGoal with: self goal]

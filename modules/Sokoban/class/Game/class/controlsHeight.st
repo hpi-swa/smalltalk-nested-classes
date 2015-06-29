@@ -1,0 +1,1 @@
+controlsHeight	^ self titleHeight

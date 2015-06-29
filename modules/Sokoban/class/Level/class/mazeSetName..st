@@ -1,0 +1,1 @@
+mazeSetName: aString	MazeSetName := aString.

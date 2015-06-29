@@ -1,0 +1,1 @@
+moveRight	self moveRightModifiers: { false. false. }.

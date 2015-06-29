@@ -1,0 +1,1 @@
+forIndex: anInteger	"doIt: [(self forIndex: 1) openInWorld]"	^ self new initializeForIndex: anInteger

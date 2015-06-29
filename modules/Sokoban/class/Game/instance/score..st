@@ -1,0 +1,1 @@
+score: aTextMorph	score := aTextMorph.

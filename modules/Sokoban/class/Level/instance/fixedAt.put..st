@@ -1,0 +1,1 @@
+fixedAt: aPoint put: aSokobanBlock	^ self fixed at: aPoint put: aSokobanBlock

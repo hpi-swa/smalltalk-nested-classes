@@ -1,0 +1,1 @@
+moveUpModifiers: anArray	self splayer moveUpModifiers: anArray.	self		updateScore;		announceIfFinished.

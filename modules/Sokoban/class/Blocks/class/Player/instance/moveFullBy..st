@@ -1,0 +1,1 @@
+moveFullBy: aPoint	[self canMoveBy: aPoint] whileTrue: [self moveSimplyBy: aPoint].

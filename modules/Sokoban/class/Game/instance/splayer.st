@@ -1,0 +1,1 @@
+splayer	^ self sworld player

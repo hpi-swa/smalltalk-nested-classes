@@ -1,0 +1,1 @@
+blocksForMovable	^ IdentityDictionary new		at: self box put: [Blocks Box new];		at: self boxAtGoal put: [Blocks Box new];		at: self free put: [nil];		at: self goal put: [nil];		at: self player put: [Blocks Player new];		at: self wall put: [nil];		yourself

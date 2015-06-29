@@ -1,0 +1,1 @@
+isFinished	^ self boxes allSatisfy: [:each | (self fixedAt: each location) isSokobanGoal]

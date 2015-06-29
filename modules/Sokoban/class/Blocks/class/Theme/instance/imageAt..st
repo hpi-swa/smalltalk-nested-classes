@@ -1,0 +1,1 @@
+imageAt: aSymbol	^ self images at: aSymbol

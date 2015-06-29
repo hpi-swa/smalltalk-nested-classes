@@ -1,0 +1,1 @@
+images	"^ <IdentityDictionary key: Symbol value: Form>"	^ images

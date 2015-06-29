@@ -1,0 +1,1 @@
+images: anIdentityDictionary	images := anIdentityDictionary.

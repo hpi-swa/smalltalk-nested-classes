@@ -1,0 +1,1 @@
+range: aPoint	range := aPoint.

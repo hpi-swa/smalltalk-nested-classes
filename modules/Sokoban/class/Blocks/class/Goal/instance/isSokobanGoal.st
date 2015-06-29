@@ -1,0 +1,1 @@
+isSokobanGoal	^ true

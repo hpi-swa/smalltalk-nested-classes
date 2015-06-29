@@ -1,0 +1,1 @@
+theme	Blocks Theme current: Blocks Theme next.	Blocks Block allSubInstancesDo: [:each | each image: each blockImage].

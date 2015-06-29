@@ -1,0 +1,1 @@
+again	| position |	position := self position.	self		delete;		initializeForIndex: self sworld index;		position: position;		openInWorld.

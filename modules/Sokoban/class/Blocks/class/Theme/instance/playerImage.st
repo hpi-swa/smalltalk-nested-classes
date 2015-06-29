@@ -1,0 +1,1 @@
+playerImage	^ self imageAt: #player

@@ -1,0 +1,1 @@
+blocksForFixed	^ IdentityDictionary new		at: self box put: [nil];		at: self boxAtGoal put: [Blocks Goal new];		at: self free put: [nil];		at: self goal put: [Blocks Goal new];		at: self player put: [nil];		at: self wall put: [Blocks Wall new];		yourself

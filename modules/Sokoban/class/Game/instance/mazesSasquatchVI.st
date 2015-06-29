@@ -1,0 +1,1 @@
+mazesSasquatchVI	self sworld setMazesNamed: #mazesSasquatchVI.	self start.

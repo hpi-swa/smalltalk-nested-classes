@@ -1,0 +1,1 @@
+wallImage	^ self imageAt: #wall
