@@ -1,0 +1,1 @@
+printToTranscript	self keysAndValuesDo: [ :key :value | 		Transcript show: key asString, ' -> ', value asString, String crlf ].

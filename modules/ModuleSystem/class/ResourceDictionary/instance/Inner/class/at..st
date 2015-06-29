@@ -1,0 +1,1 @@
+at: aSymbol	^ self perform: aSymbol

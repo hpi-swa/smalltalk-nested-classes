@@ -1,0 +1,1 @@
+size	^ self class specification resourceDict size

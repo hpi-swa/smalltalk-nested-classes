@@ -1,0 +1,1 @@
+ResourceDictionary	< class >	" A mixin for resource container classes, adding convenience methods. "	^ ClassGenerator subclass

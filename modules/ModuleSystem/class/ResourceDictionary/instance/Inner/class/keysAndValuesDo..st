@@ -1,0 +1,1 @@
+keysAndValuesDo: aBlock	| selectors |	selectors := self class specification resourceDict keys.	selectors do: [ :selector | aBlock value: selector value: (self perform: selector) ].

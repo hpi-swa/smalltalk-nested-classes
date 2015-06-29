@@ -1,0 +1,1 @@
+keys	^ self class specification resourceDict keys

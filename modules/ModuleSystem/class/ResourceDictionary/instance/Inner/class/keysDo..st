@@ -1,0 +1,1 @@
+keysDo: aBlock	self class specification resourceDict keys do: aBlock.

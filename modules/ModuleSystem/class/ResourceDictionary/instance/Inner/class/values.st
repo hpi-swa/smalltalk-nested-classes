@@ -1,0 +1,1 @@
+values	| array index |	array := Array new: self class specification resourceDict size.	index := 1.	self valuesDo: [ :value | array at: index put: value. index := index + 1 ].	^ array
