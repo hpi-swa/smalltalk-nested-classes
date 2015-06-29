@@ -1,0 +1,1 @@
+stringRes2	< resource >	"bar"	^ String

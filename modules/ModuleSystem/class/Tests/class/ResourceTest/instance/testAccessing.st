@@ -1,0 +1,1 @@
+testAccessing	self assert: DummyResources stringRes1 equals: 'foo'.	self assert: DummyResources stringRes2 equals: 'bar'.	self assert: DummyResources formRes1 isForm.	self assert: DummyResources formRes1 bitsSize equals: 256.

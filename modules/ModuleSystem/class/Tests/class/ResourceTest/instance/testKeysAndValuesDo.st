@@ -1,0 +1,1 @@
+testKeysAndValuesDo	| dict |	dict := Dictionary new.	DummyResources keysAndValuesDo: [ :key :value | dict at: key put: value ].	self assert: dict size equals: 3.	self assert: (dict at: #stringRes1) equals: 'foo'.	self assert: (dict at: #stringRes2) equals: 'bar'.	self assert: (dict at: #formRes1) isForm.

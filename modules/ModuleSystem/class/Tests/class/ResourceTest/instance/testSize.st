@@ -1,0 +1,1 @@
+testSize	self assert: DummyResources size equals: 3.

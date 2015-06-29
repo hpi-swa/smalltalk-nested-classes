@@ -1,0 +1,1 @@
+testNew	self should: [ DummyUninstantiable new ] raise: NotImplemented.

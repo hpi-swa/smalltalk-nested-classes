@@ -1,0 +1,1 @@
+DummyUninstantiable	< class >	^ Object subclass << Uninstantiable

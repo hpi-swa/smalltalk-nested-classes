@@ -1,0 +1,1 @@
+testKeys	self assert: DummyResources keys asSet equals: #(stringRes1 stringRes2 formRes1) asSet.

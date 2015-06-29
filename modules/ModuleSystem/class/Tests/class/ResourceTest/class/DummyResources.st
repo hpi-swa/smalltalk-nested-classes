@@ -1,0 +1,1 @@
+DummyResources	< class >	^ Object subclass << ResourceDictionary

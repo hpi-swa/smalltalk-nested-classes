@@ -1,0 +1,1 @@
+testAt	self assert: (DummyResources at: #stringRes1) equals: 'foo'.	self assert: (DummyResources at: #stringRes2) equals: 'bar'.	self assert: (DummyResources at: #formRes1) isForm.

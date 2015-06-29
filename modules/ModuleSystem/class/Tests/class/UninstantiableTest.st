@@ -1,0 +1,1 @@
+UninstantiableTest	< class >	^ TestCase subclass

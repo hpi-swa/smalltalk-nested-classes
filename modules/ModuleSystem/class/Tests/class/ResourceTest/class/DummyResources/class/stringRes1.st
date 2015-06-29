@@ -1,0 +1,1 @@
+stringRes1	< resource >	"foo"	^ String
