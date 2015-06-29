@@ -1,0 +1,1 @@
+greetings	< resource >	^ String

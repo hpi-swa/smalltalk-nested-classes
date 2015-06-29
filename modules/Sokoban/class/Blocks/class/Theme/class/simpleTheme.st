@@ -1,1 +1,0 @@
-simpleTheme	"doIt: [self initThemes]"	"doIt: [self current: (self themesAt: 'Simple')]"	^ self new		name: 'Simple';		addImage: #player -> self formPlayerStar;		addImage: #box -> self formBoxEllipse;		addImage: #wall -> self formWallBordered;		addImage: #goal -> self formGoalBordered;		yourself

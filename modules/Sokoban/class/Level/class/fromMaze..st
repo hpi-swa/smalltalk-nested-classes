@@ -1,0 +1,1 @@
+fromMaze: aString	| sworld |	^ (sworld := self new)		fixed: (self fixedFrom: aString);		movable: (self movableFrom: aString);		range: (self rangeFrom: aString);		fitIntoWorld;		player: (self playerFrom: sworld movable);		boxes: (self boxesFrom: sworld movable);		moves: 0;		pushes: 0;		addPadding;		yourself

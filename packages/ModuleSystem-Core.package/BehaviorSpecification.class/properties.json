@@ -7,7 +7,8 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"methodDict",
-		"classDict" ],
+		"classDict",
+		"resourceDict" ],
 	"name" : "BehaviorSpecification",
 	"pools" : [
 		 ],

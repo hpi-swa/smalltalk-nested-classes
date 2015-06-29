@@ -1,1 +1,1 @@
-Game	< class >	^ Morph subclassWithInstVars: 'sworld score'
+Game	< class >	^ Morph subclassWithInstVars: 'sworld score mazes levelIndex'

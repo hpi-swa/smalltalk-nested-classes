@@ -1,1 +1,0 @@
-playerImageLeft	^ self images at: #playerLeft ifAbsent: [self playerImage]

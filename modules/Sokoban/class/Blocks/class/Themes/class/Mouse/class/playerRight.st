@@ -1,0 +1,1 @@
+playerRight	< resource >	^ Form

@@ -1,1 +1,0 @@
-next	^ self themes after: self current ifAbsent: [self themes first]

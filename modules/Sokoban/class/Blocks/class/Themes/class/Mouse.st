@@ -1,0 +1,1 @@
+Mouse	< class >	^ Object subclass << ModuleSystem Uninstantiable

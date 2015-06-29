@@ -1,1 +1,0 @@
-Theme	< class >	^ Object subclassWithInstVars: 'name images' classVars: 'Current Themes'

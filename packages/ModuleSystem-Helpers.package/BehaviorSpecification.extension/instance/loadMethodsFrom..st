@@ -1,4 +1,5 @@
 *ModuleSystem-Helpers
 loadMethodsFrom: aFileDirectory
 	aFileDirectory fileNames do: [:file |
-		self addMethodString: ((aFileDirectory fileNamed: file) contents) protocol: 'foo' ]
+		(file endsWith: '.st') ifTrue: [ 
+			self addMethodString: ((aFileDirectory fileNamed: file) contents) protocol: 'foo' ] ]

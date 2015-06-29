@@ -1,1 +1,0 @@
-themeSelectors	self flag: #rgi. "Why does '#*Theme' work, but '**Theme' doesn't? <Seufz>"	^ #(mouseTheme simpleTheme)

@@ -1,1 +1,0 @@
-boxImage	^ self imageAt: #box

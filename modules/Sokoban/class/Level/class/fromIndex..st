@@ -1,1 +1,0 @@
-fromIndex: anInteger	"inspectIt: [self fromIndex: 1]"	^ self fromString: (self mazeAtIndex: anInteger) index: anInteger

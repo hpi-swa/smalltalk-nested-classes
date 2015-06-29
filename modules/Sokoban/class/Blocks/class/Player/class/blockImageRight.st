@@ -1,1 +1,1 @@
-blockImageRight	^ Theme current playerImageRight
+blockImageRight	^ Themes current playerRight

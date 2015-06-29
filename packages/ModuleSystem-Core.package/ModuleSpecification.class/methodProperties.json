@@ -1,6 +1,8 @@
 {
 	"class" : {
-		"example1" : "FabN 6/20/2015 13:33" },
+		"example1" : "FabN 6/20/2015 13:33",
+		"isImporting" : "MattSpr 6/29/2015 20:45",
+		"isImporting:" : "MattSpr 6/29/2015 20:39" },
 	"instance" : {
 		"className" : "MattSpr 6/27/2015 14:49",
 		"expectedTypes" : "MattSpr 6/29/2015 14:20",

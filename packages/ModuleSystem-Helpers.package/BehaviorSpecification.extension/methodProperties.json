@@ -4,5 +4,7 @@
 	"instance" : {
 		"exportClassesTo:" : "FabN 6/25/2015 19:41",
 		"exportMethodsTo:" : "FabN 6/25/2015 19:29",
+		"exportResourcesTo:" : "MattSpr 6/29/2015 22:19",
 		"loadClassesFrom:" : "MattSpr 6/25/2015 20:48",
-		"loadMethodsFrom:" : "FabN 6/25/2015 20:11" } }
+		"loadMethodsFrom:" : "MattSpr 6/29/2015 20:31",
+		"loadResourcesFrom:" : "MattSpr 6/29/2015 20:36" } }

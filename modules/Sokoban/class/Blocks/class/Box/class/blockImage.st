@@ -1,1 +1,1 @@
-blockImage	^ Theme current boxImage
+blockImage	^ Themes current box

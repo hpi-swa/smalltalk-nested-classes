@@ -1,0 +1,1 @@
+Microban	< class >	^ Object subclass << ModuleSystem Uninstantiable

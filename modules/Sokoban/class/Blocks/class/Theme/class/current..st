@@ -1,1 +1,0 @@
-current: aSokobanTheme	Current := aSokobanTheme.

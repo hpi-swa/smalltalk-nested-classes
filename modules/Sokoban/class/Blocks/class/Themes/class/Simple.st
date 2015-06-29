@@ -1,0 +1,1 @@
+Simple	< class >	^ Object subclass << ModuleSystem Uninstantiable

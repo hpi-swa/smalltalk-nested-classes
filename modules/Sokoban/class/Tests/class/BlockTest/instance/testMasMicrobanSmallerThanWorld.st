@@ -1,0 +1,1 @@
+testMasMicrobanSmallerThanWorld	| sokoban |	sokoban := Game new.	self flag: #rhi. "Magic numbers?"	sokoban initializeForIndex: 1.	self assert: World extent >= sokoban extent.	World extent <= (1200 @ 900) ifTrue: [		self assert: ((sokoban sworld fixed rows first) at: 15)			blockSize < Blocks Block blockSize].

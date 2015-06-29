@@ -1,1 +1,1 @@
-next	| position |	position := self position.	self		delete;		initializeForIndex: ((self sworld index + 1) min: self sworld class mazes size);		position: position;		openInWorld.
+next	| position |	position := self position.	self		delete;		initializeForIndex: (levelIndex + 1 min: mazes size);		position: position;		openInWorld.

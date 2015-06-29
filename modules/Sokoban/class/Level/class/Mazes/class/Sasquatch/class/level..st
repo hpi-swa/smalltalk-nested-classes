@@ -1,0 +1,1 @@
+level: anInteger	^ self perform: ('lvl', anInteger asString) asSymbol

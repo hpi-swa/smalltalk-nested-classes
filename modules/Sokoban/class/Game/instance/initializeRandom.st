@@ -1,1 +1,1 @@
-initializeRandom	self initializeForWorld: Level random.
+initializeRandom	self initializeForIndex: mazes size atRandom.

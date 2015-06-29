@@ -1,0 +1,1 @@
+lvl7	< resource >	^ String

@@ -1,0 +1,1 @@
+playerLeft	^ self player

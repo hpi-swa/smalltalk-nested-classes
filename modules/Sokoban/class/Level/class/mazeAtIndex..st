@@ -1,1 +1,0 @@
-mazeAtIndex: anInteger	^ self mazes at: anInteger

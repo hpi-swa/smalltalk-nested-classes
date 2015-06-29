@@ -1,1 +1,0 @@
-mazesSasquatchIII	self sworld setMazesNamed: #mazesSasquatchIII.	self start.

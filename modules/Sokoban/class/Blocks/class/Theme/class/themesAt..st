@@ -1,1 +1,0 @@
-themesAt: aString	^ self themes detect: [:each | each name = aString]

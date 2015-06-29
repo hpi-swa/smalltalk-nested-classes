@@ -1,1 +1,1 @@
-initializeForIndex: anInteger	self initializeForWorld: (Level fromIndex: anInteger).
+initializeForIndex: anInteger	levelIndex := anInteger.	self initializeForWorld: (Level fromMaze: (mazes level: anInteger )).

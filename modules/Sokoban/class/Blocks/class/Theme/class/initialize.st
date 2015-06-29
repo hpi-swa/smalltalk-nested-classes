@@ -1,1 +1,0 @@
-initialize	"doIt: [self initialize]"	super initialize.	self initThemes.

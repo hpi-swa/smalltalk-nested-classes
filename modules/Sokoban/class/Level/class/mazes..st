@@ -1,1 +1,0 @@
-mazes: anIdentityDictionary	Mazes := anIdentityDictionary.

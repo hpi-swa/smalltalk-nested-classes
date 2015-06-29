@@ -1,11 +1,11 @@
 {
 	"class" : {
-		"compareClassSpec:with:" : "MattSpr 6/29/2015 16:32",
+		"compareClassSpec:with:" : "MattSpr 6/29/2015 20:56",
 		"createHierarchyTreeOf:" : "MattSpr 6/29/2015 16:17",
 		"execute:on:" : "FabN 6/24/2015 09:42",
 		"flattenHierarchyTree:on:" : "MattSpr 6/29/2015 16:19",
 		"generateSortedClassListFor:" : "MattSpr 6/29/2015 16:35",
-		"iconFor:" : "MattSpr 6/29/2015 18:09",
+		"iconFor:" : "MattSpr 6/29/2015 20:53",
 		"iconForSidePanel:" : "MattSpr 6/29/2015 17:00",
 		"iconForTreeView:" : "MattSpr 6/29/2015 16:59",
 		"indentsForClass:" : "MattSpr 6/29/2015 16:49",

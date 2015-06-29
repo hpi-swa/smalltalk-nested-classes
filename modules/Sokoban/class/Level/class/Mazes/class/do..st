@@ -1,0 +1,1 @@
+do: aBlock	self class specification nestedSelectors do: [ :symbol | | mazes |		mazes := self perform: symbol.		aBlock value: symbol value: mazes mazeName value: mazes ].

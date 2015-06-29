@@ -1,1 +1,0 @@
-setMazesNamed: aSymbol	self		mazes: (self mazeSets at: aSymbol) value;		mazeSetName: (self mazeSetNamesAt: aSymbol).

@@ -9,4 +9,5 @@ iconFor: aSymbol
 		add: #Tests -> UiFugueIcons trafficLightIcon;
 		add: #Module -> UiFugueIcons sitemapApplicationBlueIcon;
 		add: #EmptyHierarchy -> UiFugueIcons gridDotIcon;
+		add: #Resource -> UiFugueIcons blueDocumentMediumIcon;
 		yourself) at: aSymbol ifAbsent: [ UiFugueIcons crossCircleIcon ]

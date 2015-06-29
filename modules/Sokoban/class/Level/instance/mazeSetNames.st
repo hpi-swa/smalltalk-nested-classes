@@ -1,1 +1,0 @@
-mazeSetNames	^ self class mazeSetNames

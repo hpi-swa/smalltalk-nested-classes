@@ -1,1 +1,1 @@
-blockImage	^ Theme current wallImage
+blockImage	^ Themes current wall

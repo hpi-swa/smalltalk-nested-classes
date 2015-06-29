@@ -1,1 +1,0 @@
-mazesMasMicroban	"http://users.bentonrea.com/~sasquatch/sokoban/masmicroban.html	David W. Skinner <sasquatch@bentonrea.com>"	^ self mazesMasMicroban1, self mazesMasMicroban2

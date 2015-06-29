@@ -1,1 +1,0 @@
-mazesMasMicroban	self sworld setMazesNamed: #mazesMasMicroban.	self start.

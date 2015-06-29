@@ -1,1 +1,0 @@
-fromString: aString	"inspectIt: [self fromString: '    #####    #   #    #$  #  ###  $##  #  $ $ #### # ## #   #######   # ## #####  ..## $  $          ..###### ### #@##  ..#    #     #########    #######']"	^ self fromString: aString index: 0

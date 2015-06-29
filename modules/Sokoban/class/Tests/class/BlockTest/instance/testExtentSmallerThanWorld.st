@@ -1,0 +1,1 @@
+testExtentSmallerThanWorld	| sokoban |	sokoban := Game new.	Level Mazes do: [ :selector :name :mazes |		sokoban mazes: mazes.		1 to: mazes size do: [:index |			sokoban initializeForIndex: index.			self assert: World extent >= sokoban extent]].

@@ -1,1 +1,0 @@
-mouseTheme	"doIt: [self initThemes]"	"doIt: [self current: (self themesAt: 'Simple')]"	^ self new		name: 'Mouse';		addImage: #player -> self formMouse;		addImage: #playerLeft -> self formMouseLeft;		addImage: #playerRight -> self formMouseRight;		addImage: #box -> self formCheese;		addImage: #wall -> self formBricks;		addImage: #goal -> self formHole;		yourself

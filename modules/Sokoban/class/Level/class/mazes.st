@@ -1,1 +1,1 @@
-mazes	"^ <IdentityDictionary key: Integer value: String>"	^ Mazes
+Mazes	< class >	^ Object subclass << ModuleSystem Uninstantiable

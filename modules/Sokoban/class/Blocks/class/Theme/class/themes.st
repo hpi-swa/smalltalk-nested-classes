@@ -1,1 +1,0 @@
-themes	"^ <SequenceableCollection of: SokobanTheme>"	^ Themes

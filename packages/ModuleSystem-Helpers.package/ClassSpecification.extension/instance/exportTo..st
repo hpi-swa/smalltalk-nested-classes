@@ -11,10 +11,12 @@ exportTo: aFileDirectory
 		classFileDirectory createDirectory: 'instance'.
 		instanceDir := classFileDirectory directoryNamed: 'instance'.
 		self exportMethodsTo: instanceDir.
-		self exportClassesTo: instanceDir ].
+		self exportClassesTo: instanceDir.
+		self exportResourcesTo: instanceDir ].
 
 	self theMetaClassSpecification methodDict ifNotEmpty: [
 		classFileDirectory createDirectory: 'class'.
 		classDir := classFileDirectory directoryNamed: 'class'.
 		self theMetaClassSpecification exportMethodsTo: classDir.
-		self theMetaClassSpecification exportClassesTo: classDir ].
+		self theMetaClassSpecification exportClassesTo: classDir.
+		self theMetaClassSpecification exportResourcesTo: classDir ].

@@ -1,0 +1,1 @@
+mazes: aClass	mazes := aClass.

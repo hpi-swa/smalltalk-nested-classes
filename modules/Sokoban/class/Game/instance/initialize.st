@@ -1,1 +1,1 @@
-initialize	self initializeForIndex: 1.
+initialize	mazes := Level Mazes Microban.	self initializeForIndex: 1.

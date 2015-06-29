@@ -1,1 +1,0 @@
-mazeSetNamesAt: aSymbol	^ (self mazeSetNames detect: [:keyValuePair | keyValuePair key == aSymbol]) value

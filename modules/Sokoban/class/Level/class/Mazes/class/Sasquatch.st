@@ -1,0 +1,1 @@
+Sasquatch	< class >	^ Object subclass << ModuleSystem Uninstantiable

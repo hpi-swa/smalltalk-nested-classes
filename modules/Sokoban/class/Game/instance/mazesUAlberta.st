@@ -1,1 +1,0 @@
-mazesUAlberta	self sworld setMazesNamed: #mazesUAlberta.	self start.

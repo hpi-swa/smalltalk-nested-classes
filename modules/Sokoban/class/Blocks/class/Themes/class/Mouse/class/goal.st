@@ -1,0 +1,1 @@
+goal	< resource >	^ Form

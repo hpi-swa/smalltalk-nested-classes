@@ -1,0 +1,1 @@
+change	Current = Mouse		ifTrue: [ Current := Simple ]		ifFalse: [ Current := Mouse ].

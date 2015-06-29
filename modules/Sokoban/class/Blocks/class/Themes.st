@@ -1,0 +1,1 @@
+Themes	< class >	^ (Object subclassWithInstVars: '' classVars: 'Current') 		<< ModuleSystem Uninstantiable

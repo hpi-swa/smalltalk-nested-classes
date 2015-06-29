@@ -12,6 +12,7 @@
 		"protocol",
 		"isNestedClass",
 		"isLayered",
+		"isResource",
 		"layeredMethods",
 		"instances",
 		"compiledMethods",
