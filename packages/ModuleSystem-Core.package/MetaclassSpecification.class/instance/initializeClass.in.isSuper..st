@@ -10,9 +10,3 @@ initializeClass: class in: outer isSuper: isSuper
 	self installNameMethod: class.
 	self markGenerated: class.
 	super initializeClass: class.
-	
-	" run class initializer "
-	class theNonMetaClass initialize.
-
-	" force class-side nested classes initialization "
-	classDict keysDo: [ :key | class theNonMetaClass perform: key ].

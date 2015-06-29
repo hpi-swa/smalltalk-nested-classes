@@ -3,6 +3,7 @@
 		"example1" : "FabN 6/20/2015 13:33" },
 	"instance" : {
 		"className" : "MattSpr 6/27/2015 14:49",
+		"expectedTypes" : "MattSpr 6/29/2015 14:20",
 		"findModule" : "FabN 6/24/2015 20:44",
 		"fullRemove" : "MattSpr 6/24/2015 22:51",
 		"generateBasicModule" : "MattSpr 6/27/2015 13:53",

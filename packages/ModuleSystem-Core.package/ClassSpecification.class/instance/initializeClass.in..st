@@ -17,4 +17,14 @@ initializeClass: class in: outer
 			" outer must be present on instance side, otherwise there would be no way to get an early-bound outer "
 			self installOuterMethod: class with: outer.
 
-			super initializeClass: class ].
+			" update super specifications (UI only) "
+			" TODO: make this a weak array! "
+			expectedSuperSpecs := class allSuperclasses 
+				select: [ :cls | cls isNestedGenerated ]
+				thenCollect: [ :cls | cls specification ].
+			sortedClassList := nil.
+
+			super initializeClass: class.
+			
+			" call class-side initializer "
+			metaclassSpec postInitializeClass: class class ].

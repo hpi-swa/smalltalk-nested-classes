@@ -7,7 +7,9 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"metaclassSpec",
-		"isLayer" ],
+		"isLayer",
+		"expectedSuperSpecs",
+		"sortedClassList" ],
 	"name" : "ClassSpecification",
 	"pools" : [
 		 ],

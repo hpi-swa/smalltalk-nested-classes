@@ -7,4 +7,6 @@ iconFor: aSymbol
 		add: #Version -> self numberIcon;
 		add: #Namespace -> self namespaceIcon;
 		add: #Tests -> UiFugueIcons trafficLightIcon;
+		add: #Module -> UiFugueIcons sitemapApplicationBlueIcon;
+		add: #EmptyHierarchy -> UiFugueIcons gridDotIcon;
 		yourself) at: aSymbol ifAbsent: [ UiFugueIcons crossCircleIcon ]

@@ -1,14 +1,20 @@
 {
 	"class" : {
+		"compareClassSpec:with:" : "MattSpr 6/29/2015 16:32",
+		"createHierarchyTreeOf:" : "MattSpr 6/29/2015 16:17",
 		"execute:on:" : "FabN 6/24/2015 09:42",
-		"iconFor:" : "MattSpr 6/27/2015 15:42",
-		"iconForSidePanel:" : "MattSpr 6/27/2015 18:21",
+		"flattenHierarchyTree:on:" : "MattSpr 6/29/2015 16:19",
+		"generateSortedClassListFor:" : "MattSpr 6/29/2015 16:35",
+		"iconFor:" : "MattSpr 6/29/2015 18:09",
+		"iconForSidePanel:" : "MattSpr 6/29/2015 17:00",
+		"iconForTreeView:" : "MattSpr 6/29/2015 16:59",
+		"indentsForClass:" : "MattSpr 6/29/2015 16:49",
 		"multiIconFor:" : "FabN 6/24/2015 21:09",
 		"namespaceIcon" : "MattSpr 6/27/2015 13:12",
 		"numberIcon" : "MattSpr 6/27/2015 13:00",
 		"ownIcons" : "MattSpr 6/27/2015 12:52",
 		"refreshClassTree" : "FabN 6/24/2015 09:39",
-		"textForClassTree:" : "FabN 6/24/2015 09:39",
-		"textForSidePanel:" : "FabN 6/24/2015 09:38" },
+		"textForClassTree:" : "MattSpr 6/29/2015 16:53",
+		"textForSidePanel:" : "MattSpr 6/29/2015 14:30" },
 	"instance" : {
 		 } }
