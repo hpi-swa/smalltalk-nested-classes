@@ -1,0 +1,1 @@
+Line	< class >	^ Object subclassWithInstVars: 'p1 p2'

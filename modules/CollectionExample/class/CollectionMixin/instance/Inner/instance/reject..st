@@ -1,0 +1,1 @@
+reject: aBlock	| result |	result := self class collectionClass new.	self do: [ :each | (aBlock value: each) ifFalse: [ result add: each ] ].	^ result

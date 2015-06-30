@@ -1,0 +1,1 @@
+ScuGameTile	< class >	^ Morph subclass << CollectionMixin

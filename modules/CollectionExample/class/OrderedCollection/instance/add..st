@@ -1,0 +1,1 @@
+add: object	array at: size + 1 put: object.	size := size + 1.		size = array size ifTrue: [ | newArray | "container full, extend" 		newArray := Array new: array size * 2.		1 to: size do: [ :i | newArray at: i put: (array at: i) ].		array := newArray ]

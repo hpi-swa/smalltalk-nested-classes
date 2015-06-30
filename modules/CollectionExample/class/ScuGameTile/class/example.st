@@ -1,0 +1,1 @@
+example	| tile canIEnter |	^ tile allSatisfy: [ :item | item canIEnter: self ]

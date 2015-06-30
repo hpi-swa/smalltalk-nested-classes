@@ -1,0 +1,1 @@
+collect: aBlock	| result |	result := self class collectionClass new.	self do: [ :each | result add: (aBlock value: each) ].	^ result

@@ -1,0 +1,1 @@
+Geometry	< class >	^ Object subclass << ModuleSystem Uninstantiable

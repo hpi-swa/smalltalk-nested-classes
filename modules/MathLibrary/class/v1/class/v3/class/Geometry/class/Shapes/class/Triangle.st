@@ -1,0 +1,1 @@
+Triangle	< class >	^ Object subclassWithInstVars: 'p1 p2 p3'

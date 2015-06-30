@@ -1,1 +1,1 @@
-next	| next |	next := self nextChainAndIndex.	chain := next first.	index := next second.	^ (self class outer chainAt: chain) at: index
+next	| next |	next := self nextChainAndIndex.	chain := next first.	index := next second.	^ (outer chainAt: chain) at: index

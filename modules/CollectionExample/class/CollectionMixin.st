@@ -1,0 +1,1 @@
+CollectionMixin	< class >	^ ModuleSystem ClassGenerator subclass

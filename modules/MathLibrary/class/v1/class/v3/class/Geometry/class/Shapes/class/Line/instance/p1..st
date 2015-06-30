@@ -1,0 +1,1 @@
+p1: aPoint	p1 := aPoint.

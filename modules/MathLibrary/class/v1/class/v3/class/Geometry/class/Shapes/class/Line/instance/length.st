@@ -1,0 +1,1 @@
+length	^ ((p1 x - p2 x) squared + (p1 y - p2 y) squared) sqrt

@@ -1,0 +1,1 @@
+do: aBlock	1 to: size do: [ :i | aBlock value: (array at: i) ].

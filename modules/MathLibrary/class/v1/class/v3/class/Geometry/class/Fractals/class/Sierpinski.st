@@ -1,0 +1,1 @@
+Sierpinski	< class >	^ Object subclass

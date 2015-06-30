@@ -1,0 +1,1 @@
+Point	< class >	^ Object subclassWithInstVars: 'x y'

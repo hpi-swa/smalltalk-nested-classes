@@ -1,0 +1,1 @@
+initialize	super initialize.	array := Array new: 10.	size := 0.

@@ -1,0 +1,1 @@
+OrderedCollection	< class >	^ (Object subclassWithInstVars: 'array size') << CollectionMixin

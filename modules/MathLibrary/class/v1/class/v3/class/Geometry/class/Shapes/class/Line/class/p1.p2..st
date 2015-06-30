@@ -1,0 +1,1 @@
+p1: p1 p2: p2	^ self new		p1: p1;		p2: p2;		yourself

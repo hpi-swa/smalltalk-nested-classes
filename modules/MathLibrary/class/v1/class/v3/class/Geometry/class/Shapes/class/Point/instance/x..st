@@ -1,0 +1,1 @@
+x: anInteger	x := anInteger.
