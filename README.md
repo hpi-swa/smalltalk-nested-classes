@@ -1,6 +1,6 @@
 # Module System for Squeak Smalltalk [![Build Status](https://travis-ci.org/matthias-springer/smalltalk-nested-classes.svg?branch=master)](https://travis-ci.org/matthias-springer/smalltalk-nested-classes)
 
-This is an experimental module system for [Squeak](http://squeak.org/). It is inspired by [Newspeak](http://www.newspeaklanguage.org/) and uses nested classes as a central concepts.
+This is an experimental module system for [Squeak](http://squeak.org/). It is inspired by [Newspeak](http://www.newspeaklanguage.org/) and uses nested classes as a central concept.
 
 Nested classes are members of their enclosing classes and they can be declared on the instance-side and on the class-side. Instance-side nested classes make it possible to implement mixin modules in the module system itself, without further modifications to the virtual machine. Class-side nested classes are typically used as namespaces for hierarchical decomposition.
 
