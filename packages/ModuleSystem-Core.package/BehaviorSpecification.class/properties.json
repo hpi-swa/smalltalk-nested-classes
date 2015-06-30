@@ -8,7 +8,8 @@
 	"instvars" : [
 		"methodDict",
 		"classDict",
-		"resourceDict" ],
+		"resourceDict",
+		"latestInstance" ],
 	"name" : "BehaviorSpecification",
 	"pools" : [
 		 ],

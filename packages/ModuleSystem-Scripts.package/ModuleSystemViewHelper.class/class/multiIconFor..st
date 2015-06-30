@@ -1,12 +1,24 @@
 as yet unclassified
 multiIconFor: anArray
-	| form pos |
-	anArray ifNil: [^ UiFugueIcons crossCircleIcon ].
-	form := Form new setExtent: (16 * anArray size)@16 depth: 32.
-	pos := 0.
-	anArray do: [:symbol |
-		form copyBits: (Rectangle origin: 0@0 corner: 16@16) from: (self iconFor: symbol)
-			at: (pos)@0 clippingBox: (Rectangle origin: (pos)@0 corner: (pos+16)@16) rule: Form over fillColor: nil.   
-		pos := pos + 16.
-	].
+	| form |
+	anArray ifNil: [ ^ UiFugueIcons crossCircleIcon ].
+	form := Form new setExtent:  0@16 depth: 32.  
+	anArray do: [ :sym | | icon newForm |
+		icon := self iconFor: sym.
+		newForm := Form new setExtent: (form width + icon width)@16 depth: 32.
+		newForm 
+			copyBits: (Rectangle origin: 0@0 corner: form extent)
+			from: form
+			at: 0@0
+			clippingBox: (Rectangle origin: 0@0 corner: form extent)
+			rule: Form over
+			fillColor: nil.
+		newForm
+			copyBits: (Rectangle origin: 0@0 corner: icon extent)
+			from: icon
+			at: form width @ (16 - icon height / 2)
+			clippingBox: (Rectangle origin: form width @ 0 corner: newForm extent)
+			rule: Form over
+			fillColor: nil.
+		form := newForm ].
 	^ form

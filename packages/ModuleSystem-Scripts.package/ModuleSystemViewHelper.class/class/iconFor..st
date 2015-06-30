@@ -10,4 +10,6 @@ iconFor: aSymbol
 		add: #Module -> UiFugueIcons sitemapApplicationBlueIcon;
 		add: #EmptyHierarchy -> UiFugueIcons gridDotIcon;
 		add: #Resource -> UiFugueIcons blueDocumentMediumIcon;
+		add: #ResourceDict -> UiFugueIcons inboxDocumentIcon;
+		addAll: ToolIcons icons;
 		yourself) at: aSymbol ifAbsent: [ UiFugueIcons crossCircleIcon ]
