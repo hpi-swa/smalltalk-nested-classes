@@ -1,0 +1,1 @@
+testClassLookupInstFirst	| inst |	inst := A new.	self assert: inst E new F classG equals: inst G.	" not A G "	self assert: inst E new F new instClassG equals: inst G.

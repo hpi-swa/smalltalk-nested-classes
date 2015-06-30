@@ -1,0 +1,1 @@
+instClassG	^ G

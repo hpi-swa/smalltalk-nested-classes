@@ -1,0 +1,1 @@
+testNestedClassLateBound	self assert: A B C classH equals: A B C H.	self assert: A B C new instClassH equals: A B C H.	self assert: Subclasses A B C2 classH equals: Subclasses A B C2 H.	self assert: Subclasses A B C2 new instClassH equals: Subclasses A B C2 H.
