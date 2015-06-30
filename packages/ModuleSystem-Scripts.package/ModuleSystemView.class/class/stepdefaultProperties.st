@@ -2,4 +2,4 @@ steps
 stepdefaultProperties
 	<step>
 
-	^ ((Dictionary new) add: (#definition->#'b1a238cd-6b8a-482b-a5d3-9668152bf962'); add: (#class->ViScriptPart); add: (#properties->((Dictionary new) add: (#creationAuthor->'FabN'); add: (#creationTimeStamp->'23 June 2015 6:05:22 pm'); yourself)); add: (#isProperty->true); add: (#next->#'d8ed1dc2-2895-4adc-8d45-14ba16e26ba3'); add: (#label->nil); add: (#iconCode->'nil'); add: (#id->#defaultProperties); add: (#isReference->false); add: (#viewDefinition->nil); yourself)
+	^ ((Dictionary new) add: (#definition->#'5be17d32-07f4-4745-b132-dbc188e1f021'); add: (#class->ViScriptPart); add: (#properties->((Dictionary new) add: (#creationAuthor->'FabN'); add: (#creationTimeStamp->'30 June 2015 2:03:36 pm'); yourself)); add: (#isProperty->true); add: (#next->#'ad414112-c2e2-4ffb-b294-4166244babf7'); add: (#label->nil); add: (#iconCode->'nil'); add: (#id->#defaultProperties); add: (#isReference->false); add: (#viewDefinition->nil); yourself)
