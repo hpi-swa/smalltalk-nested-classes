@@ -1,0 +1,1 @@
+testOuterCallFromInstSide	" lookup is done on inst side only "	self assert: DummyClass new C callBMethod equals: 20.	self assert: DummyClass new C callAMethod equals: 30.	self should: [ DummyClass new C callAMethodNoClass ] raise: MessageNotUnderstood.

@@ -1,0 +1,1 @@
+DummyClass	< class >	^ Object subclass

@@ -1,0 +1,1 @@
+testOuterMethodLateBound	self assert: DummyClass A callSelfBMethod equals: 10.	self assert: DummyClass A new callSelfBMethod equals: 10.	self assert: DummyClass D E callSelfBMethod equals: 40.	self assert: DummyClass D E new callSelfBMethod equals: 40.

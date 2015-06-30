@@ -1,0 +1,1 @@
+callSelfBMethod	^ self outer B method

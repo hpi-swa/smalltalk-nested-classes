@@ -1,0 +1,1 @@
+callBMethod	^ outer B method

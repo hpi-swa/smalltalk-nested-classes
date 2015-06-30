@@ -1,0 +1,1 @@
+testOuterKeywordEarlyBound	self assert: DummyClass D E callBMethod equals: 10.	self assert: DummyClass D E new callBMethod equals: 10.

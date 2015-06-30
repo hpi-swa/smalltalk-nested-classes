@@ -1,0 +1,1 @@
+E	< class >	" A outer differs from E outer. "	^ outer A subclass
