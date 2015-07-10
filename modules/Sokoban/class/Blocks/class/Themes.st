@@ -1,1 +1,1 @@
-Themes	< class >	^ (Object subclassWithInstVars: '' classVars: 'Current') 		<< ModuleSystem Uninstantiable
+Themes	< class >	^ (Object << ModuleSystem Uninstantiable) subclassWithInstVars: '' classVars: 'Current'

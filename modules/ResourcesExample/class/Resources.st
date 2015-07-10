@@ -1,1 +1,1 @@
-Resources	< class >	^ Object subclass << ModuleSystem ResourceDictionary
+Resources	< class >	^ (Object << ModuleSystem ResourceDictionary) subclass

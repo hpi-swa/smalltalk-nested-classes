@@ -1,1 +1,1 @@
-Shapes	< class >	^ Object subclass << ModuleSystem Uninstantiable
+Shapes	< class >	^ (Object << ModuleSystem Uninstantiable) subclass

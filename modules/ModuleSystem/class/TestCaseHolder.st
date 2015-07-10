@@ -1,1 +1,1 @@
-TestCaseHolder	< class >	^ Object subclass << Uninstantiable
+TestCaseHolder	< class >	^ (Object << Uninstantiable) subclass

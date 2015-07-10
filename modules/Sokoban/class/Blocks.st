@@ -1,1 +1,1 @@
-Blocks	< class >	^ Object subclass << ModuleSystem Uninstantiable
+Blocks	< class >	^ (Object << ModuleSystem Uninstantiable) subclass

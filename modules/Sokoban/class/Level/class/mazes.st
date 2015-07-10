@@ -1,1 +1,1 @@
-Mazes	< class >	^ Object subclass << ModuleSystem Uninstantiable
+Mazes	< class >	^ (Object << ModuleSystem Uninstantiable) subclass

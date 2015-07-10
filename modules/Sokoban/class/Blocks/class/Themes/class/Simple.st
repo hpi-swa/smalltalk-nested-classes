@@ -1,1 +1,1 @@
-Simple	< class >	^ Object subclass << ModuleSystem Uninstantiable
+Simple	< class >	^ (Object << ModuleSystem Uninstantiable) subclass

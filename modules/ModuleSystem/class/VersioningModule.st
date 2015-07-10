@@ -1,1 +1,1 @@
-VersioningModule	< class >	" A module that contains versions. "	^ Module subclass << Versioning
+VersioningModule	< class >	" A module that contains versions. "	^ (Module << Versioning) subclass

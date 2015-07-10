@@ -1,1 +1,1 @@
-Microban	< class >	^ Object subclass << ModuleSystem Uninstantiable
+Microban	< class >	^ (Object << ModuleSystem Uninstantiable) subclass

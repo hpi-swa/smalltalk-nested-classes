@@ -1,1 +1,1 @@
-Inner	< class >	^ super Inner << Uninstantiable
+Inner	< class >	^ (target << Uninstantiable) subclass

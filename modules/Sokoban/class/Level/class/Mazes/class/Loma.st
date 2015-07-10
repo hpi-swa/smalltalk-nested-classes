@@ -1,1 +1,1 @@
-Loma	< class >	^ Object subclass << ModuleSystem Uninstantiable
+Loma	< class >	^ (Object << ModuleSystem Uninstantiable) subclass

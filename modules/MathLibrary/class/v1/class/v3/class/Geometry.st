@@ -1,1 +1,1 @@
-Geometry	< class >	^ Object subclass << ModuleSystem Uninstantiable
+Geometry	< class >	^ (Object << ModuleSystem Uninstantiable) subclass

@@ -1,1 +1,1 @@
-ScuGameTile	< class >	^ Morph subclass << CollectionMixin
+ScuGameTile	< class >	^ (Morph << CollectionMixin) subclass

@@ -1,1 +1,1 @@
-Sasquatch	< class >	^ Object subclass << ModuleSystem Uninstantiable
+Sasquatch	< class >	^ (Object << ModuleSystem Uninstantiable) subclass

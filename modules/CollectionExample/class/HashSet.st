@@ -1,1 +1,1 @@
-HashSet	< class >	^ (Object subclassWithInstVars: 'array') << CollectionMixin
+HashSet	< class >	^ (Object << CollectionMixin) subclassWithInstVars: 'array'

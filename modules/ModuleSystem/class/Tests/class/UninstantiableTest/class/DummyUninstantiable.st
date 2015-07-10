@@ -1,1 +1,1 @@
-DummyUninstantiable	< class >	^ Object subclass << Uninstantiable
+DummyUninstantiable	< class >	^ (Object << Uninstantiable) subclass

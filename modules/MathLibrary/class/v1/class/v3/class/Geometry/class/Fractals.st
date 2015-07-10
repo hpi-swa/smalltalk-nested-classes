@@ -1,1 +1,1 @@
-Fractals	< class >	^ Object subclass << ModuleSystem Uninstantiable
+Fractals	< class >	^ (Object << ModuleSystem Uninstantiable) subclass

@@ -1,1 +1,1 @@
-StudentModel	< class >	^ (Object subclassWithInstVars: 'registrationNo firstName lastName birthday')		<< Printing		<< Accessors		<< Validation
+StudentModel	< class >	^ (Object << Printing << Accessors << Validation)		subclassWithInstVars: 'registrationNo firstName lastName birthday'

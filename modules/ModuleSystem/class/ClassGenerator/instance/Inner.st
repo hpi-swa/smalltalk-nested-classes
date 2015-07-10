@@ -1,1 +1,1 @@
-Inner	< class >	" Methods added to this class are understood by the resulting class. "	^ target
+Inner	< class >	" Methods added to this class are understood by the resulting class. "	^ target subclass

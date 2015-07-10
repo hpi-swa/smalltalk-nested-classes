@@ -1,1 +1,1 @@
-Mouse	< class >	^ Object subclass << ModuleSystem Uninstantiable
+Mouse	< class >	^ (Object << ModuleSystem Uninstantiable) subclass

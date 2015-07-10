@@ -8,7 +8,7 @@ iconFor: aSymbol
 		add: #Namespace -> self namespaceIcon;
 		add: #Tests -> UiFugueIcons trafficLightIcon;
 		add: #Module -> UiFugueIcons sitemapApplicationBlueIcon;
-		add: #EmptyHierarchy -> UiFugueIcons gridDotIcon;
+		add: #EmptyHierarchy -> ViIcons blankIcon;
 		add: #Resource -> UiFugueIcons blueDocumentMediumIcon;
 		add: #ResourceDict -> UiFugueIcons inboxDocumentIcon;
 		"Add all ToolBuilder icons"
