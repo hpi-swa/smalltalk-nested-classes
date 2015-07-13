@@ -1,0 +1,1 @@
+Terminator	< class >	^ ModuleSystem ClassGenerator subclass

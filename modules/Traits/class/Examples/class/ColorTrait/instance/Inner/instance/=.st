@@ -1,0 +1,1 @@
+= other	^ (self r = other r) & (self g = other g) & (self b = other b)

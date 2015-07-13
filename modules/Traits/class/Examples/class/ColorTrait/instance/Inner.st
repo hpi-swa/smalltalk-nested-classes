@@ -1,0 +1,1 @@
+Inner	< class >	^ self subclassWithInstVars: 'r g b'

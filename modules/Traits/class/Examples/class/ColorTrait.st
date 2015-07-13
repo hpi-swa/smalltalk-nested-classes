@@ -1,0 +1,1 @@
+ColorTrait	< class >	^ Trait subclass

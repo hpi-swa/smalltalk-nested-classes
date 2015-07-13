@@ -1,0 +1,1 @@
+= other	^ (self corner = other corner) & (self extent = other extent)

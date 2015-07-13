@@ -1,0 +1,1 @@
+traitPerform: selector withArguments: argsArray in: receiver	^ receiver withArgs: argsArray executeMethod: (self Inner >> selector)

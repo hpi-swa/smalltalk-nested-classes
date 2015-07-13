@@ -1,0 +1,1 @@
+Inner	< class >	^ self subclassWithInstVars: 'corner extent'

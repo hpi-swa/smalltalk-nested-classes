@@ -1,0 +1,1 @@
+Examples	< class >	^ (Object << ModuleSystem Uninstantiable) subclass

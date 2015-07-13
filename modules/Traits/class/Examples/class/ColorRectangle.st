@@ -1,0 +1,1 @@
+ColorRectangle	< class >	^ (Object << ColorTrait << RectangleTrait << Terminator) subclass

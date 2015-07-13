@@ -1,0 +1,1 @@
+= other	" This method resolved the Trait conflict. Class generation fails if this method is missing. "		| colorEq rectEq |	colorEq := ColorTrait traitPerform: #= withArguments: { other } in: self.	rectEq := RectangleTrait traitPerform: #= withArguments: { other } in: self.	^ colorEq & rectEq

@@ -1,0 +1,1 @@
+RectangleTrait	< class >	^ Trait subclass

@@ -1,0 +1,1 @@
+Trait	< class >	^ ModuleSystem ClassGenerator subclass

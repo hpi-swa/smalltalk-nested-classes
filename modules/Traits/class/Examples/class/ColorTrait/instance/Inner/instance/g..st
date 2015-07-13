@@ -1,0 +1,1 @@
+g: anInteger	g := anInteger
