@@ -1,1 +1,1 @@
-TranslucentProgessMorph	< class >	^ Morph subclass
+TranslucentProgessMorph	< class >	^ Morph subclassWithInstVars: 'opaqueBackgroundColor' classVars: ''

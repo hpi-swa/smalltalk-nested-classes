@@ -1,1 +1,1 @@
-AColorSelectorMorph	< class >	^ BracketSliderMorph subclass
+AColorSelectorMorph	< class >	^ BracketSliderMorph subclassWithInstVars: '' classVars: ''

@@ -1,1 +1,1 @@
-SearchBar	< class >	^ Model subclass
+SearchBar	< class >	^ Model subclassWithInstVars: 'originatingWidget searchTerm selection resultsWidget workspace scratchPad' classVars: 'UseScratchPad'

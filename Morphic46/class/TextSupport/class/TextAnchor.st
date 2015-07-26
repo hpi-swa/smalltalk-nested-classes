@@ -1,1 +1,1 @@
-TextAnchor	< class >	^ TextAttribute subclass
+TextAnchor	< class >	^ TextAttribute subclassWithInstVars: 'anchoredMorph' classVars: ''

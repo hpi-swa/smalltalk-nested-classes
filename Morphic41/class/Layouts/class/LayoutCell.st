@@ -1,1 +1,1 @@
-LayoutCell	< class >	^ Object subclass
+LayoutCell	< class >	^ Object subclassWithInstVars: 'target cellSize extraSpace flags nextCell' classVars: ''

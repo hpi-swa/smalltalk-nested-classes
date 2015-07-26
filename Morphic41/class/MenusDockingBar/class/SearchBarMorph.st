@@ -1,1 +1,1 @@
-SearchBarMorph	< class >	^ TextMorph subclass
+SearchBarMorph	< class >	^ TextMorph subclassWithInstVars: '' classVars: ''

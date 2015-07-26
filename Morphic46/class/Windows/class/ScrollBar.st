@@ -1,1 +1,1 @@
-ScrollBar	< class >	^ Slider subclass
+ScrollBar	< class >	^ Slider subclassWithInstVars: 'menuButton upButton downButton pagingArea scrollDelta pageDelta interval menuSelector timeOfMouseDown timeOfLastScroll nextPageDirection currentScrollDelay' classVars: 'ArrowImagesCache BoxesImagesCache RoundedScrollBarLook ScrollBarsWithoutArrowButtons ScrollBarsWithoutMenuButton UpArrow UpArrow8Bit'

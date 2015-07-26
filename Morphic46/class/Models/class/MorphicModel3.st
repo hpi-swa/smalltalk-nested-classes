@@ -1,1 +1,1 @@
-MorphicModel3	< class >	^ MorphicModel subclass
+MorphicModel3	< class >	^ MorphicModel subclassWithInstVars: '' classVars: ''

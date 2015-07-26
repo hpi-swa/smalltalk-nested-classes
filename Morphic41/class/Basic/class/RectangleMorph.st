@@ -1,1 +1,1 @@
-RectangleMorph	< class >	^ BorderedMorph subclass
+RectangleMorph	< class >	^ BorderedMorph subclassWithInstVars: '' classVars: ''

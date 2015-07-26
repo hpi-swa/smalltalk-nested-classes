@@ -1,1 +1,1 @@
-AlignmentMorph	< class >	^ RectangleMorph subclass
+AlignmentMorph	< class >	^ RectangleMorph subclassWithInstVars: '' classVars: ''

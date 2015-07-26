@@ -1,1 +1,1 @@
-Presenter	< class >	^ Object subclass
+Presenter	< class >	^ Object subclassWithInstVars: '' classVars: 'DefaultPresenterClass'

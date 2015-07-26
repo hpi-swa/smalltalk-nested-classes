@@ -1,1 +1,1 @@
-BalloonMorph	< class >	^ PolygonMorph subclass
+BalloonMorph	< class >	^ PolygonMorph subclassWithInstVars: 'target offsetFromTarget balloonOwner' classVars: 'BalloonColor BalloonFont'

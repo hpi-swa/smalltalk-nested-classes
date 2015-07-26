@@ -1,1 +1,1 @@
-SystemProgressMorph	< class >	^ RectangleMorph subclass
+SystemProgressMorph	< class >	^ RectangleMorph subclassWithInstVars: 'activeSlots bars labels font lock' classVars: 'BarHeight BarWidth Inset UniqueInstance'

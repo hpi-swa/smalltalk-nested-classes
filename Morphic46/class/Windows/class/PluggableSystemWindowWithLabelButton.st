@@ -1,1 +1,1 @@
-PluggableSystemWindowWithLabelButton	< class >	^ PluggableSystemWindow subclass
+PluggableSystemWindowWithLabelButton	< class >	^ PluggableSystemWindow subclassWithInstVars: 'labelButton' classVars: ''

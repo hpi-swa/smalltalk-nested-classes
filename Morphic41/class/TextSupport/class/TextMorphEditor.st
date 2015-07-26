@@ -1,1 +1,1 @@
-TextMorphEditor	< class >	^ ParagraphEditor subclass
+TextMorphEditor	< class >	^ ParagraphEditor subclassWithInstVars: 'morph oldInterval pivotBlock editHistory' classVars: ''

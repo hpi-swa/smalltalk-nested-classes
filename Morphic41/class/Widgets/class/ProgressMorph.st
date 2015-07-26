@@ -1,1 +1,1 @@
-ProgressMorph	< class >	^ RectangleMorph subclass
+ProgressMorph	< class >	^ RectangleMorph subclassWithInstVars: 'labelMorph subLabelMorph progress' classVars: ''

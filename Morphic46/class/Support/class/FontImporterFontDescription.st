@@ -1,1 +1,1 @@
-FontImporterFontDescription	< class >	^ Object subclass
+FontImporterFontDescription	< class >	^ Object subclassWithInstVars: 'fontname filename children parent' classVars: ''

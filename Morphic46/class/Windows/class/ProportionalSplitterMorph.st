@@ -1,1 +1,1 @@
-ProportionalSplitterMorph	< class >	^ AbstractResizerMorph subclass
+ProportionalSplitterMorph	< class >	^ AbstractResizerMorph subclassWithInstVars: 'leftOrTop rightOrBottom splitsTopAndBottom oldColor traceMorph handle movements' classVars: 'SmartHorizontalSplitters SmartVerticalSplitters'

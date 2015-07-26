@@ -1,1 +1,1 @@
-FormCanvas	< class >	^ Canvas subclass
+FormCanvas	< class >	^ Canvas subclassWithInstVars: 'origin clipRect form port shadowColor' classVars: ''

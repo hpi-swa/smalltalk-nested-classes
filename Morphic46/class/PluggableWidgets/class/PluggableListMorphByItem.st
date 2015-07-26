@@ -1,1 +1,1 @@
-PluggableListMorphByItem	< class >	^ PluggableListMorph subclass
+PluggableListMorphByItem	< class >	^ PluggableListMorph subclassWithInstVars: 'itemList' classVars: ''

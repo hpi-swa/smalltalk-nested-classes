@@ -1,1 +1,1 @@
-ColorMappingCanvas	< class >	^ Canvas subclass
+ColorMappingCanvas	< class >	^ Canvas subclassWithInstVars: 'myCanvas' classVars: ''

@@ -1,1 +1,1 @@
-NewColorPickerMorph	< class >	^ Morph subclass
+NewColorPickerMorph	< class >	^ Morph subclassWithInstVars: 'target setColorSelector hsvaMorph colorPresenter' classVars: 'UseIt'

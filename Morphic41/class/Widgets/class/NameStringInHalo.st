@@ -1,1 +1,1 @@
-NameStringInHalo	< class >	^ UpdatingStringMorph subclass
+NameStringInHalo	< class >	^ UpdatingStringMorph subclassWithInstVars: '' classVars: ''

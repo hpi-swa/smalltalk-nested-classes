@@ -1,1 +1,1 @@
-MorphHierarchyListMorph	< class >	^ SimpleHierarchicalListMorph subclass
+MorphHierarchyListMorph	< class >	^ SimpleHierarchicalListMorph subclassWithInstVars: '' classVars: ''

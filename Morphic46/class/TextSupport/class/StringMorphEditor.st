@@ -1,1 +1,1 @@
-StringMorphEditor	< class >	^ TextMorph subclass
+StringMorphEditor	< class >	^ TextMorph subclassWithInstVars: '' classVars: ''

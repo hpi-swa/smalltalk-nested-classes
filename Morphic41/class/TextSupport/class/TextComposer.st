@@ -1,1 +1,1 @@
-TextComposer	< class >	^ Object subclass
+TextComposer	< class >	^ Object subclassWithInstVars: 'lines maxRightX currentY scanner possibleSlide nowSliding prevIndex prevLines currCharIndex startCharIndex stopCharIndex deltaCharIndex theText theContainer isFirstLine theTextStyle defaultLineHeight actualHeight wantsColumnBreaks' classVars: ''

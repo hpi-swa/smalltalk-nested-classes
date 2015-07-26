@@ -1,1 +1,1 @@
-ClickExerciser	< class >	^ RectangleMorph subclass
+ClickExerciser	< class >	^ RectangleMorph subclassWithInstVars: 'buttons' classVars: ''

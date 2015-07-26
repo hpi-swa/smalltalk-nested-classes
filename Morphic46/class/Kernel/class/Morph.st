@@ -1,1 +1,1 @@
-Morph	< class >	^ Object subclass
+Morph	< class >	^ Object subclassWithInstVars: 'bounds owner submorphs fullBounds color extension' classVars: 'IndicateKeyboardFocus PreferredCornerRadius UseSoftDropShadow'

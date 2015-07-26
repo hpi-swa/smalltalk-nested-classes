@@ -1,1 +1,1 @@
-MorphHierarchy	< class >	^ Object subclass
+MorphHierarchy	< class >	^ Object subclassWithInstVars: '' classVars: ''

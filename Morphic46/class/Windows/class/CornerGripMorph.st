@@ -1,1 +1,1 @@
-CornerGripMorph	< class >	^ AbstractResizerMorph subclass
+CornerGripMorph	< class >	^ AbstractResizerMorph subclassWithInstVars: 'target' classVars: 'ActiveForm DrawCornerResizeHandles PassiveForm'

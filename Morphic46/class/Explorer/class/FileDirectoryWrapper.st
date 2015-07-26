@@ -1,1 +1,1 @@
-FileDirectoryWrapper	< class >	^ ListItemWrapper subclass
+FileDirectoryWrapper	< class >	^ ListItemWrapper subclassWithInstVars: 'itemName balloonText hasContents' classVars: ''

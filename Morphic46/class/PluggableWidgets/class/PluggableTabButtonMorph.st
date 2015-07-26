@@ -1,1 +1,1 @@
-PluggableTabButtonMorph	< class >	^ Morph subclass
+PluggableTabButtonMorph	< class >	^ Morph subclassWithInstVars: 'active model textSelector arcLengths subMorph' classVars: ''

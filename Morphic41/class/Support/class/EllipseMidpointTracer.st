@@ -1,1 +1,1 @@
-EllipseMidpointTracer	< class >	^ Object subclass
+EllipseMidpointTracer	< class >	^ Object subclassWithInstVars: 'rect x y a b aSquared bSquared d1 d2 inFirstRegion' classVars: ''

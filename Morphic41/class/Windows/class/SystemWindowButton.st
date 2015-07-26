@@ -1,1 +1,1 @@
-SystemWindowButton	< class >	^ IconicButton subclass
+SystemWindowButton	< class >	^ IconicButton subclassWithInstVars: 'dimmed dimmedForm highlightedForm' classVars: ''

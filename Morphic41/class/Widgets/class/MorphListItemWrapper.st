@@ -1,1 +1,1 @@
-MorphListItemWrapper	< class >	^ ListItemWrapper subclass
+MorphListItemWrapper	< class >	^ ListItemWrapper subclassWithInstVars: '' classVars: ''

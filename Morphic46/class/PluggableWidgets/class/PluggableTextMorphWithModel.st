@@ -1,1 +1,1 @@
-PluggableTextMorphWithModel	< class >	^ PluggableTextMorph subclass
+PluggableTextMorphWithModel	< class >	^ PluggableTextMorph subclassWithInstVars: 'myContents' classVars: ''

@@ -1,1 +1,1 @@
-MulticolumnLazyListMorph	< class >	^ LazyListMorph subclass
+MulticolumnLazyListMorph	< class >	^ LazyListMorph subclassWithInstVars: 'columnWidths' classVars: ''

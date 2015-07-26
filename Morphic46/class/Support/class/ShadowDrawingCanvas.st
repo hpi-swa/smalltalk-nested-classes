@@ -1,1 +1,1 @@
-ShadowDrawingCanvas	< class >	^ ColorMappingCanvas subclass
+ShadowDrawingCanvas	< class >	^ ColorMappingCanvas subclassWithInstVars: 'shadowColor' classVars: ''

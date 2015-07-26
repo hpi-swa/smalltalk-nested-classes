@@ -1,1 +1,1 @@
-ProgressBarMorph	< class >	^ BorderedMorph subclass
+ProgressBarMorph	< class >	^ BorderedMorph subclassWithInstVars: 'value progressColor lastValue' classVars: ''

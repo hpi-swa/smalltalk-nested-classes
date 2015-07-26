@@ -1,1 +1,1 @@
-MenuLineMorph	< class >	^ Morph subclass
+MenuLineMorph	< class >	^ Morph subclassWithInstVars: '' classVars: ''

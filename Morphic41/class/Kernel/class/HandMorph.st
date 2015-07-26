@@ -1,1 +1,1 @@
-HandMorph	< class >	^ Morph subclass
+HandMorph	< class >	^ Morph subclassWithInstVars: 'mouseFocus keyboardFocus eventListeners mouseListeners keyboardListeners mouseClickState mouseOverHandler lastMouseEvent targetOffset damageRecorder cacheCanvas cachedCanvasHasHoles temporaryCursor temporaryCursorOffset hardwareCursor hasChanged savedPatch userInitials lastEventBuffer genieGestureProcessor keyboardInterpreter' classVars: 'CompositionWindowManager DoubleClickTime EventStats NewEventRules NormalCursor PasteBuffer ShowEvents'

@@ -1,1 +1,1 @@
-TableLayout	< class >	^ LayoutPolicy subclass
+TableLayout	< class >	^ LayoutPolicy subclassWithInstVars: 'properties minExtentCache' classVars: ''

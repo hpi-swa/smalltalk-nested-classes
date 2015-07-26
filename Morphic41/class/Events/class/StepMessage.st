@@ -1,1 +1,1 @@
-StepMessage	< class >	^ MorphicAlarm subclass
+StepMessage	< class >	^ MorphicAlarm subclassWithInstVars: 'stepTime' classVars: ''

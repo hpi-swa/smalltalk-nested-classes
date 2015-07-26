@@ -1,1 +1,1 @@
-AbstractResizerMorph	< class >	^ Morph subclass
+AbstractResizerMorph	< class >	^ Morph subclassWithInstVars: 'dotColor handleColor lastMouse' classVars: ''

@@ -1,1 +1,1 @@
-DropEvent	< class >	^ MorphicEvent subclass
+DropEvent	< class >	^ MorphicEvent subclassWithInstVars: 'position contents wasHandled' classVars: ''

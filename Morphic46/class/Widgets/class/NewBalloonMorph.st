@@ -1,1 +1,1 @@
-NewBalloonMorph	< class >	^ Morph subclass
+NewBalloonMorph	< class >	^ Morph subclassWithInstVars: 'balloonOwner textMorph maximumWidth orientation hasTail' classVars: 'UseNewBalloonMorph'

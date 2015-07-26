@@ -1,1 +1,1 @@
-UpdatingThreePhaseButtonMorph	< class >	^ ThreePhaseButtonMorph subclass
+UpdatingThreePhaseButtonMorph	< class >	^ ThreePhaseButtonMorph subclassWithInstVars: 'getSelector getArgument' classVars: ''

@@ -1,1 +1,1 @@
-JoystickMorph	< class >	^ SketchMorph subclass
+JoystickMorph	< class >	^ SketchMorph subclassWithInstVars: 'handleMorph xScale yScale radiusScale lastAngle autoCenter realJoystickIndex lastRealJoystickValue button1 button2' classVars: ''

@@ -1,1 +1,1 @@
-PluggableCanvas	< class >	^ Canvas subclass
+PluggableCanvas	< class >	^ Canvas subclassWithInstVars: '' classVars: ''

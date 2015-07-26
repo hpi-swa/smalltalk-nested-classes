@@ -1,1 +1,1 @@
-DockingBarMenuMorph	< class >	^ MenuMorph subclass
+DockingBarMenuMorph	< class >	^ MenuMorph subclassWithInstVars: 'activatorDockingBar' classVars: ''

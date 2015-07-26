@@ -1,1 +1,1 @@
-UserInputEvent	< class >	^ MorphicEvent subclass
+UserInputEvent	< class >	^ MorphicEvent subclassWithInstVars: 'type buttons position handler wasHandled' classVars: ''

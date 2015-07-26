@@ -1,1 +1,1 @@
-ColorPickerMorph	< class >	^ SketchMorph subclass
+ColorPickerMorph	< class >	^ SketchMorph subclassWithInstVars: 'selectedColor sourceHand deleteOnMouseUp updateContinuously target selector argument originalColor theSelectorDisplayMorph command isModal clickedTranslucency' classVars: 'ColorChart DragBox FeedbackBox RevertBox TransText TransparentBox'

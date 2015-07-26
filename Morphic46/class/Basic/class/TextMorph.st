@@ -1,1 +1,1 @@
-TextMorph	< class >	^ RectangleMorph subclass
+TextMorph	< class >	^ RectangleMorph subclassWithInstVars: 'textStyle text wrapFlag paragraph editor container predecessor successor backgroundColor margins editHistory readOnly autoFit' classVars: 'CaretForm DefaultEditorClass'

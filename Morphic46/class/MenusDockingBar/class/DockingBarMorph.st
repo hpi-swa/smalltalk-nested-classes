@@ -1,1 +1,1 @@
-DockingBarMorph	< class >	^ AlignmentMorph subclass
+DockingBarMorph	< class >	^ AlignmentMorph subclassWithInstVars: 'originalColor gradientRamp fillsOwner avoidVisibleBordersAtEdge autoGradient selectedItem activeSubMenu oldKeyboardFocus oldMouseFocus' classVars: ''

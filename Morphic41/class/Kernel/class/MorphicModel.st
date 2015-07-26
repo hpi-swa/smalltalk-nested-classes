@@ -1,1 +1,1 @@
-MorphicModel	< class >	^ BorderedMorph subclass
+MorphicModel	< class >	^ BorderedMorph subclassWithInstVars: 'model slotName open' classVars: 'TimeOfError'

@@ -1,1 +1,1 @@
-TheWorldMainDockingBar	< class >	^ Object subclass
+TheWorldMainDockingBar	< class >	^ Object subclassWithInstVars: '' classVars: 'Instance TS'

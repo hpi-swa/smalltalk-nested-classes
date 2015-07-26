@@ -1,1 +1,1 @@
-StringMorphAttributeScanner	< class >	^ Object subclass
+StringMorphAttributeScanner	< class >	^ Object subclassWithInstVars: 'fontNumber textColor emphasis alignment actualFont indent kern' classVars: ''

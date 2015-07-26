@@ -1,1 +1,1 @@
-ComplexBorder	< class >	^ SimpleBorder subclass
+ComplexBorder	< class >	^ SimpleBorder subclassWithInstVars: 'style colors lineStyles' classVars: ''

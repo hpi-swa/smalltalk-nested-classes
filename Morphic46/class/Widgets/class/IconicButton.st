@@ -1,1 +1,1 @@
-IconicButton	< class >	^ SimpleButtonMorph subclass
+IconicButton	< class >	^ SimpleButtonMorph subclassWithInstVars: 'darkenedForm' classVars: ''

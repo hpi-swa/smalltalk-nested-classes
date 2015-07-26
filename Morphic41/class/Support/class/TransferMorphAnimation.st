@@ -1,1 +1,1 @@
-TransferMorphAnimation	< class >	^ Morph subclass
+TransferMorphAnimation	< class >	^ Morph subclassWithInstVars: 'transferMorph' classVars: ''

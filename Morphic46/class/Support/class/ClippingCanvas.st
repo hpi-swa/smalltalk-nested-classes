@@ -1,1 +1,1 @@
-ClippingCanvas	< class >	^ PluggableCanvas subclass
+ClippingCanvas	< class >	^ PluggableCanvas subclassWithInstVars: 'canvas clipRect' classVars: ''

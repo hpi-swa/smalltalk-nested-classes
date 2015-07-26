@@ -1,1 +1,1 @@
-GrafPort	< class >	^ BitBlt subclass
+GrafPort	< class >	^ BitBlt subclassWithInstVars: 'alpha fillPattern lastFont lastFontForegroundColor lastFontBackgroundColor' classVars: ''

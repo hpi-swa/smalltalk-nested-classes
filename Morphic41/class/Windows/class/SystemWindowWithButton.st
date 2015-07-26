@@ -1,1 +1,1 @@
-SystemWindowWithButton	< class >	^ SystemWindow subclass
+SystemWindowWithButton	< class >	^ SystemWindow subclassWithInstVars: 'buttonInTitle' classVars: ''

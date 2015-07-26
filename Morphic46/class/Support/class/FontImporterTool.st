@@ -1,1 +1,1 @@
-FontImporterTool	< class >	^ Model subclass
+FontImporterTool	< class >	^ Model subclassWithInstVars: 'title allFonts emphasis currentSelection currentParent warningSeen' classVars: ''

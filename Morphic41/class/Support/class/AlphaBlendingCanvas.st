@@ -1,1 +1,1 @@
-AlphaBlendingCanvas	< class >	^ ColorMappingCanvas subclass
+AlphaBlendingCanvas	< class >	^ ColorMappingCanvas subclassWithInstVars: 'alpha' classVars: ''

@@ -1,1 +1,1 @@
-HandleMorph	< class >	^ EllipseMorph subclass
+HandleMorph	< class >	^ EllipseMorph subclassWithInstVars: 'pointBlock lastPointBlock' classVars: ''

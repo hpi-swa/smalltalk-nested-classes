@@ -1,1 +1,1 @@
-SimpleButtonMorph	< class >	^ RectangleMorph subclass
+SimpleButtonMorph	< class >	^ RectangleMorph subclassWithInstVars: 'target actionSelector arguments actWhen oldColor mouseDownTime' classVars: ''

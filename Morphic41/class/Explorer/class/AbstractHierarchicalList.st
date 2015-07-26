@@ -1,1 +1,1 @@
-AbstractHierarchicalList	< class >	^ Model subclass
+AbstractHierarchicalList	< class >	^ Model subclassWithInstVars: 'currentSelection myBrowser' classVars: ''

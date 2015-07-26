@@ -1,1 +1,1 @@
-TextLine	< class >	^ Object subclass
+TextLine	< class >	^ Object subclassWithInstVars: 'left right top bottom firstIndex lastIndex internalSpaces paddingWidth baseline leftMargin' classVars: ''

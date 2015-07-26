@@ -1,1 +1,1 @@
-PluggableButtonMorph	< class >	^ AlignmentMorph subclass
+PluggableButtonMorph	< class >	^ AlignmentMorph subclassWithInstVars: 'model label font getStateSelector actionSelector getLabelSelector getMenuSelector shortcutCharacter askBeforeChanging triggerOnMouseDown offColor onColor feedbackColor showSelectionFeedback allButtons arguments argumentsProvider argumentsSelector style' classVars: 'GradientButton RoundedButtonCorners'

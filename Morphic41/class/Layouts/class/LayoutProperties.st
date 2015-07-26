@@ -1,1 +1,1 @@
-LayoutProperties	< class >	^ Object subclass
+LayoutProperties	< class >	^ Object subclassWithInstVars: 'hResizing vResizing disableLayout' classVars: ''

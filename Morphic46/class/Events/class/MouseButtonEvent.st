@@ -1,1 +1,1 @@
-MouseButtonEvent	< class >	^ MouseEvent subclass
+MouseButtonEvent	< class >	^ MouseEvent subclassWithInstVars: 'whichButton' classVars: ''

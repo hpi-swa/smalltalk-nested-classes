@@ -1,1 +1,1 @@
-SystemWindow	< class >	^ MorphicModel subclass
+SystemWindow	< class >	^ MorphicModel subclassWithInstVars: 'labelString stripes label closeBox collapseBox activeOnlyOnTop paneMorphs paneRects collapsedFrame fullFrame isCollapsed menuBox mustNotClose labelWidgetAllowance updatablePanes allowReframeHandles labelArea expandBox' classVars: 'ClickOnLabelToEdit CloseBoxFrame CloseBoxImage CollapseBoxImage DoubleClickOnLabelToExpand ExpandBoxFrame ExpandBoxImage HideExpandButton MenuBoxFrame MenuBoxImage ReuseWindows TopWindow'

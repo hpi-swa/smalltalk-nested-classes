@@ -1,1 +1,1 @@
-PluggableMessageCategoryListMorph	< class >	^ PluggableListMorph subclass
+PluggableMessageCategoryListMorph	< class >	^ PluggableListMorph subclassWithInstVars: 'getRawListSelector priorRawList' classVars: ''

@@ -1,1 +1,1 @@
-MultiWindowLabelButtonMorph	< class >	^ PluggableButtonMorph subclass
+MultiWindowLabelButtonMorph	< class >	^ PluggableButtonMorph subclassWithInstVars: 'savedMultiWindowState' classVars: ''

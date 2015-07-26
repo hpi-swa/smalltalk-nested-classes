@@ -1,1 +1,1 @@
-Canvas	< class >	^ FlattenEncoder subclass
+Canvas	< class >	^ FlattenEncoder subclassWithInstVars: '' classVars: ''

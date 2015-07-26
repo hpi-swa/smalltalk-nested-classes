@@ -1,1 +1,1 @@
-SimpleHierarchicalListMorph	< class >	^ ScrollPane subclass
+SimpleHierarchicalListMorph	< class >	^ ScrollPane subclassWithInstVars: 'selectedMorph getListSelector keystrokeActionSelector autoDeselect columns sortingSelector getSelectionSelector setSelectionSelector potentialDropMorph lineColor' classVars: ''

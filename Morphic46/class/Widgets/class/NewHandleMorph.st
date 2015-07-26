@@ -1,1 +1,1 @@
-NewHandleMorph	< class >	^ HandleMorph subclass
+NewHandleMorph	< class >	^ HandleMorph subclassWithInstVars: 'hand offset waitingForClickInside' classVars: ''

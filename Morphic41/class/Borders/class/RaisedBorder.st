@@ -1,1 +1,1 @@
-RaisedBorder	< class >	^ SimpleBorder subclass
+RaisedBorder	< class >	^ SimpleBorder subclassWithInstVars: '' classVars: ''

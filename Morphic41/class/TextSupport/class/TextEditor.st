@@ -1,1 +1,1 @@
-TextEditor	< class >	^ Editor subclass
+TextEditor	< class >	^ Editor subclassWithInstVars: 'model paragraph pointBlock markBlock beginTypeInBlock emphasisHere otherInterval lastParenLocation oldInterval' classVars: 'AutoIndent ChangeText FindText UndoInterval UndoMessage UndoParagraph UndoSelection Undone'

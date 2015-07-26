@@ -1,1 +1,1 @@
-PluggableScrollPane	< class >	^ ScrollPane subclass
+PluggableScrollPane	< class >	^ ScrollPane subclassWithInstVars: 'morph morphClass' classVars: ''

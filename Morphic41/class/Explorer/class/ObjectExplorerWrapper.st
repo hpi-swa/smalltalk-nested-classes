@@ -1,1 +1,1 @@
-ObjectExplorerWrapper	< class >	^ ListItemWrapper subclass
+ObjectExplorerWrapper	< class >	^ ListItemWrapper subclassWithInstVars: 'itemName parent' classVars: ''

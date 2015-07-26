@@ -1,1 +1,1 @@
-PreDebugWindow	< class >	^ SystemWindow subclass
+PreDebugWindow	< class >	^ SystemWindow subclassWithInstVars: 'proceedButton debugButton' classVars: ''

@@ -1,1 +1,1 @@
-MenuUpdater	< class >	^ Object subclass
+MenuUpdater	< class >	^ Object subclassWithInstVars: 'updater updateSelector arguments' classVars: ''

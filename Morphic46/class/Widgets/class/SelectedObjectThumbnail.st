@@ -1,1 +1,1 @@
-SelectedObjectThumbnail	< class >	^ ImageMorph subclass
+SelectedObjectThumbnail	< class >	^ ImageMorph subclassWithInstVars: 'noSelectedThumbnail noSelectedBalloonText' classVars: ''

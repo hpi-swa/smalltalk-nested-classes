@@ -1,1 +1,1 @@
-BracketSliderMorph	< class >	^ Slider subclass
+BracketSliderMorph	< class >	^ Slider subclassWithInstVars: 'getEnabledSelector enabled' classVars: ''

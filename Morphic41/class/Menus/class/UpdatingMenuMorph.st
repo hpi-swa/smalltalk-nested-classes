@@ -1,1 +1,1 @@
-UpdatingMenuMorph	< class >	^ MenuMorph subclass
+UpdatingMenuMorph	< class >	^ MenuMorph subclassWithInstVars: 'menuUpdater' classVars: ''

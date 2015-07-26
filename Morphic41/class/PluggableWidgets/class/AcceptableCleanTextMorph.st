@@ -1,1 +1,1 @@
-AcceptableCleanTextMorph	< class >	^ PluggableTextMorph subclass
+AcceptableCleanTextMorph	< class >	^ PluggableTextMorph subclassWithInstVars: '' classVars: ''

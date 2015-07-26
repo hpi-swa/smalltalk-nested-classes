@@ -1,1 +1,1 @@
-MovieMorph	< class >	^ Morph subclass
+MovieMorph	< class >	^ Morph subclassWithInstVars: 'playMode msecsPerFrame rotationDegrees scalePoint frameList currentFrameIndex dwellCount' classVars: ''

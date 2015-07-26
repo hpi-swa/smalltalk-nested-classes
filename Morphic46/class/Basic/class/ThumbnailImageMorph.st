@@ -1,1 +1,1 @@
-ThumbnailImageMorph	< class >	^ ImageMorph subclass
+ThumbnailImageMorph	< class >	^ ImageMorph subclassWithInstVars: 'imagePopupMorph desiredExtent isPopup' classVars: ''

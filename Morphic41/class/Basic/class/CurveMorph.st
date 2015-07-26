@@ -1,1 +1,1 @@
-CurveMorph	< class >	^ PolygonMorph subclass
+CurveMorph	< class >	^ PolygonMorph subclassWithInstVars: '' classVars: ''

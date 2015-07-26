@@ -1,1 +1,1 @@
-PluggableListMorphOfMany	< class >	^ PluggableListMorph subclass
+PluggableListMorphOfMany	< class >	^ PluggableListMorph subclassWithInstVars: 'dragOnOrOff getSelectionListSelector setSelectionListSelector' classVars: ''

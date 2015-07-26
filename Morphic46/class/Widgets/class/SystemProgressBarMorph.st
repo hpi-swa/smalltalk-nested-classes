@@ -1,1 +1,1 @@
-SystemProgressBarMorph	< class >	^ RectangleMorph subclass
+SystemProgressBarMorph	< class >	^ RectangleMorph subclassWithInstVars: 'barSize' classVars: ''

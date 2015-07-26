@@ -1,1 +1,1 @@
-UserDialogBoxMorph	< class >	^ AlignmentMorph subclass
+UserDialogBoxMorph	< class >	^ AlignmentMorph subclassWithInstVars: 'titleMorph labelMorph buttonRow value selectedButton cancelButton' classVars: ''

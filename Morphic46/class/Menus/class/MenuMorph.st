@@ -1,1 +1,1 @@
-MenuMorph	< class >	^ AlignmentMorph subclass
+MenuMorph	< class >	^ AlignmentMorph subclassWithInstVars: 'defaultTarget selectedItem stayUp popUpOwner activeSubMenu' classVars: 'CloseBoxImage CloseBoxImageFlat CloseBoxImageGradient GradientMenu MenuBorderColor MenuBorderWidth MenuColor MenuLineColor MenuSelectionColor MenuTitleBorderColor MenuTitleBorderWidth MenuTitleColor PushPinImage RoundedMenuCorners'

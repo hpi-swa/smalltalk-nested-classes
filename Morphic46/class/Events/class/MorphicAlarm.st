@@ -1,1 +1,1 @@
-MorphicAlarm	< class >	^ MessageSend subclass
+MorphicAlarm	< class >	^ MessageSend subclassWithInstVars: 'scheduledTime sequenceNumber numArgs' classVars: ''

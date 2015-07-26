@@ -1,1 +1,1 @@
-SimpleBorder	< class >	^ BorderStyle subclass
+SimpleBorder	< class >	^ BorderStyle subclassWithInstVars: 'baseColor color width' classVars: ''

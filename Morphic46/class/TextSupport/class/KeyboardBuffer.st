@@ -1,1 +1,1 @@
-KeyboardBuffer	< class >	^ Object subclass
+KeyboardBuffer	< class >	^ Object subclassWithInstVars: 'event eventUsed' classVars: ''

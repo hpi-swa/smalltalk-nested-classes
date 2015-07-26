@@ -1,1 +1,1 @@
-CircleMorph	< class >	^ EllipseMorph subclass
+CircleMorph	< class >	^ EllipseMorph subclassWithInstVars: '' classVars: ''

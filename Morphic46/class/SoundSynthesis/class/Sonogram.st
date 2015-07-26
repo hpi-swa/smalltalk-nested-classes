@@ -1,1 +1,1 @@
-Sonogram	< class >	^ ImageMorph subclass
+Sonogram	< class >	^ ImageMorph subclassWithInstVars: 'lastX scrollDelta columnForm minVal maxVal pixValMap' classVars: ''

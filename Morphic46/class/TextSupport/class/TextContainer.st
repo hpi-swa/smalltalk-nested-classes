@@ -1,1 +1,1 @@
-TextContainer	< class >	^ Object subclass
+TextContainer	< class >	^ Object subclassWithInstVars: 'textMorph shadowForm vertProfile minWidth rectangleCache fillsOwner avoidsOcclusions' classVars: 'OuterMargin'

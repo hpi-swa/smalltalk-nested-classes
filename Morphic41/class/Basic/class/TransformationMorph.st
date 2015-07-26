@@ -1,1 +1,1 @@
-TransformationMorph	< class >	^ TransformMorph subclass
+TransformationMorph	< class >	^ TransformMorph subclassWithInstVars: '' classVars: ''

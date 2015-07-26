@@ -1,1 +1,1 @@
-IndentingListItemMorph	< class >	^ StringMorph subclass
+IndentingListItemMorph	< class >	^ StringMorph subclassWithInstVars: 'indentLevel isExpanded complexContents firstChild container nextSibling icon backgroundColor' classVars: ''

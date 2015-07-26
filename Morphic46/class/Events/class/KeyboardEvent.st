@@ -1,1 +1,1 @@
-KeyboardEvent	< class >	^ UserInputEvent subclass
+KeyboardEvent	< class >	^ UserInputEvent subclassWithInstVars: 'keyValue' classVars: ''

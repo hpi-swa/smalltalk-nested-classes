@@ -1,1 +1,1 @@
-PluggableListMorph	< class >	^ ScrollPane subclass
+PluggableListMorph	< class >	^ ScrollPane subclassWithInstVars: 'list getListSelector getListSizeSelector getListElementSelector getIndexSelector setIndexSelector keystrokeActionSelector autoDeselect lastKeystrokeTime lastKeystrokes lastClickTime doubleClickSelector handlesBasicKeys potentialDropRow hoverRow listMorph hScrollRangeCache keystrokePreviewSelector priorSelection getIconSelector' classVars: 'ClearFilterAutomatically FilterableLists HighlightHoveredRow MenuRequestUpdatesSelection'

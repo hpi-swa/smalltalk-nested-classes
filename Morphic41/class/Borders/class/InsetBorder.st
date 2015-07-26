@@ -1,1 +1,1 @@
-InsetBorder	< class >	^ SimpleBorder subclass
+InsetBorder	< class >	^ SimpleBorder subclassWithInstVars: '' classVars: ''

@@ -1,1 +1,1 @@
-LayoutFrame	< class >	^ Object subclass
+LayoutFrame	< class >	^ Object subclassWithInstVars: 'leftFraction leftOffset topFraction topOffset rightFraction rightOffset bottomFraction bottomOffset' classVars: ''

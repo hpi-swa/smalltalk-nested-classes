@@ -1,1 +1,1 @@
-ImageMorph	< class >	^ Morph subclass
+ImageMorph	< class >	^ Morph subclassWithInstVars: 'image' classVars: 'DefaultForm'

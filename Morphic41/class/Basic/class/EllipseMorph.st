@@ -1,1 +1,1 @@
-EllipseMorph	< class >	^ BorderedMorph subclass
+EllipseMorph	< class >	^ BorderedMorph subclassWithInstVars: '' classVars: ''

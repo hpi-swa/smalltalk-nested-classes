@@ -1,1 +1,1 @@
-ProjectViewMorph	< class >	^ ImageMorph subclass
+ProjectViewMorph	< class >	^ ImageMorph subclassWithInstVars: 'project lastProjectThumbnail' classVars: ''

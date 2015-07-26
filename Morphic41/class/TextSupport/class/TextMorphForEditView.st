@@ -1,1 +1,1 @@
-TextMorphForEditView	< class >	^ TextMorph subclass
+TextMorphForEditView	< class >	^ TextMorph subclassWithInstVars: 'editView acceptOnCR' classVars: ''

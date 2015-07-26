@@ -1,1 +1,1 @@
-StringMorph	< class >	^ Morph subclass
+StringMorph	< class >	^ Morph subclassWithInstVars: 'font emphasis contents hasFocus' classVars: ''

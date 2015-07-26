@@ -1,1 +1,1 @@
-StandardScriptingSystem	< class >	^ Object subclass
+StandardScriptingSystem	< class >	^ Object subclassWithInstVars: '' classVars: 'ClassVarNamesInUse FormDictionary HelpStrings StandardPartsBin'

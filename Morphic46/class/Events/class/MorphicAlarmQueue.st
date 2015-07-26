@@ -1,1 +1,1 @@
-MorphicAlarmQueue	< class >	^ Heap subclass
+MorphicAlarmQueue	< class >	^ Heap subclassWithInstVars: 'mutex sequenceNumber' classVars: ''

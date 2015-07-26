@@ -1,1 +1,1 @@
-BorderStyle	< class >	^ Object subclass
+BorderStyle	< class >	^ Object subclassWithInstVars: '' classVars: 'Default'

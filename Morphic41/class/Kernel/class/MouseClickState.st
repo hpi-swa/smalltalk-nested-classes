@@ -1,1 +1,1 @@
-MouseClickState	< class >	^ Object subclass
+MouseClickState	< class >	^ Object subclassWithInstVars: 'clickClient clickState firstClickDown firstClickUp firstClickTime clickSelector dblClickSelector dblClickTime dblClickTimeoutSelector dragSelector dragThreshold' classVars: ''

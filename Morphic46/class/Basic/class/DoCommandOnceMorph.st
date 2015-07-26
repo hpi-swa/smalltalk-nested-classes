@@ -1,1 +1,1 @@
-DoCommandOnceMorph	< class >	^ BorderedMorph subclass
+DoCommandOnceMorph	< class >	^ BorderedMorph subclassWithInstVars: 'target command actionBlock innerArea' classVars: ''

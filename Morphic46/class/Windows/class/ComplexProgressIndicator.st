@@ -1,1 +1,1 @@
-ComplexProgressIndicator	< class >	^ Object subclass
+ComplexProgressIndicator	< class >	^ Object subclassWithInstVars: 'formerWorld targetMorph estimate prevData formerProcess translucentMorph userSuppliedMorph specificHistory historyCategory cumulativeStageTime formerProject newRatio stageCompleted start' classVars: 'History'

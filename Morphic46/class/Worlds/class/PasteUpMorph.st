@@ -1,1 +1,1 @@
-PasteUpMorph	< class >	^ BorderedMorph subclass
+PasteUpMorph	< class >	^ BorderedMorph subclassWithInstVars: 'presenter model cursor padding backgroundMorph turtleTrailsForm turtlePen lastTurtlePositions isPartsBin indicateCursor wantsMouseOverHalos worldState griddingOn' classVars: 'DisableDeferredUpdates MinCycleLapse StillAlive WindowEventHandler'

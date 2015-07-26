@@ -1,1 +1,1 @@
-LazyListMorph	< class >	^ Morph subclass
+LazyListMorph	< class >	^ Morph subclassWithInstVars: 'listItems listIcons listFilterOffsets font selectedRow selectedRows preSelectedRow listSource maxWidth' classVars: 'ListPreSelectionColor ListSelectionColor ListSelectionTextColor'

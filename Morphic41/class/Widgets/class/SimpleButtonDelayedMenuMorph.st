@@ -1,1 +1,1 @@
-SimpleButtonDelayedMenuMorph	< class >	^ SimpleButtonMorph subclass
+SimpleButtonDelayedMenuMorph	< class >	^ SimpleButtonMorph subclassWithInstVars: 'didMenu' classVars: ''

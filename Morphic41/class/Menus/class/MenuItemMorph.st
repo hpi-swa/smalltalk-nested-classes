@@ -1,1 +1,1 @@
-MenuItemMorph	< class >	^ StringMorph subclass
+MenuItemMorph	< class >	^ StringMorph subclassWithInstVars: 'isEnabled subMenu isSelected target selector arguments icon lastMousePosition' classVars: 'SubMenuMarker'

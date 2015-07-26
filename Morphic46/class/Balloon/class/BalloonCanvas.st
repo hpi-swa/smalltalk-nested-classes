@@ -1,1 +1,1 @@
-BalloonCanvas	< class >	^ FormCanvas subclass
+BalloonCanvas	< class >	^ FormCanvas subclassWithInstVars: 'transform colorTransform engine aaLevel deferred' classVars: ''

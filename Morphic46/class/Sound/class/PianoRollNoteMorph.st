@@ -1,1 +1,1 @@
-PianoRollNoteMorph	< class >	^ Morph subclass
+PianoRollNoteMorph	< class >	^ Morph subclassWithInstVars: 'trackIndex indexInTrack hitLoc editMode selected notePlaying' classVars: 'SoundPlaying'

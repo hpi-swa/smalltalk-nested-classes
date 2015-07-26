@@ -1,1 +1,1 @@
-HaloMorph	< class >	^ Morph subclass
+HaloMorph	< class >	^ Morph subclassWithInstVars: 'target innerTarget positionOffset angleOffset minExtent growingOrRotating directionArrowAnchor haloBox simpleMode originalExtent' classVars: ''

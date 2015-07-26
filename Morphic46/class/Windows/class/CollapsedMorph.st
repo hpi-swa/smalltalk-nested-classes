@@ -1,1 +1,1 @@
-CollapsedMorph	< class >	^ SystemWindow subclass
+CollapsedMorph	< class >	^ SystemWindow subclassWithInstVars: 'uncollapsedMorph' classVars: ''

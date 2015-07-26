@@ -1,1 +1,1 @@
-UpdatingStringMorph	< class >	^ StringMorph subclass
+UpdatingStringMorph	< class >	^ StringMorph subclassWithInstVars: 'format target lastValue getSelector putSelector floatPrecision growable stepTime autoAcceptOnFocusLoss minimumWidth maximumWidth' classVars: ''

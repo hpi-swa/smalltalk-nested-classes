@@ -1,1 +1,1 @@
-AlternatePluggableListMorphOfMany	< class >	^ PluggableListMorph subclass
+AlternatePluggableListMorphOfMany	< class >	^ PluggableListMorph subclassWithInstVars: 'getSelectionListSelector setSelectionListSelector' classVars: ''

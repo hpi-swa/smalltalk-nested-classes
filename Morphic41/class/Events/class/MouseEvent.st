@@ -1,1 +1,1 @@
-MouseEvent	< class >	^ UserInputEvent subclass
+MouseEvent	< class >	^ UserInputEvent subclassWithInstVars: '' classVars: ''

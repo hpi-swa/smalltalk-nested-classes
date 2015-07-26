@@ -1,1 +1,1 @@
-DamageRecorder	< class >	^ Object subclass
+DamageRecorder	< class >	^ Object subclassWithInstVars: 'invalidRects totalRepaint' classVars: ''

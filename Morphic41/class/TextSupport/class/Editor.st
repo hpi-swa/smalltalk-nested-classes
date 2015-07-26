@@ -1,1 +1,1 @@
-Editor	< class >	^ Object subclass
+Editor	< class >	^ Object subclassWithInstVars: 'sensor morph selectionShowing' classVars: 'DestructiveBackWord SelectionsMayShrink'

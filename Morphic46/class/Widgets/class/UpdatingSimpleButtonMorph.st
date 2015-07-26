@@ -1,1 +1,1 @@
-UpdatingSimpleButtonMorph	< class >	^ SimpleButtonMorph subclass
+UpdatingSimpleButtonMorph	< class >	^ SimpleButtonMorph subclassWithInstVars: 'wordingProvider wordingSelector' classVars: ''

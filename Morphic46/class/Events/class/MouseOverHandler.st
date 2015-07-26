@@ -1,1 +1,1 @@
-MouseOverHandler	< class >	^ Object subclass
+MouseOverHandler	< class >	^ Object subclassWithInstVars: 'mouseOverMorphs enteredMorphs overMorphs leftMorphs' classVars: ''

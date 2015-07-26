@@ -1,1 +1,1 @@
-MorphicEvent	< class >	^ Object subclass
+MorphicEvent	< class >	^ Object subclassWithInstVars: 'timeStamp source' classVars: ''

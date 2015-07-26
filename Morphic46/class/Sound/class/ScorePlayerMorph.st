@@ -1,1 +1,1 @@
-ScorePlayerMorph	< class >	^ AlignmentMorph subclass
+ScorePlayerMorph	< class >	^ AlignmentMorph subclassWithInstVars: 'scorePlayer trackInstNames instrumentSelector scrollSlider' classVars: 'LastMIDIPort'

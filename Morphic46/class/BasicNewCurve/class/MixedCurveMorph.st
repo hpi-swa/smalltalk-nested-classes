@@ -1,1 +1,1 @@
-MixedCurveMorph	< class >	^ PolygonMorph subclass
+MixedCurveMorph	< class >	^ PolygonMorph subclassWithInstVars: 'slopeClamps' classVars: ''

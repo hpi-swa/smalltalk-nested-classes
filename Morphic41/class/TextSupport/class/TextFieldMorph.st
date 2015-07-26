@@ -1,1 +1,1 @@
-TextFieldMorph	< class >	^ RectangleMorph subclass
+TextFieldMorph	< class >	^ RectangleMorph subclassWithInstVars: '' classVars: ''

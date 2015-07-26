@@ -1,1 +1,1 @@
-TransformMorph	< class >	^ Morph subclass
+TransformMorph	< class >	^ Morph subclassWithInstVars: 'transform smoothing localBounds' classVars: ''

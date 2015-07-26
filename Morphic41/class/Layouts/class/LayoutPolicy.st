@@ -1,1 +1,1 @@
-LayoutPolicy	< class >	^ Object subclass
+LayoutPolicy	< class >	^ Object subclassWithInstVars: '' classVars: ''

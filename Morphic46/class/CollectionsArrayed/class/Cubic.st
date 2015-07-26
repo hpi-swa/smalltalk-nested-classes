@@ -1,1 +1,1 @@
-Cubic	< class >	^ Array subclass
+Cubic	< class >	^ Array subclassWithInstVars: '' classVars: ''

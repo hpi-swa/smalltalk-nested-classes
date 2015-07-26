@@ -1,1 +1,1 @@
-TransferMorphLineAnimation	< class >	^ TransferMorphAnimation subclass
+TransferMorphLineAnimation	< class >	^ TransferMorphAnimation subclassWithInstVars: 'polygon' classVars: ''

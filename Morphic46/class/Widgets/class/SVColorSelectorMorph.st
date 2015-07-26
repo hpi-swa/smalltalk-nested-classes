@@ -1,1 +1,1 @@
-SVColorSelectorMorph	< class >	^ Morph subclass
+SVColorSelectorMorph	< class >	^ Morph subclassWithInstVars: 'selectedColor locationMorph' classVars: ''

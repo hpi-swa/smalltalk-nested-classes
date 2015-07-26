@@ -1,1 +1,1 @@
-Editor	< class >	^ Object subclass
+Editor	< class >	^ Object subclassWithInstVars: 'morph selectionShowing' classVars: 'BlinkingCursor DestructiveBackWord DumbbellCursor KeystrokeActions SelectionsMayShrink'

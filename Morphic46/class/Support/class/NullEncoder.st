@@ -1,1 +1,1 @@
-NullEncoder	< class >	^ Object subclass
+NullEncoder	< class >	^ Object subclassWithInstVars: 'target filterSelector' classVars: ''

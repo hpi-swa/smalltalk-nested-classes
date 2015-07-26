@@ -1,1 +1,1 @@
-FontChooserTool	< class >	^ Model subclass
+FontChooserTool	< class >	^ Model subclassWithInstVars: 'title selectedFontIndex fontList target getSelector setSelector pointSize emphasis window result offerStyleList' classVars: 'Default'

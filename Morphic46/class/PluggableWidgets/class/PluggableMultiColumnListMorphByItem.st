@@ -1,1 +1,1 @@
-PluggableMultiColumnListMorphByItem	< class >	^ PluggableMultiColumnListMorph subclass
+PluggableMultiColumnListMorphByItem	< class >	^ PluggableMultiColumnListMorph subclassWithInstVars: 'itemList' classVars: ''

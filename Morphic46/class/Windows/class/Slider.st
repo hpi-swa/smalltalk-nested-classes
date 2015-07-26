@@ -1,1 +1,1 @@
-Slider	< class >	^ MorphicModel subclass
+Slider	< class >	^ MorphicModel subclassWithInstVars: 'slider value setValueSelector getValueSelector sliderShadow sliderColor descending minimumValue maximumValue quantum getMinimumValueSelector getMaximumValueSelector orientation' classVars: ''

@@ -1,1 +1,1 @@
-WindowEvent	< class >	^ MorphicEvent subclass
+WindowEvent	< class >	^ MorphicEvent subclassWithInstVars: 'action rectangle' classVars: ''

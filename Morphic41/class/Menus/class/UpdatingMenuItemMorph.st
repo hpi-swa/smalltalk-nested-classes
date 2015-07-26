@@ -1,1 +1,1 @@
-UpdatingMenuItemMorph	< class >	^ MenuItemMorph subclass
+UpdatingMenuItemMorph	< class >	^ MenuItemMorph subclassWithInstVars: 'wordingProvider wordingSelector enablementSelector wordingArgument' classVars: ''

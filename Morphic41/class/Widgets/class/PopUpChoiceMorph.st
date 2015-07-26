@@ -1,1 +1,1 @@
-PopUpChoiceMorph	< class >	^ StringMorph subclass
+PopUpChoiceMorph	< class >	^ StringMorph subclassWithInstVars: 'target actionSelector arguments getItemsSelector getItemsArgs choiceSelector choiceArgs' classVars: ''

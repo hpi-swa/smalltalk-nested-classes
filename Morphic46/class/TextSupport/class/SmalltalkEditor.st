@@ -1,1 +1,1 @@
-SmalltalkEditor	< class >	^ TextEditor subclass
+SmalltalkEditor	< class >	^ TextEditor subclassWithInstVars: 'styler' classVars: ''

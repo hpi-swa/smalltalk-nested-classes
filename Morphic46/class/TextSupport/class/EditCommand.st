@@ -1,1 +1,1 @@
-EditCommand	< class >	^ Object subclass
+EditCommand	< class >	^ Object subclassWithInstVars: 'textMorph phase replacedText replacedTextInterval newText newTextInterval lastSelectionInterval' classVars: ''

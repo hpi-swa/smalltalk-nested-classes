@@ -1,1 +1,1 @@
-TextMorphCommandHistory	< class >	^ CommandHistory subclass
+TextMorphCommandHistory	< class >	^ CommandHistory subclassWithInstVars: 'textMorph' classVars: ''

@@ -1,1 +1,1 @@
-WindowColorSpec	< class >	^ Object subclass
+WindowColorSpec	< class >	^ Object subclassWithInstVars: 'classSymbol wording brightColor pastelColor helpMessage' classVars: ''

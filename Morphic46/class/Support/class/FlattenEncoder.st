@@ -1,1 +1,1 @@
-FlattenEncoder	< class >	^ NullEncoder subclass
+FlattenEncoder	< class >	^ NullEncoder subclassWithInstVars: '' classVars: ''

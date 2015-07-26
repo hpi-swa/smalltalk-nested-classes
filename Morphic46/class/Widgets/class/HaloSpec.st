@@ -1,1 +1,1 @@
-HaloSpec	< class >	^ Object subclass
+HaloSpec	< class >	^ Object subclassWithInstVars: 'addHandleSelector horizontalPlacement verticalPlacement color iconSymbol' classVars: ''

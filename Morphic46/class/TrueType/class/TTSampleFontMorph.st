@@ -1,1 +1,1 @@
-TTSampleFontMorph	< class >	^ BorderedMorph subclass
+TTSampleFontMorph	< class >	^ BorderedMorph subclassWithInstVars: 'font transform smoothing' classVars: ''

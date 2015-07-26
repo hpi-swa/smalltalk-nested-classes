@@ -1,1 +1,1 @@
-BorderedSubpaneDividerMorph	< class >	^ BorderedMorph subclass
+BorderedSubpaneDividerMorph	< class >	^ BorderedMorph subclassWithInstVars: 'resizingEdge' classVars: ''

@@ -1,1 +1,1 @@
-SelectionMorph	< class >	^ BorderedMorph subclass
+SelectionMorph	< class >	^ BorderedMorph subclassWithInstVars: 'selectedItems slippage dupLoc dupDelta itemsAlreadySelected otherSelection undoProperties' classVars: ''

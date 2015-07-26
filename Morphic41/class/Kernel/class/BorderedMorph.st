@@ -1,1 +1,1 @@
-BorderedMorph	< class >	^ Morph subclass
+BorderedMorph	< class >	^ Morph subclassWithInstVars: 'borderWidth borderColor' classVars: ''

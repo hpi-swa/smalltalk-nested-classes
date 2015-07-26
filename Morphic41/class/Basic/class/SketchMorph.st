@@ -1,1 +1,1 @@
-SketchMorph	< class >	^ Morph subclass
+SketchMorph	< class >	^ Morph subclassWithInstVars: 'originalForm rotationStyle scalePoint framesToDwell rotatedForm' classVars: ''

@@ -1,1 +1,1 @@
-DropFilesEvent	< class >	^ DropEvent subclass
+DropFilesEvent	< class >	^ DropEvent subclassWithInstVars: '' classVars: ''

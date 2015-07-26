@@ -1,1 +1,1 @@
-MorphicEventDispatcher	< class >	^ Object subclass
+MorphicEventDispatcher	< class >	^ Object subclassWithInstVars: 'lastType lastDispatch' classVars: ''

@@ -1,1 +1,1 @@
-NewParagraph	< class >	^ Object subclass
+NewParagraph	< class >	^ Object subclassWithInstVars: 'text textStyle firstCharacterIndex container lines positionWhenComposed offsetToEnd maxRightX selectionStart selectionStop wantsColumnBreaks focused caretRect showCaret' classVars: ''

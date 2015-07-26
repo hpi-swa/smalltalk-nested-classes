@@ -1,1 +1,1 @@
-MorphicUnknownEvent	< class >	^ MorphicEvent subclass
+MorphicUnknownEvent	< class >	^ MorphicEvent subclassWithInstVars: 'type argument' classVars: ''

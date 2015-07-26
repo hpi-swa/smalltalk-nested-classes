@@ -1,1 +1,1 @@
-DumberMenuMorph	< class >	^ MenuMorph subclass
+DumberMenuMorph	< class >	^ MenuMorph subclassWithInstVars: '' classVars: ''

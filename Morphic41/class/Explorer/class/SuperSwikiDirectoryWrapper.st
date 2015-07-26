@@ -1,1 +1,1 @@
-SuperSwikiDirectoryWrapper	< class >	^ FileDirectoryWrapper subclass
+SuperSwikiDirectoryWrapper	< class >	^ FileDirectoryWrapper subclassWithInstVars: '' classVars: ''

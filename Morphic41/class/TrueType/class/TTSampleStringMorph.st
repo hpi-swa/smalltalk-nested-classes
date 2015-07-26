@@ -1,1 +1,1 @@
-TTSampleStringMorph	< class >	^ TTSampleFontMorph subclass
+TTSampleStringMorph	< class >	^ TTSampleFontMorph subclassWithInstVars: 'string ttBounds' classVars: ''

@@ -1,1 +1,1 @@
-FillInTheBlankMorph	< class >	^ RectangleMorph subclass
+FillInTheBlankMorph	< class >	^ RectangleMorph subclassWithInstVars: 'response done textPane responseUponCancel' classVars: 'RoundedDialogCorners'

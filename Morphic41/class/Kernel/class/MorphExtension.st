@@ -1,1 +1,1 @@
-MorphExtension	< class >	^ Object subclass
+MorphExtension	< class >	^ Object subclassWithInstVars: 'locked visible sticky balloonText balloonTextSelector externalName isPartsDonor actorState player eventHandler otherProperties' classVars: ''

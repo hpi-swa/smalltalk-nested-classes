@@ -1,1 +1,1 @@
-MorphicProject	< class >	^ Project subclass
+MorphicProject	< class >	^ Project subclassWithInstVars: '' classVars: 'DefaultFill'

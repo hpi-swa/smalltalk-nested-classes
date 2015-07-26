@@ -1,1 +1,1 @@
-ColorPresenterMorph	< class >	^ MorphicModel subclass
+ColorPresenterMorph	< class >	^ MorphicModel subclassWithInstVars: 'contentMorph labelMorph solidLabelMorph getColorSelector' classVars: 'HatchForm'

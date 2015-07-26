@@ -1,1 +1,1 @@
-ThreePhaseButtonMorph	< class >	^ ImageMorph subclass
+ThreePhaseButtonMorph	< class >	^ ImageMorph subclassWithInstVars: 'offImage pressedImage state target actionSelector arguments actWhen' classVars: 'AuthorModeOwner'

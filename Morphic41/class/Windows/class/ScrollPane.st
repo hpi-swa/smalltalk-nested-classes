@@ -1,1 +1,1 @@
-ScrollPane	< class >	^ MorphicModel subclass
+ScrollPane	< class >	^ MorphicModel subclassWithInstVars: 'scrollBar scroller retractableScrollBar scrollBarOnLeft getMenuSelector getMenuTitleSelector scrollBarHidden hasFocus hScrollBar' classVars: ''

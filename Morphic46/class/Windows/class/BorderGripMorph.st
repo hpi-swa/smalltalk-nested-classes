@@ -1,1 +1,1 @@
-BorderGripMorph	< class >	^ CornerGripMorph subclass
+BorderGripMorph	< class >	^ CornerGripMorph subclassWithInstVars: '' classVars: ''

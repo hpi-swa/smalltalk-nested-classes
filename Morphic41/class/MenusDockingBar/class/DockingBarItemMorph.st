@@ -1,1 +1,1 @@
-DockingBarItemMorph	< class >	^ MenuItemMorph subclass
+DockingBarItemMorph	< class >	^ MenuItemMorph subclassWithInstVars: 'selectedIcon' classVars: ''

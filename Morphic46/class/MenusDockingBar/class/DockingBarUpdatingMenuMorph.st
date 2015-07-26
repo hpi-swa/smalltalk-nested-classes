@@ -1,1 +1,1 @@
-DockingBarUpdatingMenuMorph	< class >	^ DockingBarMenuMorph subclass
+DockingBarUpdatingMenuMorph	< class >	^ DockingBarMenuMorph subclassWithInstVars: 'arguments updater updateSelector menuUpdater' classVars: ''

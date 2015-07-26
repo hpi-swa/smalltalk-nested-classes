@@ -1,1 +1,1 @@
-PluggableListItemWrapper	< class >	^ ListItemWrapper subclass
+PluggableListItemWrapper	< class >	^ ListItemWrapper subclassWithInstVars: 'string getContentsSelector getStringSelector hasContentsSelector' classVars: ''

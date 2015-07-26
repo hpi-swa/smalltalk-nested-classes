@@ -1,1 +1,1 @@
-MatrixTransformMorph	< class >	^ Morph subclass
+MatrixTransformMorph	< class >	^ Morph subclassWithInstVars: 'transform' classVars: ''

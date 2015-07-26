@@ -1,1 +1,1 @@
-ColorPatchCanvas	< class >	^ FormCanvas subclass
+ColorPatchCanvas	< class >	^ FormCanvas subclassWithInstVars: 'stopMorph foundMorph doStop' classVars: ''

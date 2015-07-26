@@ -1,1 +1,1 @@
-ListItemWrapper	< class >	^ Object subclass
+ListItemWrapper	< class >	^ Object subclassWithInstVars: 'item model' classVars: ''

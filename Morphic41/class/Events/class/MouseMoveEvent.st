@@ -1,1 +1,1 @@
-MouseMoveEvent	< class >	^ MouseEvent subclass
+MouseMoveEvent	< class >	^ MouseEvent subclassWithInstVars: 'startPoint trail' classVars: ''

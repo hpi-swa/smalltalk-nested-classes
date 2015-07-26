@@ -1,1 +1,1 @@
-CurvierMorph	< class >	^ PolygonMorph subclass
+CurvierMorph	< class >	^ PolygonMorph subclassWithInstVars: '' classVars: 'SlopeConstantsCache'

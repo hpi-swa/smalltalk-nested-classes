@@ -1,1 +1,1 @@
-TheWorldMenu	< class >	^ Object subclass
+TheWorldMenu	< class >	^ Object subclassWithInstVars: 'myProject myWorld myHand' classVars: 'OpenMenuRegistry'

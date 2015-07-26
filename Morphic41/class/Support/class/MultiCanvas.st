@@ -1,1 +1,1 @@
-MultiCanvas	< class >	^ PluggableCanvas subclass
+MultiCanvas	< class >	^ PluggableCanvas subclassWithInstVars: 'canvases extent depth' classVars: ''

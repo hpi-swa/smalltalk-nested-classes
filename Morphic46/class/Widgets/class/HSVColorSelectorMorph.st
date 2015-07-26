@@ -1,1 +1,1 @@
-HSVColorSelectorMorph	< class >	^ Morph subclass
+HSVColorSelectorMorph	< class >	^ Morph subclassWithInstVars: 'svMorph hMorph' classVars: ''

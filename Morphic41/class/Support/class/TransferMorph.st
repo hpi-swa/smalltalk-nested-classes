@@ -1,1 +1,1 @@
-TransferMorph	< class >	^ Morph subclass
+TransferMorph	< class >	^ Morph subclassWithInstVars: 'transferType passenger draggedMorph source dropNotifyRecipient resultRecipient copy' classVars: 'CopyPlusIcon'

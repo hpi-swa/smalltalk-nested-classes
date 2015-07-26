@@ -1,1 +1,1 @@
-WorldState	< class >	^ Object subclass
+WorldState	< class >	^ Object subclassWithInstVars: 'hands activeHand viewBox canvas damageRecorder stepList lastStepTime lastStepMessage lastCycleTime commandHistory alarms lastAlarmTime remoteServer multiCanvas' classVars: 'CanSurrenderToOS DeferredUIMessages DisableDeferredUpdates LastCycleTime MinCycleLapse'

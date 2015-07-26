@@ -1,1 +1,1 @@
-TableLayoutProperties	< class >	^ LayoutProperties subclass
+TableLayoutProperties	< class >	^ LayoutProperties subclassWithInstVars: 'cellInset cellPositioning cellSpacing layoutInset listCentering listDirection listSpacing reverseTableCells rubberBandCells wrapCentering wrapDirection minCellSize maxCellSize' classVars: ''

@@ -1,1 +1,1 @@
-ProportionalLayout	< class >	^ LayoutPolicy subclass
+ProportionalLayout	< class >	^ LayoutPolicy subclassWithInstVars: '' classVars: ''

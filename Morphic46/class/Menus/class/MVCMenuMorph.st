@@ -1,1 +1,1 @@
-MVCMenuMorph	< class >	^ MenuMorph subclass
+MVCMenuMorph	< class >	^ MenuMorph subclassWithInstVars: 'done mvcSelection' classVars: ''

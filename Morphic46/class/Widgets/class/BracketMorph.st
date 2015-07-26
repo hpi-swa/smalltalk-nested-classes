@@ -1,1 +1,1 @@
-BracketMorph	< class >	^ Morph subclass
+BracketMorph	< class >	^ Morph subclassWithInstVars: 'orientation' classVars: ''

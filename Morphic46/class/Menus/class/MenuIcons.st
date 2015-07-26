@@ -1,1 +1,1 @@
-MenuIcons	< class >	^ Object subclass
+MenuIcons	< class >	^ Object subclassWithInstVars: '' classVars: 'Icons TranslatedIcons'

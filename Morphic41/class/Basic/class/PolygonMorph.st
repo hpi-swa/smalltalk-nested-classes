@@ -1,1 +1,1 @@
-PolygonMorph	< class >	^ BorderedMorph subclass
+PolygonMorph	< class >	^ BorderedMorph subclassWithInstVars: 'vertices closed filledForm arrows arrowForms smoothCurve curveState borderDashSpec handles borderForm' classVars: ''

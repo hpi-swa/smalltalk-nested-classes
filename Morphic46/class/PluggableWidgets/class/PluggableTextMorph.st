@@ -1,1 +1,1 @@
-PluggableTextMorph	< class >	^ ScrollPane subclass
+PluggableTextMorph	< class >	^ ScrollPane subclassWithInstVars: 'textMorph getTextSelector setTextSelector getSelectionSelector hasUnacceptedEdits askBeforeDiscardingEdits selectionInterval hasEditingConflicts editTextSelector wantsWrapBorder' classVars: 'AdornmentCache SimpleFrameAdornments SoftLineWrap VisualWrapBorder VisualWrapBorderLimit'
