@@ -1,0 +1,1 @@
+cancel: characterStream 	"Cancel unsubmitted changes.  Flushes typeahead.  1/12/96 sw"	sensor keyboard.	self cancel.	^ true

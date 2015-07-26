@@ -1,0 +1,1 @@
+AcceptableCleanTextMorph	< class >	^ PluggableTextMorph subclass

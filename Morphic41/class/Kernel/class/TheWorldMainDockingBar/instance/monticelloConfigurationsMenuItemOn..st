@@ -1,0 +1,1 @@
+monticelloConfigurationsMenuItemOn: menu	menu addItem: [ :item |		item			contents: 'Monticello Configurations' translated;			help: 'Open a Monticello Configurations Editor' translated;			icon: (self colorIcon: MCConfigurationBrowser basicNew defaultBackgroundColor);			target: MCConfigurationBrowser;			selector: #open ]

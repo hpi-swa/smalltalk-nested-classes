@@ -1,0 +1,1 @@
+initialize	FileList registerFileReader: self

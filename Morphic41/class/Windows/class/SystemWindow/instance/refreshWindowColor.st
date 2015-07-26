@@ -1,0 +1,1 @@
+refreshWindowColor	"For changing the underlying model's default window color"	self paneColor: nil.	self setWindowColor: self paneColor.

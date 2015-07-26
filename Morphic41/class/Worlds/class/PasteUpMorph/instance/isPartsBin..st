@@ -1,0 +1,1 @@
+isPartsBin: aBoolean	isPartsBin := aBoolean

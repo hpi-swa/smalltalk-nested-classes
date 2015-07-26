@@ -1,0 +1,1 @@
+defaultNameStemForInstances	^self class name

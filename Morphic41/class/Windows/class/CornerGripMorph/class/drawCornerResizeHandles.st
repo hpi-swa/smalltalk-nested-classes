@@ -1,0 +1,1 @@
+drawCornerResizeHandles	<preference: 'Draw Corner Resize Handles'		category: 'windows'		description: 'Governs the resize handles on windows should be drawn. This does not disable them'		type: #Boolean>	^ DrawCornerResizeHandles ifNil: [ false ]

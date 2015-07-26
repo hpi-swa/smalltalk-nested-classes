@@ -1,0 +1,1 @@
+rebuildAllWindowLabels	self withAllSubclasses do: [:c | c allInstances do: [:w | w replaceBoxes]].

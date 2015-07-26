@@ -1,0 +1,1 @@
+closeDialog: returnValue	value := returnValue.	self delete.

@@ -1,0 +1,1 @@
+mouseDown: evt	didMenu := nil.	super mouseDown: evt.

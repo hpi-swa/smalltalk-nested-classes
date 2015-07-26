@@ -1,0 +1,1 @@
+adaptToWorld: aWorld	super adaptToWorld: aWorld.	wordingProvider := wordingProvider adaptedToWorld: aWorld.

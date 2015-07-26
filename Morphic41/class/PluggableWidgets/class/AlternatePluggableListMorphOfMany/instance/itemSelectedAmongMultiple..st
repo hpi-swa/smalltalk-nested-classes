@@ -1,0 +1,1 @@
+itemSelectedAmongMultiple: index	^model isMessageSelectedAt: index

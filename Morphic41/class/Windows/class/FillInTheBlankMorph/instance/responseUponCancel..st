@@ -1,0 +1,1 @@
+responseUponCancel: anObject	responseUponCancel := anObject

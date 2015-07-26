@@ -1,0 +1,1 @@
+mouseEnter: evt	"The mouse entered the receiver"	super mouseEnter: evt.	(owner selectedItem notNil and: [ owner selectedItem ~~ self ]) ifTrue: [		owner selectItem: self event: evt. ]

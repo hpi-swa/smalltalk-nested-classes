@@ -1,0 +1,1 @@
+caretWidth	^ 0

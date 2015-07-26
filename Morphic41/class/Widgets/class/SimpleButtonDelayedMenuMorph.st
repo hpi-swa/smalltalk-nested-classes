@@ -1,0 +1,1 @@
+SimpleButtonDelayedMenuMorph	< class >	^ SimpleButtonMorph subclass

@@ -1,0 +1,1 @@
+eToyGetMainFont	^ textMorph textStyle

@@ -1,0 +1,1 @@
+isMorphic	"Duh."	^true

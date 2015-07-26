@@ -1,0 +1,1 @@
+keyStroke: evt 		self 		showKeyboardHelp;		noteRootMenuHasUsedKeyboard.	self keyStrokeHandlers		detect: [ :each | self perform: each with: evt ]		ifNone: [ self handleFiltering: evt ].

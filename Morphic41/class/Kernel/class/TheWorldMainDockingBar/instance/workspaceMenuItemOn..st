@@ -1,0 +1,1 @@
+workspaceMenuItemOn: menu	menu addItem: [ :item |		item			contents: 'Workspace' translated;			help: 'Open a Workspace' translated;			icon: (self colorIcon: Preferences workspaceWindowColor);			target: StandardToolSet;			selector: #openWorkspace ]

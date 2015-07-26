@@ -1,0 +1,1 @@
+asParagraphForPostscript	^ self

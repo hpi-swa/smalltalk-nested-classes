@@ -1,0 +1,1 @@
+mouseMove: evt 	"Change the selection in response to mouse-down drag"	self pointBlock: (paragraph characterBlockAtPoint: (evt cursorPoint)).	self storeSelectionInParagraph

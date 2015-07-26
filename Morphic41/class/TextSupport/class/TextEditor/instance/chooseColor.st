@@ -1,0 +1,1 @@
+chooseColor	"Make a new Text Color Attribute, let the user pick a color, and return the attribute"	| attribute |	(ColorPickerMorph new)		choseModalityFromPreference;		sourceHand: morph activeHand;		target: (attribute := TextColor color: Color black);		selector: #color:;		originalColor: Color black;		putUpFor: morph near: morph fullBoundsInWorld.	"default"	^attribute

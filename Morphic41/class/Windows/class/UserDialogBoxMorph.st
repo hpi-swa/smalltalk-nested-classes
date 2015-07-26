@@ -1,0 +1,1 @@
+UserDialogBoxMorph	< class >	^ AlignmentMorph subclass

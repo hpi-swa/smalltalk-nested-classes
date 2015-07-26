@@ -1,0 +1,1 @@
+methodArgument: anInteger	^ (ReadStream on: self text asString) nextLine substrings 		at: 2*anInteger		ifAbsent: [ String empty ]

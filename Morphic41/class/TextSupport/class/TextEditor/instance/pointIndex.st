@@ -1,0 +1,1 @@
+pointIndex	^ self pointBlock stringIndex

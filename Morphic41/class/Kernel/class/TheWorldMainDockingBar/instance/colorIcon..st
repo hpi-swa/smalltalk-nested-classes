@@ -1,0 +1,1 @@
+colorIcon: aColor	Preferences tinyDisplay ifTrue: [ ^nil ].	^(aColor iconOrThumbnailOfSize: 14)		borderWidth: 3 color: Preferences menuColor muchDarker;		borderWidth: 2 color: Color transparent

@@ -1,0 +1,1 @@
+quitMenuItemOn: menu	menu addItem: [ :item |		item			contents: 'Quit' translated;			help: 'Quit out of Squeak' translated;			icon: MenuIcons smallQuitIcon;			target: self;			selector: #quitSqueak ]

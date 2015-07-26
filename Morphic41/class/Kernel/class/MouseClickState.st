@@ -1,0 +1,1 @@
+MouseClickState	< class >	^ Object subclass

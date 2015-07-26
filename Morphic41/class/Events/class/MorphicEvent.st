@@ -1,0 +1,1 @@
+MorphicEvent	< class >	^ Object subclass

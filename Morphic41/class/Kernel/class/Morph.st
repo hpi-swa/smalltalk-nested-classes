@@ -1,0 +1,1 @@
+Morph	< class >	^ Object subclass

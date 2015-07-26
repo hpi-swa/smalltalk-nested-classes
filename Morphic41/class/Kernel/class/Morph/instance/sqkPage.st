@@ -1,0 +1,1 @@
+sqkPage	^ self valueOfProperty: #SqueakPage

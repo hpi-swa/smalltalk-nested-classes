@@ -1,0 +1,1 @@
+HandMorph	< class >	^ Morph subclass

@@ -1,0 +1,1 @@
+createUpdatingSubmenu	^DockingBarUpdatingMenuMorph new

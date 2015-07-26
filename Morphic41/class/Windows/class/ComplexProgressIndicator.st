@@ -1,0 +1,1 @@
+ComplexProgressIndicator	< class >	^ Object subclass

@@ -1,0 +1,1 @@
+TransformationMorph	< class >	^ TransformMorph subclass

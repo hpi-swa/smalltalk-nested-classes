@@ -1,0 +1,1 @@
+FillInTheBlankMorph	< class >	^ RectangleMorph subclass

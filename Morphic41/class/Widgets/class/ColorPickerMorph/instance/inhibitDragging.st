@@ -1,0 +1,1 @@
+inhibitDragging	^self hasProperty: #noDraggingThisPicker

@@ -1,0 +1,1 @@
+browserMenuItemOn: menu	menu addItem: [ :item |		item			contents: 'Browser' translated;			help: 'Open a browser' translated;			icon: (self colorIcon: Preferences browserWindowColor);			target: StandardToolSet;			selector: #openClassBrowser ]

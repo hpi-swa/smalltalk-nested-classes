@@ -1,0 +1,1 @@
+updateMenuItemOn: menu	menu addItem: [ :item |		item			contents: 'Update Squeak' translated;			help: 'Load latest code updates via the internet' translated;			target: self;			selector: #updateSqueak ]

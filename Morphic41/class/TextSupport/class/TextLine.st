@@ -1,0 +1,1 @@
+TextLine	< class >	^ Object subclass

@@ -1,0 +1,1 @@
+expandedForm	^self class expandedForm

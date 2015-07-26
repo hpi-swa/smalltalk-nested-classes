@@ -1,0 +1,1 @@
+listSelectionColor	<preference: 'List Selection Color'		category: 'colors'		description: 'Governs the selection background in lists'		type: #Color>	^ ListSelectionColor ifNil: [Color r: 0.72 g: 0.72 b: 0.9]

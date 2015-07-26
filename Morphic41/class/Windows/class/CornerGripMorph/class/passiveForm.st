@@ -1,0 +1,1 @@
+passiveForm	^PassiveForm ifNil: [self initializePassiveForm]

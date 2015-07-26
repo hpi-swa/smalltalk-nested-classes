@@ -1,0 +1,1 @@
+finalExitActions	(world findA: ProjectNavigationMorph)		ifNotNil: [:navigator | navigator retractIfAppropriate]

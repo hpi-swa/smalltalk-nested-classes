@@ -1,0 +1,1 @@
+UpdatingThreePhaseButtonMorph	< class >	^ ThreePhaseButtonMorph subclass

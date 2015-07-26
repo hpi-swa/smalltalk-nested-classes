@@ -1,0 +1,1 @@
+bottomBoundary	"Answert the bottommost x position the receiver could be moved."	| splitter morphs |	splitter := self splitterBelow.	morphs := self commonNeighbours: rightOrBottom with: splitter.	^ (splitter		ifNil: [self containingWindow panelRect bottom]		ifNotNil: [splitter top])		- (self minimumHeightOf: morphs)

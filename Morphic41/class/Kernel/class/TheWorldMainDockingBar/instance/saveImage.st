@@ -1,0 +1,1 @@
+saveImage	SmalltalkImage current saveSession

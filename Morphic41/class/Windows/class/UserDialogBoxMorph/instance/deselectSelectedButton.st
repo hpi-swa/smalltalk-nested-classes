@@ -1,0 +1,1 @@
+deselectSelectedButton	selectedButton ifNil: [ ^self ].	selectedButton color: self buttonColor twiceLighter.	selectedButton := nil

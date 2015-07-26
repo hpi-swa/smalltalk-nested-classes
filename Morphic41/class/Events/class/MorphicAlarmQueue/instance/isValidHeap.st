@@ -1,0 +1,1 @@
+isValidHeap	"Verify the correctness of the heap"	2 to: tally do:[:i|		(self sorts: (array at: i // 2) before: (array at: i)) ifFalse:[^false].	].	^true

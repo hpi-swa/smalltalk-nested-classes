@@ -1,0 +1,1 @@
+TextMorphCommandHistory	< class >	^ CommandHistory subclass

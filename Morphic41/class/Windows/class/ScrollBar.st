@@ -1,0 +1,1 @@
+ScrollBar	< class >	^ Slider subclass

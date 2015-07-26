@@ -1,0 +1,1 @@
+minExtent	"The minimum extent is that of 2 or 3 buttons in a row or column,	the 'up' and 'down' button and optionally the 'menu' button."	| btns cnt |	btns := 2.	menuButton ifNotNil: [		btns := btns + 1].	cnt := 1@btns. "assume vertical layout"	self bounds isWide		ifTrue: [cnt := cnt transposed].	^ upButton minExtent * cnt

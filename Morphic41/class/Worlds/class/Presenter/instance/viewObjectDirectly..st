@@ -1,0 +1,1 @@
+viewObjectDirectly: aMorph	aMorph inspect.

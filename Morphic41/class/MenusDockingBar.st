@@ -1,0 +1,1 @@
+MenusDockingBar	< class >	^ Object subclass

@@ -1,0 +1,1 @@
+handleEmphasisExtra: index with: characterStream	"Handle an emphasis extra choice"	^true

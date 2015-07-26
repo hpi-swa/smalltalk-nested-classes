@@ -1,0 +1,1 @@
+initializeActiveForm	^ActiveForm := self defaultForm

@@ -1,0 +1,1 @@
+gradientWithColor: aColor	| gradient |	gradient := GradientFillStyle ramp: {		0.0 -> Color white. 		0.2 -> (aColor mixed: 0.5 with: (Color gray: 0.9)) lighter. 		1.0 -> aColor.	}.	gradient origin: self topLeft.	gradient direction: 0 @ self labelHeight.	^gradient

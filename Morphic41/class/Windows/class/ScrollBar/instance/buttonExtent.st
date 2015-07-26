@@ -1,0 +1,1 @@
+buttonExtent	^ bounds isWide		ifTrue: [self innerBounds height asPoint]		ifFalse: [self innerBounds width asPoint]

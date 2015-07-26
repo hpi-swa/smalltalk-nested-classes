@@ -1,0 +1,1 @@
+MenuIcons	< class >	^ Object subclass

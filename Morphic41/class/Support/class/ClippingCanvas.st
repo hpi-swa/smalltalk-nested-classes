@@ -1,0 +1,1 @@
+ClippingCanvas	< class >	^ PluggableCanvas subclass

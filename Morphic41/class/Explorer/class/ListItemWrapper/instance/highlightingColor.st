@@ -1,0 +1,1 @@
+highlightingColor	^self preferredColor negated

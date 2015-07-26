@@ -1,0 +1,1 @@
+removeAlarm: aSelector for: aTarget 	"Remove the alarm with the given selector"	self lockAlarmsDuring: [:locked |		| alarm |		alarm := locked 					detect: [:any | any receiver == aTarget and: [any selector == aSelector]]					ifNone: [nil].		alarm ifNotNil: [locked remove: alarm]	].

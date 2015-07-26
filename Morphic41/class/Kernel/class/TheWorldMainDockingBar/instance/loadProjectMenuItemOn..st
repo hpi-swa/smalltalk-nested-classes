@@ -1,0 +1,1 @@
+loadProjectMenuItemOn: menu	menu addItem: [ :item |		item			contents: 'Load Project' translated;			help: 'Load a project from a file' translated;			icon: MenuIcons smallLoadProjectIcon;			target: self;			selector: #loadProject ]

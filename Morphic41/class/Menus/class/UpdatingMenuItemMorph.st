@@ -1,0 +1,1 @@
+UpdatingMenuItemMorph	< class >	^ MenuItemMorph subclass

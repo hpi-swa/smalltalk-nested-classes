@@ -1,0 +1,1 @@
+autoIndent	<preference: 'Auto Indent'		category: 'Morphic'		description: 'When true, tabs will be inserted after pressing Enter | Return such that the new line will be indented equally with the previous line.'		type: #Boolean>	^ AutoIndent ifNil: [ true ]

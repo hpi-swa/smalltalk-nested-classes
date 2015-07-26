@@ -1,0 +1,1 @@
+justDroppedInto: aMorph event: event	"aggressively preserve focus"	event hand newMouseFocus: self.

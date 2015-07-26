@@ -1,0 +1,1 @@
+BasicNewCurve	< class >	^ Object subclass

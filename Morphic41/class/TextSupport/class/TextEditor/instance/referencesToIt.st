@@ -1,0 +1,1 @@
+referencesToIt	"Open a references browser on the selected symbol"	| aSymbol |	self selectLine.	((aSymbol := self selectedSymbol) == nil or:		[(Smalltalk globals includesKey: aSymbol) not])			ifTrue: [^ morph flash].	self systemNavigation browseAllCallsOn: (Smalltalk globals associationAt: self selectedSymbol)

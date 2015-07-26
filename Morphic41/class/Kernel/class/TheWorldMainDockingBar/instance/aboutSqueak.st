@@ -1,0 +1,1 @@
+aboutSqueak	UserDialogBoxMorph		inform: SmalltalkImage current systemInformationString withCRs		title: 'About Squeak:'		at: World center.

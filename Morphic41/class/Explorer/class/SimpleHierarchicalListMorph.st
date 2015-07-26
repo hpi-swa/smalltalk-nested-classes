@@ -1,0 +1,1 @@
+SimpleHierarchicalListMorph	< class >	^ ScrollPane subclass

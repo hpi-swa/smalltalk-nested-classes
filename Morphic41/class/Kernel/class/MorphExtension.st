@@ -1,0 +1,1 @@
+MorphExtension	< class >	^ Object subclass

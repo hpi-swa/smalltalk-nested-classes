@@ -1,0 +1,1 @@
+Slider	< class >	^ MorphicModel subclass

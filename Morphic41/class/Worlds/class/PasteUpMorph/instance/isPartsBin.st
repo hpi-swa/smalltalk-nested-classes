@@ -1,0 +1,1 @@
+isPartsBin	^ isPartsBin == true

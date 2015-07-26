@@ -1,0 +1,1 @@
+createExpandBox	^ (self createBox: self class expandBoxImage)		actionSelector: #expandBoxHit;		setBalloonText: 'expand to full screen' translated

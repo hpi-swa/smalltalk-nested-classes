@@ -1,0 +1,1 @@
+releasesSelection: evt	" The MenuMorph releases its selection if the selected item releases it. 	Used in #selectItem:event: "	self selectedItem ifNil: [ ^true ].	evt ifNil: [ ^true ].	evt isKeyboard ifTrue: [ ^true ].	(self selectedItem containsPoint: evt position) ifTrue: [ ^true ].	^self selectedItem releasesSelection: evt

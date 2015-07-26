@@ -1,0 +1,1 @@
+restoreImage	self firstSubmorph restoreBaseGraphic.

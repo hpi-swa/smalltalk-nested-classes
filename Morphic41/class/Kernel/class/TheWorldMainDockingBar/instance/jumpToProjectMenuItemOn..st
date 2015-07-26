@@ -1,0 +1,1 @@
+jumpToProjectMenuItemOn: menu	menu addItem: [ :item |		item			contents: 'Jump To Project' translated;			icon: MenuIcons smallForwardIcon;			subMenuUpdater: self			selector: #updateJumpToProjectSubMenu: ]

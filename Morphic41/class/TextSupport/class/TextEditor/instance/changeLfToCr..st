@@ -1,0 +1,1 @@
+changeLfToCr: characterStream 	"Replace all LFs by CRs.	Triggered by Cmd-U -- useful when getting code from FTP sites	jmv- Modified to als change crlf by cr"		| fixed |	sensor keyboard.		"flush the triggering cmd-key character"		fixed := self selection string withSqueakLineEndings. 	self replaceSelectionWith: (Text fromString: fixed).	^ true

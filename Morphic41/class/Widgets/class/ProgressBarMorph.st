@@ -1,0 +1,1 @@
+ProgressBarMorph	< class >	^ BorderedMorph subclass

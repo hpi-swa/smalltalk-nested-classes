@@ -1,0 +1,1 @@
+changeFont	| newFont chooser|	chooser := self openModal: (		Cursor wait showWhile: [UIManager default 			chooseFont: 'Choose a Font' 			for: self 			setSelector: #font: 			getSelector: self fontToUse]).	newFont := chooser result.	newFont ifNotNil:[self font: newFont].

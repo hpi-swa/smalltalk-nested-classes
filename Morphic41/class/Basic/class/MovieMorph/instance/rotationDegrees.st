@@ -1,0 +1,1 @@
+rotationDegrees	^ rotationDegrees

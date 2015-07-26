@@ -1,0 +1,1 @@
+navigatorFlapVisible	"Answer whether a Navigator flap is visible"	self flag: #toRemove. "unreferenced in image, check eToys"	^ (Flaps sharedFlapsAllowed and: 		[self flapsSuppressed not]) and:			[self isFlapIDEnabled: 'Navigator' translated]

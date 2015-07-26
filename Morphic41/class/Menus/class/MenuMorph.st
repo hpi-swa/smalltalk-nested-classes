@@ -1,0 +1,1 @@
+MenuMorph	< class >	^ AlignmentMorph subclass

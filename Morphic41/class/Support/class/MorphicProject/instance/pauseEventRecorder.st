@@ -1,0 +1,1 @@
+pauseEventRecorder	"Suspend any event recorder, and return it if found"	^World pauseEventRecorder

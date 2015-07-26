@@ -1,0 +1,1 @@
+mouseDown: evt	(self fullContainsPoint: evt position) ifFalse: [		self selectItem: nil event: evt.		evt hand releaseMouseFocus: self ]

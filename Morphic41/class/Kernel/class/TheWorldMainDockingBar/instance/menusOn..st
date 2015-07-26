@@ -1,0 +1,1 @@
+menusOn: aDockingBar 	self 		squeakMenuOn: aDockingBar;		projectsMenuOn: aDockingBar;		toolsMenuOn: aDockingBar;		extrasMenuOn: aDockingBar;		windowsMenuOn: aDockingBar;		helpMenuOn: aDockingBar.	aDockingBar addSpacer.	self		searchBarOn: aDockingBar;		clockOn: aDockingBar

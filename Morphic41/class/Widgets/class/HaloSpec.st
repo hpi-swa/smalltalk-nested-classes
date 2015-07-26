@@ -1,0 +1,1 @@
+HaloSpec	< class >	^ Object subclass

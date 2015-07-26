@@ -1,0 +1,1 @@
+dim	dimmed := true.	self restoreImage.

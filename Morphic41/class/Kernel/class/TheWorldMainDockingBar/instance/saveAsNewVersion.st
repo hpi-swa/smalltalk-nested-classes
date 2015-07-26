@@ -1,0 +1,1 @@
+saveAsNewVersion	SmalltalkImage current saveAsNewVersion

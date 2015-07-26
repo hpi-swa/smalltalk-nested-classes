@@ -1,0 +1,1 @@
+selectCurrentTypeIn: characterStream 	"Select what would be replaced by an undo (e.g., the last typeIn)."	| prior |	self closeTypeIn: characterStream.	prior := otherInterval.	sensor keyboard.		"flush character"	self closeTypeIn: characterStream.	self selectInterval: UndoInterval.	otherInterval := prior.	^ true

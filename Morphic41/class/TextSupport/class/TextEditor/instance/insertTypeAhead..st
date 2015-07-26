@@ -1,0 +1,1 @@
+insertTypeAhead: typeAhead	typeAhead position = 0 ifFalse: [		self zapSelectionWith: (Text string: typeAhead contents attributes: emphasisHere).		typeAhead reset.		self unselect]

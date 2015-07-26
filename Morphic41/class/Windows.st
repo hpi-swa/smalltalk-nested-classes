@@ -1,0 +1,1 @@
+Windows	< class >	^ Object subclass

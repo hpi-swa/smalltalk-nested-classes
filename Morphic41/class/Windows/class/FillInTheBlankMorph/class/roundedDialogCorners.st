@@ -1,0 +1,1 @@
+roundedDialogCorners	<preference: 'Rounded Dialog Corners'		category: 'windows'		description: 'Governs whether dialog windows should have rounded corners'		type: #Boolean>	^ RoundedDialogCorners ifNil: [ true ]

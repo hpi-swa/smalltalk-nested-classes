@@ -1,0 +1,1 @@
+markIndex	^ self markBlock stringIndex

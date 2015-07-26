@@ -1,0 +1,1 @@
+minExtent	"Answer the calculated minimum size of the receiver."	^ super minExtent max: self minScrollbarExtent

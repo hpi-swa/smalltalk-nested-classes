@@ -1,0 +1,1 @@
+clearKeyboardInterpreter	keyboardInterpreter := nil.

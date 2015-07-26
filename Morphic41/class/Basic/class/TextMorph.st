@@ -1,0 +1,1 @@
+TextMorph	< class >	^ RectangleMorph subclass

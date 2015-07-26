@@ -1,0 +1,1 @@
+stopMorph: aMorph	stopMorph := aMorph

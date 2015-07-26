@@ -1,0 +1,1 @@
+initialize	self initializeAllButLabel; setDefaultLabel

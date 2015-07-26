@@ -1,0 +1,1 @@
+ClickExerciser	< class >	^ RectangleMorph subclass

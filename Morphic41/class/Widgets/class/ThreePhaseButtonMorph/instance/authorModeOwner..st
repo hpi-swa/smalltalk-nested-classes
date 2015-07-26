@@ -1,0 +1,1 @@
+authorModeOwner: aMorph	AuthorModeOwner := aMorph

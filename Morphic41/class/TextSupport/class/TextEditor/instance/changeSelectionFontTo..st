@@ -1,0 +1,1 @@
+changeSelectionFontTo: aFont	| attr |	aFont ifNil:[^self].	attr := TextFontReference toFont: aFont.	paragraph text addAttribute: attr from: self startIndex to: (self stopIndex-1 min: paragraph text size).	paragraph composeAll.	self recomputeInterval.	morph changed.

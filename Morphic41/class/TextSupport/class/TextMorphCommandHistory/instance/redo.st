@@ -1,0 +1,1 @@
+redo	^super redoNextCommand

@@ -1,0 +1,1 @@
+abandonChangeText	^self class abandonChangeText

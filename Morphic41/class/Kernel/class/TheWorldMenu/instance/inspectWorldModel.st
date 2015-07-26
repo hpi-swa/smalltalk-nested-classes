@@ -1,0 +1,1 @@
+inspectWorldModel	| insp |	insp := InspectorBrowser openOn: myWorld model.	myWorld addMorph: insp; startStepping: insp

@@ -1,0 +1,1 @@
+PluggableMessageCategoryListMorph	< class >	^ PluggableListMorph subclass

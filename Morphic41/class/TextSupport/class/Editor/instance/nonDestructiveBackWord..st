@@ -1,0 +1,1 @@
+nonDestructiveBackWord: characterStream 	"Select the prior word."	| indices newPosition |	self closeTypeIn: characterStream.	indices := self 		setIndices: true		forward: false.	newPosition := 1 max: (indices at: #moving)-1.	newPosition :=  self previousWord: newPosition.	sensor keyboard.	self selectMark: (indices at: #fixed) point: newPosition - 1.	^ true

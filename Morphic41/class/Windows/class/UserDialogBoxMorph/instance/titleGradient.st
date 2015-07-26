@@ -1,0 +1,1 @@
+titleGradient	| cc gradient |	cc :=  self buttonColor.	gradient := GradientFillStyle ramp: {		0.0 -> Color white. 		0.33 ->(cc mixed: 0.5 with: Color white). 		1.0 -> cc.	}.	gradient origin: 0@0.	gradient direction: 0 @ (TextStyle defaultFont height + 10).	^gradient

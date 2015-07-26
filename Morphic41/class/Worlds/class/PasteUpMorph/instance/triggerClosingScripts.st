@@ -1,0 +1,1 @@
+triggerClosingScripts	"If the receiver has any scripts set to run on closing, run them now"	| aPlayer |	(aPlayer := self player) ifNotNil:		[aPlayer runAllClosingScripts]

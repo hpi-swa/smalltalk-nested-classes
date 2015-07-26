@@ -1,0 +1,1 @@
+updateContinuously: aBoolean	updateContinuously := aBoolean.

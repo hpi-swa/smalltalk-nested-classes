@@ -1,0 +1,1 @@
+PluggableWidgets	< class >	^ Object subclass

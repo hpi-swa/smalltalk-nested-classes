@@ -1,0 +1,1 @@
+flash	"Flash me"	1 to: 2 do:[:i|		self color: Color black.		self world doOneCycleNow.		(Delay forMilliseconds: 50) wait.		self color: Color white.		self world doOneCycleNow.		(Delay forMilliseconds: 50) wait.	].

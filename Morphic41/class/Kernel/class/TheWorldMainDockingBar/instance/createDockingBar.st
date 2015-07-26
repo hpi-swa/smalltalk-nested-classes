@@ -1,0 +1,1 @@
+createDockingBar	"Create a docking bar from the receiver's representation"		| dockingBar |	dockingBar := DockingBarMorph new		adhereToTop;		color: Preferences menuColor;		gradientRamp: self gradientRamp;		autoGradient: ColorTheme current dockingBarAutoGradient;		borderWidth: 0.	self fillDockingBar: dockingBar.	^ dockingBar

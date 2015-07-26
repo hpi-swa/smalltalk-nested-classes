@@ -1,0 +1,1 @@
+previousProjectMenuItemOn: menu	menu addItem: [ :item |		item			contents: 'Previous Project' translated;			help: 'Return to the most-recently-visited project' translated;			icon: MenuIcons smallBackIcon;			target: World;			selector: #goBack ]

@@ -1,0 +1,1 @@
+TheWorldMainDockingBar	< class >	^ Object subclass

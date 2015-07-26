@@ -1,0 +1,1 @@
+saveAsMenuItemOn: menu	menu addItem: [ :item |			item			contents: 'Save Image As...' translated;			help: 'Save the current state of Squeak on disk under a new name' translated;			icon: MenuIcons smallSaveAsIcon;			target: self;			selector: #saveImageAs ]

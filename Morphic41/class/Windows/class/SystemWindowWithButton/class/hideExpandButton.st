@@ -1,0 +1,1 @@
+hideExpandButton	^ true

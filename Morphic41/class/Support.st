@@ -1,0 +1,1 @@
+Support	< class >	^ Object subclass

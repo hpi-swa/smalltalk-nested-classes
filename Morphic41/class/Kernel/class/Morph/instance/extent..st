@@ -1,0 +1,1 @@
+extent: aPoint	(bounds extent closeTo: aPoint) ifTrue: [^ self].	self changed.	bounds := bounds topLeft extent: aPoint.	self layoutChanged.	self changed.

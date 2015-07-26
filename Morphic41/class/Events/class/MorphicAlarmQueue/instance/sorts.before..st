@@ -1,0 +1,1 @@
+sorts: alarmA before: alarmB	alarmA scheduledTime = alarmB scheduledTime 		ifFalse:[^alarmA scheduledTime < alarmB scheduledTime].	alarmA sequenceNumber = alarmB sequenceNumber		ifFalse:[^alarmA sequenceNumber < alarmB sequenceNumber].	^self error: 'These alarms run at the same time'

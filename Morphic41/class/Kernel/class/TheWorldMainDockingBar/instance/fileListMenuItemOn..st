@@ -1,0 +1,1 @@
+fileListMenuItemOn: menu	menu addItem: [ :item |		item			contents: 'File List' translated;			help: 'Open a file list' translated;			icon: (self colorIcon: Preferences fileListWindowColor);			target: StandardToolSet;			selector: #openFileList ]

@@ -1,0 +1,1 @@
+SystemProgressBarMorph	< class >	^ RectangleMorph subclass

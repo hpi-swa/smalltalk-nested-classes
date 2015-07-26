@@ -1,0 +1,1 @@
+initialize	"SmalltalkEditor initialize"	self initializeCmdKeyShortcuts.	self initializeShiftCmdKeyShortcuts.	self initializeYellowButtonMenu.	self initializeShiftedYellowButtonMenu.

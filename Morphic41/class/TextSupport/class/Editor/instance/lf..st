@@ -1,0 +1,1 @@
+lf: characterStream 	"Append a line feed character to the stream of characters."	sensor keyboard.	characterStream nextPut: Character lf.	^false

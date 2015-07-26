@@ -1,0 +1,1 @@
+TextSupport	< class >	^ Object subclass

@@ -1,0 +1,1 @@
+framesToDwell: anInteger	framesToDwell := anInteger.

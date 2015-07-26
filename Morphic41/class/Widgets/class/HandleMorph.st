@@ -1,0 +1,1 @@
+HandleMorph	< class >	^ EllipseMorph subclass

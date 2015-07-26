@@ -1,0 +1,1 @@
+quitSession	SmalltalkImage current		snapshot: (UserDialogBoxMorph 			confirm: 'Save changes before quitting?' translated 			orCancel: [^ self]			at: World center)		andQuit: true

@@ -1,0 +1,1 @@
+projectsMenuOn: aDockingBar	aDockingBar addItem: [ :item |		item			contents: 'Projects' translated;			addSubMenu: [ :menu | 				self					newProjectMenuItemOn: menu;					saveProjectMenuItemOn: menu;					loadProjectMenuItemOn: menu;					previousProjectMenuItemOn: menu;					jumpToProjectMenuItemOn: menu ] ]

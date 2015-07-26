@@ -1,0 +1,1 @@
+resetTransferMorphConverter	^ self transferMorphConverter: #yourself

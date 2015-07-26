@@ -1,0 +1,1 @@
+defaultNameStemForInstances	^ 'DockingBar'

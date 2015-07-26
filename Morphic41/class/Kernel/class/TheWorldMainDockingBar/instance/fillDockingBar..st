@@ -1,0 +1,1 @@
+fillDockingBar: aDockingBar 	"Private - fill the given docking bar"		aDockingBar addSpace: 6.	self menusOn: aDockingBar.	aDockingBar		setProperty: #mainDockingBarTimeStamp 		toValue: self class timeStamp

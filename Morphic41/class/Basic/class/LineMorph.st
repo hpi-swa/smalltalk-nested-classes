@@ -1,0 +1,1 @@
+LineMorph	< class >	^ PolygonMorph subclass

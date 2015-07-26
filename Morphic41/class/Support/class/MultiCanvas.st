@@ -1,0 +1,1 @@
+MultiCanvas	< class >	^ PluggableCanvas subclass

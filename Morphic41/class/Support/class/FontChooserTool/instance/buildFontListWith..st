@@ -1,0 +1,1 @@
+buildFontListWith: builder	"Build the font choosers list of font names"	| listSpec |	listSpec := builder pluggableListSpec new.	listSpec 		model: self;		list: #fontList; 		getIndex: #selectedFontIndex; 		setIndex: #selectedFontIndex:.	^listSpec

@@ -1,0 +1,1 @@
+roundedDialogCorners: aBoolean		RoundedDialogCorners := aBoolean.	self allInstances do: [:instance | 		aBoolean 			ifTrue: [instance useRoundedCorners]			ifFalse: [instance useSquareCorners]].

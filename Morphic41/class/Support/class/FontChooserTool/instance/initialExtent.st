@@ -1,0 +1,1 @@
+initialExtent	^self offerStyleList ifTrue:[400@300] ifFalse:[300@200].

@@ -1,0 +1,1 @@
+exploreIt	| result |	result := self evaluateSelection.	((result isKindOf: FakeClassPool) or: [result == #failedDoit])			ifTrue: [morph flash]			ifFalse: [result explore]

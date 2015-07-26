@@ -1,0 +1,1 @@
+replacedText: aText	^replacedText := aText

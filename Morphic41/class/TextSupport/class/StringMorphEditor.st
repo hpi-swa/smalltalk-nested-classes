@@ -1,0 +1,1 @@
+StringMorphEditor	< class >	^ TextMorph subclass

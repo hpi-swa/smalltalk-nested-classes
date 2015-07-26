@@ -1,0 +1,1 @@
+delete	"See also >>justDroppedInto:event:."	self changed: #deleted.	self breakDependents.	super delete

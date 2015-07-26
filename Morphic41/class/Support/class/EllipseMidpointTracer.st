@@ -1,0 +1,1 @@
+EllipseMidpointTracer	< class >	^ Object subclass

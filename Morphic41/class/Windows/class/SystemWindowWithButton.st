@@ -1,0 +1,1 @@
+SystemWindowWithButton	< class >	^ SystemWindow subclass

@@ -1,0 +1,1 @@
+addRestoreDisplay: menu	self		fillIn: menu		from: {			{'restore display (r)'. { World. #restoreMorphicDisplay }. 'repaint the screen -- useful for removing unwanted display artifacts, lingering cursors, etc.' }.			nil		}

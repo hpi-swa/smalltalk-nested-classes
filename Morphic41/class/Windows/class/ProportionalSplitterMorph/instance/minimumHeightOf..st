@@ -1,0 +1,1 @@
+minimumHeightOf: aCollection	"Answer the minimum height needed to display any of the morphs in aCollection."	^ aCollection inject: 0 into: [ :height :morph |		(morph minHeight + self height) max: height]

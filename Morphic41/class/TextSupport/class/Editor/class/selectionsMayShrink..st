@@ -1,0 +1,1 @@
+selectionsMayShrink: aBoolean	SelectionsMayShrink := aBoolean

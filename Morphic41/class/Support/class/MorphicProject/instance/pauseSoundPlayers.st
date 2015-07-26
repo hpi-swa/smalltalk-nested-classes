@@ -1,0 +1,1 @@
+pauseSoundPlayers	"Pause sound players, subject to preference settings"	(world hasProperty: #letTheMusicPlay)		ifTrue: [world removeProperty: #letTheMusicPlay]		ifFalse: [Smalltalk at: #ScorePlayer ifPresent:					[:playerClass | playerClass allSubInstancesDo:						[:player | player pause]]]

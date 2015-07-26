@@ -1,0 +1,1 @@
+saveProjectMenuItemOn: menu	menu addItem: [ :item |		item			contents: 'Save Project' translated;			help: 'Save this project on a file' translated;			icon: MenuIcons smallPublishIcon;			target: World;			selector: #saveOnFile ]

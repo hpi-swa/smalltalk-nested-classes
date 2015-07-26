@@ -1,0 +1,1 @@
+deleteOnMouseUp: aBoolean	deleteOnMouseUp := aBoolean.

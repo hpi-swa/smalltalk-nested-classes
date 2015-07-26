@@ -1,0 +1,1 @@
+searchBarMorph	^self submorphs detect: [ :each | each class = SearchBarMorph ] ifNone: [ nil ]

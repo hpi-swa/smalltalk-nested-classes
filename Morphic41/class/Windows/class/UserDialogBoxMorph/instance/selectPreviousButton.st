@@ -1,0 +1,1 @@
+selectPreviousButton	| buttons index |	buttons := self buttons.	index := (buttons indexOf: selectedButton) - 1.	index = 0 ifTrue: [ index := buttons size ].	self selectButton: (buttons at: index)

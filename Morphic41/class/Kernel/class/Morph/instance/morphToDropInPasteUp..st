@@ -1,0 +1,1 @@
+morphToDropInPasteUp: aPasteUp	^ self

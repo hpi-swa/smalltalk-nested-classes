@@ -1,0 +1,1 @@
+PluggableTextMorph	< class >	^ ScrollPane subclass

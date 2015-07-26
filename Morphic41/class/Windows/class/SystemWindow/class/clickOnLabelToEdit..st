@@ -1,0 +1,1 @@
+clickOnLabelToEdit: aBoolean	ClickOnLabelToEdit := aBoolean.	self rebuildAllWindowLabels.

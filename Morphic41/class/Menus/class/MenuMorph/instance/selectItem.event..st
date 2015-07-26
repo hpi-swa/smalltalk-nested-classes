@@ -1,0 +1,1 @@
+selectItem: aMenuItem event: anEvent	" Change the selected item, but first ask the currently selected item 	if it want to release it. " 	(self releasesSelection: anEvent) ifFalse: [ ^self ].	selectedItem ifNotNil:[selectedItem deselect: anEvent].	selectedItem := aMenuItem.	selectedItem ifNotNil:[selectedItem select: anEvent].

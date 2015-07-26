@@ -1,0 +1,1 @@
+AbstractResizerMorph	< class >	^ Morph subclass

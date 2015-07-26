@@ -1,0 +1,1 @@
+fontList	"List of available font family names"	^fontList ifNil:[fontList := (TextConstants select: [:each | each isKindOf: TextStyle]) keys asArray sort]

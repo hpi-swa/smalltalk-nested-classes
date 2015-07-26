@@ -1,0 +1,1 @@
+editHistory: aTextMorphCommandHistory	^editHistory := aTextMorphCommandHistory 

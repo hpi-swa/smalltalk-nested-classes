@@ -1,0 +1,1 @@
+typeMethodArgument: characterStream 	"Replace the current text selection with the name of the method argument represented by the keyCode."	| keyCode |	keyCode := ('1234' 		indexOf: sensor keyboard 		ifAbsent: [1]).	characterStream nextPutAll: (self methodArgument: keyCode).	^ false

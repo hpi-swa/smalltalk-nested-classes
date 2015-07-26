@@ -1,0 +1,1 @@
+backWord: characterStream 	^ self class destructiveBackWord 		ifTrue: [ self destructiveBackWord: characterStream ]		ifFalse: [ self nonDestructiveBackWord: characterStream ]

@@ -1,0 +1,1 @@
+deselect: evt	self isSelected: false.	lastMousePosition := nil.	subMenu ifNotNil: [		owner ifNotNil: [ owner activeSubmenu: nil ] ].

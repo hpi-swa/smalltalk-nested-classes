@@ -1,0 +1,1 @@
+selectNextButton	| buttons |	buttons := self buttons.	self selectButton: (buttons at: (buttons indexOf: selectedButton) \\ buttons size + 1)

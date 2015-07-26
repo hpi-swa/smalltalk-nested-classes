@@ -1,0 +1,1 @@
+toggleUpdateContinuously	updateContinuously := updateContinuously not.

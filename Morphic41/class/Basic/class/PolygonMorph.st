@@ -1,0 +1,1 @@
+PolygonMorph	< class >	^ BorderedMorph subclass

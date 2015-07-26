@@ -1,0 +1,1 @@
+gripLayoutFrame	^ LayoutFrame		fractions: (1 @ 0 corner: 1 @ nil)		offsets: (0 - self defaultWidth @ 0 corner: 0 @ nil)

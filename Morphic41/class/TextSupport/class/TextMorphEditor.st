@@ -1,0 +1,1 @@
+TextMorphEditor	< class >	^ ParagraphEditor subclass

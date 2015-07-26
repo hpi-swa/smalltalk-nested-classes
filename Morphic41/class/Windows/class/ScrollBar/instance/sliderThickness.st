@@ -1,0 +1,1 @@
+sliderThickness	^ self width min: self height

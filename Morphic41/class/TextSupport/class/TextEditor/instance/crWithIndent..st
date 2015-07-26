@@ -1,0 +1,1 @@
+crWithIndent: characterStream 	"Replace the current text selection with CR followed by as many tabs	as on the current line (+/- bracket count) -- initiated by Shift-Return."	sensor keyboard.		"flush character"	characterStream crtab: self tabCount.  "Now inject CR with tabCount tabs"	^ false

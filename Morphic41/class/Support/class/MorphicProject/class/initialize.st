@@ -1,0 +1,1 @@
+initialize	"MorphicProject initialize"	"Initialize the default Morphic Project background"	self defaultFill: (InfiniteForm with: self defaultBackgroundForm).	self convertOldProjects.	Project current isMorphic ifTrue:[		"Set the default background in the current world"		Project current world color: self defaultFill.	].

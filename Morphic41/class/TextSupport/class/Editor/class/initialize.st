@@ -1,0 +1,1 @@
+initialize	"	Editor initialize	"	self allSubclassesDo: [ :c | c initialize ]

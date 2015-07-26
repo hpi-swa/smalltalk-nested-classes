@@ -1,0 +1,1 @@
+minimumWidthOf: aCollection	"Answer the minimum width needed to display any of the morphs in aCollection."	^ aCollection inject: 0 into: [ :width :morph |		(morph minWidth + self width) max: width]

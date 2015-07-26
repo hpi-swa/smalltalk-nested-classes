@@ -1,0 +1,1 @@
+mouseUp: event	"aggressively preserve focus"	event hand newMouseFocus: self.

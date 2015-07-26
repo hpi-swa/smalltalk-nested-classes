@@ -1,0 +1,1 @@
+NullCanvas	< class >	^ PluggableCanvas subclass

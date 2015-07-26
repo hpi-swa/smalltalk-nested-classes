@@ -1,0 +1,1 @@
+SearchBarMorph	< class >	^ TextMorph subclass

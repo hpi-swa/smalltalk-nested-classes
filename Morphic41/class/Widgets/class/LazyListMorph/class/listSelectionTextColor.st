@@ -1,0 +1,1 @@
+listSelectionTextColor	<preference: 'List Selection Text Color'		category: 'colors'		description: 'Governs the color of selected text in lists'		type: #Color>	^ ListSelectionTextColor ifNil: [Color black]

@@ -1,0 +1,1 @@
+openInWorld	HandMorph attach: self

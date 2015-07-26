@@ -1,0 +1,1 @@
+searchBarOn: aDockingBar	aDockingBar 		addMorphBack: (StringMorph new contents: 'Search: ');		addMorphBack: SearchBarMorph new;		addDefaultSpace

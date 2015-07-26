@@ -1,0 +1,1 @@
+startDragFromLabel: evt	"When label events are active, we need to pass dragging to the window explicitely	 The window only recognizes a drag with an offset of more than 3 pixels"		self setProperty: #clickPoint toValue: evt cursorPoint - 4.	self mouseMove: evt.

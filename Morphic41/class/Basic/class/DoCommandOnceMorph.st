@@ -1,0 +1,1 @@
+DoCommandOnceMorph	< class >	^ BorderedMorph subclass

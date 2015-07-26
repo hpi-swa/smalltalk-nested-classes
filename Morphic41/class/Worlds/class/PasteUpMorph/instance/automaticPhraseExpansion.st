@@ -1,0 +1,1 @@
+automaticPhraseExpansion	^ self hasProperty: #automaticPhraseExpansion
