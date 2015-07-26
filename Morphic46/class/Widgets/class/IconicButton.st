@@ -1,0 +1,1 @@
+IconicButton	< class >	^ SimpleButtonMorph subclass

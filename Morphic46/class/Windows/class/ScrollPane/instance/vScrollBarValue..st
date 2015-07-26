@@ -1,0 +1,1 @@
+vScrollBarValue: scrollValue	scroller hasSubmorphs ifFalse: [^ self].	lockOffset == true ifFalse: [		scroller offset: scroller offset x @ (scrollValue max: 0)].

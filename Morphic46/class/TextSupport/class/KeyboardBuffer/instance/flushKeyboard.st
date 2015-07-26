@@ -1,0 +1,1 @@
+flushKeyboard	eventUsed ifFalse: [^ eventUsed := true].

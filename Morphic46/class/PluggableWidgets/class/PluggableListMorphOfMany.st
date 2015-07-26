@@ -1,0 +1,1 @@
+PluggableListMorphOfMany	< class >	^ PluggableListMorph subclass

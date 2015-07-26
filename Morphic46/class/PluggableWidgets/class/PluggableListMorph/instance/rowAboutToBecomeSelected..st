@@ -1,0 +1,1 @@
+rowAboutToBecomeSelected: anInteger	self listMorph preSelectedRow: anInteger

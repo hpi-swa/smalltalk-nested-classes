@@ -1,0 +1,1 @@
+MenuItemMorph	< class >	^ StringMorph subclass

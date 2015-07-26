@@ -1,0 +1,1 @@
+hasMouseFocus: aHand	^ aHand mouseFocus == self

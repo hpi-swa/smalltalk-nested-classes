@@ -1,0 +1,1 @@
+SelectedObjectThumbnail	< class >	^ ImageMorph subclass

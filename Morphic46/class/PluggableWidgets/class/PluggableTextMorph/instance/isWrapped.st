@@ -1,0 +1,1 @@
+isWrapped	^ self wrapFlag

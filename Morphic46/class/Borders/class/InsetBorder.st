@@ -1,0 +1,1 @@
+InsetBorder	< class >	^ SimpleBorder subclass

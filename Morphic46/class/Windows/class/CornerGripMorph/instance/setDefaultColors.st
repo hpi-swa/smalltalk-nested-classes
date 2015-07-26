@@ -1,0 +1,1 @@
+setDefaultColors	handleColor := self passiveForm.

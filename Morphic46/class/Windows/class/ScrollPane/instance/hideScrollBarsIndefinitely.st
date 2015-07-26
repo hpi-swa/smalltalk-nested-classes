@@ -1,0 +1,1 @@
+hideScrollBarsIndefinitely	self		hideVScrollBarIndefinitely;		hideHScrollBarIndefinitely.

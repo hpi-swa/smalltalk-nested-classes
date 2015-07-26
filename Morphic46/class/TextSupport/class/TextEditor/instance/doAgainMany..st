@@ -1,0 +1,1 @@
+doAgainMany: aKeyboardEvent 	"Do the previous thing again repeatedly. 1/26/96 sw"	self insertAndCloseTypeIn.	self againOrSame: (UndoMessage sends: #undoAgain:andReselect:typedKey:) many: true.	^ true

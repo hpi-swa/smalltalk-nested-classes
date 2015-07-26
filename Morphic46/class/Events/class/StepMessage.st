@@ -1,0 +1,1 @@
+StepMessage	< class >	^ MorphicAlarm subclass

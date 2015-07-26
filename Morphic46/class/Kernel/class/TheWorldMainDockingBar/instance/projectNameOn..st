@@ -1,0 +1,1 @@
+projectNameOn: aDockingBar	| morph |	morph := StringMorph contents: ''.	morph setProperty: #projectNameMorph toValue: #projectNameMorph.	aDockingBar addMorphBack: morph.	self labelIfNeeded: aDockingBar

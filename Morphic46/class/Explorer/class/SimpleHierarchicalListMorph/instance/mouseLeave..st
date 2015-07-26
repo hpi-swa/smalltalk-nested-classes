@@ -1,0 +1,1 @@
+mouseLeave: aMouseEvent 	super mouseLeave: aMouseEvent.	Preferences mouseOverForKeyboardFocus ifTrue: [ aMouseEvent hand releaseKeyboardFocus: self ]

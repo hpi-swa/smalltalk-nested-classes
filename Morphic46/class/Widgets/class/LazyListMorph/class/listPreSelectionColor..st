@@ -1,0 +1,1 @@
+listPreSelectionColor: aColor	ListPreSelectionColor := aColor.	World invalidRect: World bounds from: World.

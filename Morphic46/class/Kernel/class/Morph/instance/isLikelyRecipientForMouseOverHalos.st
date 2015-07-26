@@ -1,0 +1,1 @@
+isLikelyRecipientForMouseOverHalos	^self player notNil

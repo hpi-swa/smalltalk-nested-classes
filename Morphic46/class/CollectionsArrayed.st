@@ -1,0 +1,1 @@
+CollectionsArrayed	< class >	^ Object subclass

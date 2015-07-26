@@ -1,0 +1,1 @@
+listPreSelectionColor	<preference: 'List Pre Selection Color'		category: 'colors'		description: 'Governs the color of pre selection highlight in lists'		type: #Color>	^ ListPreSelectionColor ifNil: [Color r: 0.9 g: 0.9 b: 0.9]

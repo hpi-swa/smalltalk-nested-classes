@@ -1,0 +1,1 @@
+hasContents	^ self object hasContentsInExplorer	

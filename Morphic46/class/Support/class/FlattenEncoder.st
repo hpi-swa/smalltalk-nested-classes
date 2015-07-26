@@ -1,0 +1,1 @@
+FlattenEncoder	< class >	^ NullEncoder subclass

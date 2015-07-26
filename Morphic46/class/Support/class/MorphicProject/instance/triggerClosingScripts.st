@@ -1,0 +1,1 @@
+triggerClosingScripts	"If any scripts must be run on closing, run them now"	CurrentProject world triggerClosingScripts

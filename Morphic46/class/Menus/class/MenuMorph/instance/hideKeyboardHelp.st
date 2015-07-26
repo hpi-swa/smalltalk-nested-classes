@@ -1,0 +1,1 @@
+hideKeyboardHelp	self deleteBalloon

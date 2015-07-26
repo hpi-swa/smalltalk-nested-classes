@@ -1,0 +1,1 @@
+scrollBarThickness: anInteger		scrollBarThickness := anInteger.	self updateMinimumExtent.

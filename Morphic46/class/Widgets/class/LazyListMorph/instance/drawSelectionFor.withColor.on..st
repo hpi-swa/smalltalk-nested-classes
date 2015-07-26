@@ -1,0 +1,1 @@
+drawSelectionFor: index withColor: color on: aCanvas		| selectionDrawBounds |	index ifNil: [ ^self ].	index = 0 ifTrue: [ ^self ].	selectionDrawBounds := self drawBoundsForRow: index.	selectionDrawBounds := selectionDrawBounds intersect: self bounds.	aCanvas fillRectangle: selectionDrawBounds color: color.

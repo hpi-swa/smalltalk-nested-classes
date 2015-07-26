@@ -1,0 +1,1 @@
+inform: aString title: titleString at: aPointOrNil	"UserDialogBoxMorph inform: 'Squeak is great!' title: 'Will you look at this:'"		^self new		title: titleString;		label: aString;		addSelectedCancelButton: 'OK' translated value: nil;		runModalIn: ActiveWorld forHand: ActiveHand at: aPointOrNil

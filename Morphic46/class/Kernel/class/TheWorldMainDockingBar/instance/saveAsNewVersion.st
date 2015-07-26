@@ -1,0 +1,1 @@
+saveAsNewVersion	Smalltalk saveAsNewVersion

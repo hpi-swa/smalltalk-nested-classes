@@ -1,0 +1,1 @@
+spyOnIt	^ MessageTally spyOn: [self evaluateSelection]

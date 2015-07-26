@@ -1,0 +1,1 @@
+scrollToShow: aRectangle	"We have to lock the callback into me because rounding errors in scrollbar values would reset the offset to a different value. The given rectangle may not be visible anymore."	scroller offset: (self offsetToShow: aRectangle).	lockOffset := true.	self setScrollDeltas.	lockOffset := false.

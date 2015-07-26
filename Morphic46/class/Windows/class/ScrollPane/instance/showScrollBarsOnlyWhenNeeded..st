@@ -1,0 +1,1 @@
+showScrollBarsOnlyWhenNeeded: bool	self flag: #deprecated. 		self showHScrollBarOnlyWhenNeeded: bool.	self showVScrollBarOnlyWhenNeeded: bool.

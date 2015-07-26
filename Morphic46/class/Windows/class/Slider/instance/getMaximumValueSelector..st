@@ -1,0 +1,1 @@
+getMaximumValueSelector: aSymbol	getMaximumValueSelector := aSymbol.

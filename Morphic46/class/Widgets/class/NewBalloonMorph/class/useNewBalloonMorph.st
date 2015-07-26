@@ -1,0 +1,1 @@
+useNewBalloonMorph	<preference: 'Use new-style balloon morphs'		category: #Morphic		description: 'The new-style balloon morphs are improved for better reading quality and support rich text.'		type: #Boolean>	^ UseNewBalloonMorph ifNil: [true]

@@ -1,0 +1,1 @@
+exploreInMorphic	ToolSet explore: self.

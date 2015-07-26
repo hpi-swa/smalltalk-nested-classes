@@ -1,0 +1,1 @@
+preferredCornerRadius: anInteger	PreferredCornerRadius := anInteger.

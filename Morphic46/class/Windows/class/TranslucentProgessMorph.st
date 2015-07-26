@@ -1,0 +1,1 @@
+TranslucentProgessMorph	< class >	^ Morph subclass

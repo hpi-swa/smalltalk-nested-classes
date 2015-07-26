@@ -1,0 +1,1 @@
+initialize	"SystemWindow initialize"		CollapseBoxImageGradient := nil.	CloseBoxImageGradient := nil.	ExpandBoxImageGradient := nil.	MenuBoxImageGradient := nil.		CollapseBoxImageFlat := nil.	CloseBoxImageFlat := nil.	ExpandBoxImageFlat := nil.	MenuBoxImageFlat := nil.	self updatePreferences.

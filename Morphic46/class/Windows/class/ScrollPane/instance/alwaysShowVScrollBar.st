@@ -1,0 +1,1 @@
+alwaysShowVScrollBar	self vScrollBarPolicy: #always.	self vHideOrShowScrollBar.

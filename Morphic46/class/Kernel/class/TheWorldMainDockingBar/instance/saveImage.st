@@ -1,0 +1,1 @@
+saveImage	Smalltalk saveSession

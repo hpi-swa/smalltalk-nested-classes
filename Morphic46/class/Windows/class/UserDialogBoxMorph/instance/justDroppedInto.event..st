@@ -1,0 +1,1 @@
+justDroppedInto: aMorph event: event	"Restore drop shadow if necessary."	self hasDropShadow: Preferences menuAppearance3d.	"aggressively preserve focus"	event hand newMouseFocus: self.

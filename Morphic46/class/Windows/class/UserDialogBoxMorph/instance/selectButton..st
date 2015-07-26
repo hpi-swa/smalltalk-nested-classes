@@ -1,0 +1,1 @@
+selectButton: aButton	self deselectSelectedButton.	aButton		onColor: Color orange muchLighter		offColor: Color orange muchLighter.	selectedButton := aButton

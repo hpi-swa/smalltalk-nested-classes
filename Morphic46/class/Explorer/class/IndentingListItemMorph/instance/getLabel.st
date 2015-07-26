@@ -1,0 +1,1 @@
+getLabel	^ self getLabelFor: complexContents

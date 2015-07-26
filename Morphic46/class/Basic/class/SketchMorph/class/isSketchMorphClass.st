@@ -1,0 +1,1 @@
+isSketchMorphClass	^true

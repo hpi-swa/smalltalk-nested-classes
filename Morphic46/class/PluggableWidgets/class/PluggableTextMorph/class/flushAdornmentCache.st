@@ -1,0 +1,1 @@
+flushAdornmentCache	"Cache for frame adornments"	AdornmentCache := nil

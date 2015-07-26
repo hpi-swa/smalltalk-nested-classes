@@ -1,0 +1,1 @@
+menuTitleBorderWidth: anInteger 	MenuTitleBorderWidth := anInteger

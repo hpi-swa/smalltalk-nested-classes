@@ -1,0 +1,1 @@
+deactivate: evt 	self selectItem: nil event: evt.	evt hand		newKeyboardFocus: self oldKeyboardFocus;		newMouseFocus: self oldMouseFocus

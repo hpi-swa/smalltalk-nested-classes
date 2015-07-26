@@ -1,0 +1,1 @@
+label: aStringOrTextOrMorph	label = aStringOrTextOrMorph ifTrue: [^ self].	label := aStringOrTextOrMorph isText		ifTrue: [aStringOrTextOrMorph asMorph]		ifFalse: [aStringOrTextOrMorph].		self updateMinimumExtent.

@@ -1,0 +1,1 @@
+menuTitleColor	<preference: 'menuTitleColor'		category: #menus		description: 'Color of background of menus title'		type: #Color>	Display depth = 1 ifTrue: [^ Color white].	Display depth = 2 ifTrue: [^ Color gray].	^MenuTitleColor ifNil: [ Color transparent]

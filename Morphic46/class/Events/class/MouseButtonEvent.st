@@ -1,0 +1,1 @@
+MouseButtonEvent	< class >	^ MouseEvent subclass

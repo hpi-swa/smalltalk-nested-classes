@@ -1,0 +1,1 @@
+clockOn: aDockingBar 	aDockingBar 		addMorphBack: (ClockMorph new show24hr: TwentyFourHourClock; yourself);		addDefaultSpace

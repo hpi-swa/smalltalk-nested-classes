@@ -1,0 +1,1 @@
+isAnyScrollbarShowing	^ self hIsScrollbarShowing or: [self vIsScrollbarShowing]

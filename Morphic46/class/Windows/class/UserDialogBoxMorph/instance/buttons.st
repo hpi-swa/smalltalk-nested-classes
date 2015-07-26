@@ -1,0 +1,1 @@
+buttons	^buttonRow submorphs select: [ :each | 		each isKindOf: PluggableButtonMorphPlus ].

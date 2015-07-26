@@ -1,0 +1,1 @@
+smallRedoIcon	^ Icons		at: #smallRedoIcon		ifAbsentPut: [ self smallRedoIconContents ]

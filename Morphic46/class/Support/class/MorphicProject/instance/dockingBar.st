@@ -1,0 +1,1 @@
+dockingBar	^ self		projectParameterAt: #dockingBar		ifAbsent: [ TheWorldMainDockingBar instance ]

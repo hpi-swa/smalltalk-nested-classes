@@ -1,0 +1,1 @@
+getChildren	^ self getChildrenFor: complexContents

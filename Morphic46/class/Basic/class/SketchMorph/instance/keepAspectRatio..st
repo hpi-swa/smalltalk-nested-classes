@@ -1,0 +1,1 @@
+keepAspectRatio: aBoolean	keepAspectRatio := aBoolean.

@@ -1,0 +1,1 @@
+selectorPrefixForDispatch	"A string to be prepended to selectors for project specific methods"	^ 'morphic'

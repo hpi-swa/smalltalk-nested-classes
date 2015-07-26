@@ -1,0 +1,1 @@
+editTextSelector: aSymbol	editTextSelector := aSymbol.

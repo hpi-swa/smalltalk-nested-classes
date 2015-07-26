@@ -1,0 +1,1 @@
+ProportionalSplitterMorph	< class >	^ AbstractResizerMorph subclass

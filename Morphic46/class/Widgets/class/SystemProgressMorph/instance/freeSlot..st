@@ -1,0 +1,1 @@
+freeSlot: number	number > 0 ifFalse: [^self].	lock critical: [| label |		label := labels at: number.		(label isNil or: [label owner isNil]) ifTrue: [^self]. "Has been freed before"		label delete.		(bars at: number) delete.		activeSlots := activeSlots - 1.		activeSlots = 0			ifTrue: [self delete]			ifFalse: [self reposition]]

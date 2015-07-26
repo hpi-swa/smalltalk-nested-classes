@@ -1,0 +1,1 @@
+passiveColor	<preference: 'Corner Grip color'		category: 'window colors'		description: 'The default color of window corners'		type: #Color>	^(self passiveForm colorAt: 24@24) alpha:  1

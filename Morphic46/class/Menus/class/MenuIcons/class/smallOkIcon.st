@@ -1,0 +1,1 @@
+smallOkIcon	^ Icons		at: #smallOkIcon		ifAbsentPut: [ self smallOkIconContents ]

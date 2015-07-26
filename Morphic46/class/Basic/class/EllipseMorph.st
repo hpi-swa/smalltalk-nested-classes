@@ -1,0 +1,1 @@
+EllipseMorph	< class >	^ BorderedMorph subclass

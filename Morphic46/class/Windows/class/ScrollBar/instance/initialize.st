@@ -1,0 +1,1 @@
+initialize	interval := 0.2.		super initialize.	scrollDelta := 0.02.	pageDelta := 0.2.	self color: Color transparent.	self class roundedScrollBarLook		ifFalse: [self borderWidth: 0]		ifTrue:[self borderStyle: ((BorderStyle complexFramed width: 2) "baseColor: Color gray")].

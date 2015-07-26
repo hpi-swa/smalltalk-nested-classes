@@ -1,0 +1,1 @@
+indicateKeyboardFocus: aBoolean	IndicateKeyboardFocus := aBoolean.

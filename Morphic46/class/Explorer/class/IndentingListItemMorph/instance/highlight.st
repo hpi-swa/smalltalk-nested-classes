@@ -1,0 +1,1 @@
+highlight	(self valueOfProperty: #wasRefreshed ifAbsent: [false])		ifFalse: [self color: complexContents highlightingColor]		ifTrue: [self color: self color negated].			self changed.	

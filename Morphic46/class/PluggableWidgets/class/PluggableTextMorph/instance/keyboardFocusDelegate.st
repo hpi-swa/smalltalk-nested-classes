@@ -1,0 +1,1 @@
+keyboardFocusDelegate	^ textMorph ifNil: [self]

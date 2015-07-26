@@ -1,0 +1,1 @@
+autoIndent: aBoolean	AutoIndent := aBoolean

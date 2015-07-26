@@ -1,0 +1,1 @@
+smallSaveNewIcon	^ Icons		at: #smallSaveNewIcon		ifAbsentPut: [ self smallSaveNewIconContents ]

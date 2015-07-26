@@ -1,0 +1,1 @@
+colorForRow: row		^(selectedRow notNil and: [ row = selectedRow])		ifTrue: [ self class listSelectionTextColor ]		ifFalse: [ self color ].

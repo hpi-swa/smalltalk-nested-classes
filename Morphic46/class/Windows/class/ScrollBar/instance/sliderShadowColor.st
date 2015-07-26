@@ -1,0 +1,1 @@
+sliderShadowColor	^ self class roundedScrollBarLook		ifTrue: [self sliderColor darker]		ifFalse: [super sliderShadowColor]

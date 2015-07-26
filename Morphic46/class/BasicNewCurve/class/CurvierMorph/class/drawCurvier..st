@@ -1,0 +1,1 @@
+drawCurvier: aBoolean	DrawCurvier := aBoolean.

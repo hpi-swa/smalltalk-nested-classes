@@ -1,0 +1,1 @@
+initialize	"initialize the state of the receiver"	super initialize.	hasUnacceptedEdits := false.	hasEditingConflicts := false.	askBeforeDiscardingEdits := true.	self minimumWidth: (TextStyle defaultFont widthOf: $m) * 10.

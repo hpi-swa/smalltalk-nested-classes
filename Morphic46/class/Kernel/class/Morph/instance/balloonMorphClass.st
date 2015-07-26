@@ -1,0 +1,1 @@
+balloonMorphClass	^ NewBalloonMorph useNewBalloonMorph		ifTrue: [NewBalloonMorph]		ifFalse: [BalloonMorph]

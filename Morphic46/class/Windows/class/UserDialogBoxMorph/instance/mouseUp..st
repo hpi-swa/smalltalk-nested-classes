@@ -1,0 +1,1 @@
+mouseUp: event	self stopAutoTrigger.	"aggressively preserve focus"	event hand newMouseFocus: self.

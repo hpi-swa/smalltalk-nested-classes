@@ -1,0 +1,1 @@
+BorderGripMorph	< class >	^ CornerGripMorph subclass

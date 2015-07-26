@@ -1,0 +1,1 @@
+indicateUnfiltered	self color: Color white

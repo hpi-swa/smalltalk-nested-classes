@@ -1,0 +1,1 @@
+registerKeyFor: button 	button label do:		[ : eachChar | eachChar isAlphaNumeric ifTrue:			[ keyMap				at: eachChar asLowercase				ifPresent: [ : found | "It's already taken, don't use it." ]				ifAbsent: 					[ ^ keyMap						at: eachChar asLowercase						put: button ] ] ]

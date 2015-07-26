@@ -1,0 +1,1 @@
+DockingBarItemMorph	< class >	^ MenuItemMorph subclass

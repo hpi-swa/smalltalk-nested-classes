@@ -1,0 +1,1 @@
+getFullList	"The full, unfiltered list."	^ model perform: getListSelector

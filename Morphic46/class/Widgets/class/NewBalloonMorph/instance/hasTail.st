@@ -1,0 +1,1 @@
+hasTail	^ hasTail ifNil: [true]

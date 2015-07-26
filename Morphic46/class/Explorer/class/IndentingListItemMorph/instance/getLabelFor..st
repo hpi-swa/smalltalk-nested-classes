@@ -1,0 +1,1 @@
+getLabelFor: model	^ model asString

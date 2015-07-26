@@ -1,0 +1,1 @@
+clearFilterAutomatically: aBoolean	ClearFilterAutomatically := aBoolean

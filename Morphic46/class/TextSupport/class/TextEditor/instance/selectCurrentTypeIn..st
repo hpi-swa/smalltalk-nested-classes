@@ -1,0 +1,1 @@
+selectCurrentTypeIn: aKeyboardEvent 	"Select what would be replaced by an undo (e.g., the last typeIn)."	| prior |	self insertAndCloseTypeIn.	prior := otherInterval.	self insertAndCloseTypeIn.	self selectInterval: UndoInterval.	otherInterval := prior.	^ true

@@ -1,0 +1,1 @@
+StandardScriptingSystem	< class >	^ Object subclass

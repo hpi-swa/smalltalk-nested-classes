@@ -1,0 +1,1 @@
+RectangleMorph	< class >	^ BorderedMorph subclass

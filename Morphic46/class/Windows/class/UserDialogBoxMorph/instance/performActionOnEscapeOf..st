@@ -1,0 +1,1 @@
+performActionOnEscapeOf: aButton	cancelButton := aButton

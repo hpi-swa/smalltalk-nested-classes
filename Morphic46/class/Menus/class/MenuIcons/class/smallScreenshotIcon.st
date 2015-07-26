@@ -1,0 +1,1 @@
+smallScreenshotIcon	^ Icons		at: #smallScreenshotIcon		ifAbsentPut: [ self smallScreenshotIconContents ]

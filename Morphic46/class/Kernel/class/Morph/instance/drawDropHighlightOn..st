@@ -1,0 +1,1 @@
+drawDropHighlightOn: aCanvas	self highlightedForDrop ifTrue: [		self wantsRoundedCorners			ifTrue: [aCanvas frameRoundRect: self fullBounds radius: self class preferredCornerRadius width: 1 color: self dropHighlightColor]			ifFalse: [aCanvas frameRectangle: self fullBounds color: self dropHighlightColor]].

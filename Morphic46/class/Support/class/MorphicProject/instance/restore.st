@@ -1,0 +1,1 @@
+restore	world fullDrawOn: Display getCanvas.

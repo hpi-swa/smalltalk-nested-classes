@@ -1,0 +1,1 @@
+adoptPaneColor: aPaneColor	super adoptPaneColor: (self class gradientWindow		ifTrue: [aPaneColor ifNotNil: [:c | c duller]]		ifFalse: [aPaneColor]).

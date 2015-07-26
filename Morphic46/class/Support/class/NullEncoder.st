@@ -1,0 +1,1 @@
+NullEncoder	< class >	^ Object subclass

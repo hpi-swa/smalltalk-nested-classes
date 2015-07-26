@@ -1,0 +1,1 @@
+checkAgainstKeymap: aCharacter 	keyMap		at: aCharacter asLowercase		ifPresent: [ : foundButton | foundButton performAction ]		ifAbsent: [ "do nothing" ]

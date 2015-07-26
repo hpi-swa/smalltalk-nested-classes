@@ -1,0 +1,1 @@
+SmalltalkEditor	< class >	^ TextEditor subclass

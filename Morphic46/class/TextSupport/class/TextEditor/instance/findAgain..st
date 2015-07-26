@@ -1,0 +1,1 @@
+findAgain: aKeyboardEvent 	"Find the desired text again.  1/24/96 sw"	self insertAndCloseTypeIn.	self againOrSame: true many: aKeyboardEvent shiftPressed.	^ true

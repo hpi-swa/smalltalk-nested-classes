@@ -1,0 +1,1 @@
+alwaysShowHScrollBar: bool	self flag: #deprecated. 	self setProperty: #hScrollBarAlways toValue: bool.	bool		ifTrue: [self hScrollBarPolicy: #always]		ifFalse: [self hScrollBarPolicy: #whenNeeded].			self hHideOrShowScrollBar.

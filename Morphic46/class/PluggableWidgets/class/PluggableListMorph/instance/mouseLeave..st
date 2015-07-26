@@ -1,0 +1,1 @@
+mouseLeave: event	"The mouse has left the area of the receiver"	super mouseLeave: event.		self hoverRow: nil.		Preferences mouseOverForKeyboardFocus ifTrue:[		event hand releaseKeyboardFocus: self].

@@ -1,0 +1,1 @@
+exportAsBMPNamed: aString 	self imageForm writeBMPfileNamed: aString

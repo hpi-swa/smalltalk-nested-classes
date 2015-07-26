@@ -1,0 +1,1 @@
+drawSelectionOn: aCanvas		self 		drawSelectionFor: selectedRow 		withColor: self class listSelectionColor 		on: aCanvas

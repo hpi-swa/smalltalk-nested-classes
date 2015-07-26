@@ -1,0 +1,1 @@
+getMinimumValueSelector: aSymbol	getMinimumValueSelector := aSymbol.

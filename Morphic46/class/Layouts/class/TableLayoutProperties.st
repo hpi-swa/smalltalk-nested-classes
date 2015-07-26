@@ -1,0 +1,1 @@
+TableLayoutProperties	< class >	^ LayoutProperties subclass

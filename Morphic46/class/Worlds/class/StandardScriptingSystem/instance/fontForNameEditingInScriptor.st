@@ -1,0 +1,1 @@
+fontForNameEditingInScriptor	^ Preferences standardEToysFont

@@ -1,0 +1,1 @@
+NewColorPickerMorph	< class >	^ Morph subclass

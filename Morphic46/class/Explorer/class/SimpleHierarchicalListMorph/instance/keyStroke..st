@@ -1,0 +1,1 @@
+keyStroke: event 	"Process potential command keys"	(self scrollByKeyboard: event) ifTrue: [^ true].		event keyCharacter asciiValue < 32 ifTrue: [		^ self specialKeyPressed: event keyCharacter asciiValue].		(self keyStrokeAction: event) ifTrue: [^ true].		^ false

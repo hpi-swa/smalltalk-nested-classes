@@ -1,0 +1,1 @@
+findAMonticelloBrowser	(Smalltalk classNamed: #MCWorkingCopyBrowser) ifNotNil:		[:mc|		self			findAWindowSatisfying: [:aWindow | aWindow model isMemberOf: mc]			orMakeOneUsing: [mc open]]

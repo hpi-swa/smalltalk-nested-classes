@@ -1,0 +1,1 @@
+licenseInformation	"Should NOT be edited interactively"	^Smalltalk license asText

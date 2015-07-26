@@ -1,0 +1,1 @@
+passivate	"Make me unable to respond to mouse and keyboard"	label ifNotNil: [label color: Color darkGray].	self hasDropShadow: false.	self paneColorToUseWhenNotActive in: [:c |			self				setStripeColorsFrom: c;				adoptPaneColor: c]. 	model modelSleep.	self lockInactivePortions

@@ -1,0 +1,1 @@
+filenameFont	^ Preferences standardDefaultTextFont

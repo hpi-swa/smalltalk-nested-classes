@@ -1,0 +1,1 @@
+updateMenu	menuUpdater update: self

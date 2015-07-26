@@ -1,0 +1,1 @@
+hoverRow	^ hoverRow ifNil: [0]

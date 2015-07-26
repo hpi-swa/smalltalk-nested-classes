@@ -1,0 +1,1 @@
+HaloMorph	< class >	^ Morph subclass

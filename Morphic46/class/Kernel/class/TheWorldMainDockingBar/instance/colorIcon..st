@@ -1,0 +1,1 @@
+colorIcon: aColor	"Guess if 'uniform window colors' are used and avoid all icons to be just gray"	(aColor = Preferences uniformWindowColor or: [Preferences tinyDisplay]) ifTrue: [ ^nil ].	^(aColor iconOrThumbnailOfSize: 14)		borderWidth: 3 color: MenuMorph menuColor muchDarker;		borderWidth: 2 color: Color transparent

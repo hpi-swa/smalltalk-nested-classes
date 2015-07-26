@@ -1,0 +1,1 @@
+mouseDownInSlider: event	self interval = self maximumValue ifTrue:		["make the entire scrollable area visible if a full scrollbar is clicked on"		self setValue: 0.		self model hideOrShowScrollBars.]."	super mouseDownInSlider: event"

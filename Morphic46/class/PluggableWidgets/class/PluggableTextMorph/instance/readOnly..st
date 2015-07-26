@@ -1,0 +1,1 @@
+readOnly: aBoolean	textMorph readOnly: aBoolean.

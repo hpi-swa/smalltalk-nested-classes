@@ -1,0 +1,1 @@
+spawnNewProcess	uiProcess := [		[World doOneCycle.  Processor yield ] repeat.	] newProcess priority: Processor userSchedulingPriority.	uiProcess resume

@@ -1,0 +1,1 @@
+stopAutoTrigger	timeout ifNil: [^self].	timeout := nil.	self stopStepping.	selectedButton label: savedLabel 

@@ -1,0 +1,1 @@
+drawSubmorphsOn: aCanvas	super drawSubmorphsOn: aCanvas.	self wantsRoundedCorners ifTrue: [		"Overdraw lower part of title bar to hide bottom corners."		aCanvas			fillRectangle: (self submorphs first "titleRow" bottomLeft - (-1 @ Morph preferredCornerRadius)				corner: self submorphs first "titleRow" bottomRight - (1@0))			color: self color].

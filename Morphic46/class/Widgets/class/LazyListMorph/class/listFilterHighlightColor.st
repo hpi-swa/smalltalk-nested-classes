@@ -1,0 +1,1 @@
+listFilterHighlightColor	^ Color yellow paler alpha: 0.5

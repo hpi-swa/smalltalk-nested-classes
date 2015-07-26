@@ -1,0 +1,1 @@
+closeButtonLabel	^ 'Close' translated

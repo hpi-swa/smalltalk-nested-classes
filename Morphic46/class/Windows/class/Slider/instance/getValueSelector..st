@@ -1,0 +1,1 @@
+getValueSelector: aSymbol	getValueSelector := aSymbol.

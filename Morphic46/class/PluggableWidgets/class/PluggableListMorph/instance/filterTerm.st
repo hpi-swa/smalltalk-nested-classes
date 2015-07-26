@@ -1,0 +1,1 @@
+filterTerm	^ lastKeystrokes ifNil: ['']

@@ -1,0 +1,1 @@
+EventHandler	< class >	^ Object subclass

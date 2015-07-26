@@ -1,0 +1,1 @@
+CollapsedMorph	< class >	^ SystemWindow subclass

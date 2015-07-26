@@ -1,0 +1,1 @@
+PluggableListMorphByItem	< class >	^ PluggableListMorph subclass

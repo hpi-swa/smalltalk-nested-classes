@@ -1,0 +1,1 @@
+CurvierMorph	< class >	^ PolygonMorph subclass

@@ -1,0 +1,1 @@
+preferredColor	^ Color black

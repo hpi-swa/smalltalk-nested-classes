@@ -1,0 +1,1 @@
+menuBorderColor	<preference: 'menuBorderColor'		category: #menus		description: 'Menus border color'		type: #Color>	Display depth <= 2 ifTrue: [^ Color black].	^MenuBorderColor ifNil: [(Color r: 0.2 g: 0.3 b: 0.9)]

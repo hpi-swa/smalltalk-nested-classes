@@ -1,0 +1,1 @@
+font	^ font ifNil: [Preferences standardButtonFont]

@@ -1,0 +1,1 @@
+drawKeyboardFocusIndicationOn: aCanvas 	"Draw the menu. Add keyboard-focus feedback if appropriate"	(self rootMenu hasProperty: #hasUsedKeyboard)		ifTrue: [ 			aCanvas				frameRectangle: self innerBounds				width: Preferences menuBorderWidth				color: Preferences keyboardFocusColor].

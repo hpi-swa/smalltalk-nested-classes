@@ -1,0 +1,1 @@
+spawnNewProcessIfThisIsUI: suspendedProcess	"Initialize a UI process if needed. Answer true if suspendedProcess was interrupted	from a UI process."	self uiProcess == suspendedProcess ifTrue: [		self spawnNewProcess.		^true	].	^false		"no new process was created"

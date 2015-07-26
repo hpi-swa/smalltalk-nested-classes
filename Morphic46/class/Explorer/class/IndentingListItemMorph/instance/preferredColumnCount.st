@@ -1,0 +1,1 @@
+preferredColumnCount	^ self contentsSplitByColumns size

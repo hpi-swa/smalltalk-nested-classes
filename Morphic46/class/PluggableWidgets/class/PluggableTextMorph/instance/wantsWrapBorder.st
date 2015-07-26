@@ -1,0 +1,1 @@
+wantsWrapBorder	^ wantsWrapBorder ifNil: [false]

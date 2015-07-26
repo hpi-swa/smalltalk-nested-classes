@@ -1,0 +1,1 @@
+autoEnclose	<preference: 'Auto Enclose'		category: 'Morphic'		description: 'When true, typing an opening parenthesis, bracket or square-bracket will also add its corresponding closing character in front of the cursor.'		type: #Boolean>	^ AutoEnclose ifNil: [ false ]

@@ -1,0 +1,1 @@
+mouseDown: event	self stopAutoTrigger.	"Always bring me to the front since I am modal"	self comeToFront.	(self containsPoint: event position) ifFalse:[		Beeper beepPrimitive.		^self flash].		self hasDropShadow: false.	event hand grabMorph: self.

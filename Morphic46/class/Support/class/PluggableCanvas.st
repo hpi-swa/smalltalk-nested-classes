@@ -1,0 +1,1 @@
+PluggableCanvas	< class >	^ Canvas subclass

@@ -1,0 +1,1 @@
+beginningOfParagraph: position	^ (self string		lastIndexOf: Character cr		startingAt: position		ifAbsent: [ 0 ]) + 1.

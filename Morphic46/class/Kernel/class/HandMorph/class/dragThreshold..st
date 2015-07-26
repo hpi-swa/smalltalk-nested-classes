@@ -1,0 +1,1 @@
+dragThreshold: pixels	DragThreshold := pixels

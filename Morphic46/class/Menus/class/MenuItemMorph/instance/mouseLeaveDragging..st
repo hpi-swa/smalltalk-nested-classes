@@ -1,0 +1,1 @@
+mouseLeaveDragging: evt 	"The mouse left the receiver. Do nothing if we're not in a 'valid menu transition', meaning that the current hand focus must be aimed at the owning menu."	owner ifNil: [^self].	evt hand mouseFocus == owner ifFalse: [ ^self ].	lastMousePosition := evt position.	owner selectItem: nil event: evt

@@ -1,0 +1,1 @@
+WorldState	< class >	^ Object subclass

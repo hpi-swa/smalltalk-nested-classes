@@ -1,0 +1,1 @@
+HSVAColorSelectorMorph	< class >	^ Morph subclass

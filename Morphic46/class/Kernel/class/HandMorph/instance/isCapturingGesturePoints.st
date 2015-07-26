@@ -1,0 +1,1 @@
+isCapturingGesturePoints	^false

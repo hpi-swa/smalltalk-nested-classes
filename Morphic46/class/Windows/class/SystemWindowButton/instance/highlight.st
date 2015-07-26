@@ -1,0 +1,1 @@
+highlight	self firstSubmorph form: self highlightedForm

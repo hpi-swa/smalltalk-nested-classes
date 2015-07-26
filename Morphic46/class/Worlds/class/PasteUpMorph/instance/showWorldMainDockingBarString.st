@@ -1,0 +1,1 @@
+showWorldMainDockingBarString	^ self project showWorldMainDockingBarString

@@ -1,0 +1,1 @@
+SuperSwikiDirectoryWrapper	< class >	^ FileDirectoryWrapper subclass

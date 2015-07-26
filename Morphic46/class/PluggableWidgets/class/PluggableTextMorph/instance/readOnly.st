@@ -1,0 +1,1 @@
+readOnly	^ textMorph readOnly

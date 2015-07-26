@@ -1,0 +1,1 @@
+confirm: aString orCancel: cancelBlock title: titleString at: aPointOrNil		^(self new		title: titleString;		label: aString;		addSelectedButton: 'Yes' translated value: true;		addButton: 'No' translated  value: false;		addCancelButton: 'Cancel' translated  value: nil;		runModalIn: ActiveWorld forHand: ActiveHand at: aPointOrNil)			ifNil: [ cancelBlock value ]

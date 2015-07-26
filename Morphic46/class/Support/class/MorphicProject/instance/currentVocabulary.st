@@ -1,0 +1,1 @@
+currentVocabulary	^ActiveWorld currentVocabulary

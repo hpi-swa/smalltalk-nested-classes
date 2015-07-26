@@ -1,0 +1,1 @@
+confirm: aString title: titleString at: aPointOrNil	"UserDialogBoxMorph confirm: 'Make your choice carefully' withCRs title: 'Do you like chocolate?'"	^self new		title: titleString;		label: aString;		addSelectedButton: 'Yes' translated value: true;		addCancelButton: 'No' translated  value: false;		runModalIn: ActiveWorld forHand: ActiveHand at: aPointOrNil

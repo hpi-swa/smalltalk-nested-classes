@@ -1,0 +1,1 @@
+listSelectionTextColor: aColor		ListSelectionTextColor := aColor.	World invalidRect: World bounds from: World.

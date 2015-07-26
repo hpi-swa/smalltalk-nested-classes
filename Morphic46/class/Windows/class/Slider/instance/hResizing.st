@@ -1,0 +1,1 @@
+hResizing	^ self orientation == #horizontal		ifTrue: [#spaceFill]		ifFalse: [#rigid]

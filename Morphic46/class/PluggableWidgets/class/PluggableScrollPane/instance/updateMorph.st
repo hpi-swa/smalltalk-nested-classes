@@ -1,0 +1,1 @@
+updateMorph	self morph fullBounds.	self setScrollDeltas.		scrollBar setValue: 0.0.	hScrollBar setValue: 0.0.

@@ -1,0 +1,1 @@
+transcriptMenuItemOn: menu	menu addItem: [ :item |		item			contents: 'Transcript' translated;			help: 'Open the Transcript' translated;			icon: (self colorIcon: Preferences transcriptWindowColor);			target: Transcript;			selector: #open ]

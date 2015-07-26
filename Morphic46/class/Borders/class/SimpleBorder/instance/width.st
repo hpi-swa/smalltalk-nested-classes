@@ -1,0 +1,1 @@
+width	^width ifNil:[0]

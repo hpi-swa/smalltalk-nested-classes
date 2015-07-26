@@ -1,0 +1,1 @@
+aboutSqueak	false		ifTrue:			[UserDialogBoxMorph				inform: Smalltalk systemInformationString withCRs				title: 'About Squeak...' translated				at: World center]		ifFalse:			[| m |			 m := SystemReporter open.			 m label: 'About Squeak...' translated.			 m setConstrainedPosition: World center - (m bounds extent / 2)				hangOut: false]

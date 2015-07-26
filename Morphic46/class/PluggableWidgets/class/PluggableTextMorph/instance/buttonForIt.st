@@ -1,0 +1,1 @@
+buttonForIt	self handleEdit: [textMorph editor buttonForIt]

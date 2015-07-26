@@ -1,0 +1,1 @@
+writeArrayedCollection:anArrayedCollection	^self writeCollectionContents:anArrayedCollection.

@@ -1,0 +1,1 @@
+paragraphClass	^ NewParagraph

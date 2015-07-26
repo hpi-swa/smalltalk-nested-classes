@@ -1,0 +1,1 @@
+defaultBorderWidth	"0 is appropriate for balloons because they are transient and wispy, not a solid object deserving a border."	^ 0

@@ -1,0 +1,1 @@
+menuTitleColor: aColor 	MenuTitleColor := aColor

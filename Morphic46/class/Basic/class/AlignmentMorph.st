@@ -1,0 +1,1 @@
+AlignmentMorph	< class >	^ RectangleMorph subclass

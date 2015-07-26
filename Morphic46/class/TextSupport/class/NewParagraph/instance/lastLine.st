@@ -1,0 +1,1 @@
+lastLine	^lines last

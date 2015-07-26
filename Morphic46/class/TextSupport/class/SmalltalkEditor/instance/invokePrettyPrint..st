@@ -1,0 +1,1 @@
+invokePrettyPrint: dummy	self prettyPrint: false.	^ true

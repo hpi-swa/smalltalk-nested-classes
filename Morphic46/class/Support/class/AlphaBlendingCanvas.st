@@ -1,0 +1,1 @@
+AlphaBlendingCanvas	< class >	^ ColorMappingCanvas subclass

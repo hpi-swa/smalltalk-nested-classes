@@ -1,0 +1,1 @@
+NewBalloonMorph	< class >	^ Morph subclass

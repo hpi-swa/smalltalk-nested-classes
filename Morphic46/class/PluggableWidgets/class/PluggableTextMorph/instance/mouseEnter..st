@@ -1,0 +1,1 @@
+mouseEnter: event	super mouseEnter: event.	selectionInterval ifNotNil:		[textMorph editor selectInterval: selectionInterval; setEmphasisHere].	textMorph selectionChanged.	Preferences mouseOverForKeyboardFocus ifTrue:[		event hand newKeyboardFocus: self]

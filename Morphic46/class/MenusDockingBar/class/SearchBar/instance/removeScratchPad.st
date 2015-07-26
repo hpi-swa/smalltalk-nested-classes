@@ -1,0 +1,1 @@
+removeScratchPad	scratchPad ifNotNil: [ scratchPad delete ]

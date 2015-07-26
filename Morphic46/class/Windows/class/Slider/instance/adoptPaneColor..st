@@ -1,0 +1,1 @@
+adoptPaneColor: paneColor	super adoptPaneColor: paneColor.	paneColor ifNotNil: [:c |		self color: c.		self thumb color: c].

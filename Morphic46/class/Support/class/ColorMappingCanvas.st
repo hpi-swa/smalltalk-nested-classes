@@ -1,0 +1,1 @@
+ColorMappingCanvas	< class >	^ Canvas subclass

@@ -1,0 +1,1 @@
+menuTitleBorderColor: aColor 	MenuTitleBorderColor := aColor

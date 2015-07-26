@@ -1,0 +1,1 @@
+smallBroomIcon	^ self fugueBroomIcon

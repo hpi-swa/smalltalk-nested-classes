@@ -1,0 +1,1 @@
+StringMorph	< class >	^ Morph subclass

@@ -1,0 +1,1 @@
+menuSelector: aSymbol	menuSelector := aSymbol.

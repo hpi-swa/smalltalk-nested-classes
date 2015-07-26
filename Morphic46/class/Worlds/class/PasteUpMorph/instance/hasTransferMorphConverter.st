@@ -1,0 +1,1 @@
+hasTransferMorphConverter	^ self transferMorphConverter ~= #yourself

@@ -1,0 +1,1 @@
+EditCommand	< class >	^ Object subclass

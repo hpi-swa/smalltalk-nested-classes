@@ -1,0 +1,1 @@
+showWorldMainDockingBar	^ self projectPreferenceFlagDictionary		at: #showWorldMainDockingBar		ifAbsent: [ false ]

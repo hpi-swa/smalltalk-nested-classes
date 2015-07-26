@@ -1,0 +1,1 @@
+showBalloon: msgString hand: aHand	"Pop up a balloon containing the given string,	first removing any existing BalloonMorphs in the world."	| w balloon h |	(w := self world) ifNil: [^ self].	h := aHand.	h ifNil:[		h := w activeHand].	balloon := self balloonMorphClass		string: msgString		for: self balloonHelpAligner.	balloon popUpFor: self hand: h.

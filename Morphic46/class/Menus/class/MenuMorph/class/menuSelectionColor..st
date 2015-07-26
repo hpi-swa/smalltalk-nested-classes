@@ -1,0 +1,1 @@
+menuSelectionColor: aColor 	MenuSelectionColor := aColor

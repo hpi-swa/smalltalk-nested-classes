@@ -1,0 +1,1 @@
+alwaysShowScrollBars			self 		alwaysShowHScrollBar;		alwaysShowVScrollBar.

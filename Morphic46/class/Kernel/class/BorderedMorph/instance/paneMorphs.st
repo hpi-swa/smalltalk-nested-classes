@@ -1,0 +1,1 @@
+paneMorphs	^ self submorphs copyWithoutAll: self splitters

@@ -1,0 +1,1 @@
+BorderStyle	< class >	^ Object subclass

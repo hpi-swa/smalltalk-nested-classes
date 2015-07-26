@@ -1,0 +1,1 @@
+SoundSynthesis	< class >	^ Object subclass

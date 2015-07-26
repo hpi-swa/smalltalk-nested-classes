@@ -1,0 +1,1 @@
+doStop: aBoolean	doStop := aBoolean

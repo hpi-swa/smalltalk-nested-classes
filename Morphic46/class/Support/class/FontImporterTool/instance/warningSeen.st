@@ -1,0 +1,1 @@
+warningSeen	^ warningSeen ifNil: [false]

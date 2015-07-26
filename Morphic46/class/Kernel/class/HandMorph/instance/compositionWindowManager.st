@@ -1,0 +1,1 @@
+compositionWindowManager	^ self class compositionWindowManager.

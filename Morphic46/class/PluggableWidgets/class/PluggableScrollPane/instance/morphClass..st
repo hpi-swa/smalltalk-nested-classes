@@ -1,0 +1,1 @@
+morphClass: aMorphClass	morphClass := aMorphClass.

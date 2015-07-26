@@ -1,0 +1,1 @@
+smallCutIcon	^ Icons		at: #smallCutIcon		ifAbsentPut: [ self smallCutIconContents ]

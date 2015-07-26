@@ -1,0 +1,1 @@
+useSoftDropShadow: aBoolean	UseSoftDropShadow = aBoolean ifTrue: [^ self].	UseSoftDropShadow := aBoolean.		SystemWindow refreshAllWindows.	SystemProgressMorph reset.	TheWorldMainDockingBar updateInstances.

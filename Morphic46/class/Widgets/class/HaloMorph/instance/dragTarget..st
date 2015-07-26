@@ -1,0 +1,1 @@
+dragTarget: event	"Begin dragging the target"	| thePoint |	event controlKeyPressed ifTrue: [^self growTarget: event].	growingOrRotating := false.	thePoint := target point: event position - positionOffset from: owner.	target setConstrainedPosition: thePoint hangOut: true.	event hand newMouseFocus: self.

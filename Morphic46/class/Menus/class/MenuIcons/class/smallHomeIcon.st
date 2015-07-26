@@ -1,0 +1,1 @@
+smallHomeIcon	^ Icons		at: #smallHomeIcon		ifAbsentPut: [ self smallHomeIconContents ]

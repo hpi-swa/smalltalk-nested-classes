@@ -1,0 +1,1 @@
+Sound	< class >	^ Object subclass

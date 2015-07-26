@@ -1,0 +1,1 @@
+ShadowDrawingCanvas	< class >	^ ColorMappingCanvas subclass

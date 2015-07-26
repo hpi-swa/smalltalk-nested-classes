@@ -1,0 +1,1 @@
+hasTail: aBoolean	hasTail := aBoolean.

@@ -1,0 +1,1 @@
+initialize	super initialize.	self		borderWidth: 0;		color: MenuMorph menuColor muchLighter.			barSize := 0.

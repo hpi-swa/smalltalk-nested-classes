@@ -1,0 +1,1 @@
+selectWord: aKeyboardEvent	self insertAndCloseTypeIn.	self selectWord.	^ true

@@ -1,0 +1,1 @@
+inspectInMorphic	ToolSet inspect: self.

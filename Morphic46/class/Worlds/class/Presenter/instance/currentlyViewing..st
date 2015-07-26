@@ -1,0 +1,1 @@
+currentlyViewing: aPlayer	^false

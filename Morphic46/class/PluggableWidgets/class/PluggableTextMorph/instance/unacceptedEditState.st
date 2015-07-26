@@ -1,0 +1,1 @@
+unacceptedEditState	^hasUnacceptedEdits ifTrue: [self text]

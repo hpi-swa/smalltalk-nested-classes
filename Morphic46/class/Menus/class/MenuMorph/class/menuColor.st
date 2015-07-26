@@ -1,0 +1,1 @@
+menuColor	<preference: 'menuColor'		category: #menus		description: 'Menus color'		type: #Color>	Display depth <= 2 ifTrue: [^ Color black].	^MenuColor ifNil: [(Color r: 0.9 g: 0.9 b: 0.9)]

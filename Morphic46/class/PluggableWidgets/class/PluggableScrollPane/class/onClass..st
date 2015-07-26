@@ -1,0 +1,1 @@
+onClass: morphClass	^ self new		morphClass: morphClass;		updateMorph;		yourself

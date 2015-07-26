@@ -1,0 +1,1 @@
+SVColorSelectorMorph	< class >	^ Morph subclass

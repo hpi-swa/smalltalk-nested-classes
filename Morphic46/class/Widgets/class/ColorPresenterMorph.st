@@ -1,0 +1,1 @@
+ColorPresenterMorph	< class >	^ MorphicModel subclass

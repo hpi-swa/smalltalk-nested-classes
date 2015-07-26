@@ -1,0 +1,1 @@
+toggleDeleteOnMouseUp	deleteOnMouseUp := deleteOnMouseUp not.

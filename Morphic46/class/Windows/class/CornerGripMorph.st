@@ -1,0 +1,1 @@
+CornerGripMorph	< class >	^ AbstractResizerMorph subclass

@@ -1,0 +1,1 @@
+FontImporterFontDescription	< class >	^ Object subclass

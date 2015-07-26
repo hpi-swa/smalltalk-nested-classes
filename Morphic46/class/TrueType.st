@@ -1,0 +1,1 @@
+TrueType	< class >	^ Object subclass

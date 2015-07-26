@@ -1,0 +1,1 @@
+scrollBarThickness	"Includes border"		^ scrollBarThickness

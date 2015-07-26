@@ -1,0 +1,1 @@
+menuLineColor: aColor 	MenuLineColor := aColor

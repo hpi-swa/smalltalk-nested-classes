@@ -1,0 +1,1 @@
+alwaysShowHScrollBar	self hScrollBarPolicy: #always.	self hHideOrShowScrollBar.

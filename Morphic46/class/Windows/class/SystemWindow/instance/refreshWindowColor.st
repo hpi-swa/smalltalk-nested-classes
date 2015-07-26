@@ -1,0 +1,1 @@
+refreshWindowColor	"For changing the underlying model's default window color"	self setProperty: #paneColor toValue: nil.	self setWindowColor: self paneColor.	"Reset colors if we are not active."	self isActive ifFalse: [		self paneColorToUseWhenNotActive in: [:c |			self				setStripeColorsFrom: c;				adoptPaneColor: c]].

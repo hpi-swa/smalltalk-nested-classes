@@ -1,0 +1,1 @@
+activeForm	^ActiveForm ifNil: [self initializeActiveForm]

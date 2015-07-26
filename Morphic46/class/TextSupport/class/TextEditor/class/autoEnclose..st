@@ -1,0 +1,1 @@
+autoEnclose: aBoolean	AutoEnclose := aBoolean

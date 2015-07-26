@@ -1,0 +1,1 @@
+alwaysShowThumbnail	^ self hasProperty: #alwaysShowThumbnail

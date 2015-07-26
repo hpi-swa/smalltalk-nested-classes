@@ -1,0 +1,1 @@
+step	self shouldCopy: self primaryHand lastEvent shiftPressed.	self updateCopyIcon

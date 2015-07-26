@@ -1,0 +1,1 @@
+CurveMorph	< class >	^ PolygonMorph subclass

@@ -1,0 +1,1 @@
+hScrollBarValue: scrollValue	scroller hasSubmorphs ifFalse: [^ self].	lockOffset == true ifFalse: [		scroller offset: (scrollValue max: 0) @ scroller offset y].

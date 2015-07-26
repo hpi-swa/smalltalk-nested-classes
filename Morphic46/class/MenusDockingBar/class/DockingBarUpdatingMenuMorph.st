@@ -1,0 +1,1 @@
+DockingBarUpdatingMenuMorph	< class >	^ DockingBarMenuMorph subclass

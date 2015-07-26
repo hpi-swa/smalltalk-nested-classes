@@ -1,0 +1,1 @@
+methodFinderMenuItemOn: menu 	menu addItem: [:item | 		item 			contents: 'Method Finder' translated;			help: 'Open the Method Finder' translated;			icon: (self colorIcon: Preferences methodFinderWindowColor);			target: StandardToolSet;			selector: #openSelectorBrowser]

@@ -1,0 +1,1 @@
+wantsBalloon	^ self textMorph contents notEmpty and: [super wantsBalloon]

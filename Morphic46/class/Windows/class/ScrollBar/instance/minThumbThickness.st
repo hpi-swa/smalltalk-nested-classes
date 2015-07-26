@@ -1,0 +1,1 @@
+minThumbThickness	^ Preferences standardDefaultTextFont height

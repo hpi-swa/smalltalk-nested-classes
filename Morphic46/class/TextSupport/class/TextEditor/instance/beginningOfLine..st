@@ -1,0 +1,1 @@
+beginningOfLine: position	"Redefined in subclasses using Paragraph support"	^ (paragraph lines at:(paragraph lineIndexFor: position)) first

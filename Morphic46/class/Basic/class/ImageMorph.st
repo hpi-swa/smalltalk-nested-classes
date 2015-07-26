@@ -1,0 +1,1 @@
+ImageMorph	< class >	^ Morph subclass

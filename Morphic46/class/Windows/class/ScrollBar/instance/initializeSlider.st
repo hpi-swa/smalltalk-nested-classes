@@ -1,0 +1,1 @@
+initializeSlider	self		initializeMenuButton;		initializeUpButton;		initializeDownButton;		initializePagingArea.			super initializeSlider.	self expandSlider.		self class roundedScrollBarLook		ifTrue: [slider cornerStyle: #rounded.			slider				borderStyle: (BorderStyle complexRaised width: 3).			sliderShadow cornerStyle: #rounded].	self sliderColor: self sliderColor

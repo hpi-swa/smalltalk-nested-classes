@@ -1,0 +1,1 @@
+vResizing	^ self orientation == #vertical		ifTrue: [#spaceFill]		ifFalse: [#rigid]

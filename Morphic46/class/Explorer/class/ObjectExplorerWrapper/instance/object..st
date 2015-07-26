@@ -1,0 +1,1 @@
+object: anObject	self item value: anObject.

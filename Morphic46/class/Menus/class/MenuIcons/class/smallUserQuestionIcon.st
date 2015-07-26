@@ -1,0 +1,1 @@
+smallUserQuestionIcon	^ self fugueUserSilhouetteQuestionIcon

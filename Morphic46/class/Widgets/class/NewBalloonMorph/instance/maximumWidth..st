@@ -1,0 +1,1 @@
+maximumWidth: anInteger	maximumWidth := anInteger.

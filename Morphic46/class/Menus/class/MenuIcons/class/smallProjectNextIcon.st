@@ -1,0 +1,1 @@
+smallProjectNextIcon	^ Icons		at: #smallProjectNextIcon		ifAbsentPut: [ self smallProjectNextIconContents ]

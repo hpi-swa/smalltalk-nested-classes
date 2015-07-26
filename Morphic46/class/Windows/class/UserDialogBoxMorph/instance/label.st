@@ -1,0 +1,1 @@
+label	"The dialog's label (String)"	^labelMorph contents

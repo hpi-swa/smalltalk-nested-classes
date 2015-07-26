@@ -1,0 +1,1 @@
+setItem: anObject	item ifNotNil: [:obj | obj removeDependent: self].	item := anObject.	item ifNotNil: [:obj | obj addDependent: self].

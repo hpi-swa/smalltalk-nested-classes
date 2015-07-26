@@ -1,0 +1,1 @@
+StringMorphAttributeScanner	< class >	^ Object subclass

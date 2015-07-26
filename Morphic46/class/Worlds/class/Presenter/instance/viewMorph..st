@@ -1,0 +1,1 @@
+viewMorph: aMorph	aMorph inspect.

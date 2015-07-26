@@ -1,0 +1,1 @@
+selectWord	"Select delimited text or word--the result of double-clicking."	^self		selectWordLeftDelimiters: '([{<|''"'		rightDelimiters: ')]}>|''"'

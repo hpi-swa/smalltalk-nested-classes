@@ -1,0 +1,1 @@
+WindowEvent	< class >	^ MorphicEvent subclass

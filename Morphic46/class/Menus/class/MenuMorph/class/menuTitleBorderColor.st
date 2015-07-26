@@ -1,0 +1,1 @@
+menuTitleBorderColor	<preference: 'menuTitleBorderColor'		category: #menus		description: 'Border color of frame around menu title'		type: #Color>	Display depth <= 2 ifTrue: [^ Color black].	^MenuTitleBorderColor ifNil: [(Color r: 0.6 g: 0.7 b: 1)]

@@ -1,0 +1,1 @@
+initialize	"CurvierMorph initialize"	self registerInFlapsRegistry

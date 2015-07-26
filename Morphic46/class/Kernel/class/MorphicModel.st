@@ -1,0 +1,1 @@
+MorphicModel	< class >	^ BorderedMorph subclass

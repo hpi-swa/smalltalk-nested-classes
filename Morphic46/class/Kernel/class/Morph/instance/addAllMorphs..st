@@ -1,0 +1,1 @@
+addAllMorphs: aCollection	^self addAllMorphsBack: aCollection

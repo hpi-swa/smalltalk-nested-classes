@@ -1,0 +1,1 @@
+highlightingColor	^MenuMorph menuSelectionColor makeForegroundColor

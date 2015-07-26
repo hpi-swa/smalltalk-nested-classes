@@ -1,0 +1,1 @@
+updateSqueak	MCMcmUpdater updateFromServer.

@@ -1,0 +1,1 @@
+drawPreSelectionOn: aCanvas		self 		drawSelectionFor: preSelectedRow		withColor: self class listPreSelectionColor 		on: aCanvas

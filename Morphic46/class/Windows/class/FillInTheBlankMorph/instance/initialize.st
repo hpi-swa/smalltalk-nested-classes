@@ -1,0 +1,1 @@
+initialize	super initialize.	self setDefaultParameters.	self extent: 400 @ 150.	responseUponCancel := ''.	self class roundedDialogCorners ifTrue: [self useRoundedCorners].	

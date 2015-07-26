@@ -1,0 +1,1 @@
+UpdatingSimpleButtonMorph	< class >	^ SimpleButtonMorph subclass

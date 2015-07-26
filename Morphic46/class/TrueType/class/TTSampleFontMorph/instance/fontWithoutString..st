@@ -1,0 +1,1 @@
+fontWithoutString: aTTFontDescription	font := aTTFontDescription.

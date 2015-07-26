@@ -1,0 +1,1 @@
+drawKeyboardFocusIndicationOn: aCanvas	self wantsRoundedCorners		ifTrue: [aCanvas frameRoundRect: self bounds radius: self class preferredCornerRadius width: 3 "self borderStyle width" color: self keyboardFocusColor]		ifFalse: [aCanvas frameRectangle: self bounds width: 3  "self borderStyle width" color: self keyboardFocusColor].

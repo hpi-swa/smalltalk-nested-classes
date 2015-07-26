@@ -1,0 +1,1 @@
+AColorSelectorMorph	< class >	^ BracketSliderMorph subclass

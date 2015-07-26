@@ -1,0 +1,1 @@
+defaultColor	"answer the default color/fill style for the receiver"	^ (MenuMorph menuSelectionColor ifNil: [Color blue]) alpha: 0.08

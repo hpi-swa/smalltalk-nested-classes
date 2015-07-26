@@ -1,0 +1,1 @@
+ColorPatchCanvas	< class >	^ FormCanvas subclass

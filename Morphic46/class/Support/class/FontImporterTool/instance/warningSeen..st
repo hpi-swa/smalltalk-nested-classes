@@ -1,0 +1,1 @@
+warningSeen: anObject	warningSeen := anObject

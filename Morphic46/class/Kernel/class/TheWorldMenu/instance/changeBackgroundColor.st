@@ -1,0 +1,1 @@
+changeBackgroundColor	"Let the user select a new background color for the world"	myWorld		changeColorTarget: myWorld		selector: #color:		originalColor: myWorld color asColor		hand: myWorld activeHand

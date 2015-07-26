@@ -1,0 +1,1 @@
+canHaveUnacceptedEdits	"Answer if the receiver is an object that can hold unaccepted edits (such as a text editor widget)"	^true

@@ -1,0 +1,1 @@
+defaultHeight	^ self class gripThickness

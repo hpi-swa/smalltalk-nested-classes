@@ -1,0 +1,1 @@
+mouseEnter: event	Preferences mouseOverForKeyboardFocus ifTrue:[hasFocus := true].	(owner isSystemWindow) ifTrue: [owner paneTransition: event].	retractableScrollBar ifTrue:[ self hideOrShowScrollBars ].

@@ -1,0 +1,1 @@
+showContentsInColumns: aBoolean	ShowContentsInColumns := aBoolean.

@@ -1,0 +1,1 @@
+labelOf: aFontDescription	^ aFontDescription fontname	

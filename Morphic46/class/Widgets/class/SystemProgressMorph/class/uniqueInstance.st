@@ -1,0 +1,1 @@
+uniqueInstance	^UniqueInstance ifNil:[super new]

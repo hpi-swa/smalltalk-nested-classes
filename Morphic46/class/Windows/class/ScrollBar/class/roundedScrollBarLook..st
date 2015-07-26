@@ -1,0 +1,1 @@
+roundedScrollBarLook: aBoolean	RoundedScrollBarLook := aBoolean.

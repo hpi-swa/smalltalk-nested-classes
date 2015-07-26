@@ -1,0 +1,1 @@
+keepAspectRatio	^ keepAspectRatio ifNil: [false]

@@ -1,0 +1,1 @@
+MenuUpdater	< class >	^ Object subclass

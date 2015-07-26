@@ -1,0 +1,1 @@
+drawOn: aCanvas 	self drawBackgroundOn: aCanvas.		self label isMorph		ifTrue: [self drawMorphLabelOn: aCanvas]		ifFalse: [self drawLabelOn: aCanvas].

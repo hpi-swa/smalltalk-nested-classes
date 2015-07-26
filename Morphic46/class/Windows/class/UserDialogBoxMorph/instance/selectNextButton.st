@@ -1,0 +1,1 @@
+selectNextButton	| buttons |	buttons := self buttons.	self selectButton: (buttons atWrap: (buttons indexOf: selectedButton) + 1)

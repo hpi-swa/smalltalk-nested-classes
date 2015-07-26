@@ -1,0 +1,1 @@
+detachableScriptingSpace	ScriptingSystem newScriptingSpace openInWorld: self

@@ -1,0 +1,1 @@
+indicateCursor	^ indicateCursor == true

@@ -1,0 +1,1 @@
+showFullView	self transformToShow: bounds		

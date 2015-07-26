@@ -1,0 +1,1 @@
+notExpandedForm	^self class notExpandedForm

@@ -1,0 +1,1 @@
+MultiWindowLabelButtonMorph	< class >	^ PluggableButtonMorph subclass

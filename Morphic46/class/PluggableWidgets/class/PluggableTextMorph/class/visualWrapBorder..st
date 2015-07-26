@@ -1,0 +1,1 @@
+visualWrapBorder: aBoolean	VisualWrapBorder := aBoolean.

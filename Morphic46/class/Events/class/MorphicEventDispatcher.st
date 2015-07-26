@@ -1,0 +1,1 @@
+MorphicEventDispatcher	< class >	^ Object subclass

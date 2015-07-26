@@ -1,0 +1,1 @@
+typeAhead	^ typeAhead ifNil:		[ self resetTypeAhead.		typeAhead ]

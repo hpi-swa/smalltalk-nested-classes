@@ -1,0 +1,1 @@
+currentSelection: anObject	anObject = currentSelection ifTrue: [^ self].	currentSelection := anObject.	self changed: #currentSelection.	self changed: #contents.	self changed: #filename.	self changed: #copyright.

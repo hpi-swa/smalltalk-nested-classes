@@ -1,0 +1,1 @@
+menuTitleBorderWidth	<preference: 'menuTitleBorderWidth'		category: #menus		description: 'Width of frame around menus title'		type: #Number>	^MenuTitleBorderWidth ifNil: [0]

@@ -1,0 +1,1 @@
+insertAndCloseTypeIn	self		insertTypeAhead ;		closeTypeIn

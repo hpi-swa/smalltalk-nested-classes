@@ -1,0 +1,1 @@
+copyLayoutProperties	^[Clipboard clipboardText: self layoutProperties stringWithLayout] ifError:[ nil ] 

@@ -1,0 +1,1 @@
+prettyPrintWithColor	self prettyPrint: true

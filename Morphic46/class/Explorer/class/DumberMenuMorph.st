@@ -1,0 +1,1 @@
+DumberMenuMorph	< class >	^ MenuMorph subclass

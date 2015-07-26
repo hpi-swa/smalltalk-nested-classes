@@ -1,0 +1,1 @@
+hideOrShowScrollBars	self 		vHideOrShowScrollBar; 		hHideOrShowScrollBar; 		resizeScrollBars.

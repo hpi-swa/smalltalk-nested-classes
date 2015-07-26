@@ -1,0 +1,1 @@
+preferenceBrowserMenuItemOn: menu	Smalltalk at: #PreferenceBrowser ifPresent:[:pb|		menu addItem: [ :item |			item				contents: 'Preferences' translated;				help: 'Open a Preferences Browser' translated;				icon: (self colorIcon: pb basicNew defaultBackgroundColor);				target: pb;				selector: #open ]	].

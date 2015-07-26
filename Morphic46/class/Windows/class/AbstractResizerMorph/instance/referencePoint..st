@@ -1,0 +1,1 @@
+referencePoint: aPoint	lastMouse := aPoint.

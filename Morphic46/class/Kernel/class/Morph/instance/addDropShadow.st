@@ -1,0 +1,1 @@
+addDropShadow	self hasDropShadow: true.			self useSoftDropShadow		ifFalse: [			self				shadowOffset: 3@3;				shadowColor: (Color black alpha: 0.5)]		ifTrue: [			self				shadowOffset: (10@8 corner: 10@12);				shadowColor: (Color black alpha: 0.01)].

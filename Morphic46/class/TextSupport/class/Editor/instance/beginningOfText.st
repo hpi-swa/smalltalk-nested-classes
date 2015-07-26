@@ -1,0 +1,1 @@
+beginningOfText	^1

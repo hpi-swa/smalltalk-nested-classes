@@ -1,0 +1,1 @@
+splitsLeftAndRight	^ self splitsTopAndBottom not

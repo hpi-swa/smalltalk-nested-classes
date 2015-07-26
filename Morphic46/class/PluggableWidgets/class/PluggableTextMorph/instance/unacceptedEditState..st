@@ -1,0 +1,1 @@
+unacceptedEditState: stateOrNil	stateOrNil		ifNotNil:			[self setText: stateOrNil.			 hasUnacceptedEdits := true "setText: clears hasUnacceptedEdits, so must do this post setText:"]		ifNil: [hasUnacceptedEdits := false]

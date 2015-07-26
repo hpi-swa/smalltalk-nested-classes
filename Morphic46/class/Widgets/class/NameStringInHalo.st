@@ -1,0 +1,1 @@
+NameStringInHalo	< class >	^ UpdatingStringMorph subclass

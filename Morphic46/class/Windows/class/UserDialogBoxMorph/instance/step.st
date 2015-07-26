@@ -1,0 +1,1 @@
+step	timeout ifNil: [^self].	timeout = 0		ifTrue: [			self stopStepping.			selectedButton performAction]		ifFalse: [			selectedButton label: savedLabel, '(', timeout printString, ')'.			timeout := timeout - 1]

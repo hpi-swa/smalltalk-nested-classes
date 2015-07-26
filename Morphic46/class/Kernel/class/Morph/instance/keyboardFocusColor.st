@@ -1,0 +1,1 @@
+keyboardFocusColor	^ Preferences keyboardFocusColor muchDarker alpha: 0.5

@@ -1,0 +1,1 @@
+RaisedBorder	< class >	^ SimpleBorder subclass

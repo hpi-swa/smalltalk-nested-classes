@@ -1,0 +1,1 @@
+specialKeyPressed: asciiValue	^ self arrowKey: asciiValue

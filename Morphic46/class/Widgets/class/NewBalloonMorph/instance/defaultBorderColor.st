@@ -1,0 +1,1 @@
+defaultBorderColor		^ self defaultColor muchDarker"Color black"

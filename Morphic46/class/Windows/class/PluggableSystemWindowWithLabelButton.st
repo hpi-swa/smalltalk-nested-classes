@@ -1,0 +1,1 @@
+PluggableSystemWindowWithLabelButton	< class >	^ PluggableSystemWindow subclass

@@ -1,0 +1,1 @@
+morphToDropInPasteUp: aPasteUpMorph	^ aPasteUpMorph morphToDropForTransferMorph: self

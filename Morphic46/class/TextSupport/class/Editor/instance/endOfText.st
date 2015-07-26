@@ -1,0 +1,1 @@
+endOfText	^self string size + 1

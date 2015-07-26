@@ -1,0 +1,1 @@
+spyOnIt	self handleEdit: [textMorph editor spyOnIt]

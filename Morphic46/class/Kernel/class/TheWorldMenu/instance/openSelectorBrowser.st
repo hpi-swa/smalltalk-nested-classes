@@ -1,0 +1,1 @@
+openSelectorBrowser	ToolBuilder open: SelectorBrowser new

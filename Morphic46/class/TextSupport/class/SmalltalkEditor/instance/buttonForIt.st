@@ -1,0 +1,1 @@
+buttonForIt	^ self doItButtonFromSelection ifNotNilDo: [:e | e openInHand]

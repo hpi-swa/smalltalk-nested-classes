@@ -1,0 +1,1 @@
+lastProjectThumbnail: aForm		lastProjectThumbnail := aForm

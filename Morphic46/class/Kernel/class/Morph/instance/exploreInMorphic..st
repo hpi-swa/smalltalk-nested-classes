@@ -1,0 +1,1 @@
+exploreInMorphic: evt		ToolSet explore: self.

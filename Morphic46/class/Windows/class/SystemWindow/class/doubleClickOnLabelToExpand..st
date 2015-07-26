@@ -1,0 +1,1 @@
+doubleClickOnLabelToExpand: aBoolean	DoubleClickOnLabelToExpand := aBoolean.	self rebuildAllWindowLabels.

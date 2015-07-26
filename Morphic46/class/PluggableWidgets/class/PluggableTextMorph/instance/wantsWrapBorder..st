@@ -1,0 +1,1 @@
+wantsWrapBorder: aBoolean	wantsWrapBorder := aBoolean.

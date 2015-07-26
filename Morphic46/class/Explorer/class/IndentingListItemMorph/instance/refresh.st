@@ -1,0 +1,1 @@
+refresh	self contents: self getLabel.	icon := self getIcon.		(self valueOfProperty: #wasRefreshed ifAbsent: [false]) ifFalse: [		self setProperty: #wasRefreshed toValue: true.		self color: Color yellow. "Indicate refresh operation."].

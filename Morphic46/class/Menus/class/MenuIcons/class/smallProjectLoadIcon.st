@@ -1,0 +1,1 @@
+smallProjectLoadIcon	^ Icons		at: #smallProjectLoadIcon		ifAbsentPut: [ self smallProjectLoadIconContents ]

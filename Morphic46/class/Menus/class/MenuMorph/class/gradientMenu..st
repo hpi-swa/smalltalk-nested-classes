@@ -1,0 +1,1 @@
+gradientMenu: aBoolean	GradientMenu := aBoolean.	SystemProgressMorph reset.		"Update docking bars and their sub-menus."	ActiveWorld mainDockingBars do: [:bar |		bar			autoGradient: aBoolean;			updateColor].	TheWorldMainDockingBar updateInstances.

@@ -1,0 +1,1 @@
+showScrollBarsOnlyWhenNeeded	self		showHScrollBarOnlyWhenNeeded;		showVScrollBarOnlyWhenNeeded.

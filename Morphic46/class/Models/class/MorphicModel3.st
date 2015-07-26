@@ -1,0 +1,1 @@
+MorphicModel3	< class >	^ MorphicModel subclass

@@ -1,0 +1,1 @@
+TextEditor	< class >	^ Editor subclass

@@ -1,0 +1,1 @@
+PluggableScrollPane	< class >	^ ScrollPane subclass

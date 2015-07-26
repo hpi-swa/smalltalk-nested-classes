@@ -1,0 +1,1 @@
+filterSelector	^#drawOnCanvas:.

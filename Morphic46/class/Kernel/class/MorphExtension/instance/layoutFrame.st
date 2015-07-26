@@ -1,0 +1,1 @@
+layoutFrame	^self valueOfProperty: #layoutFrame

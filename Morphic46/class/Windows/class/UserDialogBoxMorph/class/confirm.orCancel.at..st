@@ -1,0 +1,1 @@
+confirm: aString orCancel: cancelBlock at: aPointOrNil	^self		confirm: aString		orCancel: cancelBlock		title: 'Please confirm:'		at: aPointOrNil

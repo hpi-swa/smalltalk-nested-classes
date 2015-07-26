@@ -1,0 +1,1 @@
+SimpleButtonMorph	< class >	^ RectangleMorph subclass

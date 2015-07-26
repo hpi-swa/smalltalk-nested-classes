@@ -1,0 +1,1 @@
+initialize	"initialize the receiver"	super initialize.	selectedItem := nil.	activeSubMenu := nil.	fillsOwner := true.	avoidVisibleBordersAtEdge := true.	autoGradient := MenuMorph gradientMenu.	self 		setDefaultParameters ; 		beFloating ; 		beSticky ;		layoutInset: 0 ;		dropEnabled: true.	Project current world activeHand addKeyboardListener: self

@@ -1,0 +1,1 @@
+menuBorderWidth	<preference: 'menuBorderWidth'		category: #menus		description: 'Menus border width'		type: #Number>	^MenuBorderWidth ifNil: [2]

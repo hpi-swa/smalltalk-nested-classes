@@ -1,0 +1,1 @@
+triggerAfter: seconds	timeout := seconds

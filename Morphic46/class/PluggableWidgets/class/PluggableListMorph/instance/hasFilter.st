@@ -1,0 +1,1 @@
+hasFilter	^ lastKeystrokes isEmptyOrNil not

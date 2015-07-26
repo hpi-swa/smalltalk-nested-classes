@@ -1,0 +1,1 @@
+menuLineColor	<preference: 'menuLineColor'		category: #menus		description: 'Menus color of separating lines'		type: #Color>	^MenuLineColor ifNil: [(Color r: 0.6 g: 0.7 b: 1)]

@@ -1,0 +1,1 @@
+extent: aPoint		self handleResizeAction: [		(bounds extent closeTo: aPoint)			ifTrue: [false]			ifFalse: [				super extent: aPoint.				super layoutChanged.				true]].

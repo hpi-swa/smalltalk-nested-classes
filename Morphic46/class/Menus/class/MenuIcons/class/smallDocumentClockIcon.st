@@ -1,0 +1,1 @@
+smallDocumentClockIcon	^ self fugueDocumentClockIcon

@@ -1,0 +1,1 @@
+addString: aString	morph readOnly ifTrue: [^ self].	self typeAhead nextPutAll: aString.

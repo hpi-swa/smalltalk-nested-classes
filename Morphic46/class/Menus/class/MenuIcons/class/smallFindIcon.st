@@ -1,0 +1,1 @@
+smallFindIcon	^ Icons		at: #smallFindIcon		ifAbsentPut: [ self smallFindIconContents ]

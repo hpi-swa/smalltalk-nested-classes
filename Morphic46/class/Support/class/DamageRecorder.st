@@ -1,0 +1,1 @@
+DamageRecorder	< class >	^ Object subclass

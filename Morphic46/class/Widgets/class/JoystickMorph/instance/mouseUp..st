@@ -1,0 +1,1 @@
+mouseUp: evt	lastAngle := self angle.	autoCenter ifTrue: [self moveHandleToCenter].

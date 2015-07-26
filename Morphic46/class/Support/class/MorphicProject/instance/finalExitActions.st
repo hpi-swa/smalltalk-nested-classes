@@ -1,0 +1,1 @@
+finalExitActions	(world findA: ProjectNavigationMorph)		ifNotNil: [:navigator | navigator retractIfAppropriate].	uiProcess := nil. "forget the uiProcess that soon will be terminated"
