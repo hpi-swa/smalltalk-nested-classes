@@ -1,0 +1,1 @@
+<< aCollection	aCollection putOn: self

@@ -1,0 +1,1 @@
+FileStreamException	< class >	^ Error subclassWithInstVars: 'fileName' classVars: ''

@@ -1,0 +1,1 @@
+acceptsUploads	^true

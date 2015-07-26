@@ -1,0 +1,1 @@
+MacFileDirectory	< class >	^ FileDirectory subclassWithInstVars: '' classVars: 'TypeToMimeMappings'

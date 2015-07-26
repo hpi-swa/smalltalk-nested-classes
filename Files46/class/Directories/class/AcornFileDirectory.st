@@ -1,0 +1,1 @@
+AcornFileDirectory	< class >	^ FileDirectory subclassWithInstVars: '' classVars: 'LegalCharMap'

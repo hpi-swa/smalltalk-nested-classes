@@ -1,0 +1,1 @@
+CrLfFileStream	< class >	^ StandardFileStream subclassWithInstVars: 'lineEndConvention' classVars: 'Cr CrLf Lf LineEndDefault LineEndStrings LookAheadCount'

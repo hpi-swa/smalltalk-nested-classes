@@ -1,0 +1,1 @@
+slash	^self class slash

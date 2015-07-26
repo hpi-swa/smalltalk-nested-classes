@@ -1,0 +1,1 @@
+DirectoryEntryDirectory	< class >	^ DirectoryEntry subclassWithInstVars: '' classVars: ''

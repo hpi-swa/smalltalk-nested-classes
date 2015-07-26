@@ -1,0 +1,1 @@
+services	"Answer the same collection of SimpleServiceEntry's accessed by the FileList."	^ FileList itemsForFile: self fullName

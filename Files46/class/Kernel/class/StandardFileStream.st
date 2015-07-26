@@ -1,0 +1,1 @@
+StandardFileStream	< class >	^ FileStream subclassWithInstVars: 'name fileID buffer1 lastWritten' classVars: 'Registry'

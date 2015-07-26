@@ -1,0 +1,1 @@
+ascii	"opposite of binary"	buffer1 := ByteString new: 1.	collection ifNotNil: [collection := collection asString].	lastWritten ifNotNil: [lastWritten isInteger ifTrue: [lastWritten := lastWritten asCharacter]]

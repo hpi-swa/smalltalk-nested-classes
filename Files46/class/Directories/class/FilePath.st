@@ -1,0 +1,1 @@
+FilePath	< class >	^ Object subclassWithInstVars: 'squeakPathName vmPathName converter' classVars: ''

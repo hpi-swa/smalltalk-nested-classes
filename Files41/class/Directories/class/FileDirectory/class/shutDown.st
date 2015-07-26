@@ -1,0 +1,1 @@
+shutDown	SmalltalkImage current closeSourceFiles.

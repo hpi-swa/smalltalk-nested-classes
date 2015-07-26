@@ -1,0 +1,1 @@
+ReplaceExistingFileException	< class >	^ FileStreamException subclassWithInstVars: 'fileClass' classVars: ''

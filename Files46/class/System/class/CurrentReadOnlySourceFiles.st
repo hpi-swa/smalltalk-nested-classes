@@ -1,0 +1,1 @@
+CurrentReadOnlySourceFiles	< class >	^ Exception subclassWithInstVars: '' classVars: ''

@@ -1,0 +1,1 @@
+InvalidDirectoryError	< class >	^ Error subclassWithInstVars: 'pathName' classVars: ''

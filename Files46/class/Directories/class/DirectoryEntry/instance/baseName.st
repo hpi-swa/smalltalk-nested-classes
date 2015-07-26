@@ -1,0 +1,1 @@
+baseName	^ FileDirectory baseNameFor: self name

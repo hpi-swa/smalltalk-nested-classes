@@ -1,0 +1,1 @@
+lineEndingConvention: aSymbol		lineEndConvention := aSymbol

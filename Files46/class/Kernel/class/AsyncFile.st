@@ -1,0 +1,1 @@
+AsyncFile	< class >	^ Object subclassWithInstVars: 'name writeable semaphore fileHandle' classVars: 'Busy ErrorCode'

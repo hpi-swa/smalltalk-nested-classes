@@ -1,0 +1,1 @@
+FileDirectory	< class >	^ Object subclassWithInstVars: 'pathName' classVars: 'DefaultDirectory DirectoryClass StandardMIMEMappings'

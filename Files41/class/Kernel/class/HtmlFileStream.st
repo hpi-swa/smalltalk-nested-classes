@@ -1,0 +1,1 @@
+HtmlFileStream	< class >	^ CrLfFileStream subclassWithInstVars: 'prevPreamble' classVars: 'TabThing'

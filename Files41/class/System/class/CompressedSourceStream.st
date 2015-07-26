@@ -1,0 +1,1 @@
+CompressedSourceStream	< class >	^ ReadWriteStream subclassWithInstVars: 'segmentFile segmentSize nSegments segmentTable segmentIndex dirty endOfFile' classVars: ''

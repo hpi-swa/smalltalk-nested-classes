@@ -1,0 +1,1 @@
+StandardSourceFileArray	< class >	^ SourceFileArray subclassWithInstVars: 'files' classVars: ''

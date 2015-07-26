@@ -1,0 +1,1 @@
+FileDoesNotExistException	< class >	^ FileStreamException subclassWithInstVars: 'readOnly' classVars: ''

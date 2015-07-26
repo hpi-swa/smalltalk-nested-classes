@@ -1,0 +1,1 @@
+parentDirectoryNickname	"Answer the nick-name for the parent directory (e.g. '..' on Unix and Windows).	 Who knows what this is on Acorn?"	^nil

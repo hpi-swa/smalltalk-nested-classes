@@ -1,0 +1,1 @@
+DirectoryEntry	< class >	^ Object subclassWithInstVars: 'directory name creationTime modificationTime fileSize attributes' classVars: ''

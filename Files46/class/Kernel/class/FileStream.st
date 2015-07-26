@@ -1,0 +1,1 @@
+FileStream	< class >	^ ReadWriteStream subclassWithInstVars: 'rwmode' classVars: 'EncodeAndDecodeStdioFiles Stderr Stdin StdioFiles Stdout TheStdioHandles'

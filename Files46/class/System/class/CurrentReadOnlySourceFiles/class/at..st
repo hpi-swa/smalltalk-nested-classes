@@ -1,0 +1,1 @@
+at: sourceFileIndex	^self signal at: sourceFileIndex

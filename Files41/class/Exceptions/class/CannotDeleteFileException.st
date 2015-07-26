@@ -1,0 +1,1 @@
+CannotDeleteFileException	< class >	^ FileStreamException subclassWithInstVars: '' classVars: ''

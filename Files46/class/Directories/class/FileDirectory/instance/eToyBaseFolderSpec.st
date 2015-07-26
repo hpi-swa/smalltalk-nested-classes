@@ -1,0 +1,1 @@
+eToyBaseFolderSpec	^ServerDirectory eToyBaseFolderSpecForFileDirectory: self

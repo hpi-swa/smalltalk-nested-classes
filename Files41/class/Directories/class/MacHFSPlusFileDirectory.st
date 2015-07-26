@@ -1,0 +1,1 @@
+MacHFSPlusFileDirectory	< class >	^ MacFileDirectory subclassWithInstVars: '' classVars: ''

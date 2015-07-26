@@ -1,0 +1,1 @@
+SourceFileArray	< class >	^ SequenceableCollection subclassWithInstVars: '' classVars: ''

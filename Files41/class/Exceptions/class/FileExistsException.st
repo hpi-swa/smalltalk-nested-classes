@@ -1,0 +1,1 @@
+FileExistsException	< class >	^ FileStreamException subclassWithInstVars: 'fileClass' classVars: ''

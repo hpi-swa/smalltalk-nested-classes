@@ -1,0 +1,1 @@
+FileWriteError	< class >	^ FileStreamException subclassWithInstVars: '' classVars: ''

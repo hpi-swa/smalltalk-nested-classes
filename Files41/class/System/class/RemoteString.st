@@ -1,0 +1,1 @@
+RemoteString	< class >	^ Object subclassWithInstVars: 'sourceFileNumber filePositionHi' classVars: 'CurrentTextAttStructure CurrentTextAttVersion TextAttributeStructureVersions'

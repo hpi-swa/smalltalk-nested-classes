@@ -1,0 +1,1 @@
+text 	"Answer the receiver's string asText if remote files are enabled."	| theFile |	theFile := (CurrentReadOnlySourceFiles at: (sourceFileNumber ifNil: [ ^nil ])) ifNil: [ ^nil ].	theFile size < filePositionHi ifTrue: [		self error: 'RemoteString past end of file' ].	^theFile		position: filePositionHi;		nextChunkText

@@ -1,0 +1,1 @@
+UnixFileDirectory	< class >	^ FileDirectory subclassWithInstVars: '' classVars: ''
