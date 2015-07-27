@@ -1,0 +1,1 @@
+MessageSet	< class >	^ Browser subclassWithInstVars: 'messageList autoSelectString' classVars: ''

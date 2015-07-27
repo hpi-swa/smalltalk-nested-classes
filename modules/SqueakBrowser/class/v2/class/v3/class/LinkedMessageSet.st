@@ -1,0 +1,1 @@
+LinkedMessageSet	< class >	^ MessageSet subclassWithInstVars: '' classVars: ''

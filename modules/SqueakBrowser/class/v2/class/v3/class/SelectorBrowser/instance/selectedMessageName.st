@@ -1,0 +1,1 @@
+selectedMessageName	"Answer the name of the currently selected message."	selectorIndex = 0 ifTrue: [^nil].	^ selectorList at: selectorIndex

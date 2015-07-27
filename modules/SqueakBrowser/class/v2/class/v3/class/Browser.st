@@ -1,0 +1,1 @@
+Browser	< class >	^ StringHolder subclassWithInstVars: 'systemOrganizer classOrganizer metaClassOrganizer systemCategoryListIndex classListIndex messageCategoryListIndex messageListIndex editSelection metaClassIndicated' classVars: 'RecentClasses'

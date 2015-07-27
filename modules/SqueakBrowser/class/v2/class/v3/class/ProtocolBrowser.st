@@ -1,0 +1,1 @@
+ProtocolBrowser	< class >	^ MessageSet subclassWithInstVars: 'selectedClass selectedSelector' classVars: 'TextMenu'

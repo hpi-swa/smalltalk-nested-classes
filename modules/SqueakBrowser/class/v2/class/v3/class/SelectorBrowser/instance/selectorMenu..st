@@ -1,0 +1,1 @@
+selectorMenu: aMenu	^ aMenu labels: 'sendersimplementors'	lines: #()	selections: #(senders implementors)

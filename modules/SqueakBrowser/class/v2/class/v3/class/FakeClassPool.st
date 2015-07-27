@@ -1,0 +1,1 @@
+FakeClassPool	< class >	^ Object subclassWithInstVars: '' classVars: ''

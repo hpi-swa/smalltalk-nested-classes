@@ -1,0 +1,1 @@
+defaultBackgroundColor	^ #lightCyan

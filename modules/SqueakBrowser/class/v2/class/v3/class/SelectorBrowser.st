@@ -1,0 +1,1 @@
+SelectorBrowser	< class >	^ StringHolder subclassWithInstVars: 'selectorIndex selectorList classListIndex classList' classVars: ''

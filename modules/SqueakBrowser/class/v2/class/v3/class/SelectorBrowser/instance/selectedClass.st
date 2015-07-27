@@ -1,0 +1,1 @@
+selectedClass	"Answer the currently selected class."	classListIndex = 0 ifTrue: [^nil].	MessageSet parse: (classList at: classListIndex) 		toClassAndSelector: [:cls :sel | ^ cls].

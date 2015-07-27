@@ -1,0 +1,1 @@
+contents: aString notifying: aController	"Take what the user typed and find all selectors containing it"	contents _ aString.	classList _ #().  classListIndex _ 0.	selectorIndex _ 0.   	selectorList _ Cursor wait showWhile: [		(Symbol selectorsContaining: contents asString) asSortedArray].	self changed: #messageList.	self changed: #classList.	^ true

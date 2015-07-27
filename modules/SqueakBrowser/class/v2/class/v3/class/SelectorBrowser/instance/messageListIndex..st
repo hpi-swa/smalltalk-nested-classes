@@ -1,0 +1,1 @@
+messageListIndex: anInteger 	"Set the selected message selector to be the one indexed by anInteger.  Find all classes it is in."	selectorIndex _ anInteger.	selectorIndex = 0 ifFalse: [		classList _ Smalltalk allImplementorsOf: (selectorList at: selectorIndex).		classListIndex _ 0.		self changed: #messageListIndex.		"update my selection"		self changed: #classList]

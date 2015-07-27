@@ -1,0 +1,1 @@
+RecentMessageSet	< class >	^ MessageSet subclassWithInstVars: '' classVars: ''

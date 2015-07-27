@@ -1,0 +1,1 @@
+prettyPrint	"Reformat the selected method"	| selectedClass |	((self messageListIndex = 0) | (self okToChange not))		ifTrue: [^ self changed: #flash].	selectedClass _ self selectedClassOrMetaClass.	contents _ selectedClass compilerClass new			format: contents			in: selectedClass			notifying: nil.	self changed: #contents.

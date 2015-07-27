@@ -1,0 +1,1 @@
+ChangedMessageSet	< class >	^ MessageSet subclassWithInstVars: 'changeSet' classVars: ''
