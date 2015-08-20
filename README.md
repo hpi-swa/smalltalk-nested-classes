@@ -9,7 +9,7 @@ This is an experimental module system for [Squeak](http://squeak.org/). It is in
 Nested classes are members of their enclosing classes and they can be declared on the instance-side and on the class-side. Instance-side nested classes make it possible to implement mixin modules in the module system itself, without further modifications to the virtual machine. Class-side nested classes are typically used as namespaces for hierarchical decomposition.
 
 The module system GUI is written in [Vivide](https://github.com/hpi-swa/vivide).
-![Screenshot](https://raw.githubusercontent.com/HPI-SWA-Lab/smalltalk-nested-classes/images/screenshot_squeak.png?token=ACQlWO-Gbfr8wHszY0sToCcQdghHLN91ks5Vo9SnwA%3D%3D)
+![Screenshot](https://raw.githubusercontent.com/HPI-SWA-Lab/smalltalk-nested-classes/images/screenshot_squeak.png?token=ACQlWIxyVsvZfqZlN7O75MpbeySAg1cDks5V3vY_wA%3D%3D)
 
 There is no central module repository yet, but some modules are stored in the [`modules`](https://github.com/HPI-SWA-Lab/smalltalk-nested-classes/tree/master/modules) directory.
 
