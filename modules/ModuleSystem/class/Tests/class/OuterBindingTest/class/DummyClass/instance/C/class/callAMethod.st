@@ -1,1 +1,0 @@
-callAMethod	^ outer class A method

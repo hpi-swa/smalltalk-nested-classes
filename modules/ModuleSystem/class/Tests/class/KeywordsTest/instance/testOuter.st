@@ -1,0 +1,1 @@
+testOuter	self assert: self class A B C refOuterA equals: self class A.	self assert: self class A B C refOuterB equals: self class A B.	self assert: self class A B C refOuterC equals: self class A B C.	self should: [ self class A B C refOuterD ] raise: MessageNotUnderstood.		self assert: outer Object equals: Object

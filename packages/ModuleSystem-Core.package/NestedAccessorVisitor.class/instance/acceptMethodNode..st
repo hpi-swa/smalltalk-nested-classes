@@ -1,7 +1,9 @@
 visitor-double dispatching
 acceptMethodNode: aNode
 	| newTemps body |
+	isUnary := aNode numArgs = 0.
 	super acceptMethodNode: aNode.
+	
 	newTemps := aNode body temporaries asOrderedCollection.
 	newTemps add: (RBVariableNode named: 'returnValue').
 	aNode body temporaries: newTemps.

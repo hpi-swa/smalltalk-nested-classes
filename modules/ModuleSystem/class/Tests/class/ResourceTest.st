@@ -1,1 +1,0 @@
-ResourceTest	< class >	^ TestCase subclass

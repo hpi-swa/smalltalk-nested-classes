@@ -1,0 +1,1 @@
+B	< class >	^ self A subclass

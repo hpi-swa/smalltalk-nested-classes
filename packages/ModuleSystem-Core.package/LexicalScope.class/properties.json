@@ -1,0 +1,15 @@
+{
+	"category" : "ModuleSystem-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"enclosing",
+		"receiver" ],
+	"name" : "LexicalScope",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

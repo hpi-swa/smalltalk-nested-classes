@@ -1,0 +1,1 @@
+testMixinApplication	| result |	result := self class BaseClass << self class TestGenerator.	self assert: self class BaseClass new instMethod equals: 10.	self assert: result new instMethod equals: 20.	self assert: result superclass equals: self class BaseClass

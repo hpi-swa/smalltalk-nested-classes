@@ -1,1 +1,0 @@
-E	< class >	^ Object subclass

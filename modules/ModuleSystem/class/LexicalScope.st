@@ -1,1 +1,0 @@
-LexicalScope	< class >	" A wrapper for the lexical scope of a method. Used as a shortcut for 'outer outer ... outer' calls. "		^ (ProtoObject << Uninstantiable) subclassWithInstVars: 'target'

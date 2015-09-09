@@ -1,1 +1,0 @@
-Inner	< class >	^ super Inner

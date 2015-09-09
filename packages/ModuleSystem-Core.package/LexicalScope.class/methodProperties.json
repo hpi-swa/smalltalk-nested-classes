@@ -1,0 +1,11 @@
+{
+	"class" : {
+		"enclosing:" : "MattSpr 8/19/2015 23:41",
+		"enclosing:receiver:" : "MattSpr 8/19/2015 23:41",
+		"outer:receiver:" : "MattSpr 8/20/2015 10:30" },
+	"instance" : {
+		"doesNotUnderstand:" : "MattSpr 9/9/2015 13:41",
+		"enclosing" : "MattSpr 8/19/2015 12:02",
+		"enclosing:" : "MattSpr 8/19/2015 12:01",
+		"receiver" : "MattSpr 8/19/2015 12:02",
+		"receiver:" : "MattSpr 8/19/2015 12:02" } }

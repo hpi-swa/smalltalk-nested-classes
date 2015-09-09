@@ -1,1 +1,0 @@
-v3	< class >	^ Version subclass

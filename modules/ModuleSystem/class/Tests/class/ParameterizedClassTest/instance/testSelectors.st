@@ -1,0 +1,1 @@
+testSelectors	self assert: (self class respondsTo: #MixinTransformator:)

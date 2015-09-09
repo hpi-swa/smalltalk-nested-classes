@@ -1,0 +1,1 @@
+ParameterizedClassTest	< class >	^ TestCase subclass

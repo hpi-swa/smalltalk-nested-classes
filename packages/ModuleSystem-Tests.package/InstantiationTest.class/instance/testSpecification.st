@@ -6,7 +6,6 @@ testSpecification
 	
 	self assert: class specification equals: spec.
 	self assert: class specification theMetaClassSpecification equals: class class specification.
-	self assert: class new InstNested specification equals: (spec classAt: #InstNested).
 
 	self should: [ Object specification ] raise: MessageNotUnderstood.
 	self should: [ Object class specification ] raise: MessageNotUnderstood.

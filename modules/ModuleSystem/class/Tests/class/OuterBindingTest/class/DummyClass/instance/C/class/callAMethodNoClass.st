@@ -1,1 +1,0 @@
-callAMethodNoClass	^ outer A method

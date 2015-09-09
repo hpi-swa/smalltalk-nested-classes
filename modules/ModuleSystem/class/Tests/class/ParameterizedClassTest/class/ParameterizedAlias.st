@@ -1,0 +1,1 @@
+ParameterizedAlias	< class >	^ self MixinTransformator: Object

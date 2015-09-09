@@ -1,0 +1,1 @@
+refInstScopeB	^ scope B

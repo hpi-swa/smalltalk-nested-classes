@@ -1,1 +1,0 @@
-OuterBindingTest	< class >	^ TestCase subclass

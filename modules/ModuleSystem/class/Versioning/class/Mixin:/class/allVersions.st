@@ -1,0 +1,1 @@
+allVersions	| queue result |	queue := OrderedCollection withAll: self allMyVersions.	result := OrderedCollection new.	[ queue notEmpty ] whileTrue: [ | next |		next := queue removeFirst.		(next inheritsFrom: scope VersioningVersion)			ifTrue: [ queue addAll: next allMyVersions ]			ifFalse: [ result add: next ] ].	^ result

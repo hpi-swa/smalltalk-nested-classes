@@ -1,1 +1,1 @@
-Tests	< class >	^ TestCaseHolder subclass
+Tests	< class >	^ ModuleSystem TestCaseHolder subclass

@@ -1,1 +1,0 @@
-testOuterCallFromClassSide	self assert: DummyClass A callBMethod equals: 10.	self assert: DummyClass A new callBMethod equals: 10.

@@ -1,1 +1,1 @@
-Namespace	< class >	" Represents an uninstantiable class: a pure namespace. "	^ (Object << Uninstantiable) subclass
+Namespace	< class >	" Represents an uninstantiable class: a pure namespace. "	^ (Object << self Uninstantiable) subclass

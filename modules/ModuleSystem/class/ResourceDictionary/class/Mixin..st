@@ -1,0 +1,1 @@
+Mixin: base	< class >	^ base subclass

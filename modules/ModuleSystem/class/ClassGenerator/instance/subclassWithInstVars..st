@@ -1,1 +1,0 @@
-subclassWithInstVars: instVarNames	^ target subclassWithInstVars: instVarNames

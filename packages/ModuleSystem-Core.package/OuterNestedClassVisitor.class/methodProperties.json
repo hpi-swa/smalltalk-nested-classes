@@ -5,13 +5,11 @@
 		"acceptBlockNode:" : "MattSpr 6/19/2015 17:52",
 		"acceptMethodNode:" : "MattSpr 6/19/2015 17:51",
 		"acceptSequenceNode:" : "MattSpr 6/19/2015 17:48",
-		"acceptVariableNode:" : "MattSpr 6/25/2015 00:06",
+		"acceptVariableNode:" : "MattSpr 8/20/2015 10:46",
 		"initialize" : "MattSpr 6/19/2015 17:46",
-		"lookupInstVars:" : "MattSpr 6/24/2015 23:45",
-		"lookupLegacy:" : "MattSpr 6/24/2015 23:46",
-		"lookupNested:in:" : "MattSpr 6/26/2015 18:51",
-		"lookupRepository:in:" : "MattSpr 6/25/2015 00:25",
-		"lookupSpecial:" : "MattSpr 6/26/2015 10:12",
+		"lookupInstVars:" : "MattSpr 9/4/2015 13:30",
+		"lookupSpecial:in:" : "MattSpr 8/20/2015 10:47",
 		"lookupStart:" : "MattSpr 6/19/2015 16:21",
 		"lookupTemps:" : "MattSpr 6/24/2015 23:45",
-		"outerSend:level:" : "MattSpr 6/26/2015 15:32" } }
+		"replaceWithScope:" : "MattSpr 8/20/2015 10:28",
+		"replaceWithScopeSend:" : "MattSpr 8/24/2015 13:44" } }

@@ -1,1 +1,0 @@
-C2	< class >	" TODO: for some reason, if we write 'ClassBindingTest A B C subclass' here, we will end up in an endless loop "	^ outer outer outer A B C subclass

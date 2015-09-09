@@ -1,1 +1,0 @@
-testOuterClassLookupEarlyBound	self assert: Subclasses A B C2 classA equals: A.	self assert: Subclasses A B C2 classB equals: A B.	self assert: Subclasses A B C2 new instClassA equals: A.	self assert: Subclasses A B C2 new instClassB equals: A B.

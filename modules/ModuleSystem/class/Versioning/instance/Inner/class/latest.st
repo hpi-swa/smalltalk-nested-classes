@@ -1,1 +1,0 @@
-latest	| current |	current := self.	[ current := current myLatest ] 		doWhileTrue: [ current inheritsFrom: VersioningVersion ].	^ current

@@ -1,0 +1,1 @@
+A	< class >	^ scope Object << scope Uninstantiable

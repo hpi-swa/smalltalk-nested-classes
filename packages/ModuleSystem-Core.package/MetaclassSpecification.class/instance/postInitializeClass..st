@@ -4,4 +4,5 @@ postInitializeClass: class
 	class theNonMetaClass initialize.
 
 	" force class-side nested classes initialization "
-	classDict keysDo: [ :key | class theNonMetaClass perform: key ].
+	classDict keysDo: [ :key | 
+		key isUnary ifTrue: [ class theNonMetaClass perform: key ] ].

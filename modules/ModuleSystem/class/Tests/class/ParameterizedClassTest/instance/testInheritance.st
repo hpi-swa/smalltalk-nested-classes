@@ -1,0 +1,1 @@
+testInheritance	self assert: self class ParameterizedSubclass superclass superclass equals: Object.	self assert: self class ParameterizedAlias superclass equals: Object

@@ -1,0 +1,1 @@
+testMessageSendToNested	self assert: self class A classMethod equals: 20.	self assert: self class A new instMethod equals: 10

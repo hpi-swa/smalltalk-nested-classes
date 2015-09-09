@@ -1,1 +1,0 @@
-testOuterClassLookup	self assert: A B C classA equals: A.	self assert: A B C classB equals: A B.	self assert: A B C new instClassA equals: A.	self assert: A B C new instClassB equals: A B.

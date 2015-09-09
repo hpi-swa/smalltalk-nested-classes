@@ -1,0 +1,1 @@
+testUnparameterizedIdentity	self assert: self class A equals: self class A

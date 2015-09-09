@@ -10,8 +10,10 @@
 		"generateBasicModule" : "MattSpr 6/27/2015 13:53",
 		"generateModule" : "MattSpr 6/25/2015 22:19",
 		"generateWithSubclass:" : "MattSpr 6/25/2015 22:05",
+		"initialize" : "MattSpr 8/19/2015 15:28",
 		"installModule" : "FabN 6/26/2015 10:18",
 		"isModule" : "MattSpr 6/27/2015 14:26",
 		"moduleName" : "FabN 6/20/2015 12:24",
 		"moduleName:" : "FabN 6/20/2015 12:24",
-		"selector" : "FabN 6/25/2015 19:35" } }
+		"selector" : "FabN 6/25/2015 19:35",
+		"theMethodSpec" : "MattSpr 8/19/2015 15:27" } }

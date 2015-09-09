@@ -1,0 +1,1 @@
+MixinTransformator: base	< class >	^ base subclass

@@ -1,1 +1,1 @@
-for: aClass	| instance result |	instance := self basicNew		target: aClass;		yourself.	instance preInclude: aClass.	instance initialize.	" TODO: Object>>initialize should trigger nested class initialization "	result := instance Inner.	instance postInclude: result.	^ result
+for: base	| result |	self preInclude: base.	result := self Mixin: base.	self postInclude: result.	^ result

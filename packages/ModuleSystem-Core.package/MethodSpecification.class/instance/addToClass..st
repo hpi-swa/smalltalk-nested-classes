@@ -2,6 +2,8 @@ modifying
 addToClass: class
 	| outerNestedResolvedSource compiledMethod |
 	outerNestedResolvedSource := OuterNestedClassVisitor process: (RBParser parseMethod: transformedSource) for: class.
+	
+	class theNonMetaClass environment: (self environmentForClass: class theNonMetaClass).
 	class compile: outerNestedResolvedSource.
 	compiledMethod := class >> selector.
 
@@ -20,14 +22,3 @@ addToClass: class
 				compiledMethod literalAt: idx put: (Association key: #outer value: class theNonMetaClass outer) ] ] ].
 		
 	compiledMethods at: class put: compiledMethod.
-
-	isLayered ifTrue: [ | wrapper | " install COP wrapper "
-		class compile: (self wrapperSource: selector args: compiledMethod numArgs).
-		wrapper := class >> selector.
-		(1 to: wrapper literals size) do: [ :idx |
-			(wrapper literalAt: idx) = #DICT
-				ifTrue: [ wrapper literalAt: idx put: layeredMethods ].
-			(wrapper literalAt: idx) = #BASE
-				ifTrue: [ wrapper literalAt: idx put: compiledMethod ].
-			(wrapper literalAt: idx) = #SPECS
-				ifTrue: [ wrapper literalAt: idx put: layeredMethodsSpec ] ] ].

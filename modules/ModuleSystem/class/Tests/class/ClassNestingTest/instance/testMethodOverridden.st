@@ -1,0 +1,1 @@
+testMethodOverridden	self assert: self class B classMethod equals: 30

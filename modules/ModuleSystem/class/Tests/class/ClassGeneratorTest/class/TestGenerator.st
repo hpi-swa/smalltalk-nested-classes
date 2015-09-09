@@ -1,0 +1,1 @@
+TestGenerator	< class >	^ scope ClassGenerator subclass

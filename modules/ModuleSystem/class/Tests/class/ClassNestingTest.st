@@ -1,0 +1,1 @@
+ClassNestingTest	< class >	^ TestCase subclass

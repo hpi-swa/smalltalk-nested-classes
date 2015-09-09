@@ -1,1 +1,0 @@
-formRes1	< resource >	^ Form

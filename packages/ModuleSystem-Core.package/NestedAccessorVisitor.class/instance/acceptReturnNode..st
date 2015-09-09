@@ -1,12 +1,15 @@
 visitor-double dispatching
 acceptReturnNode: aNode
-	| sequence |  
+	| statements |  
 	super acceptReturnNode: aNode.
-	sequence := RBSequenceNode statements: {
-		RBAssignmentNode variable: tempNode value: aNode value.
-		RBMessageNode receiver: specNode selector: #initializeClass:in: arguments: { tempNode. selfNode }.
-		RBMessageNode receiver: instDictNode selector: #at:put: arguments: { selfNode. tempNode }.
-		RBReturnNode value: tempNode
-	}.
-	aNode replaceWith: sequence.
+	statements := OrderedCollection new.
+	statements 
+		add: (RBAssignmentNode variable: tempNode value: aNode value);
+		add: (RBMessageNode receiver: specNode selector: #initializeClass:in:withArguments: arguments: { 
+			tempNode. 
+			selfNode.
+			RBArrayNode statements: aNode methodNode arguments }).
+	isUnary ifTrue: [ statements add: (RBMessageNode receiver: instDictNode selector: #at:put: arguments: { selfNode. tempNode }) ].
+	statements add: (RBReturnNode value: tempNode).
+	aNode replaceWith: (RBSequenceNode statements: statements).
 	

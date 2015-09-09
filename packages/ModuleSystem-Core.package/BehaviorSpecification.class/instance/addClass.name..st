@@ -4,4 +4,3 @@ addClass: classSpec name: name
 	classSpec isMeta ifTrue: [ self error: 'meta class specifications not allowed' ].
 	classDict at: name put: classSpec.
 	classSpec parent: self.
-	classSpec isPartial: self isLayer.

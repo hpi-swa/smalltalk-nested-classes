@@ -1,1 +1,0 @@
-VersioningTest	< class >	^ TestCase subclass

@@ -1,1 +1,0 @@
-testValues	| values |	values := DummyResources values.	self assert: (values includes: 'foo').	self assert: (values includes: 'bar').	self assert: (values select: [ :obj | obj isForm ]) size equals: 1.

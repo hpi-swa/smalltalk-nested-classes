@@ -10,7 +10,8 @@
 		"specNode",
 		"selfNode",
 		"tempNode",
-		"thisContextNode" ],
+		"thisContextNode",
+		"isUnary" ],
 	"name" : "NestedAccessorVisitor",
 	"pools" : [
 		 ],

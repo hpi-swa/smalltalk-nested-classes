@@ -1,1 +1,0 @@
-DummyUninstantiable	< class >	^ (Object << Uninstantiable) subclass

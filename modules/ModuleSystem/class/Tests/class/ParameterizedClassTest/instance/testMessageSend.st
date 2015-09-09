@@ -1,0 +1,1 @@
+testMessageSend	self assert: self class ParameterizedAlias new instMethod equals: 10.	self assert: self class ParameterizedSubclass new instMethod equals: 20

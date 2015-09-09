@@ -1,1 +1,0 @@
-testInstToClassClassLookup	self assert: A new E new F classB equals: A B.	self assert: A new E new F new instClassB equals: A B.

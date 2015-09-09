@@ -1,6 +1,6 @@
 initializing
 preparedSpec	
-	| module classNested instNested |
+	| module classNested |
 	module := ModuleSpecification new.
 	module theMetaClassSpecification addMethodString: 'classMethod ^ 1' protocol: 'foo'.
 	module addMethodString: 'instMethod ^ 2' protocol: 'foo'.
@@ -9,10 +9,5 @@ preparedSpec
 	classNested := module theMetaClassSpecification classDict at: #ClassNested.
 	classNested theMetaClassSpecification addMethodString: 'classMethod ^ 3' protocol: 'foo'.
 	classNested addMethodString: 'instMethod ^ 4' protocol: 'foo'.
-
-	module addMethodString: 'InstNested < class > ^ Object subclass' protocol: 'foo'.
-	instNested := module classDict at: #InstNested.
-	instNested addMethodString: 'instMethod ^ 5' protocol: 'foo'.
-	instNested theMetaClassSpecification addMethodString: 'classMethod ^ 6' protocol: 'foo'.
 
 	^ module

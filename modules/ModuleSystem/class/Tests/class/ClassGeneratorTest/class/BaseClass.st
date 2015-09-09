@@ -1,0 +1,1 @@
+BaseClass	< class >	^ scope Object subclass

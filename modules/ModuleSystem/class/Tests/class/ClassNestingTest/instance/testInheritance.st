@@ -1,0 +1,1 @@
+testInheritance	self assert: self class B superclass equals: self class A

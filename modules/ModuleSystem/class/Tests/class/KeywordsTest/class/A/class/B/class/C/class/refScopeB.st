@@ -1,0 +1,1 @@
+refScopeB	^ scope B

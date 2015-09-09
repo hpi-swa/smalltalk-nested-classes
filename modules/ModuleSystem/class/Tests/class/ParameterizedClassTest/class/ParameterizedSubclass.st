@@ -1,0 +1,1 @@
+ParameterizedSubclass	< class >	^ (self MixinTransformator: Object) subclass

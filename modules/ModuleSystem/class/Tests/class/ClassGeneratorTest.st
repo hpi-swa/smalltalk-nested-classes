@@ -1,0 +1,1 @@
+ClassGeneratorTest	< class >	^ TestCase subclass

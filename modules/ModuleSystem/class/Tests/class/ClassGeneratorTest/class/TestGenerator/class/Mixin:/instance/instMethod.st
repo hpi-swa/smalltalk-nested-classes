@@ -1,0 +1,1 @@
+instMethod	^ super instMethod + 10

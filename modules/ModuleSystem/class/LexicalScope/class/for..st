@@ -1,1 +1,0 @@
-for: anObject	^ self basicNew		target: anObject;		initialize;		yourself

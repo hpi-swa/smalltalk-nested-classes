@@ -7,7 +7,6 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"parent",
-		"isPartial",
 		"expectedTypes" ],
 	"name" : "MemberSpecification",
 	"pools" : [

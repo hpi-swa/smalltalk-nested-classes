@@ -1,1 +1,0 @@
-DummyModule	< class >	^ VersioningModule subclass

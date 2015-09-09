@@ -1,17 +1,15 @@
 accessing
 initialize
 	super initialize.
-
-	isLayered := false.
-
-	" mapping outer to cached instances of myself (if nested class definition) "
+	
+	" mapping outer to cached instances of myself (if nested class definition), aka class cache "
 	instances := WeakIdentityKeyDictionary new.
 
-	" mapping layers to layered CompiledMethods of myself "
-	layeredMethods := WeakIdentityKeyDictionary new.
-
-	" mapping layers to partial method specs "
-	layeredMethodsSpec := WeakIdentityKeyDictionary new.
+	" mapping instances of myself to array of enclosing class and args "
+	instantiations := WeakIdentityKeyDictionary new.
 
 	" mapping owner classes to CompiledMethods of myself "
 	compiledMethods := WeakIdentityKeyDictionary new.
+	
+	" variable names of parameters "
+	parameters := Array new.

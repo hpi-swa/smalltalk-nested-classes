@@ -9,7 +9,8 @@
 		"metaclassSpec",
 		"isLayer",
 		"expectedSuperSpecs",
-		"sortedClassList" ],
+		"sortedClassList",
+		"kwEnvironment" ],
 	"name" : "ClassSpecification",
 	"pools" : [
 		 ],

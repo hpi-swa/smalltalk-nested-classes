@@ -1,0 +1,1 @@
+testUninstantiable	self should: [ self class A new ] raise: NotImplemented.

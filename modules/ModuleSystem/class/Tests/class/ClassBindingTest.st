@@ -1,1 +1,0 @@
-ClassBindingTest	< class >	^ TestCase subclass

@@ -2,16 +2,16 @@
 	"class" : {
 		 },
 	"instance" : {
-		"addClass:name:" : "MattSpr 6/22/2015 21:02",
-		"addMethod:" : "MattSpr 6/22/2015 20:14",
-		"addMethodString:protocol:" : "MattSpr 6/29/2015 20:42",
+		"addClass:name:" : "MattSpr 9/5/2015 11:42",
+		"addMethod:" : "MattSpr 9/5/2015 11:41",
+		"addMethodString:protocol:" : "MattSpr 9/5/2015 11:43",
+		"arity" : "MattSpr 9/3/2015 15:10",
 		"classAt:" : "MattSpr 6/14/2015 22:51",
 		"classAt:ifAbsentPut:" : "MattSpr 6/24/2015 15:01",
 		"classDict" : "MattSpr 6/14/2015 21:05",
 		"hasClass:" : "MattSpr 6/24/2015 14:49",
 		"initialize" : "MattSpr 6/29/2015 19:07",
 		"initializeClass:" : "MattSpr 6/30/2015 11:53",
-		"initializePartialClass:in:" : "MattSpr 6/23/2015 11:28",
 		"installOuterMethod:with:" : "MattSpr 6/26/2015 19:01",
 		"isClassSpec" : "MattSpr 6/15/2015 00:40",
 		"methodAt:" : "MattSpr 6/19/2015 20:26",
@@ -22,6 +22,4 @@
 		"removeMethod:" : "FabN 6/26/2015 10:59",
 		"resourceAt:" : "MattSpr 6/29/2015 19:08",
 		"resourceDict" : "MattSpr 6/29/2015 19:08",
-		"selector" : "MattSpr 6/24/2015 10:42",
-		"shouldInitialize:" : "MattSpr 6/19/2015 17:38",
-		"theMethodSpec" : "MattSpr 6/24/2015 10:42" } }
+		"shouldInitialize:" : "MattSpr 6/19/2015 17:38" } }

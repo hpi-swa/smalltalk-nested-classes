@@ -1,1 +1,0 @@
-target: aClass	target := aClass.
