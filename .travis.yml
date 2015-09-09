@@ -3,7 +3,8 @@ sudo: true
 
 # Choose which platforms you want your builds run against (done in parallel)
 env:
-   - ST=Squeak-Trunk # SCREENSHOT=30
+   # - ST=Squeak-Trunk # SCREENSHOT=30
+   - ST=Squeak-5.0
    # - ST=Squeak-4.4
    # - ST=Squeak-4.5
 
