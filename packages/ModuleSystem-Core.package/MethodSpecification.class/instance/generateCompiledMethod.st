@@ -1,3 +1,0 @@
-modifying
-generateCompiledMethod
-	^ Object generateCompiledMethod: transformedSource
