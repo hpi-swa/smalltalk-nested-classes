@@ -1,6 +1,7 @@
 lookup
 replaceWithScopeSend: aNode
 	| scopeNode |
+	" This is for implicit scope receivers. "
 	scopeNode := RBMessageNode 
 		receiver: (RBVariableNode named: 'LexicalScope')
 		selector: #outer:receiver:

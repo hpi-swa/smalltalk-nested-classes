@@ -7,7 +7,7 @@ initializeClass: class in: outer
 	" specification should be the one from the top-most definition. TODO: add set of specifications "
 	self installSpecification: class.
 
-	self installNameMethod: class.
+	self installNameMethod: class in: outer.
 	self markGenerated: class.
 	super initializeClass: class.
 

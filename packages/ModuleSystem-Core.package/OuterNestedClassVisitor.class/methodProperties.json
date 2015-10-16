@@ -8,8 +8,9 @@
 		"acceptVariableNode:" : "MattSpr 8/20/2015 10:46",
 		"initialize" : "MattSpr 6/19/2015 17:46",
 		"lookupInstVars:" : "MattSpr 9/4/2015 13:30",
-		"lookupSpecial:in:" : "MattSpr 8/20/2015 10:47",
+		"lookupSpecial:in:" : "MattSpr 10/16/2015 20:38",
 		"lookupStart:" : "MattSpr 6/19/2015 16:21",
 		"lookupTemps:" : "MattSpr 6/24/2015 23:45",
+		"replaceWithOuter:" : "MattSpr 10/16/2015 20:38",
 		"replaceWithScope:" : "MattSpr 8/20/2015 10:28",
-		"replaceWithScopeSend:" : "MattSpr 8/24/2015 13:44" } }
+		"replaceWithScopeSend:" : "MattSpr 10/16/2015 20:37" } }

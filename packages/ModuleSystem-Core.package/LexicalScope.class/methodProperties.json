@@ -1,11 +1,15 @@
 {
 	"class" : {
-		"enclosing:" : "MattSpr 8/19/2015 23:41",
-		"enclosing:receiver:" : "MattSpr 8/19/2015 23:41",
-		"outer:receiver:" : "MattSpr 8/20/2015 10:30" },
+		"enclosing:" : "MattSpr 10/16/2015 20:30",
+		"enclosing:receiver:" : "MattSpr 10/16/2015 20:30",
+		"enclosing:receiver:skipReceiver:" : "MattSpr 10/16/2015 20:30",
+		"outer:receiver:" : "MattSpr 8/20/2015 10:30",
+		"outer:receiver:skipReceiver:" : "MattSpr 10/16/2015 20:35" },
 	"instance" : {
-		"doesNotUnderstand:" : "MattSpr 9/9/2015 13:41",
+		"doesNotUnderstand:" : "MattSpr 10/16/2015 20:31",
 		"enclosing" : "MattSpr 8/19/2015 12:02",
 		"enclosing:" : "MattSpr 8/19/2015 12:01",
 		"receiver" : "MattSpr 8/19/2015 12:02",
-		"receiver:" : "MattSpr 8/19/2015 12:02" } }
+		"receiver:" : "MattSpr 8/19/2015 12:02",
+		"skipReceiver" : "MattSpr 10/16/2015 20:29",
+		"skipReceiver:" : "MattSpr 10/16/2015 20:29" } }

@@ -4,9 +4,9 @@
 	"instance" : {
 		"findModule" : "FabN 6/24/2015 20:53",
 		"fullRemove" : "MattSpr 6/24/2015 22:53",
-		"initializeClass:in:" : "MattSpr 6/26/2015 14:56",
-		"initializeClass:in:isSuper:" : "MattSpr 6/29/2015 17:25",
-		"installNameMethod:" : "MattSpr 6/27/2015 14:42",
+		"initializeClass:in:" : "MattSpr 10/15/2015 19:10",
+		"initializeClass:in:isSuper:" : "MattSpr 10/16/2015 20:42",
+		"installNameMethod:in:" : "MattSpr 10/16/2015 22:11",
 		"installSpecification:" : "MattSpr 6/19/2015 18:57",
 		"isMeta" : "MattSpr 6/14/2015 21:08",
 		"markGenerated:" : "MattSpr 6/19/2015 19:06",

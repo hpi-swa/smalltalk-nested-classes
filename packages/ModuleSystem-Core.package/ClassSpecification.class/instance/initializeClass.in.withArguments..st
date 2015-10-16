@@ -9,6 +9,11 @@ initializeClass: class in: outer withArguments: args
 			
 	" TODO: add arguments to array for parameterized classes "
 	self theMethodSpec atInstantiation: class put: { outer }.
+	
+	"TODO: dirty fix"
+	(class superclass notNil and: [ class superclass isNestedGenerated ]) ifTrue: [
+		class superclass specification theMethodSpec atInstantiation: class put: { outer}].
+	   
 	self installArgumentMethods: args for: class.
 	
 	" initialize meta class "
