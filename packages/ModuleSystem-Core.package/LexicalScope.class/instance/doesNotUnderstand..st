@@ -5,6 +5,10 @@ doesNotUnderstand: aMessage
 	receiver isBehavior not
 		ifTrue: [ rcvrClass := receiver class ] 
 		ifFalse: [ rcvrClass := receiver ].
+
+	"Dirty fix: not sure if this is correct here."
+	rcvrClass asString asSymbol = selector
+		ifTrue: [ ^ rcvrClass ].
 		
 	skipReceiver not & (rcvrClass respondsTo: selector)
 		ifTrue: [ ^ rcvrClass perform: selector withArguments: aMessage arguments ].
