@@ -1,8 +1,7 @@
 # Module System for Squeak/Smalltalk
 
-[![Build Status](https://magnum.travis-ci.com/HPI-SWA-Lab/smalltalk-nested-classes.svg?token=7fqzGEv22MQpvpU7RhK5)](https://magnum.travis-ci.com/HPI-SWA-Lab/smalltalk-nested-classes)
+[![Build Status](https://travis-ci.org/HPI-SWA-Lab/smalltalk-nested-classes.svg?branch=master)](https://travis-ci.org/HPI-SWA-Lab/smalltalk-nested-classes)
 [![SqueakJS](https://img.shields.io/badge/SqueakJS-Try%20now-blue.svg)](https://bertfreudenberg.github.io/SqueakJS/run/#url=https://raw.githubusercontent.com/HPI-SWA-Lab/smalltalk-nested-classes/images&files=[ModuleSystem.1.image,ModuleSystem.1.changes])
-[![License](http://img.shields.io/badge/license-MIT-brightgreen.svg)](https://github.com/HPI-SWA-Lab/smalltalk-nested-classes/blob/master/LICENSE)
 
 This is an experimental module system for [Squeak](http://squeak.org/). It is inspired by [Newspeak](http://www.newspeaklanguage.org/) and uses nested classes as a central concept.
 
