@@ -1,0 +1,11 @@
+SmalltalkCISpec {
+  #loading : [
+    SCIMetacelloLoadSpec {
+      #baseline : 'ModuleSystem',
+      #directory : 'packages',
+      #load : [ 'tests' ]
+    }
+  ],
+  #postLoading : 'scripts/install.st',
+  #preTesting : 'scripts/runModuleSystemTests.st'
+}

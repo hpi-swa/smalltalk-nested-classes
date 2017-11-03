@@ -16,5 +16,4 @@ baseline: spec
                 package: 'ModuleSystem-Scripts' with: [ spec requires: #('ModuleSystem-Core' 'ModuleSystem-Helpers' 'Vivide') ].
             spec
                 group: 'default' with: #('ModuleSystem-Core' 'ModuleSystem-Helpers' 'ModuleSystem-Scripts' 'ModuleSystem-Experiments' 'ModuleSystem-Tests');
-                group: 'Tests' with: #('ModuleSystem-Tests');
-                group: 'TravisCI' with: #('Tests') ]
+                group: 'tests' with: #('ModuleSystem-Tests') ]
